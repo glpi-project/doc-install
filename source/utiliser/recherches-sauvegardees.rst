@@ -34,7 +34,7 @@ Depuis cette interface, il est possible de :
 Affichage des compteurs
 -----------------------
 
-Le :ref:`paramétrage de GLPI <configuration>` permet de définir si les compteurs doivent être affichés ou non. Dans le cas des recherches, c'est un peu plus compliqué.
+Le paramétrage de GLPI permet de définir si les compteurs doivent être affichés ou non. Dans le cas des recherches, c'est un peu plus compliqué.
 
 En effet, certaines recherches peuvent prendre beaucoup de temps (et de ressources) pour s'exécuter. Afin de limiter l'impact sur les performances, les requêtes les plus lourdes ne sont pas comptées par défaut. Pour que le temps d'exécution d'une requête sauvegardée puisse être calculé ; il faut qu'elle soit executée une fois au moins. Une tâche planifiée est également proposée pour calculer les temps d'exécution régulièrement (et ainsi éviter les requêtes qui seraient devenues lourdes au fil du temps).
 
@@ -43,7 +43,7 @@ Les administrateurs peuvent outrepasser la méthode de compte automatique, et fa
 Configuration d'alertes
 -----------------------
 
-Il est possible de configurer l'envoi « d'alertes » sur une recherche sauvegardées en utilisant le système de :ref:`notifications <notifications>` de GLPI. L'envoi d'une notification se base sur le nombre de résultats renvoyés par la recherche, comparé avec l'opérateur choisi à la valeur entrée.
+Il est possible de configurer l'envoi « d'alertes » sur une recherche sauvegardées en utilisant le système de notifications de GLPI. L'envoi d'une notification se base sur le nombre de résultats renvoyés par la recherche, comparé avec l'opérateur choisi à la valeur entrée.
 
 .. image:: images/saved_search_alert.png
    :align: center

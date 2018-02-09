@@ -4,14 +4,14 @@ Naviguer dans les modules de GLPI
 Les différentes fonctions de GLPI ont été regroupées en plusieurs modules, construits autour de contextes d'utilisation similaires.
 La barre supérieure de l'interface permet de naviguer entre ces modules :
 
-* Le :doc:`module Parc <../../modules/parc/index>` permet d'accéder aux différents matériels inventoriés,
-* Le :doc:`module Assistance <../../modules/assistance/index>` permet de créer et de suivre tickets, problèmes et changements ; ainsi que voir les statistiques.
-* Le :doc:`module Gestion <../../modules/gestion/index>` permet de gérer les contacts, fournisseurs, budgets, contrats et documents.
-* Le :doc:`module Outils <../../modules/outils/index>` permet de gérer les projets, les notes, la base de connaissance, les réservations, les flux RSS et visualiser les rapports.
-* Le :doc:`module Administration <../../modules/administration/index>` permet d'administrer les utilisateurs, groupes, entités, profils, règles et dictionnaires. Il permet aussi la maintenance de l'application (sauvegarde et restauration de base, vérifier si une nouvelle version est disponible) ainsi que la gestion de la file d'attente des courriels.
-* Le :doc:`module Configuration <../../modules/configuration/index>` permet d'accéder aux options de configuration générale de GLPI : notifications, collecteurs, tâches automatiques, authentification, plugins, liens externes, SLA, gestion des intitulés, des composants ainsi que contrôle d'unicité des champs.
+* Le module Parc permet d'accéder aux différents matériels inventoriés,
+* Le module Assistance permet de créer et de suivre tickets, problèmes et changements ; ainsi que voir les statistiques.
+* Le module Gestion permet de gérer les contacts, fournisseurs, budgets, contrats et documents.
+* Le module Outils permet de gérer les projets, les notes, la base de connaissance, les réservations, les flux RSS et visualiser les rapports.
+* Le module Administration permet d'administrer les utilisateurs, groupes, entités, profils, règles et dictionnaires. Il permet aussi la maintenance de l'application (sauvegarde et restauration de base, vérifier si une nouvelle version est disponible) ainsi que la gestion de la file d'attente des courriels.
+* Le module Configuration permet d'accéder aux options de configuration générale de GLPI : notifications, collecteurs, tâches automatiques, authentification, plugins, liens externes, SLA, gestion des intitulés, des composants ainsi que contrôle d'unicité des champs.
 
-Les menus présentés varient en fonction des :ref:`habilitations de l'utilisateur connecté <administration-profils>`. Le contexte de navigation est présenté à l'utilisateur dans le fil d'ariane.
+Les menus présentés varient en fonction des habilitations de l'utilisateur connecté. Le contexte de navigation est présenté à l'utilisateur dans le fil d'ariane.
 
 .. note::
 

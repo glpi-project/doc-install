@@ -24,7 +24,7 @@ Comment se connecter
 
 Démarrer le navigateur sur la page d'accueil de GLPI `https://{adresse_glpi}/ <https://{adresse_glpi}>`_).
 
-L'accès aux fonctionnalités complètes de l'application nécessite une authentification. Un utilisateur non authentifié peut éventuellement accéder à certaines fonctionnalités si GLPI a été :ref:`configuré pour l'autoriser <configuration-assistance>` :
+L'accès aux fonctionnalités complètes de l'application nécessite une authentification. Un utilisateur non authentifié peut éventuellement accéder à certaines fonctionnalités si GLPI a été configuré pour l'autoriser :
 
 * visualiser la :abbr:`FAQ (Foire Aux Questions)`,
 * ouvrir un ticket,

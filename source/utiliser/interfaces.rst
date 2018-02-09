@@ -3,7 +3,7 @@ Les interfaces utilisateur
 
 .. note::
 
-   Le choix de l'interface par défaut ainsi que des différents modules à afficher ou non sont :ref:`paramétrables dans les profils <administration-profils>` ou depuis les :doc:`preférences de l'utilisateur <preferences>`.
+   Le choix de l'interface par défaut ainsi que des différents modules à afficher ou non sont paramétrables dans les profils ou depuis les :doc:`preférences de l'utilisateur <preferences>`.
 
 .. _interface-standard:
 

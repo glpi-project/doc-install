@@ -158,7 +158,7 @@ html_theme_path = sphinx_glpi_theme.get_html_themes_path()
 # of the sidebar.
 #
 # html_logo = None
-html_logo = 'static/images/glpi.png'
+#html_logo = 'static/images/glpi.png'
 
 # The name of an image file (relative to this directory) to use as a favicon of
 # the docs.  This file should be a Windows icon file (.ico) being 16x16 or 32x32
