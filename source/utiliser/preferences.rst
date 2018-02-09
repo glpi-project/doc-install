@@ -28,7 +28,7 @@ L'utilisateur peut ici modifier les informations personnelles usuelles :
 
 Il peut ajouter des adresses de messagerie et sélectionner l'adresse par défaut, qui sera utilisée pour  l'envoi des notifications.
 
-Il peut aussi spécifier certains comportements par défaut de l'application, comme :ref:`le profil <administration-profils>` et :ref:`l'entité <administration-entites>` sélectionnés. Il peut également désactiver les notifications pour les actions qu'il réalise.
+Il peut aussi spécifier certains comportements par défaut de l'application, comme le profil et l'entité sélectionnés. Il peut également désactiver les notifications pour les actions qu'il réalise.
 
 En fonction des profils, l'utilisateur expérimenté peut aussi choisir de sortir du mode d'utilisation normal de l'application. Dans le mode debug, GLPI affiche les erreurs, toutes les valeurs des variables, les requêtes SQL... Il est utile d'activer ce mode en cas de dysfonctionnement de GLPI. Un maximum d'informations peuvent ainsi être communiquées aux développeurs. Ce mode permet également d'avoir des informations supplémentaires sur différents objets dans un onglet spécifique (notifications...).
 
@@ -39,7 +39,7 @@ Onglet Personnalisation
    :align: center
    :scale: 50%
 
-Cet onglet permet de modifier les préférences générales d'affichage appliquées à un utilisateur donné. Ces paramètres sont prioritaires sur ceux définis dans la :ref:`configuration générale <administration-affichage>`.
+Cet onglet permet de modifier les préférences générales d'affichage appliquées à un utilisateur donné. Ces paramètres sont prioritaires sur ceux définis dans la configuration générale.
 
 .. note::
 
