@@ -81,7 +81,7 @@ Base de données
 
 .. warning::
 
-   Actuellement, seuls les serveurs de base de données MySQL et MariaDB sont supportés par GLPI (moteur MyISAM).
+   Actuellement, seuls les serveurs de base de données MySQL et MariaDB sont supportés par GLPI.
 
 Pour fonctionner, GLPI nécessite un `serveur de base de données MySQL <http://mysql.fr>`_ de version supérieure ou égale à 5.1.
 
