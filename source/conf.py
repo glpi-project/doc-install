@@ -37,6 +37,7 @@ extensions = [
     'sphinx.ext.todo',
     'sphinx.ext.ifconfig',
     'rst2pdf.pdfbuilder',
+    'sphinx.ext.intersphinx',
 ]
 
 todo_include_todos = True
@@ -65,6 +66,15 @@ project = u'GLPI'
 thisyear = datetime.datetime.now().year
 copyright = u'2016-%s, GLPI Project, Teclib\'' % thisyear
 author = u'GLPI Project, Teclib\''
+
+rst_epilog = """
+|ccbyncnd|
+
+.. |ccbyncnd| image:: /_static/images/cc-by-nc-nd.png
+   :alt: Creative Commons License
+   :target: http://creativecommons.org/licenses/by-nc-nd/4.0/
+   :class: align-right
+"""
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -420,3 +430,5 @@ pdf_break_level = 2
 # you need vectorpdf for better sphinx's graphviz support
 #pdf_extensions = ['vectorpdf']
 pdf_extensions = ['dotted_toc']
+
+intersphinx_mapping = {'user': ('http://glpi-user-documentation.readthedocs.io/fr/latest/', None)}
