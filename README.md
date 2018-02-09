@@ -4,7 +4,7 @@ Current documentation is built on top of [Sphinx documentation generator](http:/
 
 ## View it online!
 
-[GLPI installation documentation is currently visible on ReadTheDocs](http://glpi-installation.rtfd.io/).
+[GLPI installation documentation is currently visible on ReadTheDocs](http://glpi-install.rtfd.io/).
 
 ## Run it!
 
