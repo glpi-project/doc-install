@@ -3,17 +3,17 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Installation de GLPI
-====================
+GLPI installation
+=================
 
-Cette documentation présente l'installation et la prise en main globale de l'application `GLPI (Gestion Libre de Parc Informatique) <http://glpi-project.org/>`_ !
+This documentation presents `GLPI <http://glpi-project.org>`_ installation instructions.
 
-Solution libre et open-source de gestion de parc informatique et de helpdesk, GLPI est une application accessible via un navigateur web conçue pour gérer l'ensemble de vos problématiques de gestion de parc informatique : de la gestion de l'inventaire des composantes matérielles et logicielles d'un parc informatique à la gestion de l'assistance aux utilisateurs.
+:abbr:`GLPI (Gestion Libre de Parc Informatique)` is a free (as in beer!) asset and helpdesk management solution accessible from a web browser built to manage all you asset management issues, from hardware components and software inventories management to user hdelpdesk management.
 
 .. toctree::
    :maxdepth: 3
 
-   prerequis
+   prerequisites
    installation
    assistant-installation
    ligne-commande
