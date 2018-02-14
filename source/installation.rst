@@ -75,7 +75,7 @@ Les données de GLPI seront stockées dans ``/var/lib/glpi/``, copier le contenu
 
 Les fichiers de log de GLPI seront stockés dans ``/var/log/glpi/``, il n'y a rien à copier. L'application devra posséder les droits en lecture et écriture sur ce dossier.
 
-Suivant cette nomenclature, il convent de créer un fichier ``inc/downstream.php`` dans le dossier de GLPI avec le contenu suivant :
+Suivant cette nomenclature, il convient de créer un fichier ``inc/downstream.php`` dans le dossier de GLPI avec le contenu suivant :
 
 .. code-block:: php
 
