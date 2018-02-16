@@ -1,23 +1,14 @@
 Prerequisites
 =============
 
-GLPI uses following technologies:
+GLPI is a Web application that will need:
 
-* PHP as language;
-* MySQL as database;
-* HTML for displaying webpages;
-* CSS for stylesheets;
-* CSV, PDF et SLK for data exports;
-* AJAX for UI dynamic elements;
-* ...
+* a webserver;
+* PHP;
+* a database.
 
 Web server
 ----------
-
-Web server characteristics to get GLPI running.
-
-Web server
-^^^^^^^^^^
 
 GLPI requires a web server that supports PHP, like:
 
@@ -26,7 +17,7 @@ GLPI requires a web server that supports PHP, like:
 * `Microsoft IIS <http://www.iis.net>`_.
 
 PHP
-^^^
+---
 
 As of 9.2 release, GLPI requires `PHP <http://php.net>`_ 5.6 or more recent.
 
@@ -35,7 +26,7 @@ As of 9.2 release, GLPI requires `PHP <http://php.net>`_ 5.6 or more recent.
    We recommand to use the most recent stable PHP release for better performances.
 
 Mandatory extensions
-++++++++++++++++++++
+^^^^^^^^^^^^^^^^^^^^
 
 Following PHP extensions are required for the app to work properly:
 
@@ -49,7 +40,7 @@ Following PHP extensions are required for the app to work properly:
 * Zlib: to get backup and restore database functions.
 
 Optional extensions
-+++++++++++++++++++
+^^^^^^^^^^^^^^^^^^^
 
 .. note::
 
@@ -64,7 +55,7 @@ Following PHP extensions are required for some extra features of GLPI:
 * ``openssl``: secured communications.
 
 Configuration
-+++++++++++++
+^^^^^^^^^^^^^
 
 PHP configuration file (``php.ini``) must be adapted to reflect following variables:
 
@@ -90,11 +81,3 @@ In order to work, GLPI requires a database server.
 .. note::
 
    We recommand to use at least 5.5 version if you use MySQL for better performances.
-
-Update
-------
-
-When updating your GLPI database, please make sure **you did a backup** before doing anything!
-
-Also keep in mind that you should not try to restore a database backup on a non empty database (say, a database that has been partially migrated for any reason). Make sur your database is emm
- before restoring your backup and try to update.

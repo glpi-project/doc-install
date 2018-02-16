@@ -14,6 +14,7 @@ This documentation presents `GLPI <http://glpi-project.org>`_ installation instr
    :maxdepth: 3
 
    prerequisites
-   installation
-   install-wizard
+   install/index
+   install/wizard
+   update
    command-line
