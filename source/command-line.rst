@@ -3,6 +3,8 @@ Command line tools
 
 Since GLPI 9.2.2, command line tools are provided as supported scripts and are availaible from the ``scripts`` directory of the archive. On previous versions, thos scripts were present in the ``tools`` directory that is not official and therefore not in the release archive.
 
+.. _cdline_install:
+
 Install
 -------
 
@@ -24,6 +26,8 @@ It is possible to specifiy some variables calling the script:
  * ``--tests`` create tests configuration file,
  * ``--force`` do not check if GLPI is already installed and drop what would exists,
  * ``--help`` displays command help.
+
+.. _cdline_update:
 
 Update
 ------
