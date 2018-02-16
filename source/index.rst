@@ -16,4 +16,4 @@ This documentation presents `GLPI <http://glpi-project.org>`_ installation instr
    prerequisites
    installation
    install-wizard
-   ligne-commande
+   command-line
