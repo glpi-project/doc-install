@@ -1,92 +1,92 @@
-Pré-requis
-==========
+Prerequisites
+=============
 
-GLPI utilise les technologies suivantes :
+GLPI uses following technologies:
 
-* PHP pour le langage ;
-* MySQL pour la base de données ;
-* HTML pour les pages web ;
-* CSS pour les feuilles de style ;
-* CSV, PDF et SLK pour les exports de données ;
-* AJAX pour les éléments dynamiques de l’interface ;
-* SVG et PNG pour les images et les graphiques ;
+* PHP as language;
+* MySQL as database;
+* HTML for displaying webpages;
+* CSS for stylesheets;
+* CSV, PDF et SLK for data exports;
+* AJAX for UI dynamic elements;
 * ...
 
-Serveur web
------------
+Web server
+----------
 
-Caractéristiques du serveur web nécessaires pour faire fonctionner GLPI.
+Web server characteristics to get GLPI running.
 
-Serveur web
-^^^^^^^^^^^
+Web server
+^^^^^^^^^^
 
-GLPI nécessite un serveur web supportant PHP tels que :
+GLPI requires a web server that supports PHP, like:
 
-* Apache 2 ou supérieur (http://httpd.apache.org) ;
-* Nginx (http://nginx.org/);
-* Microsoft IIS (http://www.iis.net).
+* `Apache 2 (or more recent) <http://httpd.apache.org>`_;
+* `Nginx <http://nginx.org/>`_;
+* `Microsoft IIS <http://www.iis.net>`_.
 
 PHP
 ^^^
 
-GLPI 9.2 nécessite `PHP <http://php.net>`_ version 5.6 ou supérieure.
-
-Extensions obligatoires
-+++++++++++++++++++++++
-
-Les extensions PHP suivantes sont nécessaires au bon fonctionnement de l'application :
-
-* CURL : pour l'authentification CAS ;
-* Fileinfo : pour obtenir des informations sur des fichiers ;
-* GD : génération d'images ;
-* JSON : support du format de données structuré JSON ;
-* Mbstring : gestion des chaînes de caractères multi-octets ;
-* MySQL : liaison avec la base de données ;
-* Session : support des sessions des utilisateurs ;
-* Zlib : fonctions de sauvegarde et restauration de la base de données.
-
-Extensions facultatives
-+++++++++++++++++++++++
+As of 9.2 release, GLPI requires `PHP <http://php.net>`_ 5.6 or more recent.
 
 .. note::
 
-   Bien que ces extensions soient facultatives, nous vous conseillons tout de même de les installer.
+   We recommand to use the most recent stable PHP release for better performances.
 
-Les extensions suivantes sont requises pour des fonctionnalités optionnelles de l'application :
+Mandatory extensions
+++++++++++++++++++++
 
-* CLI : utilisation de PHP en ligne de commande pour les actions automatiques ;
-* CURL : pour la vérification des mises à jour, l'authentification CAS, ... ;
-* DOMXML : pour l'authentification CAS ;
-* IMAP : utilisation de serveurs de messagerie pour la collecte des tickets ou l'authentification des utilisateurs ;
-* LDAP : utilisation d'un annuaire externe pour l'authentification ;
-* OpenSSL : communication chiffrée.
+Following PHP extensions are required for the app to work properly:
+
+* ``curl``: for CAS authentication, GLPI version check, Telemetry, ...;
+* ``fileinfo``: to get extra informations on files;
+* ``gd``: to generate images;
+* ``json``: to get support for JSON data format;
+* ``mbstring``:  to manage multi bytes characters;
+* ``mysqli``: to connect and query the database liaison avec la base de données ;
+* ``session``: to get user sessions support;
+* Zlib: to get backup and restore database functions.
+
+Optional extensions
++++++++++++++++++++
+
+.. note::
+
+   Even if those extensions are not mandatory, we advice you to install them anyways.
+
+Following PHP extensions are required for some extra features of GLPI:
+
+* ``cli``: to use PHP from command line (scripts, automatic actions, and so on);
+* ``domxml``: used for CAS authentication;
+* ``imap``: used for mail collector ou user authentication;
+* ``ldap``:  use LDAP directory for authentication;
+* ``openssl``: secured communications.
 
 Configuration
 +++++++++++++
 
-Le fichier de configuration de php (``php.ini``) doit être modifié afin de respecter les variables suivantes :
+PHP configuration file (``php.ini``) must be adapted to reflect following variables:
 
 .. code-block:: ini
 
-    memory_limit = 64M ;        // Valeur minimale
+    memory_limit = 64M ;        // max memory limit
     file_uploads = on ;
-    max_execution_time = 600 ;  // Préconisé mais non obligatoire
-    register_globals = off ;    // Préconisé mais non obligatoire
+    max_execution_time = 600 ;  // not mandatory but adviced
+    register_globals = off ;    // not mandatory but adviced
     magic_quotes_sybase = off ;
     session.auto_start = off ;
-    session.use_trans_sid = 0 ; // Préconisé mais non obligatoire
+    session.use_trans_sid = 0 ; // not mandatory but adviced
 
-Base de données
----------------
+Database
+--------
 
 .. warning::
 
-   Actuellement, seuls les serveurs de base de données MySQL et MariaDB sont supportés par GLPI.
+   Currently, only `MySQL <https://dev.mysql.com>`_ (5.1 minimum) and `MariaDB <https://mariadb.com>`_ database servers are supported by GLPI.
 
-Pour fonctionner, GLPI nécessite un `serveur de base de données MySQL <http://mysql.fr>`_ de version supérieure ou égale à 5.1.
+In order to work, GLPI requires a database server.
 
 .. note::
 
-   Nous recommandons d'utiliser la version 5.5.x, pour de meilleurs meilleures performances.
-
-
+   We recommand to use at least 5.5 version if you use MySQL for better performances.
