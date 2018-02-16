@@ -1,81 +1,81 @@
-Installer GLPI
-==============
+Install GLPI
+============
 
-La procédure est la suivante :
+Preceed as follow:
 
-#. Choisir une version,
-#. Télécharger l'archive,
-#. Installer :)
+#. Choose a version,
+#. Download the archive,
+#. Install :)
 
-Choisir une version
--------------------
+Choose a version
+----------------
 
 .. note::
 
-   Il est fortement conseillé de choisir la dernière version stable pour une utilisation en production.
+   It is hightly recommended you choose the latest stable release for a production usage.
 
-GLPI suit une règle de versionnage sémantique, sur 3 chifffres. Le premier correspond à la version majeure, le second à la version mineure, le troisième à la version corrective.
+GLPI follows a semantic versionning scheme, on 3 digits. The first one is the majo release, the second the minor and the third the fix release.
 
-Les version majeures peuvent amener des incompatibilités fort importantes ainsi que de nouvelles fonctionnalités ; les versions mineures quant à elles apportent également de nouvelles fonctionnalités mais restent parfaitement compatibles avec les versions mineures antérieures et ultérieures.
+Major releases may come with important incompatibilities as well as new features; minor versions may bring new features as well, but stay perfectly compatible inside a major version.
 
-Les versions correctives, quand à elles, se contentent de corriger les problèmes reportés sans ajout de fonctionnalités.
+Fixes releases will only fix reported issues without adding anything new.
 
-Télécharger
------------
+Download
+--------
 
 .. warning::
 
-   Sur github, il existe systématiquement deux archives nommées *Source code* ; ces versions ne sont pas destinées à être téléchargées par les utilisateurs.
+   On GitHub, there is always two archives named *Source code* which should not be used.
 
-Rendez-vous dans la rubrique *Télécharger* du `site web de GLPI <http://glpi-project.org>`_ ; ou récupérez l'archive directement depuis les `releases Github <https://github.com/glpi-project/glpi/releases>`_.
+Go to the *download* section of `the GLPI website <http://glpi-project.org>`_ or get archive directly from `Github release <https://github.com/glpi-project/glpi/releases>`_.
 
 Installation
 ------------
 
 .. note::
 
-   Il existe également de nombreux paquets pour les distributions (Debian, Ubuntu, Fedora...) que vous pouvrez installer avec votre gestionnaire de paquets habituel.
+   Packages may be availaible from your distribution (Red Hat, CentOS, Fedora, Ubuntu, ...) that you should use with your standard packages manager as usual.
 
-L'installation à proprement parler de l'application consiste en trois étapes :
+GLPI installation itself is composed of three steps:
 
-#. Décompresser l'archive dans l'arborescence de votre serveur web ;
-#. Donner les droits en écriture ià votre serveur web sur les dossiers ``files`` et ``config`` ;
-#. :doc:`Lancer l'assistant d'installation en ligne <assistant-installation>`.
+#. Uncompress archive in your website;
+#. Give your webserver write access to ``files`` and ``config`` directories;
+#. :doc:`launch installation wizard <install-wizard>`.
 
-Une fois ces étapes effectuées l'application est prête à être utilisée.
+Once thress steps has been completed the app is ready to be used.
 
-Emplacement des fichiers et dossiers
-------------------------------------
+Files and directories emplacements
+----------------------------------
 
-Comme beaucoup d'applications web, GLPI peut être installé en copiant simplement le contenu complet du répertoire sur un serveur web quelconque. Néanmoins, une telle pratique peut s'avérer relativement peu sécurisée.
+As many other web applications, GLPI may be installed just by copying the whole directory to any web server. Anyways, this may be secure less.
 
 .. warning::
 
-   Tout fichier accessible directement depuis un serveur web doit être considéré comme non sécurisé !
+   Every file accessible directly from a web server must be considered unsafe!
 
-En effet, GLPI stocke un certain nombre de données dans son répertoire ``files``, la configuration de votre base de données est stockée dans le dossier ``config``, ... Bien que des dispositions soient mises en place pour éviter que des données sensibles puisse être rendues accessibles directement depuis un serveur web, la meilleure façon de les protéger reste de ne pas les rendre accessibles du tout.
+GLPI stores some data in the ``files`` directory, database access configuration is stored in the ``config`` directory, ... Even if GLPI provides some securities to prevent files to be accessed from a webserver directly, the best way to go is to store data outside of the web root. That way, sensible files cannot be accessed directly from the web server.
 
-GLPI propose un certain nombre de variables de configuration qu'il est possible d'utiliser pour ce faire (utilisées d'ailleurs dans les paquets fournis par les distributions linux) :
+There are a few configuration directives you may use to achieve that (directives that are used in provided downstream packages):
 
-* ``GLPI_CONFIG_DIR`` : détermine le chemin vers le dossier de configuration ;
-* ``GLPI_VAR_DIR`` : détermine le chemin vers les "fichiers" ;
-* ``GLPI_LOG_DIR`` : détermine le chemin vers les fichiers de log.
+* ``GLPI_CONFIG_DIR``: set path to the configuration directory;
+* ``GLPI_VAR_DIR`` : set path to the ``files`` directory;
+* ``GLPI_LOG_DIR`` : set path to logs files.
 
 .. note::
 
-   Il existe bien d'autres variables de configuration, celles évoquées ci-dessus sont les principales à prendre en considération pour une installation davantage sécurisée.
+   There ara many other configuration directives availaible, the ones we talked about are the main ones to take into account for a more secure installation.
 
-Le choix des différents dossiers est laissé à votre entière appréciation ; l'exemple qui suit se base quand à lui sur les recommandations `FHS <http://www.pathname.com/fhs/>`_.
+Directories choice is entirely up to you; the following example will follow the `FHS <http://www.pathname.com/fhs/>`_ recommandations.
 
-Notre instance de GLPI sera installée dans le dossier ``/var/www/glpi``, un hôte virtuel dans la configuration du serveur web reflètera ce chemin.
+Our GLPI instance will be installed in ``/var/www/glpi`` directory, a specific virtual host in the web server configuration will reflect this path.
 
-La configuration de GLPI sera stockée dans ``/etc/glpi/``, copier le contenu du dossier ``config`` à cet endroit. L'application devra posséder les droits en lecture sur ce dossier, et en écriture également, mais uniquement pour l'installation.
+GLPI configuration will be stored in ``/etc/glpi``, just copy the ``config`` directory to this place. GLPI requires read rights on this directory to work; and write rights during the installation process.
 
-Les données de GLPI seront stockées dans ``/var/lib/glpi/``, copier le contenu du dossier ``files`` à cet endroit. L'application devra posséder les droits en lecture et écriture sur ce dossier.
+GLPI data will be stored in ``/var/lib/glpi``, just copy the ``files`` directory to this place. GLPI requires read and write rights on this directory.
 
-Les fichiers de log de GLPI seront stockés dans ``/var/log/glpi/``, il n'y a rien à copier. L'application devra posséder les droits en lecture et écriture sur ce dossier.
+GLPI logs files will be stored in ``/var/log/glpi``, there is nothing to copye here, just create the directory. GLPI requires read and write access on this directory.
 
-Suivant cette nomenclature, il convient de créer un fichier ``inc/downstream.php`` dans le dossier de GLPI avec le contenu suivant :
+Following this instructions, we'll create a ``inc/downstream.php`` file into GLPI directory with the following contents:
 
 .. code-block:: php
 
@@ -84,22 +84,21 @@ Suivant cette nomenclature, il convient de créer un fichier ``inc/downstream.ph
 
 .. warning::
 
-   Les paquets GLPI des différents dépôts fourniront très certainement un fichier ``inc/downstream.php``. Ce dernier ne doit pas être modifié !
+   GLPI packages will certainly provide a ``inc/downstream.php`` file. This one must not be edited!
 
-Ensuite, créer un fichier ``config/local_define.php`` avec le contenu suivant :
+Then, create a file in ``/etc/glpi/local_define.php`` with the following contents:
 
 .. code-block:: php
 
    <?php
    define('GLPI_VAR_DIR', '/var/lib/glpi');
-
    define('GLPI_LOG_DIR', '/var/log/glpi');
 
 .. note::
 
    .. versionadded:: 9.2.2
 
-   Pour les versions de GLPI antérieures à 9.2.2, la constante ``GLPI_VAR_DIR`` n'existait pas. Il fallait donc redéfinir tous les chemins un par un :
+   For GLPI prior to 9.2.2, ``GLPI_VAR_DIR`` constant did not exists. It was required to set all paths separately:
 
    .. code-block:: php
 
@@ -120,8 +119,8 @@ Ensuite, créer un fichier ``config/local_define.php`` avec le contenu suivant :
 
       define('GLPI_LOG_DIR', '/var/log/glpi');
 
-      Bien entendu, il est toujours possible de définir les chemins un par un.
+      Of cource, it is always possible to redefine any of thos paths if needed.
 
 .. note::
 
-   Le dossier de configuration de GLPI ne peut être défini dans le fichier ``local_define.php`` puisque ce dernier se trouve lui même dans le dossier de configuration ;)
+   GLPI configuration directory cannot be defined in the ``local_define.php`` file just because this one will be... in the configuration directory itself ;)
