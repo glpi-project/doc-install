@@ -90,3 +90,11 @@ In order to work, GLPI requires a database server.
 .. note::
 
    We recommand to use at least 5.5 version if you use MySQL for better performances.
+
+Update
+------
+
+When updating your GLPI database, please make sure **you did a backup** before doing anything!
+
+Also keep in mind that you should not try to restore a database backup on a non empty database (say, a database that has been partially migrated for any reason). Make sur your database is emm
+ before restoring your backup and try to update.
