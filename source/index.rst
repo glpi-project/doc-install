@@ -8,7 +8,7 @@ GLPI installation
 
 This documentation presents `GLPI <http://glpi-project.org>`_ installation instructions.
 
-:abbr:`GLPI (Gestion Libre de Parc Informatique)` is a free (as in beer!) asset and helpdesk management solution accessible from a web browser built to manage all you asset management issues, from hardware components and software inventories management to user hdelpdesk management.
+:abbr:`GLPI (Gestion Libre de Parc Informatique)` is a free (as in "free speech" not as in "free beer"!) asset and helpdesk management solution accessible from a web browser built to manage all you asset management issues, from hardware components and software inventories management to user hdelpdesk management.
 
 .. toctree::
    :maxdepth: 3

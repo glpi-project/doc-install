@@ -14,7 +14,7 @@ Choose a version
 
    It is hightly recommended you choose the latest stable release for a production usage.
 
-GLPI follows a semantic versionning scheme, on 3 digits. The first one is the majo release, the second the minor and the third the fix release.
+GLPI follows a semantic versionning scheme, on 3 digits. The first one is the major release, the second the minor and the third the fix release.
 
 Major releases may come with important incompatibilities as well as new features; minor versions may bring new features as well, but stay perfectly compatible inside a major version.
 
@@ -27,14 +27,14 @@ Download
 
    On GitHub, there is always two archives named *Source code* which should not be used.
 
-Go to the *download* section of `the GLPI website <http://glpi-project.org>`_ or get archive directly from `Github release <https://github.com/glpi-project/glpi/releases>`_.
+Go to the *download* section of `the GLPI website <http://glpi-project.org>`_ (or get archive directly from `Github release <https://github.com/glpi-project/glpi/releases>`_) and choose the ``glpi-{version}.tgz`` archive.
 
 Installation
 ------------
 
 .. note::
 
-   Packages may be availaible from your distribution (Red Hat, CentOS, Fedora, Ubuntu, ...) that you should use with your standard packages manager as usual.
+   Packages may be available from your distribution (Red Hat, CentOS, Fedora, Ubuntu, ...) that you should use with your standard packages manager as usual.
 
 GLPI installation itself is composed of three steps:
 
@@ -44,8 +44,8 @@ GLPI installation itself is composed of three steps:
 
 Once three steps has been completed the app is ready to be used.
 
-Files and directories emplacements
-----------------------------------
+Files and directories locations
+-------------------------------
 
 As many other web applications, GLPI may be installed just by copying the whole directory to any web server. Anyways, this may be secure less.
 
@@ -63,7 +63,7 @@ There are a few configuration directives you may use to achieve that (directives
 
 .. note::
 
-   There ara many other configuration directives availaible, the ones we talked about are the main ones to take into account for a more secure installation.
+   There are many other configuration directives available, the ones we talked about are the main to take into account for a more secure installation.
 
 Directories choice is entirely up to you; the following example will follow the `FHS <http://www.pathname.com/fhs/>`_ recommandations.
 
@@ -73,7 +73,7 @@ GLPI configuration will be stored in ``/etc/glpi``, just copy the ``config`` dir
 
 GLPI data will be stored in ``/var/lib/glpi``, just copy the ``files`` directory to this place. GLPI requires read and write rights on this directory.
 
-GLPI logs files will be stored in ``/var/log/glpi``, there is nothing to copye here, just create the directory. GLPI requires read and write access on this directory.
+GLPI logs files will be stored in ``/var/log/glpi``, there is nothing to copy here, just create the directory. GLPI requires read and write access on this directory.
 
 Following this instructions, we'll create a ``inc/downstream.php`` file into GLPI directory with the following contents:
 

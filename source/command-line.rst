@@ -1,7 +1,7 @@
 Command line tools
 ==================
 
-Since GLPI 9.2.2, command line tools are provided as supported scripts and are availaible from the ``scripts`` directory of the archive. On previous versions, thos scripts were present in the ``tools`` directory that is not official and therefore not in the release archive.
+Since GLPI 9.2.2, command line tools are provided as supported scripts and are availaible from the ``scripts`` directory of the archive. On previous versions, those scripts were present in the ``tools`` directory that is not official and therefore not in the release archive.
 
 .. _cdline_install:
 
@@ -46,4 +46,4 @@ Possible options for this command are:
  * ``--help`` displays command help.
  * ``--config-dir`` set configuration file path to use,
  * ``--force`` force update, usefull when GLPI version does not change (mainly when working on it ;)),
- * ``--dev`` required to use a development version.i Ise with cautions...
+ * ``--dev`` required to use a development version. Usei it with cautions...

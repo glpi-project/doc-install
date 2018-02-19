@@ -19,19 +19,19 @@ The first step will let you choose the installation language. Select your lang, 
 License
 -------
 
-Usage of GLPI is subject to GNU license approval. One licensing terms read an accepted, just validate the form.
+Usage of GLPI is subject to GNU license approval. Once licensing terms read an accepted, just validate the form.
 
 .. image:: images/license_agreement.png
    :alt: Licensing terms
    :align: center
    :scale: 50%
 
-If you do not agreee with licensing terms, it is not possible to continue installation process.
+If you do not agree with licensing terms, it is not possible to continue installation process.
 
 Install / Update
 ----------------
 
-This screen allows to choose beetween a fresh GLPI installation or an update.
+This screen allows to choose between a fresh GLPI installation or an update.
 
 .. image:: images/install-update.png
    :alt: Install or update
@@ -43,7 +43,7 @@ Click on install.
 Environment checks
 ^^^^^^^^^^^^^^^^^^
 
-This step will check if prerequisites are met. If thery're not, it is not possible to continue and an explicit error message will tell you about what is wonrg and what to do before trying again.
+This step will check if prerequisites are met. If thery're not, it is not possible to continue and an explicit error message will tell you about what is wrong and what to do before trying again.
 
 .. image:: images/setup.png
    :alt: Check prerequisites
@@ -69,7 +69,6 @@ Database connection parameters are asked.
 Once all fields are properly filled, validate the form.
 
 A first database connection is then established. If parameters are invalid, an error message will be displayed, and you'll have to fix parameters and try again.
-nouveau.
 
 Database choice
 ^^^^^^^^^^^^^^^
@@ -102,19 +101,19 @@ There are 2 ways to go:
 Database initialization
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-This steps initializes the database with default values.
+This step initializes the database with default values.
 
 .. image:: images/db-ok.png
    :alt: Database initialization
    :align: center
    :scale: 50%
 
-If there is any error; py attention to the displayed informations.
+If there is any error; pay attention to the displayed informations.
 
 End of installation
 ^^^^^^^^^^^^^^^^^^^
 
-This step presents a summary of the installation and give created users list. Please pay attention to those informations and validate to got to the app.
+This step presents a summary of the installation and give created users list. Please pay attention to those informations and validate to go to the app.
 
 .. image:: images/install-end.png
    :alt: End of installation
