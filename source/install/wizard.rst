@@ -110,6 +110,18 @@ This step initializes the database with default values.
 
 If there is any error; pay attention to the displayed informations.
 
+Telemetry informations
+^^^^^^^^^^^^^^^^^^^^^^
+
+GLPI will ask you to share some Telemetry informations and to register. This is not mandatory.
+
+.. image:: images/telemetry.png
+   :alt: End of installation
+   :align: center
+   :scale: 50%
+
+
+
 End of installation
 ^^^^^^^^^^^^^^^^^^^
 
