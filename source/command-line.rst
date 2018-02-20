@@ -1,7 +1,7 @@
 Command line tools
 ==================
 
-Since GLPI 9.2.2, command line tools are provided as supported scripts and are availaible from the ``scripts`` directory of the archive. On previous versions, those scripts were present in the ``tools`` directory that is not official and therefore not in the release archive.
+Since GLPI 9.2.2, command line tools are provided as supported scripts and are available from the ``scripts`` directory of the archive. On previous versions, those scripts were present in the ``tools`` directory that is not official and therefore not in the release archive.
 
 .. _cdline_install:
 

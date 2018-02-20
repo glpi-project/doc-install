@@ -1,7 +1,7 @@
 Install GLPI
 ============
 
-Preceed as follow:
+Proceed as follow:
 
 #. Choose a version,
 #. Download the archive,

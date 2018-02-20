@@ -19,7 +19,7 @@ The first step will let you choose the installation language. Select your lang, 
 License
 -------
 
-Usage of GLPI is subject to GNU license approval. Once licensing terms read an accepted, just validate the form.
+Usage of GLPI is subject to GNU license approval. Once licensing terms read and accepted, just validate the form.
 
 .. image:: images/license_agreement.png
    :alt: Licensing terms

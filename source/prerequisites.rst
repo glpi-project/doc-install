@@ -44,7 +44,7 @@ Optional extensions
 
 .. note::
 
-   Even if those extensions are not mandatory, we advice you to install them anyways.
+   Even if those extensions are not mandatory, we advise you to install them anyways.
 
 Following PHP extensions are required for some extra features of GLPI:
 
