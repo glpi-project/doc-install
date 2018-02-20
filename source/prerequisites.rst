@@ -35,9 +35,9 @@ Following PHP extensions are required for the app to work properly:
 * ``gd``: to generate images;
 * ``json``: to get support for JSON data format;
 * ``mbstring``:  to manage multi bytes characters;
-* ``mysqli``: to connect and query the database liaison avec la base de données ;
+* ``mysqli``: to connect and query the database;
 * ``session``: to get user sessions support;
-* Zlib: to get backup and restore database functions.
+* ``zlib``: to get backup and restore database functions.
 
 Optional extensions
 ^^^^^^^^^^^^^^^^^^^
