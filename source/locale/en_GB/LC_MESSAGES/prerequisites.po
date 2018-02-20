@@ -1,0 +1,196 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2018, GLPI Project, Teclib'
+# This file is distributed under the same license as the GLPI package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI 9.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-02-20 13:52+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/prerequisites.rst:2
+msgid "Prerequisites"
+msgstr "Prerequisites"
+
+#: ../../source/prerequisites.rst:4
+msgid "GLPI is a Web application that will need:"
+msgstr "GLPI is a Web application that will need:"
+
+#: ../../source/prerequisites.rst:6
+msgid "a webserver;"
+msgstr "a webserver;"
+
+#: ../../source/prerequisites.rst:7
+msgid "PHP;"
+msgstr "PHP;"
+
+#: ../../source/prerequisites.rst:8
+msgid "a database."
+msgstr "a database."
+
+#: ../../source/prerequisites.rst:11
+msgid "Web server"
+msgstr "Web server"
+
+#: ../../source/prerequisites.rst:13
+msgid "GLPI requires a web server that supports PHP, like:"
+msgstr "GLPI requires a web server that supports PHP, like:"
+
+#: ../../source/prerequisites.rst:15
+msgid "`Apache 2 (or more recent) <http://httpd.apache.org>`_;"
+msgstr "`Apache 2 (or more recent) <http://httpd.apache.org>`_;"
+
+#: ../../source/prerequisites.rst:16
+msgid "`Nginx <http://nginx.org/>`_;"
+msgstr "`Nginx <http://nginx.org/>`_;"
+
+#: ../../source/prerequisites.rst:17
+msgid "`Microsoft IIS <http://www.iis.net>`_."
+msgstr "`Microsoft IIS <http://www.iis.net>`_."
+
+#: ../../source/prerequisites.rst:20
+msgid "PHP"
+msgstr "PHP"
+
+#: ../../source/prerequisites.rst:22
+msgid ""
+"As of 9.2 release, GLPI requires `PHP <http://php.net>`_ 5.6 or more recent."
+msgstr ""
+"As of 9.2 release, GLPI requires `PHP <http://php.net>`_ 5.6 or more recent."
+
+#: ../../source/prerequisites.rst:26
+msgid ""
+"We recommand to use the most recent stable PHP release for better "
+"performances."
+msgstr ""
+"We recommand to use the most recent stable PHP release for better "
+"performances."
+
+#: ../../source/prerequisites.rst:29
+msgid "Mandatory extensions"
+msgstr "Mandatory extensions"
+
+#: ../../source/prerequisites.rst:31
+msgid "Following PHP extensions are required for the app to work properly:"
+msgstr "Following PHP extensions are required for the app to work properly:"
+
+#: ../../source/prerequisites.rst:33
+msgid "``curl``: for CAS authentication, GLPI version check, Telemetry, ...;"
+msgstr "``curl``: for CAS authentication, GLPI version check, Telemetry, ...;"
+
+#: ../../source/prerequisites.rst:34
+msgid "``fileinfo``: to get extra informations on files;"
+msgstr "``fileinfo``: to get extra informations on files;"
+
+#: ../../source/prerequisites.rst:35
+msgid "``gd``: to generate images;"
+msgstr "``gd``: to generate images;"
+
+#: ../../source/prerequisites.rst:36
+msgid "``json``: to get support for JSON data format;"
+msgstr "``json``: to get support for JSON data format;"
+
+#: ../../source/prerequisites.rst:37
+msgid "``mbstring``:  to manage multi bytes characters;"
+msgstr "``mbstring``:  to manage multi bytes characters;"
+
+#: ../../source/prerequisites.rst:38
+msgid "``mysqli``: to connect and query the database;"
+msgstr "``mysqli``: to connect and query the database;"
+
+#: ../../source/prerequisites.rst:39
+msgid "``session``: to get user sessions support;"
+msgstr "``session``: to get user sessions support;"
+
+#: ../../source/prerequisites.rst:40
+msgid "``zlib``: to get backup and restore database functions."
+msgstr "``zlib``: to get backup and restore database functions."
+
+#: ../../source/prerequisites.rst:43
+msgid "Optional extensions"
+msgstr "Optional extensions"
+
+#: ../../source/prerequisites.rst:47
+msgid ""
+"Even if those extensions are not mandatory, we advise you to install them "
+"anyways."
+msgstr ""
+"Even if those extensions are not mandatory, we advise you to install them "
+"anyways."
+
+#: ../../source/prerequisites.rst:49
+msgid "Following PHP extensions are required for some extra features of GLPI:"
+msgstr ""
+"Following PHP extensions are required for some extra features of GLPI:"
+
+#: ../../source/prerequisites.rst:51
+msgid ""
+"``cli``: to use PHP from command line (scripts, automatic actions, and so "
+"on);"
+msgstr ""
+"``cli``: to use PHP from command line (scripts, automatic actions, and so "
+"on);"
+
+#: ../../source/prerequisites.rst:52
+msgid "``domxml``: used for CAS authentication;"
+msgstr "``domxml``: used for CAS authentication;"
+
+#: ../../source/prerequisites.rst:53
+msgid "``imap``: used for mail collector ou user authentication;"
+msgstr "``imap``: used for mail collector ou user authentication;"
+
+#: ../../source/prerequisites.rst:54
+msgid "``ldap``:  use LDAP directory for authentication;"
+msgstr "``ldap``:  use LDAP directory for authentication;"
+
+#: ../../source/prerequisites.rst:55
+msgid "``openssl``: secured communications."
+msgstr "``openssl``: secured communications."
+
+#: ../../source/prerequisites.rst:58
+msgid "Configuration"
+msgstr "Configuration"
+
+#: ../../source/prerequisites.rst:60
+msgid ""
+"PHP configuration file (``php.ini``) must be adapted to reflect following "
+"variables:"
+msgstr ""
+"PHP configuration file (``php.ini``) must be adapted to reflect following "
+"variables:"
+
+#: ../../source/prerequisites.rst:73
+msgid "Database"
+msgstr "Database"
+
+#: ../../source/prerequisites.rst:77
+msgid ""
+"Currently, only `MySQL <https://dev.mysql.com>`_ (5.1 minimum) and `MariaDB "
+"<https://mariadb.com>`_ database servers are supported by GLPI."
+msgstr ""
+"Currently, only `MySQL <https://dev.mysql.com>`_ (5.1 minimum) and `MariaDB "
+"<https://mariadb.com>`_ database servers are supported by GLPI."
+
+#: ../../source/prerequisites.rst:79
+msgid "In order to work, GLPI requires a database server."
+msgstr "In order to work, GLPI requires a database server."
+
+#: ../../source/prerequisites.rst:83
+msgid ""
+"We recommand to use at least 5.5 version if you use MySQL for better "
+"performances."
+msgstr ""
+"We recommand to use at least 5.5 version if you use MySQL for better "
+"performances."
+
+#: ../../source/prerequisites.rst:86
+msgid "|ccbyncnd|"
+msgstr "|ccbyncnd|"

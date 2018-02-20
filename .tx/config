@@ -1,0 +1,33 @@
+[main]
+host = https://www.transifex.com
+type = PO
+
+[glpi-install.index]
+file_filter = source/locale/<lang>/LC_MESSAGES/index.po
+source_file = build/locale/index.pot
+source_lang = en
+
+[glpi-install.prerequisites]
+file_filter = source/locale/<lang>/LC_MESSAGES/prerequisites.po
+source_file = build/locale/prerequisites.pot
+source_lang = en
+
+[glpi-install.update]
+file_filter = source/locale/<lang>/LC_MESSAGES/update.po
+source_file = build/locale/update.pot
+source_lang = en
+
+[glpi-install.command-line]
+file_filter = source/locale/<lang>/LC_MESSAGES/command-line.po
+source_file = build/locale/command-line.pot
+source_lang = en
+
+[glpi-install.install--index]
+file_filter = source/locale/<lang>/LC_MESSAGES/install/index.po
+source_file = build/locale/install/index.pot
+source_lang = en
+
+[glpi-install.install--wizard]
+file_filter = source/locale/<lang>/LC_MESSAGES/install/wizard.po
+source_file = build/locale/install/wizard.pot
+source_lang = en
