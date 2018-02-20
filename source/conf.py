@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# GLPi User Documentation documentation build configuration file, created by
+# GLPI installation documentation build configuration file, created by
 # sphinx-quickstart on Thu Sep 29 14:44:50 2016.
 #
 # This file is execfile()d with the current directory set to its
@@ -12,7 +12,6 @@
 # All configuration values have a default; values that are commented out
 # serve to show the default.
 
-#from recommonmark.parser import CommonMarkParser
 import datetime
 import sphinx_glpi_theme
 
@@ -52,7 +51,7 @@ templates_path = ['_templates']
 # The suffix(es) of source filenames.
 # You can specify multiple suffix as a list of string:
 #
-source_suffix = ['.rst', '.md']
+source_suffix = '.rst'
 
 # The encoding of source files.
 #
@@ -262,7 +261,7 @@ html_show_sourcelink = False
 # html_search_scorer = 'scorer.js'
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'GLPIUserDocumentation'
+htmlhelp_basename = 'GLPIInstallation'
 
 # -- Options for LaTeX output ---------------------------------------------
 
@@ -288,7 +287,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'GLPIUserDocumentation.tex', u'GLPI User Documentation',
+    (master_doc, 'GLPIInstallation.tex', u'GLPI Installation',
      u'GLPI Project, Teclib\'', 'manual'),
 ]
 
@@ -330,7 +329,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'glpiuserdocumentation', u'GLPI User Documentation',
+    (master_doc, 'glpiinstallation', u'GLPI Installation',
      [author], 1)
 ]
 
@@ -360,8 +359,8 @@ pdf_documents = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'GLPIUserDocumentation', u'GLPi User Documentation',
-     author, 'GLPIUserDocumentation', 'User documentation for GLPI project.',
+    (master_doc, 'GLPIInstallation', u'GLPI Installation',
+     author, 'GLPIInstallation', 'Installation documentation for GLPI project.',
      'Miscellaneous'),
 ]
 
@@ -434,3 +433,7 @@ pdf_break_level = 2
 pdf_extensions = ['dotted_toc']
 
 intersphinx_mapping = {'user': ('http://glpi-user-documentation.readthedocs.io/fr/latest/', None)}
+
+#intl stuff
+locale_dirs = ['locale/']   # path is example but recommended.
+gettext_compact = False     # optional.
