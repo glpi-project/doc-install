@@ -1,0 +1,291 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2018, GLPI Project, Teclib'
+# This file is distributed under the same license as the GLPI package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI 9.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-02-20 13:52+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/install/index.rst:2
+msgid "Install GLPI"
+msgstr "Install GLPI"
+
+#: ../../source/install/index.rst:4
+msgid "Proceed as follow:"
+msgstr "Proceed as follow:"
+
+#: ../../source/install/index.rst:6
+msgid "Choose a version,"
+msgstr "Choose a version,"
+
+#: ../../source/install/index.rst:7
+msgid "Download the archive,"
+msgstr "Download the archive,"
+
+#: ../../source/install/index.rst:8
+msgid "Install :)"
+msgstr "Install :)"
+
+#: ../../source/install/index.rst:11
+msgid "Choose a version"
+msgstr "Choose a version"
+
+#: ../../source/install/index.rst:15
+msgid ""
+"It is hightly recommended you choose the latest stable release for a "
+"production usage."
+msgstr ""
+"It is hightly recommended you choose the latest stable release for a "
+"production usage."
+
+#: ../../source/install/index.rst:17
+msgid ""
+"GLPI follows a semantic versionning scheme, on 3 digits. The first one is "
+"the major release, the second the minor and the third the fix release."
+msgstr ""
+"GLPI follows a semantic versionning scheme, on 3 digits. The first one is "
+"the major release, the second the minor and the third the fix release."
+
+#: ../../source/install/index.rst:19
+msgid ""
+"Major releases may come with important incompatibilities as well as new "
+"features; minor versions may bring new features as well, but stay perfectly "
+"compatible inside a major version."
+msgstr ""
+"Major releases may come with important incompatibilities as well as new "
+"features; minor versions may bring new features as well, but stay perfectly "
+"compatible inside a major version."
+
+#: ../../source/install/index.rst:21
+msgid ""
+"Fixes releases will only fix reported issues without adding anything new."
+msgstr ""
+"Fixes releases will only fix reported issues without adding anything new."
+
+#: ../../source/install/index.rst:24
+msgid "Download"
+msgstr "Download"
+
+#: ../../source/install/index.rst:28
+msgid ""
+"On GitHub, there is always two archives named *Source code* which should not"
+" be used."
+msgstr ""
+"On GitHub, there is always two archives named *Source code* which should not"
+" be used."
+
+#: ../../source/install/index.rst:30
+msgid ""
+"Go to the *download* section of `the GLPI website <http://glpi-"
+"project.org>`_ (or get archive directly from `Github release "
+"<https://github.com/glpi-project/glpi/releases>`_) and choose the "
+"``glpi-{version}.tgz`` archive."
+msgstr ""
+"Go to the *download* section of `the GLPI website <http://glpi-"
+"project.org>`_ (or get archive directly from `Github release "
+"<https://github.com/glpi-project/glpi/releases>`_) and choose the "
+"``glpi-{version}.tgz`` archive."
+
+#: ../../source/install/index.rst:33
+msgid "Installation"
+msgstr "Installation"
+
+#: ../../source/install/index.rst:37
+msgid ""
+"Packages may be available from your distribution (Red Hat, CentOS, Fedora, "
+"Ubuntu, ...) that you should use with your standard packages manager as "
+"usual."
+msgstr ""
+"Packages may be available from your distribution (Red Hat, CentOS, Fedora, "
+"Ubuntu, ...) that you should use with your standard packages manager as "
+"usual."
+
+#: ../../source/install/index.rst:39
+msgid "GLPI installation itself is composed of three steps:"
+msgstr "GLPI installation itself is composed of three steps:"
+
+#: ../../source/install/index.rst:41
+msgid "Uncompress archive in your website;"
+msgstr "Uncompress archive in your website;"
+
+#: ../../source/install/index.rst:42
+msgid ""
+"Give your webserver write access to ``files`` and ``config`` directories;"
+msgstr ""
+"Give your webserver write access to ``files`` and ``config`` directories;"
+
+#: ../../source/install/index.rst:43
+msgid ""
+":doc:`launch installation wizard <wizard>` (or use :ref:`command line "
+"installation script <cdline_install>`)."
+msgstr ""
+":doc:`launch installation wizard <wizard>` (or use :ref:`command line "
+"installation script <cdline_install>`)."
+
+#: ../../source/install/index.rst:45
+msgid "Once three steps has been completed the app is ready to be used."
+msgstr "Once three steps has been completed the app is ready to be used."
+
+#: ../../source/install/index.rst:48
+msgid "Files and directories locations"
+msgstr "Files and directories locations"
+
+#: ../../source/install/index.rst:50
+msgid ""
+"As many other web applications, GLPI may be installed just by copying the "
+"whole directory to any web server. Anyways, this may be secure less."
+msgstr ""
+"As many other web applications, GLPI may be installed just by copying the "
+"whole directory to any web server. Anyways, this may be secure less."
+
+#: ../../source/install/index.rst:54
+msgid ""
+"Every file accessible directly from a web server must be considered unsafe!"
+msgstr ""
+"Every file accessible directly from a web server must be considered unsafe!"
+
+#: ../../source/install/index.rst:56
+msgid ""
+"GLPI stores some data in the ``files`` directory, database access "
+"configuration is stored in the ``config`` directory, ... Even if GLPI "
+"provides some securities to prevent files to be accessed from a webserver "
+"directly, the best way to go is to store data outside of the web root. That "
+"way, sensible files cannot be accessed directly from the web server."
+msgstr ""
+"GLPI stores some data in the ``files`` directory, database access "
+"configuration is stored in the ``config`` directory, ... Even if GLPI "
+"provides some securities to prevent files to be accessed from a webserver "
+"directly, the best way to go is to store data outside of the web root. That "
+"way, sensible files cannot be accessed directly from the web server."
+
+#: ../../source/install/index.rst:58
+msgid ""
+"There are a few configuration directives you may use to achieve that "
+"(directives that are used in provided downstream packages):"
+msgstr ""
+"There are a few configuration directives you may use to achieve that "
+"(directives that are used in provided downstream packages):"
+
+#: ../../source/install/index.rst:60
+msgid "``GLPI_CONFIG_DIR``: set path to the configuration directory;"
+msgstr "``GLPI_CONFIG_DIR``: set path to the configuration directory;"
+
+#: ../../source/install/index.rst:61
+msgid "``GLPI_VAR_DIR`` : set path to the ``files`` directory;"
+msgstr "``GLPI_VAR_DIR`` : set path to the ``files`` directory;"
+
+#: ../../source/install/index.rst:62
+msgid "``GLPI_LOG_DIR`` : set path to logs files."
+msgstr "``GLPI_LOG_DIR`` : set path to logs files."
+
+#: ../../source/install/index.rst:66
+msgid ""
+"There are many other configuration directives available, the ones we talked "
+"about are the main to take into account for a more secure installation."
+msgstr ""
+"There are many other configuration directives available, the ones we talked "
+"about are the main to take into account for a more secure installation."
+
+#: ../../source/install/index.rst:68
+msgid ""
+"Directories choice is entirely up to you; the following example will follow "
+"the `FHS <http://www.pathname.com/fhs/>`_ recommandations."
+msgstr ""
+"Directories choice is entirely up to you; the following example will follow "
+"the `FHS <http://www.pathname.com/fhs/>`_ recommandations."
+
+#: ../../source/install/index.rst:70
+msgid ""
+"Our GLPI instance will be installed in ``/var/www/glpi`` directory, a "
+"specific virtual host in the web server configuration will reflect this "
+"path."
+msgstr ""
+"Our GLPI instance will be installed in ``/var/www/glpi`` directory, a "
+"specific virtual host in the web server configuration will reflect this "
+"path."
+
+#: ../../source/install/index.rst:72
+msgid ""
+"GLPI configuration will be stored in ``/etc/glpi``, just copy the ``config``"
+" directory to this place. GLPI requires read rights on this directory to "
+"work; and write rights during the installation process."
+msgstr ""
+"GLPI configuration will be stored in ``/etc/glpi``, just copy the ``config``"
+" directory to this place. GLPI requires read rights on this directory to "
+"work; and write rights during the installation process."
+
+#: ../../source/install/index.rst:74
+msgid ""
+"GLPI data will be stored in ``/var/lib/glpi``, just copy the ``files`` "
+"directory to this place. GLPI requires read and write rights on this "
+"directory."
+msgstr ""
+"GLPI data will be stored in ``/var/lib/glpi``, just copy the ``files`` "
+"directory to this place. GLPI requires read and write rights on this "
+"directory."
+
+#: ../../source/install/index.rst:76
+msgid ""
+"GLPI logs files will be stored in ``/var/log/glpi``, there is nothing to "
+"copy here, just create the directory. GLPI requires read and write access on"
+" this directory."
+msgstr ""
+"GLPI logs files will be stored in ``/var/log/glpi``, there is nothing to "
+"copy here, just create the directory. GLPI requires read and write access on"
+" this directory."
+
+#: ../../source/install/index.rst:78
+msgid ""
+"Following this instructions, we'll create a ``inc/downstream.php`` file into"
+" GLPI directory with the following contents:"
+msgstr ""
+"Following this instructions, we'll create a ``inc/downstream.php`` file into"
+" GLPI directory with the following contents:"
+
+#: ../../source/install/index.rst:87
+msgid ""
+"GLPI packages will certainly provide a ``inc/downstream.php`` file. This one"
+" must not be edited!"
+msgstr ""
+"GLPI packages will certainly provide a ``inc/downstream.php`` file. This one"
+" must not be edited!"
+
+#: ../../source/install/index.rst:89
+msgid ""
+"Then, create a file in ``/etc/glpi/local_define.php`` with the following "
+"contents:"
+msgstr ""
+"Then, create a file in ``/etc/glpi/local_define.php`` with the following "
+"contents:"
+
+#: ../../source/install/index.rst:101
+msgid ""
+"For GLPI prior to 9.2.2, ``GLPI_VAR_DIR`` constant did not exists. It was "
+"required to set all paths separately:"
+msgstr ""
+"For GLPI prior to 9.2.2, ``GLPI_VAR_DIR`` constant did not exists. It was "
+"required to set all paths separately:"
+
+#: ../../source/install/index.rst:126
+msgid ""
+"GLPI configuration directory cannot be defined in the ``local_define.php`` "
+"file just because this one will be... in the configuration directory itself "
+";)"
+msgstr ""
+"GLPI configuration directory cannot be defined in the ``local_define.php`` "
+"file just because this one will be... in the configuration directory itself "
+";)"
+
+#: ../../source/install/index.rst:129
+msgid "|ccbyncnd|"
+msgstr "|ccbyncnd|"

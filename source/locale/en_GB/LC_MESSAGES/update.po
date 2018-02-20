@@ -1,0 +1,71 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2018, GLPI Project, Teclib'
+# This file is distributed under the same license as the GLPI package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI 9.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-02-20 13:52+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/update.rst:2
+msgid "Update"
+msgstr "Update"
+
+#: ../../source/update.rst:6
+msgid ""
+"As for every update process, you have to backup some data before processing "
+"any upgrade:"
+msgstr ""
+"As for every update process, you have to backup some data before processing "
+"any upgrade:"
+
+#: ../../source/update.rst:8
+msgid "**backup your database**;"
+msgstr "**backup your database**;"
+
+#: ../../source/update.rst:9
+msgid "backup your files directory;"
+msgstr "backup your files directory;"
+
+#: ../../source/update.rst:10
+msgid "backup your configuration."
+msgstr "backup your configuration."
+
+#: ../../source/update.rst:12
+msgid ""
+"GLPI update process is automated. Once a new version will be installed; you "
+"will not be able to use the application until a migration has been done "
+"(from web UI and from command line tools)."
+msgstr ""
+"GLPI update process is automated. Once a new version will be installed; you "
+"will not be able to use the application until a migration has been done "
+"(from web UI and from command line tools)."
+
+#: ../../source/update.rst:16
+msgid ""
+"You should not try to restore a database backup on a non empty database "
+"(say, a database that has been partially migrated for any reason)."
+msgstr ""
+"You should not try to restore a database backup on a non empty database "
+"(say, a database that has been partially migrated for any reason)."
+
+#: ../../source/update.rst:18
+msgid ""
+"Make sure your database is empty before restoring your backup and try to "
+"update, and repeat on fail."
+msgstr ""
+"Make sure your database is empty before restoring your backup and try to "
+"update, and repeat on fail."
+
+#: ../../source/update.rst:21
+msgid "|ccbyncnd|"
+msgstr "|ccbyncnd|"

@@ -1,0 +1,280 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2018, GLPI Project, Teclib'
+# This file is distributed under the same license as the GLPI package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI 9.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-02-20 13:52+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Johan Cwiklinski <trasher@x-tnd.be>, 2018\n"
+"Language-Team: French (France) (https://www.transifex.com/teclib/teams/28042/fr_FR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr_FR\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: ../../source/install/wizard.rst:2
+msgid "Install wizard"
+msgstr "Assistant d'installation"
+
+#: ../../source/install/wizard.rst:4
+msgid ""
+"To begin installation process, point your browser to the GLPI main address: "
+"`https://{adresse_glpi}/ <https://{adresse_glpi}/>`_"
+msgstr ""
+"Pour débuter l’installation, faire pointer le navigateur web sur le dossier "
+"racine de GLPI : `https://{adresse_glpi}/ <https://{adresse_glpi}/>`_"
+
+#: ../../source/install/wizard.rst:7
+msgid ""
+"When GLPI is not installed; a step-by-step installation process begins."
+msgstr ""
+"Lorsque GLPI n'est pas installé ; un processus d'installation étape par "
+"étape va débuter."
+
+#: ../../source/install/wizard.rst:10
+msgid "Choose lang (Select your language)"
+msgstr "Choix de la langue (Select your language)"
+
+#: ../../source/install/wizard.rst:12
+msgid ""
+"The first step will let you choose the installation language. Select your "
+"lang, and click validate."
+msgstr ""
+"La première permet de choisir la langue dans laquelle se déroulera "
+"l’installation. Sélectionner la langue souhaitée, puis valider."
+
+#: ../../source/install/wizard.rst:20
+msgid "License"
+msgstr "Licence"
+
+#: ../../source/install/wizard.rst:22
+msgid ""
+"Usage of GLPI is subject to GNU license approval. Once licensing terms read "
+"and accepted, just validate the form."
+msgstr ""
+"L’utilisation de GLPI est soumise à l’acceptation de la licence "
+"d’utilisation GNU. Une fois la licence lue et acceptée, valider le "
+"formulaire."
+
+#: ../../source/install/wizard.rst:29
+msgid ""
+"If you do not agree with licensing terms, it is not possible to continue "
+"installation process."
+msgstr ""
+"Sans acceptation des termes de la licence, il est impossible d’accéder aux "
+"étapes suivantes."
+
+#: ../../source/install/wizard.rst:32
+msgid "Install / Update"
+msgstr "Installation / mise à jour"
+
+#: ../../source/install/wizard.rst:34
+msgid ""
+"This screen allows to choose between a fresh GLPI installation or an update."
+msgstr ""
+"Cet écran permet de choisir entre installer GLPI ou effectuer une mise à "
+"jour."
+
+#: ../../source/install/wizard.rst:41
+msgid "Click on install."
+msgstr "Cliquer sur Installation."
+
+#: ../../source/install/wizard.rst:44
+msgid "Environment checks"
+msgstr "Vérification de l’environnement"
+
+#: ../../source/install/wizard.rst:46
+msgid ""
+"This step will check if prerequisites are met. If thery're not, it is not "
+"possible to continue and an explicit error message will tell you about what "
+"is wrong and what to do before trying again."
+msgstr ""
+"Cette étape va vérifier que le système satisfait les pré-requis. Si ce n’est"
+" pas le cas, il est impossible de continuer et un message d’erreur explicite"
+" indique les actions à réaliser avant d’essayer à nouveau."
+
+#: ../../source/install/wizard.rst:53
+msgid ""
+"Some prerequisites are optionals, it will be possible to continue "
+"installation event if thery're not met."
+msgstr ""
+"Certains pré-requis sont optionnels, il sera alors possible de valider le "
+"formulaire même s’ils ne sont pas respectés."
+
+#: ../../source/install/wizard.rst:56
+msgid "Database connection"
+msgstr "Connexion à la base de données"
+
+#: ../../source/install/wizard.rst:58
+msgid "Database connection parameters are asked."
+msgstr "Les paramètres de connexion à la base de données sont demandés."
+
+#: ../../source/install/wizard.rst:65
+msgid ""
+"*MySQL server*: enter the path to your MySQL server, `localhost` or "
+"`mysql.domaine.tld` as example;"
+msgstr ""
+"*Serveur MySQL* : saisir le chemin de MySQL, par exemple `localhost`, ou "
+"`mysql.domaine.tld` ;"
+
+#: ../../source/install/wizard.rst:66
+msgid ""
+"*MySQL user*: enter user name that is allowed to connect to the Database;"
+msgstr ""
+"*Utilisateur MySQL* : saisir le nom d’utilisateur ayant le droit de se "
+"connecter au serveur MySQL ;"
+
+#: ../../source/install/wizard.rst:67
+msgid "*MySQL password*: enter user's password."
+msgstr ""
+"*Mot de passe MySQL* : saisir le mot de passe associé à l’utilisateur."
+
+#: ../../source/install/wizard.rst:69
+msgid "Once all fields are properly filled, validate the form."
+msgstr ""
+"Une fois que ces champs sont correctement remplis, valider le formulaire."
+
+#: ../../source/install/wizard.rst:71
+msgid ""
+"A first database connection is then established. If parameters are invalid, "
+"an error message will be displayed, and you'll have to fix parameters and "
+"try again."
+msgstr ""
+"Une première connexion à la base est alors établie. Si les paramètres sont "
+"invalides, un message d’erreur est affiché, il faut modifier les paramètres "
+"de connexion et essayer à nouveau."
+
+#: ../../source/install/wizard.rst:74
+msgid "Database choice"
+msgstr "Choix de la base de données"
+
+#: ../../source/install/wizard.rst:76
+msgid ""
+"Once connection to the database server is OK, you have to create or choose "
+"the database you want for your GLPI and init it."
+msgstr ""
+"Une fois la connexion au serveur de base de données établie, il faut créer "
+"ou choisir la base de données souhaitée pour GLPI puis l’initialiser."
+
+#: ../../source/install/wizard.rst:83
+msgid "There are 2 ways to go:"
+msgstr "Deux possibilités sont offertes :"
+
+#: ../../source/install/wizard.rst:85
+msgid "use an existing database"
+msgstr "Utiliser une base existante"
+
+#: ../../source/install/wizard.rst:87
+msgid "Select this database in the displayed list. Validate to use."
+msgstr ""
+"Sélectionner cette base dans la liste des bases affichées. Valider pour "
+"initialiser la base de données."
+
+#: ../../source/install/wizard.rst:91
+msgid "Selected database contents will be destroyed on installation."
+msgstr ""
+"Le contenu de la base de données sélectionnée sera détruit lors de "
+"l’initialisation de celle-ci."
+
+#: ../../source/install/wizard.rst:93
+msgid "Create a new database"
+msgstr "Créer une nouvelle base"
+
+#: ../../source/install/wizard.rst:95
+msgid ""
+"Choose *Create a new database*, enter the database name in the relevant "
+"field and then validate to create the base."
+msgstr ""
+"Sélectionner *Créer une nouvelle base de données*, saisir le nom de la "
+"nouvelle base dans le champ prévu à cet effet puis valider pour créer la "
+"base de données."
+
+#: ../../source/install/wizard.rst:99
+msgid "SQL user must be able to create new database for this option to work."
+msgstr ""
+"L'utilisateur SQL doit être en mesure de créer de nouvelles bases de données"
+" pour que cette option fonctionne."
+
+#: ../../source/install/wizard.rst:102
+msgid "Database initialization"
+msgstr "Initialisation de la base de données"
+
+#: ../../source/install/wizard.rst:104
+msgid "This step initializes the database with default values."
+msgstr ""
+"Cette étape initialise la base de données avec les valeurs par défaut."
+
+#: ../../source/install/wizard.rst:111
+msgid "If there is any error; pay attention to the displayed informations."
+msgstr "En cas d’erreur, lire attentivement les informations affichées."
+
+#: ../../source/install/wizard.rst:114
+msgid "Telemetry informations"
+msgstr "Informations de télémétrie"
+
+#: ../../source/install/wizard.rst:116
+msgid ""
+"GLPI will ask you to share some Telemetry informations and to register. This"
+" is not mandatory."
+msgstr ""
+"GLPI proposera le partage de quelques informations de télémétrie ainsi qu'un"
+" enregistrement. Ce n'est pas requis."
+
+#: ../../source/install/wizard.rst:126
+msgid "End of installation"
+msgstr "Installation terminée"
+
+#: ../../source/install/wizard.rst:128
+msgid ""
+"This step presents a summary of the installation and give created users "
+"list. Please pay attention to those informations and validate to go to the "
+"app."
+msgstr ""
+"Cette étape présente le récapitulatif de la procédure d’installation et "
+"donne la liste des comptes utilisateurs créés. Lire attentivement ces "
+"informations et valider pour effectuer la première connexion à "
+"l’application."
+
+#: ../../source/install/wizard.rst:137
+msgid "Default user accounts are:"
+msgstr "Les comptes utilisateurs par défaut sont les suivants :"
+
+#: ../../source/install/wizard.rst:139
+msgid "*glpi/glpi* admin account,"
+msgstr "*glpi/glpi* pour le compte administrateur,"
+
+#: ../../source/install/wizard.rst:140
+msgid "*tech/tech* technical account,"
+msgstr "*tech/tech* pour le compte technicien,"
+
+#: ../../source/install/wizard.rst:141
+msgid "*normal/normal* \"normal\" account,"
+msgstr "*normal/normal* pour le compte \"normal\","
+
+#: ../../source/install/wizard.rst:142
+msgid "*post-only/postonly* post-only account."
+msgstr "*post-only/postonly* pour le compte post-only."
+
+#: ../../source/install/wizard.rst:146
+msgid ""
+"For obvious security concerns, you'll have to delete or edit those accounts."
+msgstr ""
+"Pour des raisons de sécurité évidentes, supprimer ou modifier ces comptes."
+
+#: ../../source/install/wizard.rst:148
+msgid ""
+"Before removing the ```glpi`` account, please make sure you have created "
+"another user with ``super-admin`` profile."
+msgstr ""
+"Avant de supprimer le compte ``glpi``, s'assurer d'avoir créé un autre "
+"utilisateur avec le profil ``super-admin``."
+
+#: ../../source/install/wizard.rst:151
+msgid "|ccbyncnd|"
+msgstr "|ccbyncnd|"
