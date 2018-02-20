@@ -7,11 +7,6 @@ file_filter = source/locale/<lang>/LC_MESSAGES/index.po
 source_file = build/locale/index.pot
 source_lang = en
 
-[glpi-install.install]
-file_filter = source/locale/<lang>/LC_MESSAGES/install.po
-source_file = build/locale/install.pot
-source_lang = en
-
 [glpi-install.prerequisites]
 file_filter = source/locale/<lang>/LC_MESSAGES/prerequisites.po
 source_file = build/locale/prerequisites.pot
