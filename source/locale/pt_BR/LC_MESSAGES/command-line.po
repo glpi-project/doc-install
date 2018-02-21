@@ -1,0 +1,148 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2018, GLPI Project, Teclib'
+# This file is distributed under the same license as the GLPI package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI 9.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-02-20 13:52+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Wanderlei Hüttel <wanderlei.huttel@gmail.com>, 2018\n"
+"Language-Team: Portuguese (Brazil) (https://www.transifex.com/teclib/teams/28042/pt_BR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: ../../source/command-line.rst:2
+msgid "Command line tools"
+msgstr "Ferramentas de linha de comando"
+
+#: ../../source/command-line.rst:4
+msgid ""
+"Since GLPI 9.2.2, command line tools are provided as supported scripts and "
+"are available from the ``scripts`` directory of the archive. On previous "
+"versions, those scripts were present in the ``tools`` directory that is not "
+"official and therefore not in the release archive."
+msgstr ""
+"Desde o GLPI 9.2.2, as ferramentas de linha de comando são fornecidas como "
+"scripts suportados e estão disponíveis no diretório `` scripts`` do arquivo."
+" Nas versões anteriores, esses scripts estavam presentes no diretório `` "
+"tools`` que não era oficial e, portanto, não estão no arquivo de lançamento."
+
+#: ../../source/command-line.rst:9
+msgid "Install"
+msgstr "Instalar"
+
+#: ../../source/command-line.rst:11
+msgid ""
+"A PHP command line installation script is provided in the GLPI archive "
+"(``scripts/cliinstall.php``)."
+msgstr ""
+"Um script de instalação de linha de comando PHP é fornecido no arquivo GLPI "
+"(`` scripts / cliinstall.php``)."
+
+#: ../../source/command-line.rst:13
+msgid "You have to specify at least a database name and an user:"
+msgstr ""
+"Você precisa especificar pelo menos um nome de banco de dados e um usuário:"
+
+#: ../../source/command-line.rst:19
+msgid "It is possible to specifiy some variables calling the script:"
+msgstr ""
+"É possível especificar algumas variáveis como argumentos para passar para o "
+"script:"
+
+#: ../../source/command-line.rst:21
+msgid "``--host`` host name (`localhost` per default),"
+msgstr "`` --host`` nome do host (`localhost` por padrão),"
+
+#: ../../source/command-line.rst:22
+msgid "``--db`` database name,"
+msgstr "`` --db`` nome do banco de dados,"
+
+#: ../../source/command-line.rst:23
+msgid "``--user`` database user name,"
+msgstr "`` --user`` nome de usuário do banco de dados,"
+
+#: ../../source/command-line.rst:24
+msgid "``--pass`` database user's pasword,"
+msgstr "`` --pass`` senha do usuário do banco de dados,"
+
+#: ../../source/command-line.rst:25 ../../source/command-line.rst:45
+msgid ""
+"``--lang`` language code to use (`fr_FR` as example). Will be set to `en_GB`"
+" per default,"
+msgstr ""
+"`` --lang`` código de idioma (`fr_FR` como exemplo). Será definido como "
+"`en_GB` por padrão,"
+
+#: ../../source/command-line.rst:26
+msgid "``--tests`` create tests configuration file,"
+msgstr "`` --tests`` cria um arquivo de configuração de testes,"
+
+#: ../../source/command-line.rst:27
+msgid ""
+"``--force`` do not check if GLPI is already installed and drop what would "
+"exists,"
+msgstr ""
+"`` --force`` não verificar se o GLPI já está instalado e sobrescrever a "
+"instalação existente"
+
+#: ../../source/command-line.rst:28 ../../source/command-line.rst:46
+msgid "``--help`` displays command help."
+msgstr "`` --help`` mostra a ajuda do comando."
+
+#: ../../source/command-line.rst:33
+msgid "Update"
+msgstr "Atualizar"
+
+#: ../../source/command-line.rst:35
+msgid "An update script is provided as well (``scripts/cliupdate.php``)."
+msgstr ""
+"Um script de atualização também é fornecido (`` scripts / cliupdate.php``)."
+
+#: ../../source/command-line.rst:37
+msgid ""
+"There is no required arguments, just run the script so it updates your "
+"database automatically."
+msgstr ""
+"Nenhum argumento requerido, basta executar o script para que ele atualize "
+"seu banco de dados automaticamente."
+
+#: ../../source/command-line.rst:41
+msgid "Do not forget to backup your database before any update try!"
+msgstr ""
+"Não se esqueça de efetuar o backup do banco de dados antes de qualquer "
+"atualização!"
+
+#: ../../source/command-line.rst:43
+msgid "Possible options for this command are:"
+msgstr "Possíveis opções para este comando são:"
+
+#: ../../source/command-line.rst:47
+msgid "``--config-dir`` set configuration file path to use,"
+msgstr "`` --config-dir`` definir o caminho do arquivo de configuração,"
+
+#: ../../source/command-line.rst:48
+msgid ""
+"``--force`` force update, usefull when GLPI version does not change (mainly "
+"when working on it ;)),"
+msgstr ""
+"`` --force`` forçar a atualização, útil quando a versão GLPI não muda "
+"(principalmente quando se trabalha nele)"
+
+#: ../../source/command-line.rst:49
+msgid ""
+"``--dev`` required to use a development version. Usei it with cautions..."
+msgstr ""
+"`` --dev`` necessário para usar uma versão de desenvolvimento. Use com "
+"cuidado ..."
+
+#: ../../source/command-line.rst:52
+msgid "|ccbyncnd|"
+msgstr "|ccbyncnd|"
