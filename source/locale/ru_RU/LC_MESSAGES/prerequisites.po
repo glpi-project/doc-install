@@ -1,0 +1,183 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2018, GLPI Project, Teclib'
+# This file is distributed under the same license as the GLPI package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI 9.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-02-20 13:52+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Language-Team: Russian (Russia) (https://www.transifex.com/teclib/teams/28042/ru_RU/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: ../../source/prerequisites.rst:2
+msgid "Prerequisites"
+msgstr ""
+
+#: ../../source/prerequisites.rst:4
+msgid "GLPI is a Web application that will need:"
+msgstr ""
+
+#: ../../source/prerequisites.rst:6
+msgid "a webserver;"
+msgstr ""
+
+#: ../../source/prerequisites.rst:7
+msgid "PHP;"
+msgstr ""
+
+#: ../../source/prerequisites.rst:8
+msgid "a database."
+msgstr ""
+
+#: ../../source/prerequisites.rst:11
+msgid "Web server"
+msgstr ""
+
+#: ../../source/prerequisites.rst:13
+msgid "GLPI requires a web server that supports PHP, like:"
+msgstr ""
+
+#: ../../source/prerequisites.rst:15
+msgid "`Apache 2 (or more recent) <http://httpd.apache.org>`_;"
+msgstr ""
+
+#: ../../source/prerequisites.rst:16
+msgid "`Nginx <http://nginx.org/>`_;"
+msgstr ""
+
+#: ../../source/prerequisites.rst:17
+msgid "`Microsoft IIS <http://www.iis.net>`_."
+msgstr ""
+
+#: ../../source/prerequisites.rst:20
+msgid "PHP"
+msgstr ""
+
+#: ../../source/prerequisites.rst:22
+msgid ""
+"As of 9.2 release, GLPI requires `PHP <http://php.net>`_ 5.6 or more recent."
+msgstr ""
+
+#: ../../source/prerequisites.rst:26
+msgid ""
+"We recommand to use the most recent stable PHP release for better "
+"performances."
+msgstr ""
+
+#: ../../source/prerequisites.rst:29
+msgid "Mandatory extensions"
+msgstr ""
+
+#: ../../source/prerequisites.rst:31
+msgid "Following PHP extensions are required for the app to work properly:"
+msgstr ""
+
+#: ../../source/prerequisites.rst:33
+msgid "``curl``: for CAS authentication, GLPI version check, Telemetry, ...;"
+msgstr ""
+
+#: ../../source/prerequisites.rst:34
+msgid "``fileinfo``: to get extra informations on files;"
+msgstr ""
+
+#: ../../source/prerequisites.rst:35
+msgid "``gd``: to generate images;"
+msgstr ""
+
+#: ../../source/prerequisites.rst:36
+msgid "``json``: to get support for JSON data format;"
+msgstr ""
+
+#: ../../source/prerequisites.rst:37
+msgid "``mbstring``:  to manage multi bytes characters;"
+msgstr ""
+
+#: ../../source/prerequisites.rst:38
+msgid "``mysqli``: to connect and query the database;"
+msgstr ""
+
+#: ../../source/prerequisites.rst:39
+msgid "``session``: to get user sessions support;"
+msgstr ""
+
+#: ../../source/prerequisites.rst:40
+msgid "``zlib``: to get backup and restore database functions."
+msgstr ""
+
+#: ../../source/prerequisites.rst:43
+msgid "Optional extensions"
+msgstr ""
+
+#: ../../source/prerequisites.rst:47
+msgid ""
+"Even if those extensions are not mandatory, we advise you to install them "
+"anyways."
+msgstr ""
+
+#: ../../source/prerequisites.rst:49
+msgid "Following PHP extensions are required for some extra features of GLPI:"
+msgstr ""
+
+#: ../../source/prerequisites.rst:51
+msgid ""
+"``cli``: to use PHP from command line (scripts, automatic actions, and so "
+"on);"
+msgstr ""
+
+#: ../../source/prerequisites.rst:52
+msgid "``domxml``: used for CAS authentication;"
+msgstr ""
+
+#: ../../source/prerequisites.rst:53
+msgid "``imap``: used for mail collector ou user authentication;"
+msgstr ""
+
+#: ../../source/prerequisites.rst:54
+msgid "``ldap``:  use LDAP directory for authentication;"
+msgstr ""
+
+#: ../../source/prerequisites.rst:55
+msgid "``openssl``: secured communications."
+msgstr ""
+
+#: ../../source/prerequisites.rst:58
+msgid "Configuration"
+msgstr ""
+
+#: ../../source/prerequisites.rst:60
+msgid ""
+"PHP configuration file (``php.ini``) must be adapted to reflect following "
+"variables:"
+msgstr ""
+
+#: ../../source/prerequisites.rst:73
+msgid "Database"
+msgstr ""
+
+#: ../../source/prerequisites.rst:77
+msgid ""
+"Currently, only `MySQL <https://dev.mysql.com>`_ (5.1 minimum) and `MariaDB "
+"<https://mariadb.com>`_ database servers are supported by GLPI."
+msgstr ""
+
+#: ../../source/prerequisites.rst:79
+msgid "In order to work, GLPI requires a database server."
+msgstr ""
+
+#: ../../source/prerequisites.rst:83
+msgid ""
+"We recommand to use at least 5.5 version if you use MySQL for better "
+"performances."
+msgstr ""
+
+#: ../../source/prerequisites.rst:86
+msgid "|ccbyncnd|"
+msgstr ""

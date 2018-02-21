@@ -1,0 +1,204 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2018, GLPI Project, Teclib'
+# This file is distributed under the same license as the GLPI package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI 9.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-02-20 13:52+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Wanderlei Hüttel <wanderlei.huttel@gmail.com>, 2018\n"
+"Language-Team: Portuguese (Brazil) (https://www.transifex.com/teclib/teams/28042/pt_BR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: ../../source/prerequisites.rst:2
+msgid "Prerequisites"
+msgstr "Pré-requisitos"
+
+#: ../../source/prerequisites.rst:4
+msgid "GLPI is a Web application that will need:"
+msgstr "GLPI é um aplicativo da Web que precisará:"
+
+#: ../../source/prerequisites.rst:6
+msgid "a webserver;"
+msgstr "um servidor web;"
+
+#: ../../source/prerequisites.rst:7
+msgid "PHP;"
+msgstr "PHP;"
+
+#: ../../source/prerequisites.rst:8
+msgid "a database."
+msgstr "um banco de dados."
+
+#: ../../source/prerequisites.rst:11
+msgid "Web server"
+msgstr "Servidor Web"
+
+#: ../../source/prerequisites.rst:13
+msgid "GLPI requires a web server that supports PHP, like:"
+msgstr "GLPI requer um servidor web que ofereça suporte a PHP, como:"
+
+#: ../../source/prerequisites.rst:15
+msgid "`Apache 2 (or more recent) <http://httpd.apache.org>`_;"
+msgstr "`Apache 2 (ou mais recente) <http://httpd.apache.org>`_;"
+
+#: ../../source/prerequisites.rst:16
+msgid "`Nginx <http://nginx.org/>`_;"
+msgstr "`Nginx <http://nginx.org/>`_;"
+
+#: ../../source/prerequisites.rst:17
+msgid "`Microsoft IIS <http://www.iis.net>`_."
+msgstr "`Microsoft IIS <http://www.iis.net>`_."
+
+#: ../../source/prerequisites.rst:20
+msgid "PHP"
+msgstr "PHP"
+
+#: ../../source/prerequisites.rst:22
+msgid ""
+"As of 9.2 release, GLPI requires `PHP <http://php.net>`_ 5.6 or more recent."
+msgstr ""
+"A partir da versão 9.2, o GLPI requer `PHP <http://php.net>`_ 5.6 ou mais "
+"recente."
+
+#: ../../source/prerequisites.rst:26
+msgid ""
+"We recommand to use the most recent stable PHP release for better "
+"performances."
+msgstr ""
+"Recomendamos usar a versão do PHP mais recente para melhores performances."
+
+#: ../../source/prerequisites.rst:29
+msgid "Mandatory extensions"
+msgstr "Extensões obrigatórias"
+
+#: ../../source/prerequisites.rst:31
+msgid "Following PHP extensions are required for the app to work properly:"
+msgstr ""
+"As seguintes extensões PHP são necessárias para que o aplicativo funcione "
+"corretamente:"
+
+#: ../../source/prerequisites.rst:33
+msgid "``curl``: for CAS authentication, GLPI version check, Telemetry, ...;"
+msgstr ""
+"``curl``: para autenticação CAS, verificação de versão do GLPI, Telemetria, "
+"etc;"
+
+#: ../../source/prerequisites.rst:34
+msgid "``fileinfo``: to get extra informations on files;"
+msgstr "``fileinfo``: para obter informações extras dos arquivos;"
+
+#: ../../source/prerequisites.rst:35
+msgid "``gd``: to generate images;"
+msgstr "``gd``: para gerar imagens;"
+
+#: ../../source/prerequisites.rst:36
+msgid "``json``: to get support for JSON data format;"
+msgstr "``json``: para obter suporte para o formato de dados JSON;"
+
+#: ../../source/prerequisites.rst:37
+msgid "``mbstring``:  to manage multi bytes characters;"
+msgstr "``mbstring``: gerenciar caracteres multibytes;"
+
+#: ../../source/prerequisites.rst:38
+msgid "``mysqli``: to connect and query the database;"
+msgstr "``mysqli``: para conectar e consultar o banco de dados;"
+
+#: ../../source/prerequisites.rst:39
+msgid "``session``: to get user sessions support;"
+msgstr "``session``: para obter suporte a sessões de usuários;"
+
+#: ../../source/prerequisites.rst:40
+msgid "``zlib``: to get backup and restore database functions."
+msgstr ""
+"``zlib``: para efetuar backup e restaurar as funções da base de dados."
+
+#: ../../source/prerequisites.rst:43
+msgid "Optional extensions"
+msgstr "Extensões opcionais"
+
+#: ../../source/prerequisites.rst:47
+msgid ""
+"Even if those extensions are not mandatory, we advise you to install them "
+"anyways."
+msgstr ""
+"Mesmo que essas extensões não sejam obrigatórias, recomendamos que você as "
+"instale de qualquer maneira."
+
+#: ../../source/prerequisites.rst:49
+msgid "Following PHP extensions are required for some extra features of GLPI:"
+msgstr ""
+"As seguintes extensões PHP são necessárias para alguns recursos extras do "
+"GLPI:"
+
+#: ../../source/prerequisites.rst:51
+msgid ""
+"``cli``: to use PHP from command line (scripts, automatic actions, and so "
+"on);"
+msgstr ""
+"``cli``: usar o PHP a partir da linha de comando (scripts, ações "
+"automáticas, etc.);"
+
+#: ../../source/prerequisites.rst:52
+msgid "``domxml``: used for CAS authentication;"
+msgstr "``domxml``: usado para autenticação CAS;"
+
+#: ../../source/prerequisites.rst:53
+msgid "``imap``: used for mail collector ou user authentication;"
+msgstr "``imap``: usado para coletar emails ou autenticação de usuário;"
+
+#: ../../source/prerequisites.rst:54
+msgid "``ldap``:  use LDAP directory for authentication;"
+msgstr "``ldap``: usar o diretório LDAP para autenticação;"
+
+#: ../../source/prerequisites.rst:55
+msgid "``openssl``: secured communications."
+msgstr "``openssl``: comunicações seguras."
+
+#: ../../source/prerequisites.rst:58
+msgid "Configuration"
+msgstr "Configuração"
+
+#: ../../source/prerequisites.rst:60
+msgid ""
+"PHP configuration file (``php.ini``) must be adapted to reflect following "
+"variables:"
+msgstr ""
+"O arquivo de configuração do PHP (``php.ini``) pode ser adaptado para "
+"refletir as seguintes variáveis:"
+
+#: ../../source/prerequisites.rst:73
+msgid "Database"
+msgstr "Banco de dados"
+
+#: ../../source/prerequisites.rst:77
+msgid ""
+"Currently, only `MySQL <https://dev.mysql.com>`_ (5.1 minimum) and `MariaDB "
+"<https://mariadb.com>`_ database servers are supported by GLPI."
+msgstr ""
+"Atualmente, somente os servidores `MySQL <https://dev.mysql.com>` _ (5.1 "
+"mínimo) e `MariaDB <https://mariadb.com>` _ são suportados pelo GLPI."
+
+#: ../../source/prerequisites.rst:79
+msgid "In order to work, GLPI requires a database server."
+msgstr "Para funcionar, o GLPI requer um servidor de banco de dados."
+
+#: ../../source/prerequisites.rst:83
+msgid ""
+"We recommand to use at least 5.5 version if you use MySQL for better "
+"performances."
+msgstr ""
+"Recomendamos usar uma versão de pelo menos 5.5 se você usar o MySQL para "
+"melhores performances."
+
+#: ../../source/prerequisites.rst:86
+msgid "|ccbyncnd|"
+msgstr "|ccbyncnd|"
