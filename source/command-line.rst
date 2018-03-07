@@ -14,7 +14,7 @@ You have to specify at least a database name and an user:
 
 .. code-block:: bash
 
-   # php script/cliinstall.php --db=dbglpi --user=userglpi
+   # php scripts/cliinstall.php --db=dbglpi --user=userglpi
 
 It is possible to specifiy some variables calling the script:
 
