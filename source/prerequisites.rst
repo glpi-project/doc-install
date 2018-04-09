@@ -52,7 +52,8 @@ Following PHP extensions are required for some extra features of GLPI:
 * ``domxml``: used for CAS authentication;
 * ``imap``: used for mail collector ou user authentication;
 * ``ldap``:  use LDAP directory for authentication;
-* ``openssl``: secured communications.
+* ``openssl``: secured communications;
+* ``xmlrpc``: used for XMLRPC API.
 
 Configuration
 ^^^^^^^^^^^^^
