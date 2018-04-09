@@ -119,7 +119,7 @@ Then, create a file in ``/etc/glpi/local_define.php`` with the following content
 
       define('GLPI_LOG_DIR', '/var/log/glpi');
 
-      Of cource, it is always possible to redefine any of thos paths if needed.
+      Of course, it is always possible to redefine any of those paths if needed.
 
 .. note::
 
