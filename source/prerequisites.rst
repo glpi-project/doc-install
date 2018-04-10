@@ -37,7 +37,9 @@ Following PHP extensions are required for the app to work properly:
 * ``mbstring``:  to manage multi bytes characters;
 * ``mysqli``: to connect and query the database;
 * ``session``: to get user sessions support;
-* ``zlib``: to get backup and restore database functions.
+* ``zlib``: to get backup and restore database functions;
+* ``simplexml``;
+* ``xml``.
 
 Optional extensions
 ^^^^^^^^^^^^^^^^^^^
@@ -54,6 +56,7 @@ Following PHP extensions are required for some extra features of GLPI:
 * ``ldap``:  use LDAP directory for authentication;
 * ``openssl``: secured communications;
 * ``xmlrpc``: used for XMLRPC API.
+* ``APCu``: may be used for cache; among othersi (see `caching configuration (in french only) <http://glpi-user-documentation.readthedocs.io/fr/latest/advanced/cache.html>`_.
 
 Configuration
 ^^^^^^^^^^^^^
