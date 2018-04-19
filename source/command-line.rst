@@ -34,7 +34,7 @@ Update
 
 An update script is provided as well (``scripts/cliupdate.php``).
 
-There is no required arguments, just run the script so it updates your database automatically.
+There is no required arguments, just run the script so it updates your database automatically and disables plugin(s) before.
 
 .. warning::
 
