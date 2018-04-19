@@ -56,7 +56,7 @@ Following PHP extensions are required for some extra features of GLPI:
 * ``ldap``:  use LDAP directory for authentication;
 * ``openssl``: secured communications;
 * ``xmlrpc``: used for XMLRPC API.
-* ``APCu``: may be used for cache; among othersi (see `caching configuration (in french only) <http://glpi-user-documentation.readthedocs.io/fr/latest/advanced/cache.html>`_.
+* ``APCu``: may be used for cache; among others (see `caching configuration (in french only) <http://glpi-user-documentation.readthedocs.io/fr/latest/advanced/cache.html>`_.
 
 Configuration
 ^^^^^^^^^^^^^
