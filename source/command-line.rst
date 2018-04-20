@@ -3,6 +3,10 @@ Command line tools
 
 Since GLPI 9.2.2, command line tools are provided as supported scripts and are available from the ``scripts`` directory of the archive. On previous versions, those scripts were present in the ``tools`` directory that is not official and therefore not in the release archive.
 
+.. note::
+
+   If APCu is installed on your system, it may fail from command line since default configuration disables it from command-line. To change that, set ``apc.enable_cli`` to ``on`` in yor APCu configuration file.
+
 .. _cdline_install:
 
 Install
@@ -46,4 +50,4 @@ Possible options for this command are:
  * ``--help`` displays command help.
  * ``--config-dir`` set configuration file path to use,
  * ``--force`` force update, usefull when GLPI version does not change (mainly when working on it ;)),
- * ``--dev`` required to use a development version. Usei it with cautions...
+ * ``--dev`` required to use a development version. Use it with caution...
