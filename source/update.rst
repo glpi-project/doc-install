@@ -9,7 +9,11 @@ Update
    * backup your files directory;
    * backup your configuration.
 
-GLPI update process is automated. Once a new version will be installed; you will not be able to use the application until a migration has been done (from web UI and from command line tools).
+GLPI update process is automated. To start it, just go to your GLPI instance URI, or (recommanded) use the :doc:`command line tools <command-line>`.
+
+Once a new version will be installed; you will not be able to use the application until a migration has been done.
+
+Plase also note the update process will automatically disable your plugins.
 
 .. warning::
 

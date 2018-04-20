@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI 9.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-02-20 13:52+0100\n"
+"POT-Creation-Date: 2018-04-20 06:59+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Wanderlei Hüttel <wanderlei.huttel@gmail.com>, 2018\n"
 "Language-Team: Portuguese (Brazil) (https://www.transifex.com/teclib/teams/28042/pt_BR/)\n"
@@ -44,15 +44,22 @@ msgstr "backup de sua configuração."
 
 #: ../../source/update.rst:12
 msgid ""
-"GLPI update process is automated. Once a new version will be installed; you "
-"will not be able to use the application until a migration has been done "
-"(from web UI and from command line tools)."
+"GLPI update process is automated. To start it, just go to your GLPI instance"
+" URI, or (recommanded) use the :doc:`command line tools <command-line>`."
 msgstr ""
-"O processo de atualização GLPI é automatizado. Uma vez que uma nova versão "
-"será instalada; você não poderá usar o aplicativo até que uma migração tenha"
-" sido efetuada (interface web e as ferramentas de linha de comando)."
+
+#: ../../source/update.rst:14
+msgid ""
+"Once a new version will be installed; you will not be able to use the "
+"application until a migration has been done."
+msgstr ""
 
 #: ../../source/update.rst:16
+msgid ""
+"Plase also note the update process will automatically disable your plugins."
+msgstr ""
+
+#: ../../source/update.rst:20
 msgid ""
 "You should not try to restore a database backup on a non empty database "
 "(say, a database that has been partially migrated for any reason)."
@@ -61,7 +68,7 @@ msgstr ""
 "dados não vazio (por exemplo, um banco de dados parcialmente migrado por "
 "qualquer motivo)."
 
-#: ../../source/update.rst:18
+#: ../../source/update.rst:22
 msgid ""
 "Make sure your database is empty before restoring your backup and try to "
 "update, and repeat on fail."
@@ -69,6 +76,6 @@ msgstr ""
 "Verifique se o banco de dados está vazio antes de restaurar o backup e tente"
 " atualizar, e repita o processo caso ocorra alguma falha."
 
-#: ../../source/update.rst:21
+#: ../../source/update.rst:25
 msgid "|ccbyncnd|"
 msgstr "|ccbyncnd|"

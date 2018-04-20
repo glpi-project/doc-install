@@ -11,16 +11,16 @@ msgstr ""
 "POT-Creation-Date: 2018-04-20 06:59+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Johan Cwiklinski <trasher@x-tnd.be>, 2018\n"
-"Language-Team: French (France) (https://www.transifex.com/teclib/teams/28042/fr_FR/)\n"
+"Language-Team: Czech (Czech Republic) (https://www.transifex.com/teclib/teams/28042/cs_CZ/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: fr_FR\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Language: cs_CZ\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 
 #: ../../source/command-line.rst:2
 msgid "Command line tools"
-msgstr "Outils en ligne de commande"
+msgstr "Nástroje pro příkazový řádek"
 
 #: ../../source/command-line.rst:4
 msgid ""
@@ -29,10 +29,10 @@ msgid ""
 "versions, those scripts were present in the ``tools`` directory that is not "
 "official and therefore not in the release archive."
 msgstr ""
-"Depuis GLPI 9.2.2, des outils en ligne de commande sont fournis et "
-"disponibles dans le dossier ``script`` de l'archive. Sur les versions "
-"précédentes, ces outils étaient présents dans le dossier ``tools`` qui n'est"
-" pas officiel et donc non fourni dans l'archive de release."
+"Od GLPI verze 9.2.2 jsou nástroje pro příkazový řádek poskytovány jako "
+"podporované skripty a jsou k dispozici ve složce ``scripts`` v archivu. V "
+"předchozích verzích se tyto skripty nacházely ve složce ``tools`` (nástroje)"
+" která není oficiální a proto nepřítomná v archivu s vydáním."
 
 #: ../../source/command-line.rst:8
 msgid ""
@@ -40,121 +40,111 @@ msgid ""
 "default configuration disables it from command-line. To change that, set "
 "``apc.enable_cli`` to ``on`` in yor APCu configuration file."
 msgstr ""
-"Si APCu est installé sur votre système, il peut causer un avertissement en "
-"ligne de commande puisque la configuration par défaut ne l'active pas. Pour "
-"modifier cela, passez la variable ``apc.enable_cli`` sur ``on`` dans votre "
-"ficher de configuration APCu."
 
 #: ../../source/command-line.rst:13
 msgid "Install"
-msgstr "Installation"
+msgstr "Nainstalovat"
 
 #: ../../source/command-line.rst:15
 msgid ""
 "A PHP command line installation script is provided in the GLPI archive "
 "(``scripts/cliinstall.php``)."
 msgstr ""
-"Un script PHP d'installation en ligne de commande est fourni dans l'archive "
-"GLPI (``scripts/cliinstall.php``)."
+"V archivu s GLPI je poskytován instalační PHP skript pro příkazový řádek "
+"(``scripts/cliinstall.php``)."
 
 #: ../../source/command-line.rst:17
 msgid "You have to specify at least a database name and an user:"
-msgstr ""
-"Un nom de base de données et un utilisateur doivent être spécifiées à minima"
-" :"
+msgstr "Je třeba zadat přinejmenším název databáze a uživatele:"
 
 #: ../../source/command-line.rst:23
 msgid "It is possible to specifiy some variables calling the script:"
-msgstr ""
-"Il est possible de spécifier quelques variables lors de l'appel du script :"
+msgstr "Při vyvolání skriptu je možné určit některé proměnné:"
 
 #: ../../source/command-line.rst:25
 msgid "``--host`` host name (`localhost` per default),"
-msgstr "``--host`` nom de l'hôte (`localhost` par défaut),"
+msgstr ""
+"``--host`` název stroje (výchozí je tento stroj samotný – `localhost`),"
 
 #: ../../source/command-line.rst:26
 msgid "``--db`` database name,"
-msgstr "``--db`` nom de la base de données,"
+msgstr "``--db`` název databáze,"
 
 #: ../../source/command-line.rst:27
 msgid "``--user`` database user name,"
-msgstr "``--user`` nom de l'utilisateur de la base de données,"
+msgstr "``--user`` uživatelské jméno databázového uživatele,"
 
 #: ../../source/command-line.rst:28
 msgid "``--pass`` database user's pasword,"
-msgstr "``--pass`` mot de passe de l'utilisateur de base de données,"
+msgstr "``--pass`` heslo databázového uživatele,"
 
 #: ../../source/command-line.rst:29 ../../source/command-line.rst:49
 msgid ""
 "``--lang`` language code to use (`fr_FR` as example). Will be set to `en_GB`"
 " per default,"
 msgstr ""
-"``--lang`` code de langue à utiliser (`fr_FR` par exemple). Sera positionné "
-"sur `en_GB` par défaut,"
+"``--lang`` kód jazyka který použít (například `cs_CZ`). Pokud není zadáno, "
+"bude použit výchozí `en_GB`,"
 
 #: ../../source/command-line.rst:30
 msgid "``--tests`` create tests configuration file,"
-msgstr "``--tests`` création du fichier de configuration pour les tests,"
+msgstr "``--tests`` vytvořit testovací soubor s nastaveními,"
 
 #: ../../source/command-line.rst:31
 msgid ""
 "``--force`` do not check if GLPI is already installed and drop what would "
 "exists,"
 msgstr ""
-"``--force`` ne vérifie pas si GLPI est déjà installé et supprime tout ce qui"
-" existerait déjà,"
+"``--force`` nekontrolovat zda je GLPI už nainstalované a zahodit to, co by "
+"mohlo existovat,"
 
 #: ../../source/command-line.rst:32 ../../source/command-line.rst:50
 msgid "``--help`` displays command help."
-msgstr "``--help`` affiche l'aide sur la commande."
+msgstr "``--help`` zobrazí nápovědu k příkazu."
 
 #: ../../source/command-line.rst:37
 msgid "Update"
-msgstr "Mise à jour"
+msgstr "Aktualizace"
 
 #: ../../source/command-line.rst:39
 msgid "An update script is provided as well (``scripts/cliupdate.php``)."
 msgstr ""
-"Un script de mise à jour est également fourni (``scripts/cliupdate.php``)."
+"Je poskytován také skript pro aktualizaci (``scripts/cliupdate.php``)."
 
 #: ../../source/command-line.rst:41
 msgid ""
 "There is no required arguments, just run the script so it updates your "
 "database automatically."
 msgstr ""
-"Aucun argument n'est requis, lancer juste le script pour qu'il mette à jour "
-"votre base de données automatiquement."
+"Nejsou požadovány argumenty, stačí script jen spustit a ten automaticky "
+"zaktualizuje databázi."
 
 #: ../../source/command-line.rst:45
 msgid "Do not forget to backup your database before any update try!"
 msgstr ""
-"Ne pas oublier d'effectuer une sauvegarde de la base de données avant totue "
-"tentative de mise à jour !"
+"Před jakýmkoli pokusem o aktualizaci nezapomeňte zazálohovat databázi!"
 
 #: ../../source/command-line.rst:47
 msgid "Possible options for this command are:"
-msgstr "Les options possibles pour cette commande sont :"
+msgstr "Možné volby pro tento příkaz jsou:"
 
 #: ../../source/command-line.rst:51
 msgid "``--config-dir`` set configuration file path to use,"
-msgstr ""
-"``--config-dir`` détermine le chemin vers le fichier de configuration à "
-"utiliser,"
+msgstr "``--config-dir`` nastavit popis umístění souboru s nastaveními,"
 
 #: ../../source/command-line.rst:52
 msgid ""
 "``--force`` force update, usefull when GLPI version does not change (mainly "
 "when working on it ;)),"
 msgstr ""
-"``--force`` force la mise à jour, utile notamment lorsque la version de GLPI"
-" n'a pas changé (principalement en cours de développement ;)),"
+"``--force`` vynutit aktualizaci, užitečné když se verze GLPI nezmění (slouží"
+" hlavně pro vývoj aplikace),"
 
 #: ../../source/command-line.rst:53
 msgid ""
 "``--dev`` required to use a development version. Use it with caution..."
 msgstr ""
-"``--dev`` requis pour utiliser une version de développement. À utiliser avec"
-" parcimonie..."
+"``--dev`` vyžadováno pro použití vývojové verze. Použijte s rozmyslem…"
 
 #: ../../source/command-line.rst:56
 msgid "|ccbyncnd|"
