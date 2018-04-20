@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI 9.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-02-20 13:52+0100\n"
+"POT-Creation-Date: 2018-04-20 06:59+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -32,11 +32,21 @@ msgstr ""
 "versions, those scripts were present in the ``tools`` directory that is not "
 "official and therefore not in the release archive."
 
-#: ../../source/command-line.rst:9
+#: ../../source/command-line.rst:8
+msgid ""
+"If APCu is installed on your system, it may fail from command line since "
+"default configuration disables it from command-line. To change that, set "
+"``apc.enable_cli`` to ``on`` in yor APCu configuration file."
+msgstr ""
+"If APCu is installed on your system, it may fail from command line since "
+"default configuration disables it from command-line. To change that, set "
+"``apc.enable_cli`` to ``on`` in yor APCu configuration file."
+
+#: ../../source/command-line.rst:13
 msgid "Install"
 msgstr "Install"
 
-#: ../../source/command-line.rst:11
+#: ../../source/command-line.rst:15
 msgid ""
 "A PHP command line installation script is provided in the GLPI archive "
 "(``scripts/cliinstall.php``)."
@@ -44,31 +54,31 @@ msgstr ""
 "A PHP command line installation script is provided in the GLPI archive "
 "(``scripts/cliinstall.php``)."
 
-#: ../../source/command-line.rst:13
+#: ../../source/command-line.rst:17
 msgid "You have to specify at least a database name and an user:"
 msgstr "You have to specify at least a database name and an user:"
 
-#: ../../source/command-line.rst:19
+#: ../../source/command-line.rst:23
 msgid "It is possible to specifiy some variables calling the script:"
 msgstr "It is possible to specifiy some variables calling the script:"
 
-#: ../../source/command-line.rst:21
+#: ../../source/command-line.rst:25
 msgid "``--host`` host name (`localhost` per default),"
 msgstr "``--host`` host name (`localhost` per default),"
 
-#: ../../source/command-line.rst:22
+#: ../../source/command-line.rst:26
 msgid "``--db`` database name,"
 msgstr "``--db`` database name,"
 
-#: ../../source/command-line.rst:23
+#: ../../source/command-line.rst:27
 msgid "``--user`` database user name,"
 msgstr "``--user`` database user name,"
 
-#: ../../source/command-line.rst:24
+#: ../../source/command-line.rst:28
 msgid "``--pass`` database user's pasword,"
 msgstr "``--pass`` database user's pasword,"
 
-#: ../../source/command-line.rst:25 ../../source/command-line.rst:45
+#: ../../source/command-line.rst:29 ../../source/command-line.rst:49
 msgid ""
 "``--lang`` language code to use (`fr_FR` as example). Will be set to `en_GB`"
 " per default,"
@@ -76,11 +86,11 @@ msgstr ""
 "``--lang`` language code to use (`fr_FR` as example). Will be set to `en_GB`"
 " per default,"
 
-#: ../../source/command-line.rst:26
+#: ../../source/command-line.rst:30
 msgid "``--tests`` create tests configuration file,"
 msgstr "``--tests`` create tests configuration file,"
 
-#: ../../source/command-line.rst:27
+#: ../../source/command-line.rst:31
 msgid ""
 "``--force`` do not check if GLPI is already installed and drop what would "
 "exists,"
@@ -88,19 +98,19 @@ msgstr ""
 "``--force`` do not check if GLPI is already installed and drop what would "
 "exists,"
 
-#: ../../source/command-line.rst:28 ../../source/command-line.rst:46
+#: ../../source/command-line.rst:32 ../../source/command-line.rst:50
 msgid "``--help`` displays command help."
 msgstr "``--help`` displays command help."
 
-#: ../../source/command-line.rst:33
+#: ../../source/command-line.rst:37
 msgid "Update"
 msgstr "Update"
 
-#: ../../source/command-line.rst:35
+#: ../../source/command-line.rst:39
 msgid "An update script is provided as well (``scripts/cliupdate.php``)."
 msgstr "An update script is provided as well (``scripts/cliupdate.php``)."
 
-#: ../../source/command-line.rst:37
+#: ../../source/command-line.rst:41
 msgid ""
 "There is no required arguments, just run the script so it updates your "
 "database automatically."
@@ -108,32 +118,32 @@ msgstr ""
 "There is no required arguments, just run the script so it updates your "
 "database automatically."
 
-#: ../../source/command-line.rst:41
+#: ../../source/command-line.rst:45
 msgid "Do not forget to backup your database before any update try!"
 msgstr "Do not forget to backup your database before any update try!"
 
-#: ../../source/command-line.rst:43
+#: ../../source/command-line.rst:47
 msgid "Possible options for this command are:"
 msgstr "Possible options for this command are:"
 
-#: ../../source/command-line.rst:47
+#: ../../source/command-line.rst:51
 msgid "``--config-dir`` set configuration file path to use,"
 msgstr "``--config-dir`` set configuration file path to use,"
 
-#: ../../source/command-line.rst:48
-msgid ""
-"``--force`` force update, usefull when GLPI version does not change (mainly "
-"when working on it ;)),"
-msgstr ""
-"``--force`` force update, usefull when GLPI version does not change (mainly "
-"when working on it ;)),"
-
-#: ../../source/command-line.rst:49
-msgid ""
-"``--dev`` required to use a development version. Usei it with cautions..."
-msgstr ""
-"``--dev`` required to use a development version. Usei it with cautions..."
-
 #: ../../source/command-line.rst:52
+msgid ""
+"``--force`` force update, usefull when GLPI version does not change (mainly "
+"when working on it ;)),"
+msgstr ""
+"``--force`` force update, usefull when GLPI version does not change (mainly "
+"when working on it ;)),"
+
+#: ../../source/command-line.rst:53
+msgid ""
+"``--dev`` required to use a development version. Use it with caution..."
+msgstr ""
+"``--dev`` required to use a development version. Use it with caution..."
+
+#: ../../source/command-line.rst:56
 msgid "|ccbyncnd|"
 msgstr "|ccbyncnd|"

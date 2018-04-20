@@ -10,23 +10,25 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-20 06:59+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Last-Translator: Johan Cwiklinski <trasher@x-tnd.be>, 2018\n"
+"Language-Team: Czech (Czech Republic) (https://www.transifex.com/teclib/teams/28042/cs_CZ/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: cs_CZ\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 
 #: ../../source/prerequisites.rst:2
 msgid "Prerequisites"
-msgstr "Prerequisites"
+msgstr "Předpoklady"
 
 #: ../../source/prerequisites.rst:4
 msgid "GLPI is a Web application that will need:"
-msgstr "GLPI is a Web application that will need:"
+msgstr "GLPI je webová aplikace, která bude potřebovat:"
 
 #: ../../source/prerequisites.rst:6
 msgid "a webserver;"
-msgstr "a webserver;"
+msgstr "webový server;"
 
 #: ../../source/prerequisites.rst:7
 msgid "PHP;"
@@ -34,19 +36,19 @@ msgstr "PHP;"
 
 #: ../../source/prerequisites.rst:8
 msgid "a database."
-msgstr "a database."
+msgstr "databáze."
 
 #: ../../source/prerequisites.rst:11
 msgid "Web server"
-msgstr "Web server"
+msgstr "Webový server"
 
 #: ../../source/prerequisites.rst:13
 msgid "GLPI requires a web server that supports PHP, like:"
-msgstr "GLPI requires a web server that supports PHP, like:"
+msgstr "GLPI potřebuje webový server který podporuje PHP, jako například:"
 
 #: ../../source/prerequisites.rst:15
 msgid "`Apache 2 (or more recent) <http://httpd.apache.org>`_;"
-msgstr "`Apache 2 (or more recent) <http://httpd.apache.org>`_;"
+msgstr "`Apache 2 (nebo novější) <http://httpd.apache.org>`_;"
 
 #: ../../source/prerequisites.rst:16
 msgid "`Nginx <http://nginx.org/>`_;"
@@ -64,55 +66,57 @@ msgstr "PHP"
 msgid ""
 "As of 9.2 release, GLPI requires `PHP <http://php.net>`_ 5.6 or more recent."
 msgstr ""
-"As of 9.2 release, GLPI requires `PHP <http://php.net>`_ 5.6 or more recent."
+"S vydáním 9.2, GLPI vyžaduje `PHP <http://php.net>`_ verze 5.6 a novější."
 
 #: ../../source/prerequisites.rst:26
 msgid ""
 "We recommand to use the most recent stable PHP release for better "
 "performances."
 msgstr ""
-"We recommand to use the most recent stable PHP release for better "
-"performances."
+"Z důvodu lepšího výkonu doporučujeme používat nejnovější stabilní vydání "
+"PHP."
 
 #: ../../source/prerequisites.rst:29
 msgid "Mandatory extensions"
-msgstr "Mandatory extensions"
+msgstr "Nezbytná rozšíření"
 
 #: ../../source/prerequisites.rst:31
 msgid "Following PHP extensions are required for the app to work properly:"
-msgstr "Following PHP extensions are required for the app to work properly:"
+msgstr ""
+"Aby aplikace fungovala správně, je zapotřebí následujících rozšíření pro "
+"PHP:"
 
 #: ../../source/prerequisites.rst:33
 msgid "``curl``: for CAS authentication, GLPI version check, Telemetry, ...;"
-msgstr "``curl``: for CAS authentication, GLPI version check, Telemetry, ...;"
+msgstr "``curl``: pro CAS ověřování, kontrolu verze GLPI, telemetrii, …;"
 
 #: ../../source/prerequisites.rst:34
 msgid "``fileinfo``: to get extra informations on files;"
-msgstr "``fileinfo``: to get extra informations on files;"
+msgstr "``fileinfo``: pro získání dalších informací o souborech;"
 
 #: ../../source/prerequisites.rst:35
 msgid "``gd``: to generate images;"
-msgstr "``gd``: to generate images;"
+msgstr "``gd``: pro vytváření obrázků;"
 
 #: ../../source/prerequisites.rst:36
 msgid "``json``: to get support for JSON data format;"
-msgstr "``json``: to get support for JSON data format;"
+msgstr "``json``: pro získání podpory pro datový formát JSON;"
 
 #: ../../source/prerequisites.rst:37
 msgid "``mbstring``:  to manage multi bytes characters;"
-msgstr "``mbstring``:  to manage multi bytes characters;"
+msgstr "``mbstring``:  pro správu vícebajtových znaků;"
 
 #: ../../source/prerequisites.rst:38
 msgid "``mysqli``: to connect and query the database;"
-msgstr "``mysqli``: to connect and query the database;"
+msgstr "``mysqli``: pro připojení do a dotazování databáze;"
 
 #: ../../source/prerequisites.rst:39
 msgid "``session``: to get user sessions support;"
-msgstr "``session``: to get user sessions support;"
+msgstr "``session``: pro získání podpory uživatelských sezení;"
 
 #: ../../source/prerequisites.rst:40
 msgid "``zlib``: to get backup and restore database functions;"
-msgstr "``zlib``: to get backup and restore database functions;"
+msgstr "``zlib``: pro získání funkcí pro zálohu a obnovu databáze;"
 
 #: ../../source/prerequisites.rst:41
 msgid "``simplexml``;"
@@ -124,48 +128,47 @@ msgstr "``xml``."
 
 #: ../../source/prerequisites.rst:45
 msgid "Optional extensions"
-msgstr "Optional extensions"
+msgstr "Volitelná rozšíření"
 
 #: ../../source/prerequisites.rst:49
 msgid ""
 "Even if those extensions are not mandatory, we advise you to install them "
 "anyways."
 msgstr ""
-"Even if those extensions are not mandatory, we advise you to install them "
-"anyways."
+"I když tato rozšíření nejsou povinná, je doporučeno je nainstalovat i tak."
 
 #: ../../source/prerequisites.rst:51
 msgid "Following PHP extensions are required for some extra features of GLPI:"
 msgstr ""
-"Following PHP extensions are required for some extra features of GLPI:"
+"Pro některé další funkce GLPI jsou potřebná následující rozšíření pro PHP:"
 
 #: ../../source/prerequisites.rst:53
 msgid ""
 "``cli``: to use PHP from command line (scripts, automatic actions, and so "
 "on);"
 msgstr ""
-"``cli``: to use PHP from command line (scripts, automatic actions, and so "
-"on);"
+"``cli``: pro použití PHP z příkazového řádku (scripty, automatické akce, "
+"atd);"
 
 #: ../../source/prerequisites.rst:54
 msgid "``domxml``: used for CAS authentication;"
-msgstr "``domxml``: used for CAS authentication;"
+msgstr "``domxml``: slouží pro CAS ověřování;"
 
 #: ../../source/prerequisites.rst:55
 msgid "``imap``: used for mail collector ou user authentication;"
-msgstr "``imap``: used for mail collector ou user authentication;"
+msgstr "``imap``: slouží pro ověřování uživatelů ou sběru e-mailů;"
 
 #: ../../source/prerequisites.rst:56
 msgid "``ldap``:  use LDAP directory for authentication;"
-msgstr "``ldap``:  use LDAP directory for authentication;"
+msgstr "``ldap``:  použít LDAP adresář pro ověřování uživatelů;"
 
 #: ../../source/prerequisites.rst:57
 msgid "``openssl``: secured communications;"
-msgstr "``openssl``: secured communications;"
+msgstr "``openssl``: zabezpečená komunikace;"
 
 #: ../../source/prerequisites.rst:58
 msgid "``xmlrpc``: used for XMLRPC API."
-msgstr "``xmlrpc``: used for XMLRPC API."
+msgstr ""
 
 #: ../../source/prerequisites.rst:59
 msgid ""
@@ -173,45 +176,41 @@ msgid ""
 "(in french only) <http://glpi-user-"
 "documentation.readthedocs.io/fr/latest/advanced/cache.html>`_."
 msgstr ""
-"``APCu``: may be used for cache; among others (see `caching configuration "
-"(in french only) <http://glpi-user-"
-"documentation.readthedocs.io/fr/latest/advanced/cache.html>`_."
 
 #: ../../source/prerequisites.rst:62
 msgid "Configuration"
-msgstr "Configuration"
+msgstr "Nastavení"
 
 #: ../../source/prerequisites.rst:64
 msgid ""
 "PHP configuration file (``php.ini``) must be adapted to reflect following "
 "variables:"
 msgstr ""
-"PHP configuration file (``php.ini``) must be adapted to reflect following "
-"variables:"
+"Je třeba upravit soubor s nastaveními PHP (``php.ini``) aby odpovídal "
+"následujícím proměnným:"
 
 #: ../../source/prerequisites.rst:77
 msgid "Database"
-msgstr "Database"
+msgstr "Databáze"
 
 #: ../../source/prerequisites.rst:81
 msgid ""
 "Currently, only `MySQL <https://dev.mysql.com>`_ (5.1 minimum) and `MariaDB "
 "<https://mariadb.com>`_ database servers are supported by GLPI."
 msgstr ""
-"Currently, only `MySQL <https://dev.mysql.com>`_ (5.1 minimum) and `MariaDB "
-"<https://mariadb.com>`_ database servers are supported by GLPI."
+"V tuto chvíli jsou GLPI podporovány pouze databázové servery `MySQL "
+"<https://dev.mysql.com>`_ (nejméně verze 5.1) a `MariaDB "
+"<https://mariadb.com>`_ ."
 
 #: ../../source/prerequisites.rst:83
 msgid "In order to work, GLPI requires a database server."
-msgstr "In order to work, GLPI requires a database server."
+msgstr "Aby mohlo fungovat, GLPI vyžaduje databázový server."
 
 #: ../../source/prerequisites.rst:87
 msgid ""
 "We recommand to use at least 5.5 version if you use MySQL for better "
 "performances."
-msgstr ""
-"We recommand to use at least 5.5 version if you use MySQL for better "
-"performances."
+msgstr "Pro lepší výkon doporučujeme použít u MySQL verzi přinejmenším 5.5."
 
 #: ../../source/prerequisites.rst:90
 msgid "|ccbyncnd|"

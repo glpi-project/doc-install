@@ -10,73 +10,72 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-20 06:59+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>, 2018\n"
+"Language-Team: Czech (Czech Republic) (https://www.transifex.com/teclib/teams/28042/cs_CZ/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: cs_CZ\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 
 #: ../../source/update.rst:2
 msgid "Update"
-msgstr "Update"
+msgstr "Aktualizace"
 
 #: ../../source/update.rst:6
 msgid ""
 "As for every update process, you have to backup some data before processing "
 "any upgrade:"
 msgstr ""
-"As for every update process, you have to backup some data before processing "
-"any upgrade:"
+"Jako při každé aktualizaci, je třeba před přechodem na novější verzi "
+"zazálohovat některá data:"
 
 #: ../../source/update.rst:8
 msgid "**backup your database**;"
-msgstr "**backup your database**;"
+msgstr "**zazálohujte svou databázi**;"
 
 #: ../../source/update.rst:9
 msgid "backup your files directory;"
-msgstr "backup your files directory;"
+msgstr "zazálohujte svou složku se soubory;"
 
 #: ../../source/update.rst:10
 msgid "backup your configuration."
-msgstr "backup your configuration."
+msgstr "zazálohujte si svá nastavení."
 
 #: ../../source/update.rst:12
 msgid ""
 "GLPI update process is automated. To start it, just go to your GLPI instance"
 " URI, or (recommanded) use the :doc:`command line tools <command-line>`."
 msgstr ""
-"GLPI update process is automated. To start it, just go to your GLPI instance"
-" URI, or (recommanded) use the :doc:`command line tools <command-line>`."
 
 #: ../../source/update.rst:14
 msgid ""
 "Once a new version will be installed; you will not be able to use the "
 "application until a migration has been done."
 msgstr ""
-"Once a new version will be installed; you will not be able to use the "
-"application until a migration has been done."
 
 #: ../../source/update.rst:16
 msgid ""
 "Plase also note the update process will automatically disable your plugins."
 msgstr ""
-"Plase also note the update process will automatically disable your plugins."
 
 #: ../../source/update.rst:20
 msgid ""
 "You should not try to restore a database backup on a non empty database "
 "(say, a database that has been partially migrated for any reason)."
 msgstr ""
-"You should not try to restore a database backup on a non empty database "
-"(say, a database that has been partially migrated for any reason)."
+"Neměli byste se pokoušet obnovit zálohu databáze do neprázdné databáze "
+"(například databáze, která byla z nějakého důvodu převedena na novější jen z"
+" části)."
 
 #: ../../source/update.rst:22
 msgid ""
 "Make sure your database is empty before restoring your backup and try to "
 "update, and repeat on fail."
 msgstr ""
-"Make sure your database is empty before restoring your backup and try to "
-"update, and repeat on fail."
+"Před zahájením obnovení ze zálohy ověřte, že je cílová databáze prázdná a "
+"pak se pokuste o aktualizaci. V případě nezdaru je třeba opět začít od "
+"obnovy do prázdné databáze."
 
 #: ../../source/update.rst:25
 msgid "|ccbyncnd|"
