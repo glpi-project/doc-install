@@ -152,8 +152,8 @@ msgid "``domxml``: used for CAS authentication;"
 msgstr "``domxml``: used for CAS authentication;"
 
 #: ../../source/prerequisites.rst:55
-msgid "``imap``: used for mail collector ou user authentication;"
-msgstr "``imap``: used for mail collector ou user authentication;"
+msgid "``imap``: used for mail collector or user authentication;"
+msgstr "``imap``: used for mail collector or user authentication;"
 
 #: ../../source/prerequisites.rst:56
 msgid "``ldap``:  use LDAP directory for authentication;"
