@@ -138,7 +138,7 @@ msgstr "Les options possibles pour cette commande sont :"
 #: ../../source/command-line.rst:51
 msgid "``--config-dir`` set configuration file path to use,"
 msgstr ""
-"``--config-dir`` détermine le chemin vers le fichier de configuration à "
+"``--config-dir`` définit le chemin vers le fichier de configuration à "
 "utiliser,"
 
 #: ../../source/command-line.rst:52
