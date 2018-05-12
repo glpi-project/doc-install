@@ -27,12 +27,12 @@ msgid ""
 "As for every update process, you have to backup some data before processing "
 "any upgrade:"
 msgstr ""
-"Comme pour tout processus d'update, une sauvegarde des données doit être "
+"Comme pour tout processus de mise à jour, une sauvegarde des données doit être "
 "effectuée avant toute tentative :"
 
 #: ../../source/update.rst:8
 msgid "**backup your database**;"
-msgstr "**sauvegarde de votre base** ;"
+msgstr "**sauvegarde de votre base de données** ;"
 
 #: ../../source/update.rst:9
 msgid "backup your files directory;"
@@ -61,8 +61,8 @@ msgstr ""
 
 #: ../../source/update.rst:16
 msgid ""
-"Plase also note the update process will automatically disable your plugins."
-msgstr "Veuillez noter également que le processus désactivera vos plugins."
+"Please also note the update process will automatically disable your plugins."
+msgstr "Veuillez noter également que le processus de mise à jour désactivera vos plugins."
 
 #: ../../source/update.rst:20
 msgid ""
