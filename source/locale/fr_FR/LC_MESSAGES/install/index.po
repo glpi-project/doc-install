@@ -129,7 +129,7 @@ msgstr "Décompresser l’archive dans l’arborescence de votre serveur web ;"
 msgid ""
 "Give your webserver write access to ``files`` and ``config`` directories;"
 msgstr ""
-"Donner les droits en écriture ià votre serveur web sur les dossiers "
+"Donner les droits en écriture à votre serveur web sur les dossiers "
 "``files`` et ``config`` ;"
 
 #: ../../source/install/index.rst:43
@@ -193,15 +193,15 @@ msgstr ""
 #: ../../source/install/index.rst:60
 msgid "``GLPI_CONFIG_DIR``: set path to the configuration directory;"
 msgstr ""
-"``GLPI_CONFIG_DIR`` : détermine le chemin vers le dossier de configuration ;"
+"``GLPI_CONFIG_DIR`` : définit le chemin d'accès du dossier de configuration ;"
 
 #: ../../source/install/index.rst:61
 msgid "``GLPI_VAR_DIR`` : set path to the ``files`` directory;"
-msgstr "``GLPI_VAR_DIR`` : détermine le chemin vers les “fichiers” ;"
+msgstr "``GLPI_VAR_DIR`` : définit le chemin d'accès du répertoire “fichiers” ;"
 
 #: ../../source/install/index.rst:62
 msgid "``GLPI_LOG_DIR`` : set path to logs files."
-msgstr "``GLPI_LOG_DIR`` : détermine le chemin vers les fichiers de log."
+msgstr "``GLPI_LOG_DIR`` : définit le chemin d'accès vers les fichiers de log."
 
 #: ../../source/install/index.rst:66
 msgid ""
@@ -282,7 +282,7 @@ msgid ""
 "Then, create a file in ``/etc/glpi/local_define.php`` with the following "
 "contents:"
 msgstr ""
-"Ensuite, créer un fichier ``/etc/glpi//local_define.php`` avec le contenu "
+"Ensuite, créer un fichier ``/etc/glpi/local_define.php`` avec le contenu "
 "suivant :"
 
 #: ../../source/install/index.rst:101
