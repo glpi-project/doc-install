@@ -111,7 +111,7 @@ msgstr "``mbstring`` : gestion des caractères multi-octet ;"
 
 #: ../../source/prerequisites.rst:38
 msgid "``mysqli``: to connect and query the database;"
-msgstr "``mysqli`` : pour se connecter et requêter la base de données ;"
+msgstr "``mysqli`` : pour se connecter et interroger la base de données ;"
 
 #: ../../source/prerequisites.rst:39
 msgid "``session``: to get user sessions support;"
