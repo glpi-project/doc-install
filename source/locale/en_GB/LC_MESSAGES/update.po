@@ -58,9 +58,9 @@ msgstr ""
 
 #: ../../source/update.rst:16
 msgid ""
-"Plase also note the update process will automatically disable your plugins."
+"Please also note the update process will automatically disable your plugins."
 msgstr ""
-"Plase also note the update process will automatically disable your plugins."
+"Please also note the update process will automatically disable your plugins."
 
 #: ../../source/update.rst:20
 msgid ""
