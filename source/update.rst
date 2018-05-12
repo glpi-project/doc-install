@@ -13,7 +13,7 @@ GLPI update process is automated. To start it, just go to your GLPI instance URI
 
 Once a new version will be installed; you will not be able to use the application until a migration has been done.
 
-Plase also note the update process will automatically disable your plugins.
+Please also note the update process will automatically disable your plugins.
 
 .. warning::
 
