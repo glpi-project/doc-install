@@ -145,4 +145,4 @@ This step presents a summary of the installation and give created users list. Pl
 
    For obvious security concerns, you'll have to delete or edit those accounts.
 
-   Before removing the ```glpi`` account, please make sure you have created another user with ``super-admin`` profile.
+   Before removing the ``glpi`` account, please make sure you have created another user with ``super-admin`` profile.
