@@ -25,7 +25,7 @@ msgstr "Assistant d'installation"
 #: ../../source/install/wizard.rst:4
 msgid ""
 "To begin installation process, point your browser to the GLPI main address: "
-"`https://{adresse_glpi}/ <https://{adresse_glpi}/>`_"
+"`https://{glpi_address}/ <https://{glpi_address}/>`_"
 msgstr ""
 "Pour débuter l’installation, faire pointer le navigateur web sur le dossier "
 "racine de GLPI : `https://{adresse_glpi}/ <https://{adresse_glpi}/>`_"
@@ -35,7 +35,7 @@ msgid ""
 "When GLPI is not installed; a step-by-step installation process begins."
 msgstr ""
 "Lorsque GLPI n'est pas installé ; un processus d'installation étape par "
-"étape va débuter."
+"étape commence."
 
 #: ../../source/install/wizard.rst:10
 msgid "Choose lang (Select your language)"
@@ -46,7 +46,7 @@ msgid ""
 "The first step will let you choose the installation language. Select your "
 "lang, and click validate."
 msgstr ""
-"La première permet de choisir la langue dans laquelle se déroulera "
+"La première étape permet de choisir la langue dans laquelle se déroulera "
 "l’installation. Sélectionner la langue souhaitée, puis valider."
 
 #: ../../source/install/wizard.rst:20
@@ -160,7 +160,7 @@ msgid ""
 "the database you want for your GLPI and init it."
 msgstr ""
 "Une fois la connexion au serveur de base de données établie, il faut créer "
-"ou choisir la base de données souhaitée pour GLPI puis l’initialiser."
+"ou choisir la base de données souhaitée pour GLPI et l’initialiser."
 
 #: ../../source/install/wizard.rst:83
 msgid "There are 2 ways to go:"
@@ -184,7 +184,7 @@ msgstr ""
 
 #: ../../source/install/wizard.rst:93
 msgid "Create a new database"
-msgstr "Créer une nouvelle base"
+msgstr "Créer une nouvelle base de données"
 
 #: ../../source/install/wizard.rst:95
 msgid ""
@@ -272,7 +272,7 @@ msgid ""
 "Before removing the ```glpi`` account, please make sure you have created "
 "another user with ``super-admin`` profile."
 msgstr ""
-"Avant de supprimer le compte ``glpi``, s'assurer d'avoir créé un autre "
+"Avant de supprimer le compte ``glpi``, assurez-vous d'avoir créé un autre "
 "utilisateur avec le profil ``super-admin``."
 
 #: ../../source/install/wizard.rst:151
