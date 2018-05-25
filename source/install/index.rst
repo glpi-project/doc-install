@@ -132,7 +132,7 @@ Once GLPI has been installed, you're almost done.
 
 An extra step would be to secure (or remove) installation directory. As an example, you can consider adding the following to your Apache virtual host configuration (or in the ``glpi/install/.htaccess`` file):
 
-.. code-block::
+.. code-block:: apache
 
     <IfModule mod_authz_core.c>
         Require local
