@@ -102,11 +102,11 @@ msgstr "Installation"
 
 #: ../../source/install/index.rst:37
 msgid ""
-"Packages may be available from your distribution (Red Hat, CentOS, Fedora, "
+"Packages may be available from your Linux distribution (Red Hat, CentOS, Fedora, "
 "Ubuntu, ...) that you should use with your standard packages manager as "
 "usual."
 msgstr ""
-"Packages may be available from your distribution (Red Hat, CentOS, Fedora, "
+"Packages may be available from your Linux distribution (Red Hat, CentOS, Fedora, "
 "Ubuntu, ...) that you should use with your standard packages manager as "
 "usual."
 
