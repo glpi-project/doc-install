@@ -34,7 +34,7 @@ Installation
 
 .. note::
 
-   Packages may be available from your distribution (Red Hat, CentOS, Fedora, Ubuntu, ...) that you should use with your standard packages manager as usual.
+   Packages may be available from your Linux distribution (Red Hat, CentOS, Fedora, Ubuntu, ...) that you should use with your standard packages manager as usual.
 
 GLPI installation itself is composed of three steps:
 
