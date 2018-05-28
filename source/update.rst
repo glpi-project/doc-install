@@ -9,7 +9,7 @@ Update
    * backup your files directory;
    * backup your configuration.
 
-GLPI update process is automated. To start it, just go to your GLPI instance URI, or (recommanded) use the :doc:`command line tools <command-line>`.
+GLPI update process is automated. To start it, just go to your GLPI instance URI, or (recommended) use the :doc:`command line tools <command-line>`.
 
 Once a new version will be installed; you will not be able to use the application until a migration has been done.
 
