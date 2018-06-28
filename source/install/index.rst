@@ -69,7 +69,7 @@ Directories choice is entirely up to you; the following example will follow the 
 
 Our GLPI instance will be installed in ``/var/www/glpi``, a specific virtual host in the web server configuration will reflect this path.
 
-The GLPI configuration will be stored in ``/etc/glpi``, just copy the ``config`` directory to this place. GLPI requires read rights on this directory to work; and write rights during the installation process.
+GLPI configuration will be stored in ``/etc/glpi``, just copy the ``config`` directory to this place. GLPI requires read rights on this directory to work; and write rights during the installation process.
 
 GLPI data will be stored in ``/var/lib/glpi``, just copy the ``files`` directory to this place. GLPI requires read and write rights on this directory.
 
@@ -123,7 +123,7 @@ Then, create a file in ``/etc/glpi/local_define.php`` with the following content
 
 .. note::
 
-   The GLPI configuration directory cannot be defined in the ``local_define.php`` file just because this one will be... in the configuration directory itself ;)
+   GLPI configuration directory cannot be defined in the ``local_define.php`` file just because this one will be... in the configuration directory itself ;)
 
 Post installation
 -----------------
