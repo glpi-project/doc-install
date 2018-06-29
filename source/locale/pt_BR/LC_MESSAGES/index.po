@@ -27,8 +27,8 @@ msgid ""
 "This documentation presents `GLPI <http://glpi-project.org>`_ installation "
 "instructions."
 msgstr ""
-"Esta documentação apresenta `GLPI <http://glpi-project.org>` _ instruções de"
-" instalação."
+"Esta documentação apresenta `GLPI <http://glpi-project.org>`_ instruções de "
+"instalação."
 
 #: ../../source/index.rst:11
 msgid ""
