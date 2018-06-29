@@ -6,12 +6,12 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: GLPI 9.2\n"
+"Project-Id-Version: GLPI 9.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-20 06:59+0200\n"
+"POT-Creation-Date: 2018-06-29 06:38+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Wanderlei Hüttel <wanderlei.huttel@gmail.com>, 2018\n"
-"Language-Team: Portuguese (Brazil) (https://www.transifex.com/teclib/teams/28042/pt_BR/)\n"
+"Language-Team: Portuguese (Brazil) (https://www.transifex.com/glpi/teams/87042/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -45,7 +45,7 @@ msgstr "backup de sua configuração."
 #: ../../source/update.rst:12
 msgid ""
 "GLPI update process is automated. To start it, just go to your GLPI instance"
-" URI, or (recommanded) use the :doc:`command line tools <command-line>`."
+" URI, or (recommended) use the :doc:`command line tools <command-line>`."
 msgstr ""
 
 #: ../../source/update.rst:14
@@ -53,10 +53,12 @@ msgid ""
 "Once a new version will be installed; you will not be able to use the "
 "application until a migration has been done."
 msgstr ""
+"Uma vez que uma nova versão será instalada; você não poderá usar o "
+"aplicativo até que uma migração seja feita."
 
 #: ../../source/update.rst:16
 msgid ""
-"Plase also note the update process will automatically disable your plugins."
+"Please also note the update process will automatically disable your plugins."
 msgstr ""
 
 #: ../../source/update.rst:20

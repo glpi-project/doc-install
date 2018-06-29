@@ -10,45 +10,43 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-06-29 06:38+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Wanderlei Hüttel <wanderlei.huttel@gmail.com>, 2018\n"
-"Language-Team: Portuguese (Brazil) (https://www.transifex.com/glpi/teams/87042/pt_BR/)\n"
+"Last-Translator: liAnGjiA <liangjia@qq.com>, 2018\n"
+"Language-Team: Chinese Simplified (https://www.transifex.com/glpi/teams/87042/zh-Hans/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: pt_BR\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Language: zh-Hans\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #: ../../source/install/index.rst:2
 msgid "Install GLPI"
-msgstr "Instalar GLPI"
+msgstr "安装GLPI"
 
 #: ../../source/install/index.rst:4
 msgid "Proceed as follow:"
-msgstr "Proceda da seguinte forma:"
+msgstr ""
 
 #: ../../source/install/index.rst:6
 msgid "Choose a version,"
-msgstr "Escolha uma versão,"
+msgstr "版本选择,"
 
 #: ../../source/install/index.rst:7
 msgid "Download the archive,"
-msgstr "Baixe o arquivo,"
+msgstr ""
 
 #: ../../source/install/index.rst:8
 msgid "Install :)"
-msgstr "Instale :)"
+msgstr "安装 :)"
 
 #: ../../source/install/index.rst:11
 msgid "Choose a version"
-msgstr "Escolha uma versão"
+msgstr "选择版本"
 
 #: ../../source/install/index.rst:15
 msgid ""
 "It is hightly recommended you choose the latest stable release for a "
 "production usage."
 msgstr ""
-"É altamente recomendável escolher a versão estável mais recente para um uso "
-"de produção."
 
 #: ../../source/install/index.rst:17
 msgid ""
@@ -62,21 +60,15 @@ msgid ""
 "features; minor versions may bring new features as well, but stay perfectly "
 "compatible inside a major version."
 msgstr ""
-"Os principais lançamentos podem vir com incompatibilidades importantes, bem "
-"como com novos recursos; As versões menores também podem trazer novos "
-"recursos, mas mantêm-se perfeitamente compatíveis dentro de uma versão "
-"importante."
 
 #: ../../source/install/index.rst:21
 msgid ""
 "Fixes releases will only fix reported issues without adding anything new."
 msgstr ""
-"As versões de correções só resolverão os problemas relatados sem adicionar "
-"nada novo."
 
 #: ../../source/install/index.rst:24
 msgid "Download"
-msgstr "Download"
+msgstr "下载"
 
 #: ../../source/install/index.rst:28
 msgid ""
@@ -91,13 +83,10 @@ msgid ""
 "<https://github.com/glpi-project/glpi/releases>`_) and choose the "
 "``glpi-{version}.tgz`` archive."
 msgstr ""
-"Vá para a seção *download* do site GLPI <http://glpi-project.org> `_ (ou "
-"obtenha o arquivo diretamente da versão 'Github' <https://github.com/glpi-"
-"project/glpi/releases > `_) e escolha o arquivo` `glpi- {version} .tgz``."
 
 #: ../../source/install/index.rst:33
 msgid "Installation"
-msgstr "Instalação"
+msgstr "安装"
 
 #: ../../source/install/index.rst:37
 msgid ""
@@ -108,7 +97,7 @@ msgstr ""
 
 #: ../../source/install/index.rst:39
 msgid "GLPI installation itself is composed of three steps:"
-msgstr "A instalação GLPI em si é composta de três etapas:"
+msgstr ""
 
 #: ../../source/install/index.rst:41
 msgid "Uncompress the archive in your website;"
@@ -134,7 +123,7 @@ msgstr ""
 
 #: ../../source/install/index.rst:48
 msgid "Files and directories locations"
-msgstr "Localizações de arquivos e diretórios"
+msgstr ""
 
 #: ../../source/install/index.rst:50
 msgid ""
@@ -146,8 +135,6 @@ msgstr ""
 msgid ""
 "Every file accessible directly from a web server must be considered unsafe!"
 msgstr ""
-"Todo arquivo acessível diretamente de um servidor web deve ser considerado "
-"inseguro!"
 
 #: ../../source/install/index.rst:56
 msgid ""
@@ -163,30 +150,24 @@ msgid ""
 "There are a few configuration directives you may use to achieve that "
 "(directives that are used in provided downstream packages):"
 msgstr ""
-"Existem algumas diretivas de configuração que você pode usar para conseguir "
-"isso (diretivas usadas nos pacotes a jusante fornecidos):"
 
 #: ../../source/install/index.rst:60
 msgid "``GLPI_CONFIG_DIR``: set path to the configuration directory;"
 msgstr ""
-"`GLPI_CONFIG_DIR``: defina o caminho para o diretório de configuração;"
 
 #: ../../source/install/index.rst:61
 msgid "``GLPI_VAR_DIR`` : set path to the ``files`` directory;"
-msgstr "`` GLPI_VAR_DIR``: defina o caminho para o diretório `` files``;"
+msgstr ""
 
 #: ../../source/install/index.rst:62
 msgid "``GLPI_LOG_DIR`` : set path to logs files."
-msgstr "`` GLPI_LOG_DIR``: defina o caminho para os arquivos de log."
+msgstr ""
 
 #: ../../source/install/index.rst:66
 msgid ""
 "There are many other configuration directives available, the ones we talked "
 "about are the main to take into account for a more secure installation."
 msgstr ""
-"Existem muitas outras diretrizes de configuração disponíveis, as mencionadas"
-" anteriormente são as principais para se levar em conta para ter uma "
-"instalação mais segura."
 
 #: ../../source/install/index.rst:68
 msgid ""
@@ -206,10 +187,6 @@ msgid ""
 " directory to this place. GLPI requires read rights on this directory to "
 "work; and write rights during the installation process."
 msgstr ""
-"A configuração do GLPI será armazenada em `` /etc/glpi``, basta copiar o "
-"diretório `` config`` para este local. O GLPI requer direitos de leitura "
-"neste diretório para funcionar; e direitos de gravação durante o processo de"
-" instalação."
 
 #: ../../source/install/index.rst:74
 msgid ""
@@ -217,9 +194,6 @@ msgid ""
 "directory to this place. GLPI requires read and write rights on this "
 "directory."
 msgstr ""
-"Os dados GLPI serão armazenados em `` /var/lib/glpi``, basta copiar o "
-"diretório `` files`` para este local. O GLPI requer direitos de leitura e "
-"gravação neste diretório."
 
 #: ../../source/install/index.rst:76
 msgid ""
@@ -227,33 +201,24 @@ msgid ""
 "copy here, just create the directory. GLPI requires read and write access on"
 " this directory."
 msgstr ""
-"Os arquivos de log do GLPI serão armazenados em `` /var/log/glpi``, não há "
-"nada para copiar aqui, basta criar o diretório. O GLPI requer acesso de "
-"leitura e gravação neste diretório."
 
 #: ../../source/install/index.rst:78
 msgid ""
 "Following this instructions, we'll create a ``inc/downstream.php`` file into"
 " GLPI directory with the following contents:"
 msgstr ""
-"Seguindo estas instruções, criaremos um arquivo `` inc/downstream.php`` no "
-"diretório GLPI com os seguintes conteúdos:"
 
 #: ../../source/install/index.rst:87
 msgid ""
 "GLPI packages will certainly provide a ``inc/downstream.php`` file. This one"
 " must not be edited!"
 msgstr ""
-"Os pacotes do GLPI certamente fornecerão um arquivo `` inc/downstream.php``."
-" Este arquivo não deve ser editado!"
 
 #: ../../source/install/index.rst:89
 msgid ""
 "Then, create a file in ``/etc/glpi/local_define.php`` with the following "
 "contents:"
 msgstr ""
-"Em seguida, crie um arquivo em ``/etc/glpi/local_define.php`` com os "
-"seguintes conteúdos:"
 
 #: ../../source/install/index.rst:101
 msgid ""
@@ -267,9 +232,6 @@ msgid ""
 "file just because this one will be... in the configuration directory itself "
 ";)"
 msgstr ""
-"O diretório de configuração do GLPI não pode ser definido no arquivo `` "
-"local_define.php`` apenas porque este estará no próprio diretório de "
-"configuração"
 
 #: ../../source/install/index.rst:129
 msgid "Post installation"
@@ -296,4 +258,4 @@ msgstr ""
 
 #: ../../source/install/index.rst:151
 msgid "|ccbyncnd|"
-msgstr "|ccbyncnd|"
+msgstr ""

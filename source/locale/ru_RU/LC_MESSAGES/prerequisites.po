@@ -6,11 +6,12 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: GLPI 9.2\n"
+"Project-Id-Version: GLPI 9.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-20 06:59+0200\n"
+"POT-Creation-Date: 2018-06-29 06:38+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Language-Team: Russian (Russia) (https://www.transifex.com/teclib/teams/28042/ru_RU/)\n"
+"Last-Translator: Alexey Petukhov <lexx015@gmail.com>, 2018\n"
+"Language-Team: Russian (Russia) (https://www.transifex.com/glpi/teams/87042/ru_RU/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -19,146 +20,157 @@ msgstr ""
 
 #: ../../source/prerequisites.rst:2
 msgid "Prerequisites"
-msgstr ""
+msgstr "Требования"
 
 #: ../../source/prerequisites.rst:4
 msgid "GLPI is a Web application that will need:"
-msgstr ""
+msgstr "GLPI - веб приложение, которое требует:"
 
 #: ../../source/prerequisites.rst:6
 msgid "a webserver;"
-msgstr ""
+msgstr "веб сервер;"
 
 #: ../../source/prerequisites.rst:7
 msgid "PHP;"
-msgstr ""
+msgstr "PHP;"
 
 #: ../../source/prerequisites.rst:8
 msgid "a database."
-msgstr ""
+msgstr "БД;"
 
 #: ../../source/prerequisites.rst:11
 msgid "Web server"
-msgstr ""
+msgstr "Веб сервер"
 
 #: ../../source/prerequisites.rst:13
 msgid "GLPI requires a web server that supports PHP, like:"
-msgstr ""
+msgstr "GLPI требует веб сервер, который поддерживает PHP:"
 
 #: ../../source/prerequisites.rst:15
 msgid "`Apache 2 (or more recent) <http://httpd.apache.org>`_;"
-msgstr ""
+msgstr "`Apache 2 (или более поздней версии) <http://httpd.apache.org>`_;"
 
 #: ../../source/prerequisites.rst:16
 msgid "`Nginx <http://nginx.org/>`_;"
-msgstr ""
+msgstr "`Nginx <http://nginx.org/>`_;"
 
 #: ../../source/prerequisites.rst:17
 msgid "`Microsoft IIS <http://www.iis.net>`_."
-msgstr ""
+msgstr "`Microsoft IIS <http://www.iis.net>`_."
 
 #: ../../source/prerequisites.rst:20
 msgid "PHP"
-msgstr ""
+msgstr "PHP;"
 
 #: ../../source/prerequisites.rst:22
 msgid ""
 "As of 9.2 release, GLPI requires `PHP <http://php.net>`_ 5.6 or more recent."
 msgstr ""
+"Для GLPI 9.2 требуется  `PHP <http://php.net>`_ 5.6 или более поздней "
+"версии."
 
 #: ../../source/prerequisites.rst:26
 msgid ""
 "We recommand to use the most recent stable PHP release for better "
 "performances."
 msgstr ""
+"Мы рекомендуем использовать самую последнюю версию PHP для лучшей "
+"производительности."
 
 #: ../../source/prerequisites.rst:29
 msgid "Mandatory extensions"
-msgstr ""
+msgstr "Обязательные расширения"
 
 #: ../../source/prerequisites.rst:31
 msgid "Following PHP extensions are required for the app to work properly:"
-msgstr ""
+msgstr "Следующие расширения PHP требуются для правильной работы GLPI:"
 
 #: ../../source/prerequisites.rst:33
 msgid "``curl``: for CAS authentication, GLPI version check, Telemetry, ...;"
 msgstr ""
+"``curl``: для CAS аутентификации, проверки версии GLPI , Telemetry, ...;"
 
 #: ../../source/prerequisites.rst:34
 msgid "``fileinfo``: to get extra informations on files;"
-msgstr ""
+msgstr "``fileinfo``: для получения дополнительной информации из файлов;"
 
 #: ../../source/prerequisites.rst:35
 msgid "``gd``: to generate images;"
-msgstr ""
+msgstr "``gd``: для генерации изображений;"
 
 #: ../../source/prerequisites.rst:36
 msgid "``json``: to get support for JSON data format;"
-msgstr ""
+msgstr "``json``: для поддержки данных в формате JSON;"
 
 #: ../../source/prerequisites.rst:37
 msgid "``mbstring``:  to manage multi bytes characters;"
-msgstr ""
+msgstr "``mbstring``: для поддержки мультибитовых кодировок;"
 
 #: ../../source/prerequisites.rst:38
 msgid "``mysqli``: to connect and query the database;"
-msgstr ""
+msgstr "``mysqli``: для поддержки и запросов к БД;"
 
 #: ../../source/prerequisites.rst:39
 msgid "``session``: to get user sessions support;"
-msgstr ""
+msgstr "``session``: для поддержки сессий пользователей;"
 
 #: ../../source/prerequisites.rst:40
 msgid "``zlib``: to get backup and restore database functions;"
-msgstr ""
+msgstr "``zlib``: для поддержи резервного копирования и восстановления БД;"
 
 #: ../../source/prerequisites.rst:41
 msgid "``simplexml``;"
-msgstr ""
+msgstr "``simplexml``;"
 
 #: ../../source/prerequisites.rst:42
 msgid "``xml``."
-msgstr ""
+msgstr "``xml``."
 
 #: ../../source/prerequisites.rst:45
 msgid "Optional extensions"
-msgstr ""
+msgstr "Дополнительные расширения"
 
 #: ../../source/prerequisites.rst:49
 msgid ""
 "Even if those extensions are not mandatory, we advise you to install them "
 "anyways."
 msgstr ""
+"Даже если эти плагины необязательны, мы, в любом случае, рекомендуем их "
+"установить."
 
 #: ../../source/prerequisites.rst:51
 msgid "Following PHP extensions are required for some extra features of GLPI:"
 msgstr ""
+"Следующие PHP расширения требуются для некоторых дополнительных функций "
+"GLPI:"
 
 #: ../../source/prerequisites.rst:53
 msgid ""
 "``cli``: to use PHP from command line (scripts, automatic actions, and so "
 "on);"
 msgstr ""
+"``cli``: для использования PHP из коммандной строки (скрипты, автоматические"
+" действия и тд);"
 
 #: ../../source/prerequisites.rst:54
 msgid "``domxml``: used for CAS authentication;"
-msgstr ""
+msgstr "``domxml``: используется для CAS аутентификации;"
 
 #: ../../source/prerequisites.rst:55
 msgid "``imap``: used for mail collector ou user authentication;"
-msgstr ""
+msgstr "``imap``: используется для аутентификации сборщика почты;"
 
 #: ../../source/prerequisites.rst:56
 msgid "``ldap``:  use LDAP directory for authentication;"
-msgstr ""
+msgstr "``ldap``: используется для аутентификации через LDAP сервер;"
 
 #: ../../source/prerequisites.rst:57
 msgid "``openssl``: secured communications;"
-msgstr ""
+msgstr "``openssl``: защищенные соединения;"
 
 #: ../../source/prerequisites.rst:58
 msgid "``xmlrpc``: used for XMLRPC API."
-msgstr ""
+msgstr "``xmlrpc``: используется для XMLRPC API."
 
 #: ../../source/prerequisites.rst:59
 msgid ""
@@ -166,37 +178,37 @@ msgid ""
 "(in french only) <http://glpi-user-"
 "documentation.readthedocs.io/fr/latest/advanced/cache.html>`_."
 msgstr ""
+"``APCu``: может использоваться для кеширования; среди прочих (смотри "
+"`конфигурацию кеширования (только на французском) <http://glpi-user-"
+"documentation.readthedocs.io/fr/latest/advanced/cache.html>`_."
 
 #: ../../source/prerequisites.rst:62
 msgid "Configuration"
-msgstr ""
+msgstr "Конфигурация"
 
 #: ../../source/prerequisites.rst:64
 msgid ""
 "PHP configuration file (``php.ini``) must be adapted to reflect following "
 "variables:"
 msgstr ""
+"В конфигурационным файле PHP (``php.ini``) должен быть настроены следующие "
+"переменные:"
 
 #: ../../source/prerequisites.rst:77
 msgid "Database"
-msgstr ""
+msgstr "База данных"
 
 #: ../../source/prerequisites.rst:81
 msgid ""
-"Currently, only `MySQL <https://dev.mysql.com>`_ (5.1 minimum) and `MariaDB "
-"<https://mariadb.com>`_ database servers are supported by GLPI."
+"Currently, only `MySQL <https://dev.mysql.com>`_ (5.6 minimum) and `MariaDB "
+"<https://mariadb.com>`_ (10.0 minimum) database servers are supported by "
+"GLPI."
 msgstr ""
 
 #: ../../source/prerequisites.rst:83
 msgid "In order to work, GLPI requires a database server."
-msgstr ""
+msgstr "Для работы GLPI требуется сервер БД."
 
-#: ../../source/prerequisites.rst:87
-msgid ""
-"We recommand to use at least 5.5 version if you use MySQL for better "
-"performances."
-msgstr ""
-
-#: ../../source/prerequisites.rst:90
+#: ../../source/prerequisites.rst:86
 msgid "|ccbyncnd|"
 msgstr ""
