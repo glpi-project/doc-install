@@ -6,17 +6,17 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: GLPI 9.2\n"
+"Project-Id-Version: GLPI 9.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-20 06:59+0200\n"
+"POT-Creation-Date: 2018-06-29 06:38+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Johan Cwiklinski <trasher@x-tnd.be>, 2018\n"
-"Language-Team: Czech (Czech Republic) (https://www.transifex.com/teclib/teams/28042/cs_CZ/)\n"
+"Last-Translator: Johan Cwiklinski <jcwiklinski@teclib.com>, 2018\n"
+"Language-Team: Czech (Czech Republic) (https://www.transifex.com/glpi/teams/87042/cs_CZ/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: cs_CZ\n"
-"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
 
 #: ../../source/prerequisites.rst:2
 msgid "Prerequisites"
@@ -168,7 +168,7 @@ msgstr "``openssl``: zabezpečená komunikace;"
 
 #: ../../source/prerequisites.rst:58
 msgid "``xmlrpc``: used for XMLRPC API."
-msgstr ""
+msgstr "``xmlrpc``: slouží pro XMLRPC API."
 
 #: ../../source/prerequisites.rst:59
 msgid ""
@@ -176,6 +176,9 @@ msgid ""
 "(in french only) <http://glpi-user-"
 "documentation.readthedocs.io/fr/latest/advanced/cache.html>`_."
 msgstr ""
+"``APCu``: může být použito pro mezipaměť; krom jiného (viz `nastavení "
+"mezipaměti (pouze ve francouzštině) <http://glpi-user-"
+"documentation.readthedocs.io/fr/latest/advanced/cache.html>`_."
 
 #: ../../source/prerequisites.rst:62
 msgid "Configuration"
@@ -195,23 +198,15 @@ msgstr "Databáze"
 
 #: ../../source/prerequisites.rst:81
 msgid ""
-"Currently, only `MySQL <https://dev.mysql.com>`_ (5.1 minimum) and `MariaDB "
-"<https://mariadb.com>`_ database servers are supported by GLPI."
+"Currently, only `MySQL <https://dev.mysql.com>`_ (5.6 minimum) and `MariaDB "
+"<https://mariadb.com>`_ (10.0 minimum) database servers are supported by "
+"GLPI."
 msgstr ""
-"V tuto chvíli jsou GLPI podporovány pouze databázové servery `MySQL "
-"<https://dev.mysql.com>`_ (nejméně verze 5.1) a `MariaDB "
-"<https://mariadb.com>`_ ."
 
 #: ../../source/prerequisites.rst:83
 msgid "In order to work, GLPI requires a database server."
 msgstr "Aby mohlo fungovat, GLPI vyžaduje databázový server."
 
-#: ../../source/prerequisites.rst:87
-msgid ""
-"We recommand to use at least 5.5 version if you use MySQL for better "
-"performances."
-msgstr "Pro lepší výkon doporučujeme použít u MySQL verzi přinejmenším 5.5."
-
-#: ../../source/prerequisites.rst:90
+#: ../../source/prerequisites.rst:86
 msgid "|ccbyncnd|"
 msgstr "|ccbyncnd|"

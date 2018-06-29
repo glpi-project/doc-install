@@ -6,12 +6,12 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: GLPI 9.2\n"
+"Project-Id-Version: GLPI 9.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-20 06:59+0200\n"
+"POT-Creation-Date: 2018-06-29 06:38+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Johan Cwiklinski <trasher@x-tnd.be>, 2018\n"
-"Language-Team: French (France) (https://www.transifex.com/teclib/teams/28042/fr_FR/)\n"
+"Last-Translator: Johan Cwiklinski <jcwiklinski@teclib.com>, 2018\n"
+"Language-Team: French (France) (https://www.transifex.com/glpi/teams/87042/fr_FR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -27,12 +27,12 @@ msgid ""
 "As for every update process, you have to backup some data before processing "
 "any upgrade:"
 msgstr ""
-"Comme pour tout processus d'update, une sauvegarde des données doit être "
-"effectuée avant toute tentative :"
+"Comme pour tout processus de mise à jour, une sauvegarde des données doit "
+"être effectuée avant toute tentative :"
 
 #: ../../source/update.rst:8
 msgid "**backup your database**;"
-msgstr "**sauvegarde de votre base** ;"
+msgstr "**sauvegarde de votre base de données** ;"
 
 #: ../../source/update.rst:9
 msgid "backup your files directory;"
@@ -45,9 +45,9 @@ msgstr "sauvegarde de la configuration."
 #: ../../source/update.rst:12
 msgid ""
 "GLPI update process is automated. To start it, just go to your GLPI instance"
-" URI, or (recommanded) use the :doc:`command line tools <command-line>`."
+" URI, or (recommended) use the :doc:`command line tools <command-line>`."
 msgstr ""
-"Le processus de mise à jour de GLPI est automatique. Pour le lancer, rendez-"
+"Le processus de mise à jour de GLPI est automatisé. Pour le lancer, rendez-"
 "vous sur l'URL de votre instance GLPI, ou (recommandé) utilisez les "
 ":doc:`outils en ligne de commande <command-line>`."
 
@@ -61,16 +61,19 @@ msgstr ""
 
 #: ../../source/update.rst:16
 msgid ""
-"Plase also note the update process will automatically disable your plugins."
-msgstr "Veuillez noter également que le processus désactivera vos plugins."
+"Please also note the update process will automatically disable your plugins."
+msgstr ""
+"Veuillez noter également que le processus de mise à jour désactivera vos "
+"plugins."
 
 #: ../../source/update.rst:20
 msgid ""
 "You should not try to restore a database backup on a non empty database "
 "(say, a database that has been partially migrated for any reason)."
 msgstr ""
-"Ne pas essayer de restaurer une sauvegarde sur une base non vide (par "
-"exemple, une base partiellement migrée pour quelque raison que ce soit)."
+"Ne pas essayer de restaurer une sauvegarde sur une base de données non vide "
+"(par exemple, une base partiellement migrée pour quelque raison que ce "
+"soit)."
 
 #: ../../source/update.rst:22
 msgid ""

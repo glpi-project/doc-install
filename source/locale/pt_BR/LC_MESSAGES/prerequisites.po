@@ -6,12 +6,12 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: GLPI 9.2\n"
+"Project-Id-Version: GLPI 9.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-20 06:59+0200\n"
+"POT-Creation-Date: 2018-06-29 06:38+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Johan Cwiklinski <trasher@x-tnd.be>, 2018\n"
-"Language-Team: Portuguese (Brazil) (https://www.transifex.com/teclib/teams/28042/pt_BR/)\n"
+"Last-Translator: Johan Cwiklinski <jcwiklinski@teclib.com>, 2018\n"
+"Language-Team: Portuguese (Brazil) (https://www.transifex.com/glpi/teams/87042/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -173,7 +173,7 @@ msgstr "``openssl``: comunicações seguras;"
 
 #: ../../source/prerequisites.rst:58
 msgid "``xmlrpc``: used for XMLRPC API."
-msgstr ""
+msgstr "`` xmlrpc``: usado para a API XMLRPC."
 
 #: ../../source/prerequisites.rst:59
 msgid ""
@@ -181,6 +181,9 @@ msgid ""
 "(in french only) <http://glpi-user-"
 "documentation.readthedocs.io/fr/latest/advanced/cache.html>`_."
 msgstr ""
+"`APCu``: pode ser usado para cache; entre outros (veja `configuração de "
+"caching (somente em francês) <http://glpi-user-"
+"documentation.readthedocs.io/fr/latest/advanced/cache.html>`"
 
 #: ../../source/prerequisites.rst:62
 msgid "Configuration"
@@ -200,24 +203,15 @@ msgstr "Banco de dados"
 
 #: ../../source/prerequisites.rst:81
 msgid ""
-"Currently, only `MySQL <https://dev.mysql.com>`_ (5.1 minimum) and `MariaDB "
-"<https://mariadb.com>`_ database servers are supported by GLPI."
+"Currently, only `MySQL <https://dev.mysql.com>`_ (5.6 minimum) and `MariaDB "
+"<https://mariadb.com>`_ (10.0 minimum) database servers are supported by "
+"GLPI."
 msgstr ""
-"Atualmente, somente os servidores `MySQL <https://dev.mysql.com>` _ (5.1 "
-"mínimo) e `MariaDB <https://mariadb.com>` _ são suportados pelo GLPI."
 
 #: ../../source/prerequisites.rst:83
 msgid "In order to work, GLPI requires a database server."
 msgstr "Para funcionar, o GLPI requer um servidor de banco de dados."
 
-#: ../../source/prerequisites.rst:87
-msgid ""
-"We recommand to use at least 5.5 version if you use MySQL for better "
-"performances."
-msgstr ""
-"Recomendamos usar uma versão de pelo menos 5.5 se você usar o MySQL para "
-"melhores performances."
-
-#: ../../source/prerequisites.rst:90
+#: ../../source/prerequisites.rst:86
 msgid "|ccbyncnd|"
 msgstr "|ccbyncnd|"

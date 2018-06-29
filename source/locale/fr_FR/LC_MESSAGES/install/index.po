@@ -6,12 +6,12 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: GLPI 9.2\n"
+"Project-Id-Version: GLPI 9.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-20 06:59+0200\n"
+"POT-Creation-Date: 2018-06-29 06:38+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Johan Cwiklinski <trasher@x-tnd.be>, 2018\n"
-"Language-Team: French (France) (https://www.transifex.com/teclib/teams/28042/fr_FR/)\n"
+"Last-Translator: Anth Paw <chpego@chpego.fr>, 2018\n"
+"Language-Team: French (France) (https://www.transifex.com/glpi/teams/87042/fr_FR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -52,8 +52,8 @@ msgstr ""
 
 #: ../../source/install/index.rst:17
 msgid ""
-"GLPI follows a semantic versionning scheme, on 3 digits. The first one is "
-"the major release, the second the minor and the third the fix release."
+"GLPI follows a semantic versioning scheme, on 3 digits. The first one is the"
+" major release, the second the minor and the third the fix release."
 msgstr ""
 "GLPI suit une règle de versionnage sémantique, sur 3 chiffres. Le premier "
 "correspond à la version majeure, le second à la version mineure, le "
@@ -83,8 +83,8 @@ msgstr "Télécharger"
 
 #: ../../source/install/index.rst:28
 msgid ""
-"On GitHub, there is always two archives named *Source code* which should not"
-" be used."
+"On GitHub, there are always two archives named *Source code* which should "
+"not be used."
 msgstr ""
 "Sur GitHub, il existe systématiquement deux archives nommées *Source code* ;"
 " ces versions ne sont pas destinées à être téléchargées par les "
@@ -108,9 +108,9 @@ msgstr "Installation"
 
 #: ../../source/install/index.rst:37
 msgid ""
-"Packages may be available from your distribution (Red Hat, CentOS, Fedora, "
-"Ubuntu, ...) that you should use with your standard packages manager as "
-"usual."
+"Packages may be available from your Linux distribution (Red Hat, CentOS, "
+"Fedora, Ubuntu, ...) that you should use with your standard packages manager"
+" as usual."
 msgstr ""
 "Il existe également de nombreux paquets pour les distributions (Red Hat, "
 "CentOS, Fedora, Ubuntu, …) qu'il est possible d'installer avec le "
@@ -122,26 +122,29 @@ msgstr ""
 "L’installation à proprement parler de GLPI est composée de trois étapes :"
 
 #: ../../source/install/index.rst:41
-msgid "Uncompress archive in your website;"
+msgid "Uncompress the archive in your website;"
 msgstr "Décompresser l’archive dans l’arborescence de votre serveur web ;"
 
 #: ../../source/install/index.rst:42
 msgid ""
-"Give your webserver write access to ``files`` and ``config`` directories;"
+"Give your webserver write access to the ``files`` and ``config`` "
+"directories;"
 msgstr ""
-"Donner les droits en écriture ià votre serveur web sur les dossiers "
-"``files`` et ``config`` ;"
+"Donner les droits en écriture à votre serveur web sur les dossiers ``files``"
+" et ``config`` ;"
 
 #: ../../source/install/index.rst:43
 msgid ""
-":doc:`launch installation wizard <wizard>` (or use :ref:`command line "
+":doc:`launch installation wizard <wizard>` (or use the :ref:`command line "
 "installation script <cdline_install>`)."
 msgstr ""
 ":doc:`lancer l'assistant d'installation <wizard>` (ou utiliser :ref:`le "
 "script d'installation en ligne de commande <cdline_install>`)."
 
 #: ../../source/install/index.rst:45
-msgid "Once three steps has been completed the app is ready to be used."
+msgid ""
+"Once these three steps have been completed the application is ready to be "
+"used."
 msgstr ""
 "Une fois ces étapes effectuées l’application est prête à être utilisée."
 
@@ -151,8 +154,8 @@ msgstr "Emplacements des dossiers et fichiers"
 
 #: ../../source/install/index.rst:50
 msgid ""
-"As many other web applications, GLPI may be installed just by copying the "
-"whole directory to any web server. Anyways, this may be secure less."
+"Like many other web applications, GLPI can be installed by just copying the "
+"whole directory to any web server. However, this may be less secure."
 msgstr ""
 "Comme beaucoup d’applications web, GLPI peut être installé en copiant "
 "simplement le contenu complet du répertoire sur un serveur web quelconque. "
@@ -167,11 +170,11 @@ msgstr ""
 
 #: ../../source/install/index.rst:56
 msgid ""
-"GLPI stores some data in the ``files`` directory, database access "
-"configuration is stored in the ``config`` directory, ... Even if GLPI "
-"provides some securities to prevent files to be accessed from a webserver "
-"directly, the best way to go is to store data outside of the web root. That "
-"way, sensible files cannot be accessed directly from the web server."
+"GLPI stores some data in the ``files`` directory, the database access "
+"configuration is stored in the ``config`` directory, etc. Even if GLPI "
+"provides some ways to prevent files from being accessed by the webserver "
+"directly, best practise is to store data outside of the web root. That way, "
+"sensitive files cannot be accessed directly from the web server."
 msgstr ""
 "GLPI stocke un certain nombre de données dans son répertoire ``files``, la "
 "configuration de votre base de données est stockée dans le dossier "
@@ -193,15 +196,18 @@ msgstr ""
 #: ../../source/install/index.rst:60
 msgid "``GLPI_CONFIG_DIR``: set path to the configuration directory;"
 msgstr ""
-"``GLPI_CONFIG_DIR`` : détermine le chemin vers le dossier de configuration ;"
+"``GLPI_CONFIG_DIR`` : définit le chemin d'accès du dossier de configuration "
+";"
 
 #: ../../source/install/index.rst:61
 msgid "``GLPI_VAR_DIR`` : set path to the ``files`` directory;"
-msgstr "``GLPI_VAR_DIR`` : détermine le chemin vers les “fichiers” ;"
+msgstr ""
+"``GLPI_VAR_DIR`` : définit le chemin d'accès du répertoire “fichiers” ;"
 
 #: ../../source/install/index.rst:62
 msgid "``GLPI_LOG_DIR`` : set path to logs files."
-msgstr "``GLPI_LOG_DIR`` : détermine le chemin vers les fichiers de log."
+msgstr ""
+"``GLPI_LOG_DIR`` : définit le chemin d'accès vers les fichiers de log."
 
 #: ../../source/install/index.rst:66
 msgid ""
@@ -215,7 +221,7 @@ msgstr ""
 #: ../../source/install/index.rst:68
 msgid ""
 "Directories choice is entirely up to you; the following example will follow "
-"the `FHS <http://www.pathname.com/fhs/>`_ recommandations."
+"the `FHS <http://www.pathname.com/fhs/>`_ recommendations."
 msgstr ""
 "Le choix des différents dossiers est laissé à votre entière appréciation ; "
 "l’exemple qui suit se base quand à lui sur les recommandations `FHS "
@@ -223,9 +229,8 @@ msgstr ""
 
 #: ../../source/install/index.rst:70
 msgid ""
-"Our GLPI instance will be installed in ``/var/www/glpi`` directory, a "
-"specific virtual host in the web server configuration will reflect this "
-"path."
+"Our GLPI instance will be installed in ``/var/www/glpi``, a specific virtual"
+" host in the web server configuration will reflect this path."
 msgstr ""
 "Notre instance de GLPI sera installée dans le dossier ``/var/www/glpi``, un "
 "hôte virtuel dans la configuration du serveur web reflètera ce chemin."
@@ -282,13 +287,13 @@ msgid ""
 "Then, create a file in ``/etc/glpi/local_define.php`` with the following "
 "contents:"
 msgstr ""
-"Ensuite, créer un fichier ``/etc/glpi//local_define.php`` avec le contenu "
+"Ensuite, créer un fichier ``/etc/glpi/local_define.php`` avec le contenu "
 "suivant :"
 
 #: ../../source/install/index.rst:101
 msgid ""
-"For GLPI prior to 9.2.2, ``GLPI_VAR_DIR`` constant did not exists. It was "
-"required to set all paths separately:"
+"For GLPI prior to 9.2.2, the ``GLPI_VAR_DIR`` constant did not exist and it "
+"was required to set all paths separately:"
 msgstr ""
 "Pour les versions de GLPI antérieures à 9.2.2, la constante ``GLPI_VAR_DIR``"
 " n’existait pas. Il fallait donc redéfinir tous les chemins un par un :"
@@ -304,5 +309,35 @@ msgstr ""
 "de configuration ;)"
 
 #: ../../source/install/index.rst:129
+msgid "Post installation"
+msgstr "Après installation"
+
+#: ../../source/install/index.rst:131
+msgid "Once GLPI has been installed, you're almost done."
+msgstr "Une fois GLPI installé, vous avez presque terminé."
+
+#: ../../source/install/index.rst:133
+msgid ""
+"An extra step would be to secure (or remove) installation directory. As an "
+"example, you can consider adding the following to your Apache virtual host "
+"configuration (or in the ``glpi/install/.htaccess`` file):"
+msgstr ""
+"Une étape supplémentaire serait de sécuriser (ou de supprimer) le répertoire"
+" d'installation. Par exemple, vous pouvez envisager d'ajouter la "
+"configuration suivante à votre hôte virtuel Apache (ou dans le fichier "
+"``glpi/install/.htaccess``) :"
+
+#: ../../source/install/index.rst:148
+msgid ""
+"With this example, the `install` directory access will be limited to "
+"localhost only and will display an error message otherwise. Of course, you "
+"may have to adapt this to your needs; refer to your web server's "
+"documentation."
+msgstr ""
+"Avec cet exemple, l'accès au dossier ``install`` serait limité au seul hôte "
+"local et afficherait un message sinon. Bien sûr, vous pouvez adapter cela à "
+"vos besoins, référez-vous à la documentation de votre serveur web. "
+
+#: ../../source/install/index.rst:151
 msgid "|ccbyncnd|"
 msgstr "|ccbyncnd|"

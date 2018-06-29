@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: GLPI 9.2\n"
+"Project-Id-Version: GLPI 9.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-20 06:59+0200\n"
+"POT-Creation-Date: 2018-06-29 06:38+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -195,24 +195,18 @@ msgstr "Database"
 
 #: ../../source/prerequisites.rst:81
 msgid ""
-"Currently, only `MySQL <https://dev.mysql.com>`_ (5.1 minimum) and `MariaDB "
-"<https://mariadb.com>`_ database servers are supported by GLPI."
+"Currently, only `MySQL <https://dev.mysql.com>`_ (5.6 minimum) and `MariaDB "
+"<https://mariadb.com>`_ (10.0 minimum) database servers are supported by "
+"GLPI."
 msgstr ""
-"Currently, only `MySQL <https://dev.mysql.com>`_ (5.1 minimum) and `MariaDB "
-"<https://mariadb.com>`_ database servers are supported by GLPI."
+"Currently, only `MySQL <https://dev.mysql.com>`_ (5.6 minimum) and `MariaDB "
+"<https://mariadb.com>`_ (10.0 minimum) database servers are supported by "
+"GLPI."
 
 #: ../../source/prerequisites.rst:83
 msgid "In order to work, GLPI requires a database server."
 msgstr "In order to work, GLPI requires a database server."
 
-#: ../../source/prerequisites.rst:87
-msgid ""
-"We recommand to use at least 5.5 version if you use MySQL for better "
-"performances."
-msgstr ""
-"We recommand to use at least 5.5 version if you use MySQL for better "
-"performances."
-
-#: ../../source/prerequisites.rst:90
+#: ../../source/prerequisites.rst:86
 msgid "|ccbyncnd|"
 msgstr "|ccbyncnd|"
