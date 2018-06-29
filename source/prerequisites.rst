@@ -78,10 +78,6 @@ Database
 
 .. warning::
 
-   Currently, only `MySQL <https://dev.mysql.com>`_ (5.1 minimum) and `MariaDB <https://mariadb.com>`_ database servers are supported by GLPI.
+   Currently, only `MySQL <https://dev.mysql.com>`_ (5.6 minimum) and `MariaDB <https://mariadb.com>`_ (10.0 minimum) database servers are supported by GLPI.
 
 In order to work, GLPI requires a database server.
-
-.. note::
-
-   We recommand to use at least 5.5 version if you use MySQL for better performances.
