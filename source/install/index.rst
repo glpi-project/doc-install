@@ -82,9 +82,16 @@ Following this instructions, we'll create a ``inc/downstream.php`` file into GLP
    <?php
    define('GLPI_CONFIG_DIR', '/etc/glpi/');
 
+   if (file_exists(GLPI_CONFIG_DIR . '/local_define.php')) {
+      require_once GLPI_CONFIG_DIR . '/local_define.php';
+   }
+
+
 .. warning::
 
    GLPI packages will certainly provide a ``inc/downstream.php`` file. This one must not be edited!
+
+   GLPI looks for a `local_define.php` file in its own `config` directory. If you want to use one form new config directory, you have to load it.
 
 Then, create a file in ``/etc/glpi/local_define.php`` with the following contents:
 
@@ -120,10 +127,6 @@ Then, create a file in ``/etc/glpi/local_define.php`` with the following content
       define('GLPI_LOG_DIR', '/var/log/glpi');
 
       Of course, it is always possible to redefine any of those paths if needed.
-
-.. note::
-
-   GLPI configuration directory cannot be defined in the ``local_define.php`` file just because this one will be... in the configuration directory itself ;)
 
 Post installation
 -----------------
