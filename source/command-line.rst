@@ -91,6 +91,33 @@ If you have any diff, output will looks like :
     +  `pattern` text
        primary key (`id`)
 
+LDAP tools
+-----------
+
+LDAP synchonization
+^^^^^^^^^^^^^^^^^^^
+
+The ``bin/console glpi:ldap:synchronize_users`` command can be used to synchronize users against LDAP server informations.
+
+Possible options for this command are:
+
+ * ``-c``, ``--only-create-new`` only create new users
+ * ``-u``, ``--only-update-existing`` only update existing users
+ * ``-s``, ``--ldap-server-id[=LDAP-SERVER-ID] `` synchronize only users attached to this LDAP server (multiple values allowed)
+ * ``-f``, ``--ldap-filter[=LDAP-FILTER]`` filter to apply on LDAP search
+ * ``--begin-date[=BEGIN-DATE]`` begin date to apply in "modifyTimestamp" filter
+ * ``--end-date[=END-DATE]`` end date to apply in "modifyTimestamp" filter
+ * ``-d``, ``--deleted-user-strategy[=DELETED-USER-STRATEGY] force strategy used for deleted users:
+   * 0: Preserve
+   * 1: Put in trashbin
+   * 2: Withdraw dynamic authorizations and groups
+   * 3: Disable
+   * 4: Disable + Withdraw dynamic authorizations and groups
+
+See http://php.net/manual/en/datetime.formats.php for supported date formats in ``--begin-date`` and ``--end-date`` options.
+
+See also :ref:`console options <cdline_options>`.
+
 Tasks tools
 -----------
 
