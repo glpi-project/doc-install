@@ -108,11 +108,12 @@ Possible options for this command are:
  * ``--begin-date[=BEGIN-DATE]`` begin date to apply in "modifyTimestamp" filter
  * ``--end-date[=END-DATE]`` end date to apply in "modifyTimestamp" filter
  * ``-d``, ``--deleted-user-strategy[=DELETED-USER-STRATEGY] force strategy used for deleted users:
-   * 0: Preserve
-   * 1: Put in trashbin
-   * 2: Withdraw dynamic authorizations and groups
-   * 3: Disable
-   * 4: Disable + Withdraw dynamic authorizations and groups
+ 
+    * 0: Preserve
+    * 1: Put in trashbin
+    * 2: Withdraw dynamic authorizations and groups
+    * 3: Disable
+    * 4: Disable + Withdraw dynamic authorizations and groups
 
 See http://php.net/manual/en/datetime.formats.php for supported date formats in ``--begin-date`` and ``--end-date`` options.
 
