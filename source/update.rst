@@ -20,3 +20,11 @@ Please also note the update process will automatically disable your plugins.
     You should not try to restore a database backup on a non empty database (say, a database that has been partially migrated for any reason).
 
     Make sure your database is empty before restoring your backup and try to update, and repeat on fail.
+
+.. warning::
+
+   .. versionchanged: 10.0.0
+
+   From the beginning, it was possible to update to any GLPI version from any older version. But this is a lot of work to maintain so much very, very old code that can't be tested...
+
+   We've decided to support migrations from GLPI 0.80 only. If you're using an older version, you'll have to upgrade to 9.4.x first, and then to 10.x
