@@ -14,7 +14,7 @@ On most systems, you'll have to initialize timezones data from your system's tim
 
 You may want to check `MariaDB documentation about mysql_tzinfo_to_sql <https://mariadb.com/kb/en/library/mysql_tzinfo_to_sql/>`_ and your system documentation do know where data are stored (if not in ``/usr/share/zoneinfo``).
 
-Do not forget to restart the server once command is successfull.
+Do not forget to restart the database server once command is successfull.
 
 Windows users
 -------------
