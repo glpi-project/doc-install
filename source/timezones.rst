@@ -10,7 +10,7 @@ On most systems, you'll have to initialize timezones data from your system's tim
 
 .. code-block:: bash
 
-   mysql_tzinfo_to_sql /usr/share/zoneinfo | mysql -u root -p mysql
+   mysql_tzinfo_to_sql /usr/share/zoneinfo | mysql -p -u root mysql
 
 You may want to check `MariaDB documentation about mysql_tzinfo_to_sql <https://mariadb.com/kb/en/library/mysql_tzinfo_to_sql/>`_ and your system documentation do know where data are stored (if not in ``/usr/share/zoneinfo``).
 
@@ -19,7 +19,7 @@ Do not forget to restart the server once command is successfull.
 Windows users
 -------------
 
-Windows do not provide timezones informations, you'll have to download and intialize data yourself.
+Windows does not provide timezones informations, you'll have to download and intialize data yourself.
 
 See `MariaDB documentation about timezones <https://mariadb.com/kb/en/library/time-zones/#mysql-time-zone-tables>`_.
 
