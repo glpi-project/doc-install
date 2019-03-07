@@ -16,5 +16,6 @@ This documentation presents `GLPI <http://glpi-project.org>`_ installation instr
    prerequisites
    install/index
    install/wizard
+   timezones
    update
    command-line
