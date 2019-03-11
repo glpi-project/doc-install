@@ -19,7 +19,9 @@ GLPI requires a web server that supports PHP, like:
 PHP
 ---
 
-As of 9.2 release, GLPI requires `PHP <http://php.net>`_ 5.6 or more recent.
+* GLPI 9.2 and newer require `PHP <http://php.net>`_ 5.6 or newer.
+* GLPI 9.2 has been tested with PHP versions up to 7.2.
+* GLPI 9.3 has been tested with PHP versions up to 7.3.
 
 .. note::
 
@@ -78,6 +80,6 @@ Database
 
 .. warning::
 
-   Currently, only `MySQL <https://dev.mysql.com>`_ (5.6 minimum) and `MariaDB <https://mariadb.com>`_ (10.0 minimum) database servers are supported by GLPI.
+   Currently, only `MySQL <https://dev.mysql.com>`_ (at least 5.6) and `MariaDB <https://mariadb.com>`_ (at least 10.0) database servers are supported by GLPI.
 
 In order to work, GLPI requires a database server.
