@@ -3,6 +3,10 @@ Timezones
 
 In order to get timezones working on a MariaDB/MySQL instance, you will have to initialize Timezones data and grant GLPI database user read ACL on their table.
 
+.. warning::
+
+   Enabling timezone support on your MySQL instance may affect other database in the same instance; be carefull!
+
 Non windows users
 -----------------
 
