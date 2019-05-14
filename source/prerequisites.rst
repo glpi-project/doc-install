@@ -20,6 +20,7 @@ PHP
 ---
 
 As of 9.2 release, GLPI requires `PHP <http://php.net>`_ 5.6 or more recent.
+As of 9.5 release, GLPI requires `PHP <http://php.net>`_ 7.0.8 or more recent.
 
 .. note::
 
