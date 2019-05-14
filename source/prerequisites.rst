@@ -68,11 +68,11 @@ PHP configuration file (``php.ini``) must be adapted to reflect following variab
 
     memory_limit = 64M ;        // max memory limit
     file_uploads = on ;
-    max_execution_time = 600 ;  // not mandatory but adviced
-    register_globals = off ;    // not mandatory but adviced
+    max_execution_time = 600 ;  // not mandatory but recommended
+    register_globals = off ;    // not mandatory but recommended
     magic_quotes_sybase = off ;
     session.auto_start = off ;
-    session.use_trans_sid = 0 ; // not mandatory but adviced
+    session.use_trans_sid = 0 ; // not mandatory but recommended
 
 Database
 --------
