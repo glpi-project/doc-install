@@ -35,7 +35,6 @@ import sphinx_glpi_theme
 extensions = [
     'sphinx.ext.todo',
     'sphinx.ext.ifconfig',
-    'rst2pdf.pdfbuilder',
     'sphinx.ext.intersphinx',
 ]
 
@@ -430,7 +429,7 @@ pdf_break_level = 2
 # Enable rst2pdf extension modules (default is empty list)
 # you need vectorpdf for better sphinx's graphviz support
 #pdf_extensions = ['vectorpdf']
-pdf_extensions = ['dotted_toc']
+#pdf_extensions = ['dotted_toc']
 
 intersphinx_mapping = {'user': ('http://glpi-user-documentation.readthedocs.io/fr/latest/', None)}
 
