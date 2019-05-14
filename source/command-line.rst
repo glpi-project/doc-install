@@ -4,7 +4,7 @@ Command line tools
 Since GLPI 9.2.2, command line tools are provided as supported scripts and are available from the ``scripts`` directory of the archive. On previous versions, those scripts were present in the ``tools`` directory that is not official and therefore not in the release archive.
 
 Since GLPI 9.4.0, command line tools are being centralized in a console application (``bin/console``).
-Calling ``bin/console`` from GLPI directory displays the list of available commands.
+Calling ``php bin/console`` from GLPI directory displays the list of available commands.
 
 .. note::
 
@@ -30,7 +30,7 @@ For every console command, following options are available:
 Install
 -------
 
-The ``bin/console db:install`` has been made to install GLPI database in CLI mode.
+The ``php bin/console db:install`` has been made to install GLPI database in CLI mode.
 
 Possible options for this command are:
 
@@ -51,7 +51,7 @@ See also :ref:`console options <cdline_options>`.
 Update
 ------
 
-The ``bin/console db:update`` has been made to update GLPI database in CLI mode from a previously installed version.
+The ``php bin/console db:update`` has been made to update GLPI database in CLI mode from a previously installed version.
 
 There is no required arguments, just run the command so it updates your database automatically.
 
@@ -71,13 +71,13 @@ Database tools
 
 Database schema check
 ^^^^^^^^^^^^^^^^^^^^^
-The ``bin/console db:check`` command can be used to check if your database schema differs from expected one.
+The ``php bin/console db:check`` command can be used to check if your database schema differs from expected one.
 
 If you have any diff, output will looks like :
 
 .. code-block:: none
 
-    $ bin/console glpi:database:check
+    $ php bin/console glpi:database:check
     Table schema differs for table "glpi_rulecriterias".
     --- Original
     +++ New
@@ -97,7 +97,7 @@ Tasks tools
 Task unlock
 ^^^^^^^^^^^
 
-The ``bin/console task:unlock`` command can be used to unlock stucked cron tasks.
+The ``php bin/console task:unlock`` command can be used to unlock stucked cron tasks.
 
 .. warning::
 
@@ -122,7 +122,7 @@ From MyISAM to InnoDB
 
 Since version 9.3.0, GLPI uses the ``InnoDB`` engine instead of previously used ``MyISAM`` engine.
 
-The ``bin/console glpi:migration:myisam_to_innodb`` command can be used to migrate exiting tables to ``InnoDB`` engine.
+The ``php bin/console glpi:migration:myisam_to_innodb`` command can be used to migrate exiting tables to ``InnoDB`` engine.
 
 Missing timestamps builder
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -131,4 +131,4 @@ Missing timestamps builder
 
 Prior to GLPI 9.1.0, fields corresponding to creation and modification dates were not existing.
 
-The ``bin/console glpi:migration:build_missing_timestamps`` command can be used to rebuild missing values using available logs.
+The ``php bin/console glpi:migration:build_missing_timestamps`` command can be used to rebuild missing values using available logs.
