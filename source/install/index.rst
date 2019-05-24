@@ -44,6 +44,8 @@ GLPI installation itself is composed of three steps:
 
 Once these three steps have been completed the application is ready to be used.
 
+If you need to set advanced configuration, like SSL connection parameters, please refer to :doc:`advanced configuration <advanced-configuration>`.
+
 Files and directories locations
 -------------------------------
 
