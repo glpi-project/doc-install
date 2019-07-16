@@ -34,13 +34,36 @@ The ``php bin/console db:install`` has been made to install GLPI database in CLI
 
 Possible options for this command are:
 
- * ``-H``, ``--db-host`` host name (`localhost` per default)
- * ``-P``, ``--db-port`` database port (default MySQL port if option is not defined)
- * ``-d``, ``--db-name`` database name
- * ``-u``, ``--db-user`` database user name
- * ``-p``, ``--db-password`` database user's pasword
- * ``-L``, ``--default-language`` default language of GLPI (`en_GB` per default)
- * ``-f``, ``--force`` do not check if GLPI is already installed and drop what would exists
+ * ``-r``, ``--reconfigure`` to enable overriding of any existing DB configuration file
+ * ``-f``, ``--force`` to force execution of installation even if database is not empty
+ * ``-L``, ``--default-language=DEFAULT_LANGUAGE`` default language of GLPI (`en_GB` per default)
+ * ``-H``, ``--db-host=DB_HOST`` host name (`localhost` per default)
+ * ``-P``, ``--db-port=DB_PORT`` database port (default MySQL port if option is not defined)
+ * ``-d``, ``--db-name=DB_NAME`` database name
+ * ``-u``, ``--db-user=DB_USER`` database user name
+ * ``-p``, ``--db-password=DB_PASSWORD`` database user's pasword (use it without value to be prompted for password)
+
+If mandatory options are not specified in the command call, the console will ask for them.
+
+Database connection parameters may be ommited if a configuration file already exists.
+
+See also :ref:`console options <cdline_options>`.
+
+Database connection configuration
+---------------------------------
+
+   .. versionadded:: 9.5.0
+
+The ``php bin/console db:configure`` has been made to define database connection parameters in CLI mode.
+
+Possible options for this command are:
+
+ * ``-r``, ``--reconfigure`` to enable overriding of any existing DB configuration file
+ * ``-H``, ``--db-host=DB_HOST`` host name (`localhost` per default)
+ * ``-P``, ``--db-port=DB_PORT`` database port (default MySQL port if option is not defined)
+ * ``-d``, ``--db-name=DB_NAME`` database name
+ * ``-u``, ``--db-user=DB_USER`` database user name
+ * ``-p``, ``--db-password=DB_PASSWORD`` database user's pasword (use it without value to be prompted for password)
 
 If mandatory options are not specified in the command call, the console will ask for them.
 
