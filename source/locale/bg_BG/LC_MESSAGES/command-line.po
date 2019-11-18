@@ -1,0 +1,136 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2018, GLPI Project, Teclib'
+# This file is distributed under the same license as the GLPI package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Zornitsa Koleva <zornitsa.koleva@mr-bricolage.bg>, 2019
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI 9.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-29 06:38+0200\n"
+"PO-Revision-Date: 2018-02-20 11:33+0000\n"
+"Last-Translator: Zornitsa Koleva <zornitsa.koleva@mr-bricolage.bg>, 2019\n"
+"Language-Team: Bulgarian (Bulgaria) (https://www.transifex.com/glpi/teams/87042/bg_BG/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: bg_BG\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../source/command-line.rst:2
+msgid "Command line tools"
+msgstr "Command line инструменти"
+
+#: ../../source/command-line.rst:4
+msgid ""
+"Since GLPI 9.2.2, command line tools are provided as supported scripts and "
+"are available from the ``scripts`` directory of the archive. On previous "
+"versions, those scripts were present in the ``tools`` directory that is not "
+"official and therefore not in the release archive."
+msgstr ""
+
+#: ../../source/command-line.rst:8
+msgid ""
+"If APCu is installed on your system, it may fail from command line since "
+"default configuration disables it from command-line. To change that, set "
+"``apc.enable_cli`` to ``on`` in your APCu configuration file."
+msgstr ""
+
+#: ../../source/command-line.rst:13
+msgid "Install"
+msgstr "Инсталирай"
+
+#: ../../source/command-line.rst:15
+msgid ""
+"A PHP command line installation script is provided in the GLPI archive "
+"(``scripts/cliinstall.php``)."
+msgstr ""
+
+#: ../../source/command-line.rst:17
+msgid "You have to specify at least a database name and an user:"
+msgstr ""
+
+#: ../../source/command-line.rst:23
+msgid "It is possible to specifiy some variables calling the script:"
+msgstr ""
+
+#: ../../source/command-line.rst:25
+msgid "``--host`` host name (`localhost` per default),"
+msgstr ""
+
+#: ../../source/command-line.rst:26
+msgid "``--db`` database name,"
+msgstr ""
+
+#: ../../source/command-line.rst:27
+msgid "``--user`` database user name,"
+msgstr ""
+
+#: ../../source/command-line.rst:28
+msgid "``--pass`` database user's pasword,"
+msgstr ""
+
+#: ../../source/command-line.rst:29 ../../source/command-line.rst:49
+msgid ""
+"``--lang`` language code to use (`fr_FR` as example). Will be set to `en_GB`"
+" per default,"
+msgstr ""
+
+#: ../../source/command-line.rst:30
+msgid "``--tests`` create tests configuration file,"
+msgstr ""
+
+#: ../../source/command-line.rst:31
+msgid ""
+"``--force`` do not check if GLPI is already installed and drop what would "
+"exists,"
+msgstr ""
+
+#: ../../source/command-line.rst:32 ../../source/command-line.rst:50
+msgid "``--help`` displays command help."
+msgstr ""
+
+#: ../../source/command-line.rst:37
+msgid "Update"
+msgstr "Update"
+
+#: ../../source/command-line.rst:39
+msgid "An update script is provided as well (``scripts/cliupdate.php``)."
+msgstr ""
+
+#: ../../source/command-line.rst:41
+msgid ""
+"There is no required arguments, just run the script so it updates your "
+"database automatically."
+msgstr ""
+
+#: ../../source/command-line.rst:45
+msgid "Do not forget to backup your database before any update try!"
+msgstr ""
+
+#: ../../source/command-line.rst:47
+msgid "Possible options for this command are:"
+msgstr "Възможните опции за тази команда са:"
+
+#: ../../source/command-line.rst:51
+msgid "``--config-dir`` set configuration file path to use,"
+msgstr ""
+
+#: ../../source/command-line.rst:52
+msgid ""
+"``--force`` force update, usefull when GLPI version does not change (mainly "
+"when working on it ;)),"
+msgstr ""
+
+#: ../../source/command-line.rst:53
+msgid ""
+"``--dev`` required to use a development version. Use it with caution..."
+msgstr ""
+
+#: ../../source/command-line.rst:56
+msgid "|ccbyncnd|"
+msgstr "|ccbyncnd|"

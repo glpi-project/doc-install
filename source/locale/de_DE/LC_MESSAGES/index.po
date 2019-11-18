@@ -1,0 +1,52 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2018, GLPI Project, Teclib'
+# This file is distributed under the same license as the GLPI package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Stephan <stephan.rennert@web.de>, 2018
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI 9.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-29 06:38+0200\n"
+"PO-Revision-Date: 2018-02-20 11:33+0000\n"
+"Last-Translator: Stephan <stephan.rennert@web.de>, 2018\n"
+"Language-Team: German (Germany) (https://www.transifex.com/glpi/teams/87042/de_DE/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de_DE\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../source/index.rst:7
+msgid "GLPI installation"
+msgstr "GLPI Installation"
+
+#: ../../source/index.rst:9
+msgid ""
+"This documentation presents `GLPI <http://glpi-project.org>`_ installation "
+"instructions."
+msgstr ""
+"Diese Dokumentation enthält  `GLPI <http://glpi-"
+"project.org>`_-Installationsanweisungen."
+
+#: ../../source/index.rst:11
+msgid ""
+":abbr:`GLPI (Gestion Libre de Parc Informatique)` is a free (as in \"free "
+"speech\" not as in \"free beer\"!) asset and helpdesk management solution "
+"accessible from a web browser built to manage all you asset management "
+"issues, from hardware components and software inventories management to user"
+" helpdesk management."
+msgstr ""
+":abbr:`GLPI (Gestion Libre de Parc Informatique)` ist eine freie (wie in "
+"\"Redefreiheit\" nicht wie in \"Freibier\"!) Asset- und Helpdesk-Management-"
+"Lösung, die über einen Webbrowser zugänglich ist, der für die Verwaltung "
+"aller Ihrer Asset-Management-Probleme, von Hardwarekomponenten und Software-"
+"Inventarisierung bis hin zum User-Helpdesk-Management, entwickelt wurde."
+
+#: ../../source/index.rst:23
+msgid "|ccbyncnd|"
+msgstr "|ccbyncnd|"

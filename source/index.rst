@@ -19,3 +19,4 @@ This documentation presents `GLPI <http://glpi-project.org>`_ installation instr
    timezones
    update
    command-line
+   install/advanced-configuration.rst

@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the GLPI package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Wanderlei Hüttel <wanderlei.huttel@gmail.com>, 2018
+# Johan Cwiklinski <jcwiklinski@teclib.com>, 2018
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI 9.3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-06-29 06:38+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2018-02-20 11:33+0000\n"
 "Last-Translator: Johan Cwiklinski <jcwiklinski@teclib.com>, 2018\n"
 "Language-Team: Portuguese (Brazil) (https://www.transifex.com/glpi/teams/87042/pt_BR/)\n"
 "MIME-Version: 1.0\n"

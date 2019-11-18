@@ -1,0 +1,78 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2018, GLPI Project, Teclib'
+# This file is distributed under the same license as the GLPI package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# liAnGjiA <liangjia@qq.com>, 2018
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI 9.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-29 06:38+0200\n"
+"PO-Revision-Date: 2018-02-20 11:33+0000\n"
+"Last-Translator: liAnGjiA <liangjia@qq.com>, 2018\n"
+"Language-Team: Chinese (China) (https://www.transifex.com/glpi/teams/87042/zh_CN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../source/update.rst:2
+msgid "Update"
+msgstr "更新"
+
+#: ../../source/update.rst:6
+msgid ""
+"As for every update process, you have to backup some data before processing "
+"any upgrade:"
+msgstr "每次更新，正式执行更新前，请务必注意备份备份备份！"
+
+#: ../../source/update.rst:8
+msgid "**backup your database**;"
+msgstr "**备份数据库备份数据库备份数据库**;"
+
+#: ../../source/update.rst:9
+msgid "backup your files directory;"
+msgstr "备份文档目录;"
+
+#: ../../source/update.rst:10
+msgid "backup your configuration."
+msgstr "备份配置."
+
+#: ../../source/update.rst:12
+msgid ""
+"GLPI update process is automated. To start it, just go to your GLPI instance"
+" URI, or (recommended) use the :doc:`command line tools <command-line>`."
+msgstr ""
+"GLPI 是自动更新的。开始之前首先, 转到 GLPI 实例 URI, 或者 (建议) 利用 :doc:`命令行工具 <command-line>`."
+
+#: ../../source/update.rst:14
+msgid ""
+"Once a new version will be installed; you will not be able to use the "
+"application until a migration has been done."
+msgstr "一旦开始了新版本的安装动作;在迁移完成之前，您将无法使用该应用程序。"
+
+#: ../../source/update.rst:16
+msgid ""
+"Please also note the update process will automatically disable your plugins."
+msgstr "请注意，更新过程将自动禁用您的插件。"
+
+#: ../../source/update.rst:20
+msgid ""
+"You should not try to restore a database backup on a non empty database "
+"(say, a database that has been partially migrated for any reason)."
+msgstr "您不应该尝试在非空数据库上恢复数据库备份(例如，由于任何原因部分迁移的数据库)。"
+
+#: ../../source/update.rst:22
+msgid ""
+"Make sure your database is empty before restoring your backup and try to "
+"update, and repeat on fail."
+msgstr "在恢复备份并尝试更新之前，请确保数据库为空，并在失败时重复此操作。"
+
+#: ../../source/update.rst:25
+msgid "|ccbyncnd|"
+msgstr "|CC-by-NC-ND|"

@@ -3,14 +3,18 @@
 # This file is distributed under the same license as the GLPI package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Wanderlei Hüttel <wanderlei.huttel@gmail.com>, 2018
+# Gustavo Plottier Pilotto <gplottier@gmail.com>, 2019
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI 9.3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-06-29 06:38+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Wanderlei Hüttel <wanderlei.huttel@gmail.com>, 2018\n"
+"PO-Revision-Date: 2018-02-20 11:33+0000\n"
+"Last-Translator: Gustavo Plottier Pilotto <gplottier@gmail.com>, 2019\n"
 "Language-Team: Portuguese (Brazil) (https://www.transifex.com/glpi/teams/87042/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -55,6 +59,8 @@ msgid ""
 "GLPI follows a semantic versioning scheme, on 3 digits. The first one is the"
 " major release, the second the minor and the third the fix release."
 msgstr ""
+"O GLPI segue um esquema de versão semântico em 3 dígitos. O primeiro é o "
+"lançamento principal, o segundo o menor e o terceiro a versão fixa. "
 
 #: ../../source/install/index.rst:19
 msgid ""
@@ -83,6 +89,8 @@ msgid ""
 "On GitHub, there are always two archives named *Source code* which should "
 "not be used."
 msgstr ""
+"No GitHub há sempre dois arquivos denominados * Código-fonte * que não devem"
+" ser usados. "
 
 #: ../../source/install/index.rst:30
 msgid ""
@@ -105,6 +113,9 @@ msgid ""
 "Fedora, Ubuntu, ...) that you should use with your standard packages manager"
 " as usual."
 msgstr ""
+"Os pacotes podem estar disponíveis na sua distribuição (Red Hat, CentOS, "
+"Fedora, Ubuntu, etc) que você deve usar com seu gerenciador de pacotes "
+"padrão como de costume."
 
 #: ../../source/install/index.rst:39
 msgid "GLPI installation itself is composed of three steps:"
@@ -112,25 +123,31 @@ msgstr "A instalação GLPI em si é composta de três etapas:"
 
 #: ../../source/install/index.rst:41
 msgid "Uncompress the archive in your website;"
-msgstr ""
+msgstr "Descompacte o arquivo em seu site;"
 
 #: ../../source/install/index.rst:42
 msgid ""
 "Give your webserver write access to the ``files`` and ``config`` "
 "directories;"
 msgstr ""
+"Permita acesso para gravação nos diretórios `` files`` e `` config`` do seu "
+"servidor web;"
 
 #: ../../source/install/index.rst:43
 msgid ""
 ":doc:`launch installation wizard <wizard>` (or use the :ref:`command line "
 "installation script <cdline_install>`)."
 msgstr ""
+" :doc: `iniciar o assistente de instalação` (ou use: ref. `script de "
+"instalação na linha de comando')."
 
 #: ../../source/install/index.rst:45
 msgid ""
 "Once these three steps have been completed the application is ready to be "
 "used."
 msgstr ""
+"Uma vez que as três etapas foram concluídas o aplicativo está pronto para "
+"utilização. "
 
 #: ../../source/install/index.rst:48
 msgid "Files and directories locations"
@@ -141,6 +158,9 @@ msgid ""
 "Like many other web applications, GLPI can be installed by just copying the "
 "whole directory to any web server. However, this may be less secure."
 msgstr ""
+"Como muitos outros aplicativos da Web, o GLPI pode ser instalado copiando "
+"todo o diretório para qualquer servidor web. Esta opção  pode ser menos "
+"segura. "
 
 #: ../../source/install/index.rst:54
 msgid ""
@@ -157,6 +177,12 @@ msgid ""
 "directly, best practise is to store data outside of the web root. That way, "
 "sensitive files cannot be accessed directly from the web server."
 msgstr ""
+"O GLPI armazena alguns dados no diretório `` files`` e a configuração de "
+"acesso ao banco de dados é armazenada no diretório `` config``. Mesmo que o "
+"GLPI forneça segurança para evitar que os arquivos sejam acessados "
+"diretamente de um servidor web, a melhor maneira é armazenar os dados fora "
+"da raiz da Web. Dessa forma, arquivos sensíveis não podem ser acessados "
+"diretamente do servidor web. "
 
 #: ../../source/install/index.rst:58
 msgid ""
@@ -193,12 +219,16 @@ msgid ""
 "Directories choice is entirely up to you; the following example will follow "
 "the `FHS <http://www.pathname.com/fhs/>`_ recommendations."
 msgstr ""
+"A escolha de diretórios depende inteiramente de você, o seguinte exemplo "
+"segue as recomendações `FHS <http://www.nomedocaminho.com/fhs/>`_. "
 
 #: ../../source/install/index.rst:70
 msgid ""
 "Our GLPI instance will be installed in ``/var/www/glpi``, a specific virtual"
 " host in the web server configuration will reflect this path."
 msgstr ""
+"O GLPI vai ser instalado no diretório `` /var/www/glpi``, um host virtual "
+"específico na configuração do servidor web irá refletir esse caminho. "
 
 #: ../../source/install/index.rst:72
 msgid ""

@@ -3,14 +3,19 @@
 # This file is distributed under the same license as the GLPI package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Wanderlei Hüttel <wanderlei.huttel@gmail.com>, 2018
+# Johan Cwiklinski <jcwiklinski@teclib.com>, 2018
+# Gustavo Plottier Pilotto <gplottier@gmail.com>, 2019
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI 9.3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-06-29 06:38+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Johan Cwiklinski <jcwiklinski@teclib.com>, 2018\n"
+"PO-Revision-Date: 2018-02-20 11:33+0000\n"
+"Last-Translator: Gustavo Plottier Pilotto <gplottier@gmail.com>, 2019\n"
 "Language-Team: Portuguese (Brazil) (https://www.transifex.com/glpi/teams/87042/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -40,6 +45,10 @@ msgid ""
 "default configuration disables it from command-line. To change that, set "
 "``apc.enable_cli`` to ``on`` in your APCu configuration file."
 msgstr ""
+"Se o APCu estiver instalado em seu sistema, ele poderá falhar na linha de "
+"comando já que a configuração padrão o desativa na linha de comando. Para "
+"mudar isso, configure `` apc.enable_cli`` para `` on`` no arquivo de "
+"configuração do APCu."
 
 #: ../../source/command-line.rst:13
 msgid "Install"

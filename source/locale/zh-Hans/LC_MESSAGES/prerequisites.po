@@ -3,13 +3,16 @@
 # This file is distributed under the same license as the GLPI package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# liAnGjiA <liangjia@qq.com>, 2018
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI 9.3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-06-29 06:38+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2018-02-20 11:33+0000\n"
 "Last-Translator: liAnGjiA <liangjia@qq.com>, 2018\n"
 "Language-Team: Chinese Simplified (https://www.transifex.com/glpi/teams/87042/zh-Hans/)\n"
 "MIME-Version: 1.0\n"
@@ -119,7 +122,7 @@ msgstr ""
 
 #: ../../source/prerequisites.rst:42
 msgid "``xml``."
-msgstr ""
+msgstr "``xml``."
 
 #: ../../source/prerequisites.rst:45
 msgid "Optional extensions"
@@ -159,7 +162,7 @@ msgstr ""
 
 #: ../../source/prerequisites.rst:58
 msgid "``xmlrpc``: used for XMLRPC API."
-msgstr ""
+msgstr "``xmlrpc``: 使用 XMLRPC API."
 
 #: ../../source/prerequisites.rst:59
 msgid ""
@@ -170,7 +173,7 @@ msgstr ""
 
 #: ../../source/prerequisites.rst:62
 msgid "Configuration"
-msgstr ""
+msgstr "配置"
 
 #: ../../source/prerequisites.rst:64
 msgid ""
@@ -180,7 +183,7 @@ msgstr ""
 
 #: ../../source/prerequisites.rst:77
 msgid "Database"
-msgstr ""
+msgstr "数据库"
 
 #: ../../source/prerequisites.rst:81
 msgid ""
@@ -195,4 +198,4 @@ msgstr ""
 
 #: ../../source/prerequisites.rst:86
 msgid "|ccbyncnd|"
-msgstr ""
+msgstr "|CC-by-NC-ND|"

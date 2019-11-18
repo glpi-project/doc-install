@@ -1,0 +1,162 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2018, GLPI Project, Teclib'
+# This file is distributed under the same license as the GLPI package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Roberto Flores <robertocarlos.floresh@gmail.com>, 2018
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI 9.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-29 06:38+0200\n"
+"PO-Revision-Date: 2018-02-20 11:33+0000\n"
+"Last-Translator: Roberto Flores <robertocarlos.floresh@gmail.com>, 2018\n"
+"Language-Team: Spanish (Latin America) (https://www.transifex.com/glpi/teams/87042/es_419/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es_419\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../source/command-line.rst:2
+msgid "Command line tools"
+msgstr "Herramientas de linea de comando"
+
+#: ../../source/command-line.rst:4
+msgid ""
+"Since GLPI 9.2.2, command line tools are provided as supported scripts and "
+"are available from the ``scripts`` directory of the archive. On previous "
+"versions, those scripts were present in the ``tools`` directory that is not "
+"official and therefore not in the release archive."
+msgstr ""
+"Desde GLPI 9.2.2, las herramientas de línea de comandos se proporcionan como"
+" scripts compatibles y están disponibles en el directorio `` scripts`` del "
+"archivo. En versiones anteriores, esos scripts estaban presentes en el "
+"directorio `` tools`` que no es oficial y, por lo tanto, no está en el "
+"archivo de la versión."
+
+#: ../../source/command-line.rst:8
+msgid ""
+"If APCu is installed on your system, it may fail from command line since "
+"default configuration disables it from command-line. To change that, set "
+"``apc.enable_cli`` to ``on`` in your APCu configuration file."
+msgstr ""
+"Si APCu está instalado en su sistema, puede fallar desde la línea de "
+"comandos ya que la configuración predeterminada lo desactiva de la línea de "
+"comandos. Para cambiar eso, establezca `` apc.enable_cli`` a `` on`` en su "
+"archivo de configuración APCu."
+
+#: ../../source/command-line.rst:13
+msgid "Install"
+msgstr "Instalar"
+
+#: ../../source/command-line.rst:15
+msgid ""
+"A PHP command line installation script is provided in the GLPI archive "
+"(``scripts/cliinstall.php``)."
+msgstr ""
+"Se proporciona un script de instalación de línea de comandos de PHP en el "
+"archivo GLPI (`` scripts / cliinstall.php``)."
+
+#: ../../source/command-line.rst:17
+msgid "You have to specify at least a database name and an user:"
+msgstr "Debe especificar al menos un nombre de base de datos y un usuario:"
+
+#: ../../source/command-line.rst:23
+msgid "It is possible to specifiy some variables calling the script:"
+msgstr "Es posible especificar algunas variables llamando al script:"
+
+#: ../../source/command-line.rst:25
+msgid "``--host`` host name (`localhost` per default),"
+msgstr "`` --host`` nombre del host (`localhost` por defecto),"
+
+#: ../../source/command-line.rst:26
+msgid "``--db`` database name,"
+msgstr "`` --db`` nombre de la base de datos,"
+
+#: ../../source/command-line.rst:27
+msgid "``--user`` database user name,"
+msgstr "`` --user`` nombre de usuario de la base de datos,"
+
+#: ../../source/command-line.rst:28
+msgid "``--pass`` database user's pasword,"
+msgstr "`` - - pass`` contraseña del usuario de la base de datos,"
+
+#: ../../source/command-line.rst:29 ../../source/command-line.rst:49
+msgid ""
+"``--lang`` language code to use (`fr_FR` as example). Will be set to `en_GB`"
+" per default,"
+msgstr ""
+"Código de idioma `` --lang`` a usar (`fr_FR` como ejemplo). Se establecerá "
+"en `en_GB` por defecto,"
+
+#: ../../source/command-line.rst:30
+msgid "``--tests`` create tests configuration file,"
+msgstr "`` --tests`` crear pruebas de archivo de configuración,"
+
+#: ../../source/command-line.rst:31
+msgid ""
+"``--force`` do not check if GLPI is already installed and drop what would "
+"exists,"
+msgstr ""
+"``--force`` no compruebe si GLPI ya está instalado y descarte lo que "
+"existiría,"
+
+#: ../../source/command-line.rst:32 ../../source/command-line.rst:50
+msgid "``--help`` displays command help."
+msgstr "`` --help`` muestra el comando ayuda."
+
+#: ../../source/command-line.rst:37
+msgid "Update"
+msgstr "Actualizar"
+
+#: ../../source/command-line.rst:39
+msgid "An update script is provided as well (``scripts/cliupdate.php``)."
+msgstr ""
+"También se proporciona un script de actualización (`` scripts / "
+"cliupdate.php``)."
+
+#: ../../source/command-line.rst:41
+msgid ""
+"There is no required arguments, just run the script so it updates your "
+"database automatically."
+msgstr ""
+"No hay argumentos necesarios, simplemente ejecute el script para que "
+"actualice su base de datos automáticamente."
+
+#: ../../source/command-line.rst:45
+msgid "Do not forget to backup your database before any update try!"
+msgstr ""
+"¡No olvide hacer una copia de seguridad de su base de datos antes de "
+"cualquier actualización intente!"
+
+#: ../../source/command-line.rst:47
+msgid "Possible options for this command are:"
+msgstr "Las opciones posibles para este comando son:"
+
+#: ../../source/command-line.rst:51
+msgid "``--config-dir`` set configuration file path to use,"
+msgstr ""
+"`` --config-dir`` establece la ruta de acceso del archivo de configuración,"
+
+#: ../../source/command-line.rst:52
+msgid ""
+"``--force`` force update, usefull when GLPI version does not change (mainly "
+"when working on it ;)),"
+msgstr ""
+"`` --force`` force update, útil cuando la versión GLPI no cambia "
+"(principalmente cuando se trabaja en ella)),"
+
+#: ../../source/command-line.rst:53
+msgid ""
+"``--dev`` required to use a development version. Use it with caution..."
+msgstr ""
+"`` --dev`` requerido para usar una versión de desarrollo. Úsalo con "
+"precaución ..."
+
+#: ../../source/command-line.rst:56
+msgid "|ccbyncnd|"
+msgstr "|ccbyncnd|"
