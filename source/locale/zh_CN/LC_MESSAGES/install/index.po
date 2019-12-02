@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016-2018, GLPI Project, Teclib'
+# Copyright (C) 2016-2019, GLPI Project, Teclib'
 # This file is distributed under the same license as the GLPI package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -10,9 +10,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: GLPI 9.3\n"
+"Project-Id-Version: GLPI 9.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-29 06:38+0200\n"
+"POT-Creation-Date: 2019-12-02 07:51+0100\n"
 "PO-Revision-Date: 2018-02-20 11:33+0000\n"
 "Last-Translator: liAnGjiA <liangjia@qq.com>, 2018\n"
 "Language-Team: Chinese (China) (https://www.transifex.com/glpi/teams/87042/zh_CN/)\n"
@@ -130,22 +130,28 @@ msgid ""
 "used."
 msgstr "完成这三个步骤后，即可使用该应用程序。"
 
-#: ../../source/install/index.rst:48
+#: ../../source/install/index.rst:47
+msgid ""
+"If you need to set advanced configuration, like SSL connection parameters, "
+"please refer to :doc:`advanced configuration <advanced-configuration>`."
+msgstr ""
+
+#: ../../source/install/index.rst:50
 msgid "Files and directories locations"
 msgstr "文件和目录位置"
 
-#: ../../source/install/index.rst:50
+#: ../../source/install/index.rst:52
 msgid ""
 "Like many other web applications, GLPI can be installed by just copying the "
 "whole directory to any web server. However, this may be less secure."
 msgstr "和许多其他Web应用程序一样，只需将整个目录复制到任何Web服务器即可安装GLPI。但是，这可能不太安全"
 
-#: ../../source/install/index.rst:54
+#: ../../source/install/index.rst:56
 msgid ""
 "Every file accessible directly from a web server must be considered unsafe!"
 msgstr "直接从Web服务器访问的每个文件都必须被视为不安全！"
 
-#: ../../source/install/index.rst:56
+#: ../../source/install/index.rst:58
 msgid ""
 "GLPI stores some data in the ``files`` directory, the database access "
 "configuration is stored in the ``config`` directory, etc. Even if GLPI "
@@ -156,43 +162,43 @@ msgstr ""
 "GLPI将一些数据存储在``files``目录中，数据库账号密码等访问配置信息都存储在``config``目录中，等等。即使GLPI提供了一些方法来防止Web服务器直接访问文件，最佳做法是将数据存储在Web根目录之外。"
 " 这样，无法直接从Web服务器访问敏感文件。"
 
-#: ../../source/install/index.rst:58
+#: ../../source/install/index.rst:60
 msgid ""
 "There are a few configuration directives you may use to achieve that "
 "(directives that are used in provided downstream packages):"
 msgstr "您可以使用一些配置指令来实现该指令（在提供的下游包中使用的指令）："
 
-#: ../../source/install/index.rst:60
+#: ../../source/install/index.rst:62
 msgid "``GLPI_CONFIG_DIR``: set path to the configuration directory;"
 msgstr "``GLPI_CONFIG_DIR``：设置配置目录的路径；"
 
-#: ../../source/install/index.rst:61
+#: ../../source/install/index.rst:63
 msgid "``GLPI_VAR_DIR`` : set path to the ``files`` directory;"
 msgstr "``GLPI_VAR_DIR`` : 设置 ``files`` 目录路径;"
 
-#: ../../source/install/index.rst:62
+#: ../../source/install/index.rst:64
 msgid "``GLPI_LOG_DIR`` : set path to logs files."
 msgstr "``GLPI_LOG_DIR`` : 设置日志文件路径."
 
-#: ../../source/install/index.rst:66
+#: ../../source/install/index.rst:68
 msgid ""
 "There are many other configuration directives available, the ones we talked "
 "about are the main to take into account for a more secure installation."
 msgstr "还有许多其他配置指令可供使用，我们讨论的那些指令主要考虑更安全的安装。"
 
-#: ../../source/install/index.rst:68
+#: ../../source/install/index.rst:70
 msgid ""
 "Directories choice is entirely up to you; the following example will follow "
 "the `FHS <http://www.pathname.com/fhs/>`_ recommendations."
 msgstr "目录的选择完全取决于你；以下示例将遵循`FHS <http://www.pathname.com/fhs/>`_建议。"
 
-#: ../../source/install/index.rst:70
+#: ../../source/install/index.rst:72
 msgid ""
 "Our GLPI instance will be installed in ``/var/www/glpi``, a specific virtual"
 " host in the web server configuration will reflect this path."
 msgstr "我们的GLPI实例将安装在``/var/www/glpi``中，Web服务器配置中的特定虚拟主机将反映此路径。"
 
-#: ../../source/install/index.rst:72
+#: ../../source/install/index.rst:74
 msgid ""
 "GLPI configuration will be stored in ``/etc/glpi``, just copy the ``config``"
 " directory to this place. GLPI requires read rights on this directory to "
@@ -200,60 +206,59 @@ msgid ""
 msgstr ""
 "GLPI配置将存储在``/etc/glpi``中，只需将``config``目录复制到此处即可。GLPI需要此目录的读取权限；并在安装过程中需要写入权限。"
 
-#: ../../source/install/index.rst:74
+#: ../../source/install/index.rst:76
 msgid ""
 "GLPI data will be stored in ``/var/lib/glpi``, just copy the ``files`` "
 "directory to this place. GLPI requires read and write rights on this "
 "directory."
 msgstr "GLPI数据将存储在``/var/lib/glpi``中，只需将``files``目录复制到此处即可。GLPI需要对此目录具有读写权限。"
 
-#: ../../source/install/index.rst:76
+#: ../../source/install/index.rst:78
 msgid ""
 "GLPI logs files will be stored in ``/var/log/glpi``, there is nothing to "
 "copy here, just create the directory. GLPI requires read and write access on"
 " this directory."
 msgstr "GLPI日志文件将存储在``/var/log/glpi``中，此处无需复制，只需创建目录即可。GLPI需要对此目录进行读写访问。"
 
-#: ../../source/install/index.rst:78
+#: ../../source/install/index.rst:80
 msgid ""
 "Following this instructions, we'll create a ``inc/downstream.php`` file into"
 " GLPI directory with the following contents:"
 msgstr "按照这些说明，我们将在GLPI目录中创建一个``inc/downstream.php``文件，其中包含以下内容："
 
-#: ../../source/install/index.rst:87
+#: ../../source/install/index.rst:94
 msgid ""
 "GLPI packages will certainly provide a ``inc/downstream.php`` file. This one"
 " must not be edited!"
 msgstr "GLPI包肯定会提供一个``inc/downstream.php``文件。这个不能编辑！"
 
-#: ../../source/install/index.rst:89
+#: ../../source/install/index.rst:96
+msgid ""
+"GLPI looks for a `local_define.php` file in its own `config` directory. If "
+"you want to use one form new config directory, you have to load it."
+msgstr ""
+
+#: ../../source/install/index.rst:98
 msgid ""
 "Then, create a file in ``/etc/glpi/local_define.php`` with the following "
 "contents:"
 msgstr "然后，使用以下内容在`/etc/glpi/local_define.php``中创建一个文件："
 
-#: ../../source/install/index.rst:101
+#: ../../source/install/index.rst:110
 msgid ""
 "For GLPI prior to 9.2.2, the ``GLPI_VAR_DIR`` constant did not exist and it "
 "was required to set all paths separately:"
 msgstr "对于9.2.2之前的GLPI，``GLPI_VAR_DIR``常量不存在，需要分别设置所有路径："
 
-#: ../../source/install/index.rst:126
-msgid ""
-"GLPI configuration directory cannot be defined in the ``local_define.php`` "
-"file just because this one will be... in the configuration directory itself "
-";)"
-msgstr "GLPI配置目录不能在``local_define.php``文件中定义，因为这个目录将在...配置目录本身；）"
-
-#: ../../source/install/index.rst:129
+#: ../../source/install/index.rst:134
 msgid "Post installation"
 msgstr "安装后"
 
-#: ../../source/install/index.rst:131
+#: ../../source/install/index.rst:136
 msgid "Once GLPI has been installed, you're almost done."
 msgstr "一旦安装了GLPI，你就快完成了。"
 
-#: ../../source/install/index.rst:133
+#: ../../source/install/index.rst:138
 msgid ""
 "An extra step would be to secure (or remove) installation directory. As an "
 "example, you can consider adding the following to your Apache virtual host "
@@ -261,7 +266,7 @@ msgid ""
 msgstr ""
 "额外的步骤是保护（或删除）安装目录。例如，您可以考虑将以下内容添加到Apache虚拟主机配置（或“glpi/install/.htaccess``文件中）："
 
-#: ../../source/install/index.rst:148
+#: ../../source/install/index.rst:153
 msgid ""
 "With this example, the `install` directory access will be limited to "
 "localhost only and will display an error message otherwise. Of course, you "
@@ -269,6 +274,6 @@ msgid ""
 "documentation."
 msgstr "在这个例子中，`install`目录访问将仅限于localhost，否则将显示错误消息。当然，您可能需要根据您的需要进行调整;"
 
-#: ../../source/install/index.rst:151
+#: ../../<rst_epilog>:2
 msgid "|ccbyncnd|"
 msgstr "|CC-by-NC-ND|"

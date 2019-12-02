@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016-2018, GLPI Project, Teclib'
+# Copyright (C) 2016-2019, GLPI Project, Teclib'
 # This file is distributed under the same license as the GLPI package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -9,9 +9,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: GLPI 9.3\n"
+"Project-Id-Version: GLPI 9.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-29 06:38+0200\n"
+"POT-Creation-Date: 2019-12-02 07:51+0100\n"
 "PO-Revision-Date: 2018-02-20 11:33+0000\n"
 "Last-Translator: liAnGjiA <liangjia@qq.com>, 2018\n"
 "Language-Team: Chinese (China) (https://www.transifex.com/glpi/teams/87042/zh_CN/)\n"
@@ -43,6 +43,6 @@ msgstr ""
 "\"free speech\" 非 \"free beer\"!) "
 "资产以及技术支持管理从硬件组件和软件库存管理到用户帮助台管理，构建的用于管理所有资产管理问题的web浏览器都可以访问帮助台管理解决方案。"
 
-#: ../../source/index.rst:23
+#: ../../<rst_epilog>:2
 msgid "|ccbyncnd|"
 msgstr "|CC-by-NC-ND|"

@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016-2018, GLPI Project, Teclib'
+# Copyright (C) 2016-2019, GLPI Project, Teclib'
 # This file is distributed under the same license as the GLPI package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -9,9 +9,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: GLPI 9.3\n"
+"Project-Id-Version: GLPI 9.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-29 06:38+0200\n"
+"POT-Creation-Date: 2019-12-02 07:51+0100\n"
 "PO-Revision-Date: 2018-02-20 11:33+0000\n"
 "Last-Translator: Roberto Flores <robertocarlos.floresh@gmail.com>, 2018\n"
 "Language-Team: Spanish (Latin America) (https://www.transifex.com/glpi/teams/87042/es_419/)\n"
@@ -150,11 +150,17 @@ msgstr ""
 "Una vez que se han completado estos tres pasos, la aplicación está lista "
 "para ser utilizada."
 
-#: ../../source/install/index.rst:48
+#: ../../source/install/index.rst:47
+msgid ""
+"If you need to set advanced configuration, like SSL connection parameters, "
+"please refer to :doc:`advanced configuration <advanced-configuration>`."
+msgstr ""
+
+#: ../../source/install/index.rst:50
 msgid "Files and directories locations"
 msgstr "Ubicaciones de archivos y directorios"
 
-#: ../../source/install/index.rst:50
+#: ../../source/install/index.rst:52
 msgid ""
 "Like many other web applications, GLPI can be installed by just copying the "
 "whole directory to any web server. However, this may be less secure."
@@ -163,14 +169,14 @@ msgstr ""
 "simplemente copiando todo el directorio a cualquier servidor web. Sin "
 "embargo, esto puede ser menos seguro."
 
-#: ../../source/install/index.rst:54
+#: ../../source/install/index.rst:56
 msgid ""
 "Every file accessible directly from a web server must be considered unsafe!"
 msgstr ""
 "¡Todos los archivos accesibles directamente desde un servidor web deben "
 "considerarse inseguros!"
 
-#: ../../source/install/index.rst:56
+#: ../../source/install/index.rst:58
 msgid ""
 "GLPI stores some data in the ``files`` directory, the database access "
 "configuration is stored in the ``config`` directory, etc. Even if GLPI "
@@ -185,7 +191,7 @@ msgstr ""
 "datos fuera de la raíz web. De esa manera, no se puede acceder a los "
 "archivos confidenciales directamente desde el servidor web."
 
-#: ../../source/install/index.rst:58
+#: ../../source/install/index.rst:60
 msgid ""
 "There are a few configuration directives you may use to achieve that "
 "(directives that are used in provided downstream packages):"
@@ -193,20 +199,20 @@ msgstr ""
 "Hay algunas directivas de configuración que puede usar para lograr eso "
 "(directivas que se usan en los paquetes proporcionales proporcionados):"
 
-#: ../../source/install/index.rst:60
+#: ../../source/install/index.rst:62
 msgid "``GLPI_CONFIG_DIR``: set path to the configuration directory;"
 msgstr ""
 "``GLPI_CONFIG_DIR``: establece la ruta al directorio de configuración;"
 
-#: ../../source/install/index.rst:61
+#: ../../source/install/index.rst:63
 msgid "``GLPI_VAR_DIR`` : set path to the ``files`` directory;"
 msgstr "``GLPI_VAR_DIR``: establece la ruta al directorio ``files``;"
 
-#: ../../source/install/index.rst:62
+#: ../../source/install/index.rst:64
 msgid "``GLPI_LOG_DIR`` : set path to logs files."
 msgstr "``GLPI_LOG_DIR``: establece la ruta a los archivos de registro."
 
-#: ../../source/install/index.rst:66
+#: ../../source/install/index.rst:68
 msgid ""
 "There are many other configuration directives available, the ones we talked "
 "about are the main to take into account for a more secure installation."
@@ -215,7 +221,7 @@ msgstr ""
 "hablado son las principales a tener en cuenta para una instalación más "
 "segura."
 
-#: ../../source/install/index.rst:68
+#: ../../source/install/index.rst:70
 msgid ""
 "Directories choice is entirely up to you; the following example will follow "
 "the `FHS <http://www.pathname.com/fhs/>`_ recommendations."
@@ -223,7 +229,7 @@ msgstr ""
 "La elección de directorios depende completamente de usted; El siguiente "
 "ejemplo seguirá las recomendaciones `FHS <http://www.pathname.com/fhs/>` _."
 
-#: ../../source/install/index.rst:70
+#: ../../source/install/index.rst:72
 msgid ""
 "Our GLPI instance will be installed in ``/var/www/glpi``, a specific virtual"
 " host in the web server configuration will reflect this path."
@@ -231,7 +237,7 @@ msgstr ""
 "Nuestra instancia de GLPI se instalará en ``/var/www/glpi``, un host virtual"
 " específico en la configuración del servidor web reflejará esta ruta."
 
-#: ../../source/install/index.rst:72
+#: ../../source/install/index.rst:74
 msgid ""
 "GLPI configuration will be stored in ``/etc/glpi``, just copy the ``config``"
 " directory to this place. GLPI requires read rights on this directory to "
@@ -242,7 +248,7 @@ msgstr ""
 "este directorio para funcionar; y derechos de escritura durante el proceso "
 "de instalación."
 
-#: ../../source/install/index.rst:74
+#: ../../source/install/index.rst:76
 msgid ""
 "GLPI data will be stored in ``/var/lib/glpi``, just copy the ``files`` "
 "directory to this place. GLPI requires read and write rights on this "
@@ -252,7 +258,7 @@ msgstr ""
 "directorio ``files`` a este lugar. GLPI requiere derechos de lectura y "
 "escritura en este directorio."
 
-#: ../../source/install/index.rst:76
+#: ../../source/install/index.rst:78
 msgid ""
 "GLPI logs files will be stored in ``/var/log/glpi``, there is nothing to "
 "copy here, just create the directory. GLPI requires read and write access on"
@@ -262,7 +268,7 @@ msgstr ""
 "nada que copiar aquí, solo cree el directorio. GLPI requiere acceso de "
 "lectura y escritura en este directorio."
 
-#: ../../source/install/index.rst:78
+#: ../../source/install/index.rst:80
 msgid ""
 "Following this instructions, we'll create a ``inc/downstream.php`` file into"
 " GLPI directory with the following contents:"
@@ -270,7 +276,7 @@ msgstr ""
 "Siguiendo estas instrucciones, crearemos un archivo ``inc/downstream.php`` "
 "en el directorio GLPI con el siguiente contenido:"
 
-#: ../../source/install/index.rst:87
+#: ../../source/install/index.rst:94
 msgid ""
 "GLPI packages will certainly provide a ``inc/downstream.php`` file. This one"
 " must not be edited!"
@@ -278,7 +284,13 @@ msgstr ""
 "Los paquetes GLPI proporcionarán un archivo `` inc / downstream.php``. ¡Este"
 " no debe ser editado!"
 
-#: ../../source/install/index.rst:89
+#: ../../source/install/index.rst:96
+msgid ""
+"GLPI looks for a `local_define.php` file in its own `config` directory. If "
+"you want to use one form new config directory, you have to load it."
+msgstr ""
+
+#: ../../source/install/index.rst:98
 msgid ""
 "Then, create a file in ``/etc/glpi/local_define.php`` with the following "
 "contents:"
@@ -286,7 +298,7 @@ msgstr ""
 "Luego, crea un archivo en ``/etc/glpi/local_define.php`` con el siguiente "
 "contenido:"
 
-#: ../../source/install/index.rst:101
+#: ../../source/install/index.rst:110
 msgid ""
 "For GLPI prior to 9.2.2, the ``GLPI_VAR_DIR`` constant did not exist and it "
 "was required to set all paths separately:"
@@ -294,25 +306,15 @@ msgstr ""
 "Para GLPI anterior a 9.2.2, la constante `` GLPI_VAR_DIR`` no existía y fue "
 "necesario establecer todas las rutas por separado:"
 
-#: ../../source/install/index.rst:126
-msgid ""
-"GLPI configuration directory cannot be defined in the ``local_define.php`` "
-"file just because this one will be... in the configuration directory itself "
-";)"
-msgstr ""
-"El directorio de configuración de GLPI no se puede definir en el archivo `` "
-"local_define.php`` solo porque este estará ... en el directorio de "
-"configuración;)"
-
-#: ../../source/install/index.rst:129
+#: ../../source/install/index.rst:134
 msgid "Post installation"
 msgstr "Posterior a la instalación"
 
-#: ../../source/install/index.rst:131
+#: ../../source/install/index.rst:136
 msgid "Once GLPI has been installed, you're almost done."
 msgstr "Una vez que se ha instalado GLPI, ya está casi listo."
 
-#: ../../source/install/index.rst:133
+#: ../../source/install/index.rst:138
 msgid ""
 "An extra step would be to secure (or remove) installation directory. As an "
 "example, you can consider adding the following to your Apache virtual host "
@@ -322,7 +324,7 @@ msgstr ""
 "Como ejemplo, puede considerar agregar lo siguiente a su configuración de "
 "host virtual de Apache (o en el archivo `` glpi/install/.htaccess``):"
 
-#: ../../source/install/index.rst:148
+#: ../../source/install/index.rst:153
 msgid ""
 "With this example, the `install` directory access will be limited to "
 "localhost only and will display an error message otherwise. Of course, you "
@@ -334,6 +336,6 @@ msgstr ""
 "puede que tenga que adaptar esto a sus necesidades; Consulte la "
 "documentación de su servidor web."
 
-#: ../../source/install/index.rst:151
+#: ../../<rst_epilog>:2
 msgid "|ccbyncnd|"
 msgstr "|ccbyncnd|"
