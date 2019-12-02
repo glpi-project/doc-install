@@ -24,7 +24,7 @@ As of 9.5 release, GLPI requires `PHP <http://php.net>`_ 7.0.8 or more recent.
 
 .. note::
 
-   We recommand to use the most recent stable PHP release for better performances.
+   We recommend to use the most recent stable PHP release for better performances.
 
 Mandatory extensions
 ^^^^^^^^^^^^^^^^^^^^
