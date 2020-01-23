@@ -19,8 +19,7 @@ GLPI requires a web server that supports PHP, like:
 PHP
 ---
 
-As of 9.2 release, GLPI requires `PHP <http://php.net>`_ 5.6 or more recent.
-As of 9.5 release, GLPI requires `PHP <http://php.net>`_ 7.0.8 or more recent.
+As of 9.5 release, GLPI requires `PHP <http://php.net>`_ 7.2 or more recent.
 
 .. note::
 
@@ -40,7 +39,8 @@ Following PHP extensions are required for the app to work properly:
 * ``session``: to get user sessions support;
 * ``zlib``: to get backup and restore database functions;
 * ``simplexml``;
-* ``xml``.
+* ``xml``;
+* ``intl``.
 
 Optional extensions
 ^^^^^^^^^^^^^^^^^^^
