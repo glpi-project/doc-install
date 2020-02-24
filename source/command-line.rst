@@ -108,6 +108,24 @@ Possible options for this command are:
 
 See also :ref:`console options <cdline_options>`.
 
+Security key
+------------
+
+.. versionadded:: 9.4.6
+
+.. note:: GLPI key file is available for GLPI >= 9.4.6 but is not mandatory. As of GLPI 9.5, using the key file will be mandatory.
+
+In order to store some sensitive data, GLPI relies on a homemade encryption/decryption tool, which uses a key to:
+
+* encrypt data before storing them in the database,
+* decrypt data that has been retrieved from the database.
+
+The ``php bin/console glpi:security:change_key`` command allows to change the key, if it has been compromised for example. By default, command will:
+
+* generate a new key and and store it in the key file,
+* update all configured fields (for core and compatible plugins) to use the new key,
+* update all configuration entries listed (for core and compatible plugins) to use the new key.
+
 Various tools
 --------------
 
