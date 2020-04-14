@@ -42,7 +42,7 @@ Before installing or upgrading, requirements are automatically checked; but you 
 Enable/Disable maintenance
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-GLPI provides a maintenance mode that can be activatd prior to an update, and deactivated after all has been checked.
+GLPI provides a maintenance mode that can be activated prior to an update, and deactivated after all has been checked.
 
 Just use the ``glpi:maintenance:enable`` and ``glpi:maintenance:disable`` commands.
 
