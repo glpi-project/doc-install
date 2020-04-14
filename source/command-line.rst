@@ -10,6 +10,10 @@ Calling ``php bin/console`` from GLPI directory displays the list of available c
 
    If APCu is installed on your system, it may fail from command line since default configuration disables it from command-line. To change that, set ``apc.enable_cli`` to ``on`` in your APCu configuration file.
 
+.. warning::
+
+   When using cli tools, please check the system user you are currently logged in with, and permissions on files and directories. With a wrong user, logs, cache and other files may be created with rights that would not allow your webserver to read or write on thos files!
+
 .. _cdline_options:
 
 Console options
@@ -89,7 +93,7 @@ Possible options for this command are:
 
 See also :ref:`console options <cdline_options>`.
 
-Database tools
+Various tools
 --------------
 
 Database schema check
@@ -113,9 +117,6 @@ If you have any diff, output will looks like :
     -  `pattern` text default null
     +  `pattern` text
        primary key (`id`)
-
-LDAP tools
------------
 
 LDAP synchonization
 ^^^^^^^^^^^^^^^^^^^
@@ -142,9 +143,6 @@ See http://php.net/manual/en/datetime.formats.php for supported date formats in 
 
 See also :ref:`console options <cdline_options>`.
 
-Tasks tools
------------
-
 Task unlock
 ^^^^^^^^^^^
 
@@ -162,6 +160,26 @@ Possible options for this command are:
  * ``-t``, ``--task[=TASK]`` ``itemtype::name`` of task to unlock (e.g: ``MailCollector::mailgate``)
 
 See also :ref:`console options <cdline_options>`.
+
+Plugins tools
+-------------
+
+    .. versionadded:: 9.5
+
+Some command line tolls are also available to manage plugins from command line:
+
+ * ``glpi:plugin:install``
+ * ``glpi:plugin:activate``
+ * ``glpi:plugin:deactivate``
+
+In order to install ``MyGreatPlugin``; you should end with something like:
+
+.. ::
+
+   $ ./bin/console glpi:plugin:install MyGreatPlugin
+   $ ./bin/console glpi:plugin:activate MyGreatPlugin
+
+Each of those plugin commands can take a plugin name as argument, or the ``--all`` flag to be ran on all plugins.
 
 Migration tools
 ---------------
