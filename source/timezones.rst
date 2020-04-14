@@ -7,6 +7,10 @@ In order to get timezones working on a MariaDB/MySQL instance, you will have to 
 
    Enabling timezone support on your MySQL instance may affect other database in the same instance; be carefull!
 
+.. warning::
+
+   Currently, MySQL and MariaDB have a maximum date limited to 2038-01-19 on fields relying on ``timestamp`` type!
+
 Non windows users
 -----------------
 

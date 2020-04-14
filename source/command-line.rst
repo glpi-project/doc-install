@@ -224,7 +224,7 @@ Use timestamp data type
 
 Many date fields were using the ``DATETIME`` type, but this does not allow to rely on timezones. Timezone support requires all fields to use ``TIMESTAMP`` data type, but this query can be very long and therefore is not included in the standard update process.
 
-Using the ``glpi:migration:timestamps`` command will change those fields to the correct data type.
+Using the ``glpi:migration:timestamps`` command will change those fields to the correct data type, but read :doc:`documentation on timezones <timezones>` before.
 
 .. warning::
 
