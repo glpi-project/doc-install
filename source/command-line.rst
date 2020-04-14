@@ -31,6 +31,21 @@ For every console command, following options are available:
 
 .. _cdline_install:
 
+Additional install and update tools
+-----------------------------------
+
+Check requirements
+^^^^^^^^^^^^^^^^^^
+
+Before installing or upgrading, requirements are automatically checked; but you can run them separately and see state for all of them using the ``glpi:system:check_requirements`` command.
+
+Enable/Disable maintenance
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+GLPI provides a maintenance mode that can be activatd prior to an update, and deactivated after all has been checked.
+
+Just use the ``glpi:maintenance:enable`` and ``glpi:maintenance:disable`` commands.
+
 Install
 -------
 
@@ -201,3 +216,16 @@ Missing timestamps builder
 Prior to GLPI 9.1.0, fields corresponding to creation and modification dates were not existing.
 
 The ``php bin/console glpi:migration:build_missing_timestamps`` command can be used to rebuild missing values using available logs.
+
+Use timestamp data type
+^^^^^^^^^^^^^^^^^^^^^^^
+
+   .. versionadded:: 9.5.0
+
+Many date fields were using the ``DATETIME`` type, but this does not allow to rely on timezones. Timezone support requires all fields to use ``TIMESTAMP`` data type, but this query can be very long and therefore is not included in the standard update process.
+
+Using the ``glpi:migration:timestamps`` command will change those fields to the correct data type.
+
+.. warning::
+
+   Ensure to backup your database before!
