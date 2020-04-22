@@ -229,3 +229,14 @@ Using the ``glpi:migration:timestamps`` command will change those fields to the 
 .. warning::
 
    Ensure to backup your database before!
+
+Migrate Domains plugin
+^^^^^^^^^^^^^^^^^^^^^^
+
+   .. versionadded:: 9.5.0
+
+Domains in GLPI have evolved from a simple dropdown to a more complex object, including records management among others. Therefore, the Domains plugins feature are now included in core.
+
+To migrate your plugin data; use the ``glpi:migration:domains_plugin_to_core`` command. Presence of the plugin is mandatory so checks can be run, you can use the ``--without-plugin`` switch but this is not recommended. If you were using an older version of the plugin than the one required, you can use the ``--update-plugin`` flag.
+
+At the end, all domains types, domains and item relations will be migrated in core tables.
