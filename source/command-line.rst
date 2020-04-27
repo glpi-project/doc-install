@@ -240,3 +240,13 @@ Domains in GLPI have evolved from a simple dropdown to a more complex object, in
 To migrate your plugin data; use the ``glpi:migration:domains_plugin_to_core`` command. Presence of the plugin is mandatory so checks can be run, you can use the ``--without-plugin`` switch but this is not recommended. If you were using an older version of the plugin than the one required, you can use the ``--update-plugin`` flag.
 
 At the end, all domains types, domains and item relations will be migrated in core tables.
+
+Migrate Racks plugin
+^^^^^^^^^^^^^^^^^^^^^^
+
+   .. versionadded:: 9.5.0
+
+Since GLPI 9.3.0, data center infrastructure management is available as a core feature. A migration script from Racks plugin was provided inside the ``scripts`` directory.
+Since GLPI 9.5.0, this migration script has been refactored and moved inside the CLI console.
+
+To migrate your plugin data; use the ``glpi:migration:racks_plugin_to_core`` command. Presence of the plugin is mandatory so checks can be run, you can use the ``--without-plugin`` switch but this is not recommended. If you were using an older version of the plugin than the one required, you can use the ``--update-plugin`` flag.
