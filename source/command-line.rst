@@ -142,12 +142,12 @@ Possible options for this command are:
 
  * ``-c``, ``--only-create-new`` only create new users
  * ``-u``, ``--only-update-existing`` only update existing users
- * ``-s``, ``--ldap-server-id[=LDAP-SERVER-ID] `` synchronize only users attached to this LDAP server (multiple values allowed)
+ * ``-s``, ``--ldap-server-id[=LDAP-SERVER-ID]`` synchronize only users attached to this LDAP server (multiple values allowed)
  * ``-f``, ``--ldap-filter[=LDAP-FILTER]`` filter to apply on LDAP search
  * ``--begin-date[=BEGIN-DATE]`` begin date to apply in "modifyTimestamp" filter
  * ``--end-date[=END-DATE]`` end date to apply in "modifyTimestamp" filter
- * ``-d``, ``--deleted-user-strategy[=DELETED-USER-STRATEGY] force strategy used for deleted users:
- 
+ * ``-d``, ``--deleted-user-strategy[=DELETED-USER-STRATEGY]`` force strategy used for deleted users:
+
     * 0: Preserve
     * 1: Put in trashbin
     * 2: Withdraw dynamic authorizations and groups
@@ -189,7 +189,7 @@ Some command line tolls are also available to manage plugins from command line:
 
 In order to install ``MyGreatPlugin``; you should end with something like:
 
-.. ::
+::
 
    $ ./bin/console glpi:plugin:install MyGreatPlugin
    $ ./bin/console glpi:plugin:activate MyGreatPlugin
