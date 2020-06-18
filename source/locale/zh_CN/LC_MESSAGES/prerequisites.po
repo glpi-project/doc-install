@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016-2019, GLPI Project, Teclib'
+# Copyright (C) 2016-2020, GLPI Project, Teclib'
 # This file is distributed under the same license as the GLPI package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI 9.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-02 07:51+0100\n"
+"POT-Creation-Date: 2020-06-18 08:55+0200\n"
 "PO-Revision-Date: 2018-02-20 11:33+0000\n"
 "Last-Translator: liAnGjiA <liangjia@qq.com>, 2018\n"
 "Language-Team: Chinese (China) (https://www.transifex.com/glpi/teams/87042/zh_CN/)\n"
@@ -67,64 +67,66 @@ msgstr "PHP"
 
 #: ../../source/prerequisites.rst:22
 msgid ""
-"As of 9.2 release, GLPI requires `PHP <http://php.net>`_ 5.6 or more recent."
-" As of 9.5 release, GLPI requires `PHP <http://php.net>`_ 7.0.8 or more "
-"recent."
+"As of 9.5 release, GLPI requires `PHP <http://php.net>`_ 7.2 or more recent."
 msgstr ""
 
-#: ../../source/prerequisites.rst:27
+#: ../../source/prerequisites.rst:26
 msgid ""
 "We recommend to use the most recent stable PHP release for better "
 "performances."
 msgstr ""
 
-#: ../../source/prerequisites.rst:30
+#: ../../source/prerequisites.rst:29
 msgid "Mandatory extensions"
 msgstr "必备扩展依赖"
 
-#: ../../source/prerequisites.rst:32
+#: ../../source/prerequisites.rst:31
 msgid "Following PHP extensions are required for the app to work properly:"
 msgstr "应用需要以下PHP扩展才能正常工作:"
 
-#: ../../source/prerequisites.rst:34
+#: ../../source/prerequisites.rst:33
 msgid "``curl``: for CAS authentication, GLPI version check, Telemetry, ...;"
 msgstr "``curl``: 用于 CAS 认证, GLPI 版本检查, 遥测技术, ...;"
 
-#: ../../source/prerequisites.rst:35
+#: ../../source/prerequisites.rst:34
 msgid "``fileinfo``: to get extra informations on files;"
 msgstr "``fileinfo``: 获取文件的扩展信息;"
 
-#: ../../source/prerequisites.rst:36
+#: ../../source/prerequisites.rst:35
 msgid "``gd``: to generate images;"
 msgstr "``gd``: 用于生成图片;"
 
-#: ../../source/prerequisites.rst:37
+#: ../../source/prerequisites.rst:36
 msgid "``json``: to get support for JSON data format;"
 msgstr "``json``: 用于支持 JSON 数据格式;"
 
-#: ../../source/prerequisites.rst:38
+#: ../../source/prerequisites.rst:37
 msgid "``mbstring``:  to manage multi bytes characters;"
 msgstr "``mbstring``:  管理多字节字符;"
 
-#: ../../source/prerequisites.rst:39
+#: ../../source/prerequisites.rst:38
 msgid "``mysqli``: to connect and query the database;"
 msgstr "``mysqli``: 连接和查询数据库。;"
 
-#: ../../source/prerequisites.rst:40
+#: ../../source/prerequisites.rst:39
 msgid "``session``: to get user sessions support;"
 msgstr "``session``: 用于获取用户session会话;"
 
-#: ../../source/prerequisites.rst:41
+#: ../../source/prerequisites.rst:40
 msgid "``zlib``: to get backup and restore database functions;"
 msgstr "``zlib``: 用于数据库的备份与恢复功能;"
 
-#: ../../source/prerequisites.rst:42
+#: ../../source/prerequisites.rst:41
 msgid "``simplexml``;"
 msgstr "``simplexml``;"
 
+#: ../../source/prerequisites.rst:42
+msgid "``xml``;"
+msgstr ""
+
 #: ../../source/prerequisites.rst:43
-msgid "``xml``."
-msgstr "``xml``."
+msgid "``intl``."
+msgstr ""
 
 #: ../../source/prerequisites.rst:46
 msgid "Optional extensions"
@@ -185,11 +187,11 @@ msgid ""
 "variables:"
 msgstr "PHP 配置文件 (``php.ini``) 必须加以调整，以反映下列变数:"
 
-#: ../../source/prerequisites.rst:78
+#: ../../source/prerequisites.rst:76
 msgid "Database"
 msgstr "数据库"
 
-#: ../../source/prerequisites.rst:82
+#: ../../source/prerequisites.rst:80
 msgid ""
 "Currently, only `MySQL <https://dev.mysql.com>`_ (5.6 minimum) and `MariaDB "
 "<https://mariadb.com>`_ (10.0 minimum) database servers are supported by "
@@ -198,7 +200,7 @@ msgstr ""
 "当前, GLPI仅支持 `MySQL <https://dev.mysql.com>`_ (5.6 minimum) 以及 `MariaDB "
 "<https://mariadb.com>`_ (10.0 minimum) 数据库."
 
-#: ../../source/prerequisites.rst:84
+#: ../../source/prerequisites.rst:82
 msgid "In order to work, GLPI requires a database server."
 msgstr "为了工作，GLPI需要一个数据库服务器。"
 

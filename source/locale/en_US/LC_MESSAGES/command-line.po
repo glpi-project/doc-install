@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Johan Cwiklinski <jcwiklinski@teclib.com>, 2020
+# Shawn Long <webaccounts@kkg.org>, 2019
 # 
 #, fuzzy
 msgid ""
@@ -13,17 +13,17 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-18 08:55+0200\n"
 "PO-Revision-Date: 2018-02-20 11:33+0000\n"
-"Last-Translator: Johan Cwiklinski <jcwiklinski@teclib.com>, 2020\n"
-"Language-Team: French (France) (https://www.transifex.com/glpi/teams/87042/fr_FR/)\n"
+"Last-Translator: Shawn Long <webaccounts@kkg.org>, 2019\n"
+"Language-Team: English (United States) (https://www.transifex.com/glpi/teams/87042/en_US/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: fr_FR\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../source/command-line.rst:2
 msgid "Command line tools"
-msgstr "Outils en ligne de commande"
+msgstr "Command line tools"
 
 #: ../../source/command-line.rst:4
 msgid ""
@@ -32,10 +32,10 @@ msgid ""
 "versions, those scripts were present in the ``tools`` directory that is not "
 "official and therefore not in the release archive."
 msgstr ""
-"Depuis GLPI 9.2.2, des outils en ligne de commande sont fournis et "
-"disponibles dans le dossier ``script`` de l'archive. Sur les versions "
-"précédentes, ces outils étaient présents dans le dossier ``tools`` qui n'est"
-" pas officiel et donc non fourni dans l'archive de release."
+"Since GLPI 9.2.2, command line tools are provided as supported scripts and "
+"are available from the ``scripts`` directory of the archive. On previous "
+"versions, those scripts were present in the ``tools`` directory that is not "
+"official and therefore not in the release archive."
 
 #: ../../source/command-line.rst:6
 msgid ""
@@ -43,9 +43,9 @@ msgid ""
 "application (``bin/console``). Calling ``php bin/console`` from GLPI "
 "directory displays the list of available commands."
 msgstr ""
-"Depuis GLPI 9.4.0, les outils en ligne de commande sont centralisés dans une"
-" application console (``bin/console``). L'appel à ``php bin/console`` depuis"
-" le dossier de GLPI affiche la liste des commandes disponibles."
+"Since GLPI 9.4.0, command line tools are being centralized in a console "
+"application (``bin/console``). Calling ``php bin/console`` from GLPI "
+"directory displays the list of available commands."
 
 #: ../../source/command-line.rst:11
 msgid ""
@@ -53,10 +53,9 @@ msgid ""
 "default configuration disables it from command-line. To change that, set "
 "``apc.enable_cli`` to ``on`` in your APCu configuration file."
 msgstr ""
-"Si APCu est installé sur votre système, il se peut qu'il provoque des échecs"
-" en ligne de commande puisque sa configuration par défaut le désactive pour "
-"la ligne de commande. Pour changer cela, définissez ``apc.enable_cli`` à "
-"``on`` dans votre fichier de configuration APCu;"
+"If APCu is installed on your system, it may fail from command line since "
+"default configuration disables it from command-line. To change that, set "
+"``apc.enable_cli`` to ``on`` in your APCu configuration file."
 
 #: ../../source/command-line.rst:15
 msgid ""
@@ -68,47 +67,51 @@ msgstr ""
 
 #: ../../source/command-line.rst:20
 msgid "Console options"
-msgstr ""
+msgstr "Console options"
 
 #: ../../source/command-line.rst:22
 msgid "For every console command, following options are available:"
-msgstr ""
-"Pour l'ensemble des commandes console, les options suivantes sont "
-"disponibles :"
+msgstr "For every console command, the following options are available:"
 
 #: ../../source/command-line.rst:24
 msgid ""
 "``--config-dir=CONFIG-DIR`` path of configuration directory to use, relative"
 " to current working directory (required only if a custom path is used)"
 msgstr ""
+"``--config-dir=CONFIG-DIR`` path of configuration directory to use, relative"
+" to current working directory (required only if a custom path is used)"
 
 #: ../../source/command-line.rst:25
 msgid "``-h``, ``--help`` displays command help"
-msgstr ""
+msgstr "``-h``, ``--help`` displays command help"
 
 #: ../../source/command-line.rst:26
 msgid ""
 "``--lang=LANG`` output language code (default value is existing GLPI "
 "\"language\" configuration or \"en_GB\")"
 msgstr ""
+"``--lang=LANG`` output language code (default value is existing GLPI "
+"\"language\" configuration or \"en_GB\")"
 
 #: ../../source/command-line.rst:27
 msgid "``-n``, ``--no-interaction`` disable command interactive questions"
-msgstr ""
+msgstr "``-n``, ``--no-interaction`` disable command interactive questions"
 
 #: ../../source/command-line.rst:28
 msgid "``--no-plugins`` disable GLPI plugins during command execution"
-msgstr ""
+msgstr "``--no-plugins`` disable GLPI plugins during command execution"
 
 #: ../../source/command-line.rst:29
 msgid "``-q``, ``--quiet`` disable command output"
-msgstr ""
+msgstr "``-q``, ``--quiet`` disable command output"
 
 #: ../../source/command-line.rst:30
 msgid ""
 "``-v|vv|vvv``, ``--verbose=VERBOSE`` verbosity level: 1 for normal output, 2"
 " for more verbose output and 3 for debug"
 msgstr ""
+"``-v|vv|vvv``, ``--verbose=VERBOSE`` verbosity level: 1 for normal output, 2"
+" for more verbose output and 3 for debug"
 
 #: ../../source/command-line.rst:35
 msgid "Additional install and update tools"
@@ -143,19 +146,21 @@ msgstr ""
 
 #: ../../source/command-line.rst:50
 msgid "Install"
-msgstr "Installation"
+msgstr "Install"
 
 #: ../../source/command-line.rst:52
 msgid ""
 "The ``php bin/console db:install`` has been made to install GLPI database in"
 " CLI mode."
 msgstr ""
+"The ``php bin/console db:install`` has been made to install GLPI database in"
+" CLI mode."
 
 #: ../../source/command-line.rst:54 ../../source/command-line.rst:78
 #: ../../source/command-line.rst:104 ../../source/command-line.rst:141
 #: ../../source/command-line.rst:170
 msgid "Possible options for this command are:"
-msgstr "Les options possibles pour cette commande sont :"
+msgstr "Possible options for this command are:"
 
 #: ../../source/command-line.rst:56 ../../source/command-line.rst:80
 msgid ""
@@ -204,6 +209,8 @@ msgid ""
 "If mandatory options are not specified in the command call, the console will"
 " ask for them."
 msgstr ""
+"If mandatory options are not specified in the command call, the console will"
+" ask for them."
 
 #: ../../source/command-line.rst:67
 msgid ""
@@ -215,11 +222,11 @@ msgstr ""
 #: ../../source/command-line.rst:109 ../../source/command-line.rst:159
 #: ../../source/command-line.rst:177
 msgid "See also :ref:`console options <cdline_options>`."
-msgstr ""
+msgstr "See also :ref:`console options <cdline_options>`."
 
 #: ../../source/command-line.rst:72
 msgid "Database connection configuration"
-msgstr "Configuration de la connexion à la base de données"
+msgstr ""
 
 #: ../../source/command-line.rst:76
 msgid ""
@@ -229,37 +236,43 @@ msgstr ""
 
 #: ../../source/command-line.rst:94
 msgid "Update"
-msgstr "Mise à jour"
+msgstr "Update"
 
 #: ../../source/command-line.rst:96
 msgid ""
 "The ``php bin/console db:update`` has been made to update GLPI database in "
 "CLI mode from a previously installed version."
 msgstr ""
+"The ``php bin/console db:update`` has been made to update the GLPI database "
+"in CLI mode from a previously installed version."
 
 #: ../../source/command-line.rst:98
 msgid ""
 "There is no required arguments, just run the command so it updates your "
 "database automatically."
 msgstr ""
+"There is no required arguments, just run the command so it updates your "
+"database automatically."
 
 #: ../../source/command-line.rst:102
 msgid "Do not forget to backup your database before any update try!"
-msgstr ""
-"Ne pas oublier d'effectuer une sauvegarde de la base de données avant totue "
-"tentative de mise à jour !"
+msgstr "Do not forget to backup your database before any update!"
 
 #: ../../source/command-line.rst:106
 msgid ""
 "``-u``, ``--allow-unstable`` allow update to an unstable version (use it "
 "with cautions)"
 msgstr ""
+"``-u``, ``--allow-unstable`` allow update to be an unstable version (use it "
+"with cautions)"
 
 #: ../../source/command-line.rst:107
 msgid ""
 "``-f``, ``--force`` force execution of update from v-1 version of GLPI even "
 "if schema did not changed"
 msgstr ""
+"``-f``, ``--force`` force execution of update from v-1 version of GLPI even "
+"if schema did not changed"
 
 #: ../../source/command-line.rst:112
 msgid "Various tools"
@@ -267,17 +280,19 @@ msgstr ""
 
 #: ../../source/command-line.rst:115
 msgid "Database schema check"
-msgstr ""
+msgstr "Database Schema Check"
 
 #: ../../source/command-line.rst:116
 msgid ""
 "The ``php bin/console db:check`` command can be used to check if your "
 "database schema differs from expected one."
 msgstr ""
+"The ``php bin/console db:check`` command can be used to check if your "
+"database schema differs from expected one."
 
 #: ../../source/command-line.rst:118
 msgid "If you have any diff, output will looks like :"
-msgstr ""
+msgstr "If you have any diff, output will look like :"
 
 #: ../../source/command-line.rst:137
 msgid "LDAP synchonization"
@@ -351,41 +366,51 @@ msgstr ""
 
 #: ../../source/command-line.rst:162
 msgid "Task unlock"
-msgstr ""
+msgstr "Task Unlock"
 
 #: ../../source/command-line.rst:164
 msgid ""
 "The ``php bin/console task:unlock`` command can be used to unlock stucked "
 "cron tasks."
 msgstr ""
+"The ``php bin/console task:unlock`` command can be used to unlock stuck cron"
+" tasks."
 
 #: ../../source/command-line.rst:168
 msgid ""
 "Keep in mind that no task should be stucked except in case of a bug or a "
 "system failure (database failure during cron execution for example)."
 msgstr ""
+"Keep in mind that no task should be stuck except in case of a bug or a "
+"system failure (database failure during cron execution for example)."
 
 #: ../../source/command-line.rst:172
 msgid "``-a``, ``--all`` unlock all tasks"
-msgstr ""
+msgstr "``-a``, ``--all`` unlock all tasks"
 
 #: ../../source/command-line.rst:173
 msgid ""
 "``-c``, ``--cycle[=CYCLE]`` execution time (in cycles) from which the task "
 "is considered as stuck (delay = task frequency * cycle)"
 msgstr ""
+"``-c``, ``--cycle[=CYCLE]`` execution time (in cycles) from which the task "
+"is considered as stuck (delay = task frequency * cycle)"
 
 #: ../../source/command-line.rst:174
 msgid ""
 "``-d``, ``--delay[=DELAY]`` execution time (in seconds) from which the task "
 "is considered as stuck (default: 1800)"
 msgstr ""
+"``-d``, ``--delay[=DELAY]`` execution time (in seconds) from which the task "
+"is considered as stuck (default: 1800)"
 
 #: ../../source/command-line.rst:175
 msgid ""
 "``-t``, ``--task[=TASK]`` ``itemtype::name`` of task to unlock (e.g: "
 "``MailCollector::mailgate``)"
 msgstr ""
+"``-t``, ``--task[=TASK]`` ``itemtype::name`` of task to unlock (e.g: "
+"``MailCollector::mailgate``)"
 
 #: ../../source/command-line.rst:180
 msgid "Plugins tools"
@@ -422,39 +447,47 @@ msgstr ""
 
 #: ../../source/command-line.rst:200
 msgid "Migration tools"
-msgstr ""
+msgstr "Migration Tools"
 
 #: ../../source/command-line.rst:203
 msgid "From MyISAM to InnoDB"
-msgstr ""
+msgstr "From MyISAM to InnoDB"
 
 #: ../../source/command-line.rst:207
 msgid ""
 "Since version 9.3.0, GLPI uses the ``InnoDB`` engine instead of previously "
 "used ``MyISAM`` engine."
 msgstr ""
+"Since version 9.3.0, GLPI uses the ``InnoDB`` engine instead of previously "
+"used ``MyISAM`` engine."
 
 #: ../../source/command-line.rst:209
 msgid ""
 "The ``php bin/console glpi:migration:myisam_to_innodb`` command can be used "
 "to migrate exiting tables to ``InnoDB`` engine."
 msgstr ""
+"The ``php bin/console glpi:migration:myisam_to_innodb`` command can be used "
+"to migrate exiting tables to ``InnoDB`` engine."
 
 #: ../../source/command-line.rst:212
 msgid "Missing timestamps builder"
-msgstr ""
+msgstr "Missing timestamps builder"
 
 #: ../../source/command-line.rst:216
 msgid ""
 "Prior to GLPI 9.1.0, fields corresponding to creation and modification dates"
 " were not existing."
 msgstr ""
+"Prior to GLPI 9.1.0, fields corresponding to creation and modification dates"
+" were not existing."
 
 #: ../../source/command-line.rst:218
 msgid ""
 "The ``php bin/console glpi:migration:build_missing_timestamps`` command can "
 "be used to rebuild missing values using available logs."
 msgstr ""
+"The ``php bin/console glpi:migration:build_missing_timestamps`` command can "
+"be used to rebuild missing values using available logs."
 
 #: ../../source/command-line.rst:221
 msgid "Use timestamp data type"

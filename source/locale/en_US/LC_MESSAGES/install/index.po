@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Pavel Borecki <pavel.borecki@gmail.com>, 2018
+# Shawn Long <webaccounts@kkg.org>, 2019
 # 
 #, fuzzy
 msgid ""
@@ -13,53 +13,53 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-18 08:55+0200\n"
 "PO-Revision-Date: 2018-02-20 11:33+0000\n"
-"Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>, 2018\n"
-"Language-Team: Czech (Czech Republic) (https://www.transifex.com/glpi/teams/87042/cs_CZ/)\n"
+"Last-Translator: Shawn Long <webaccounts@kkg.org>, 2019\n"
+"Language-Team: English (United States) (https://www.transifex.com/glpi/teams/87042/en_US/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: cs_CZ\n"
-"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../source/install/index.rst:2
 msgid "Install GLPI"
-msgstr "Instalace GLPI"
+msgstr "Install GLPI"
 
 #: ../../source/install/index.rst:4
 msgid "Proceed as follow:"
-msgstr "Postupujte následovně:"
+msgstr "Proceed as follow:"
 
 #: ../../source/install/index.rst:6
 msgid "Choose a version,"
-msgstr "Zvolte verzi,"
+msgstr "Choose a version,"
 
 #: ../../source/install/index.rst:7
 msgid "Download the archive,"
-msgstr "Stáhněte si archiv,"
+msgstr "Download the archive,"
 
 #: ../../source/install/index.rst:8
 msgid "Install :)"
-msgstr "Nainstalujte :)"
+msgstr "Install :)"
 
 #: ../../source/install/index.rst:11
 msgid "Choose a version"
-msgstr "Volba verze"
+msgstr "Choose a version"
 
 #: ../../source/install/index.rst:15
 msgid ""
 "It is hightly recommended you choose the latest stable release for a "
 "production usage."
 msgstr ""
-"Pro použití v produkčním prostředí je důrazně doporučeno používat nejnovější"
-" stabilní vydání."
+"It is highly recommended you choose the latest stable release for a "
+"production usage."
 
 #: ../../source/install/index.rst:17
 msgid ""
 "GLPI follows a semantic versioning scheme, on 3 digits. The first one is the"
 " major release, the second the minor and the third the fix release."
 msgstr ""
-"GLPI používá významové schéma označování verzí, se třemi číslicemi. První je"
-" hlavní vydání, druhé dílčí a třetí opravné."
+"GLPI follows a semantic versioning scheme, on 3 digits. The first one is the"
+" major release, the second the minor and the third the fix release."
 
 #: ../../source/install/index.rst:19
 msgid ""
@@ -67,28 +67,27 @@ msgid ""
 "features; minor versions may bring new features as well, but stay perfectly "
 "compatible inside a major version."
 msgstr ""
-"Hlavní vydání mohou přinášet nové funkce, ale z důvodu podstatných změn také"
-" vyhnutelné nekompatibility; to dílčí verze mohou přinášet spíše drobnější "
-"nové funkce, zato v rámci daného hlavního vydání zůstává kompatibilita "
-"zachována."
+"Major releases may come with important incompatibilities as well as new "
+"features; minor versions may bring new features as well, but stay perfectly "
+"compatible inside a major version."
 
 #: ../../source/install/index.rst:21
 msgid ""
 "Fixes releases will only fix reported issues without adding anything new."
 msgstr ""
-"Opravná vydání řeší pouze nahlášené problémy a nepřidávají nic nového."
+"Fix releases will only fix reported issues without adding anything new."
 
 #: ../../source/install/index.rst:24
 msgid "Download"
-msgstr "Stažení"
+msgstr "Download"
 
 #: ../../source/install/index.rst:28
 msgid ""
 "On GitHub, there are always two archives named *Source code* which should "
 "not be used."
 msgstr ""
-"Na portálu GitHub jsou vždy ještě dva další archivy nazvané *Source code* "
-"(zdrojové kódy) – ty nepoužívejte."
+"On GitHub, there are always two archives named *Source code* which should "
+"not be used."
 
 #: ../../source/install/index.rst:30
 msgid ""
@@ -97,14 +96,14 @@ msgid ""
 "<https://github.com/glpi-project/glpi/releases>`_) and choose the "
 "``glpi-{version}.tgz`` archive."
 msgstr ""
-"Jděte do sekce *download* (stahování) `webových stránek GLPI <http://glpi-"
-"project.org>`_ (nebo získejte archiv přímo z `vydání na portálu Github "
-"<https://github.com/glpi-project/glpi/releases>`_) a  zvolte archiv "
-"``glpi-{verze}.tgz``."
+"Go to the *download* section of `the GLPI website <http://glpi-"
+"project.org>`_ (or get archive directly from `Github release "
+"<https://github.com/glpi-project/glpi/releases>`_) and choose the "
+"``glpi-{version}.tgz`` archive."
 
 #: ../../source/install/index.rst:33
 msgid "Installation"
-msgstr "Instalace"
+msgstr "Installation"
 
 #: ../../source/install/index.rst:37
 msgid ""
@@ -112,65 +111,68 @@ msgid ""
 "Fedora, Ubuntu, ...) that you should use with your standard packages manager"
 " as usual."
 msgstr ""
-"Pro vámi používanou linuxovou distribuci (Red Hat, CentOS, Fedora, Ubuntu, "
-"atp.) mohou být k dispozici předpřipravené balíčky (otázkou je, jak "
-"aktuální), které nainstalujete pomocí správce balíčků."
+"Packages may be available from your Linux distribution (Red Hat, CentOS, "
+"Fedora, Ubuntu, ...) that you should use with your standard packages manager"
+" as usual."
 
 #: ../../source/install/index.rst:39
 msgid "GLPI installation itself is composed of three steps:"
-msgstr "Instalace GLPI samotná se skládá ze tří kroků:"
+msgstr "GLPI installation itself is composed of three steps:"
 
 #: ../../source/install/index.rst:41
 msgid "Uncompress the archive in your website;"
-msgstr "Rozbalení archivu do kořenové složky vašeho webu;"
+msgstr "Uncompress the archive in your website;"
 
 #: ../../source/install/index.rst:42
 msgid ""
 "Give your webserver write access to the ``files`` and ``config`` "
 "directories;"
 msgstr ""
-"Udělení práv k zápisu do složek ``files`` a ``config`` vašemu webovému "
-"serveru:"
+"Give your webserver write access to the ``files`` and ``config`` "
+"directories;"
 
 #: ../../source/install/index.rst:43
 msgid ""
 ":doc:`launch installation wizard <wizard>` (or use the :ref:`command line "
 "installation script <cdline_install>`)."
 msgstr ""
-"Spuštění :doc:`průvodce instalací <wizard>` (nebo použití :ref:`skriptu pro "
-"instalaci z příkazového řádku <cdline_install>`)."
+":doc:`launch installation wizard <wizard>` (or use the :ref:`command line "
+"installation script <cdline_install>`)."
 
 #: ../../source/install/index.rst:45
 msgid ""
 "Once these three steps have been completed the application is ready to be "
 "used."
-msgstr "Po dokončení těchto třech kroků je aplikace připravena k používání."
+msgstr ""
+"Once these three steps have been completed the application is ready to be "
+"used."
 
 #: ../../source/install/index.rst:47
 msgid ""
 "If you need to set advanced configuration, like SSL connection parameters, "
 "please refer to :doc:`advanced configuration <advanced-configuration>`."
 msgstr ""
+"If you need to set the advanced configuration, like SSL connection "
+"parameters, please refer to :doc:`advanced configuration <advanced-"
+"configuration>`."
 
 #: ../../source/install/index.rst:50
 msgid "Files and directories locations"
-msgstr "Umístění souborů a složek"
+msgstr "File and directory locations"
 
 #: ../../source/install/index.rst:52
 msgid ""
 "Like many other web applications, GLPI can be installed by just copying the "
 "whole directory to any web server. However, this may be less secure."
 msgstr ""
-"Jako mnoho ostatních webových aplikací, GLPI je možné nainstalovat pouhým "
-"zkopírováním celé složky na libovolný webový server. Nicméně to může být "
-"méně zabezpečené."
+"Like many other web applications, GLPI can be installed by just copying the "
+"whole directory to any web server. However, this may be less secure."
 
 #: ../../source/install/index.rst:56
 msgid ""
 "Every file accessible directly from a web server must be considered unsafe!"
 msgstr ""
-"Každý soubor přístupný přímo z webového serveru je třeba považovat za "
-"nezabezpečený!"
+"Every file accessible directly from a web server must be considered unsafe!"
 
 #: ../../source/install/index.rst:58
 msgid ""
@@ -180,57 +182,55 @@ msgid ""
 "directly, best practise is to store data outside of the web root. That way, "
 "sensitive files cannot be accessed directly from the web server."
 msgstr ""
-"GLPI uchovává některá data ve složce ``files``, přístupové údaje k databázi "
-"ve složce ``config``, atd. I když GLPI poskytuje některé způsoby jak "
-"zabránit, aby k souborům mohl webový server přímo přistupovat, nejlepší je "
-"uchovávat je mimo kořenovou složku webu. Tím nemůže být k souborům s "
-"citlivým obsahem přistupováno přímo prostřednictvím webového serveru."
+"GLPI stores some data in the ``files`` directory, the database access "
+"configuration is stored in the ``config`` directory, etc. Even if GLPI "
+"provides some ways to prevent files from being accessed by the webserver "
+"directly, best practice is to store data outside of the web root. That way, "
+"sensitive files cannot be accessed directly from the web server."
 
 #: ../../source/install/index.rst:60
 msgid ""
 "There are a few configuration directives you may use to achieve that "
 "(directives that are used in provided downstream packages):"
 msgstr ""
-"Je k dispozici několik direktiv nastavení, kterými je toho možné docílit "
-"(direktivy které jsou použity v balíčcích, poskytovaných linuxovými "
-"distribucemi):"
+"There are a few configuration directives you may use to achieve that "
+"(directives that are used in provided downstream packages):"
 
 #: ../../source/install/index.rst:62
 msgid "``GLPI_CONFIG_DIR``: set path to the configuration directory;"
-msgstr "``GLPI_CONFIG_DIR``: nastavit popis umístění složky s nastaveními;"
+msgstr "``GLPI_CONFIG_DIR``: set path to the configuration directory;"
 
 #: ../../source/install/index.rst:63
 msgid "``GLPI_VAR_DIR`` : set path to the ``files`` directory;"
-msgstr "``GLPI_VAR_DIR`` : nastavit popis umístění složky ``files``;"
+msgstr "``GLPI_VAR_DIR`` : set path to the ``files`` directory;"
 
 #: ../../source/install/index.rst:64
 msgid "``GLPI_LOG_DIR`` : set path to logs files."
-msgstr ""
-"``GLPI_LOG_DIR``: nastavit popis umístění souborů pro záznam událostí (log)."
+msgstr "``GLPI_LOG_DIR`` : set path to logs files."
 
 #: ../../source/install/index.rst:68
 msgid ""
 "There are many other configuration directives available, the ones we talked "
 "about are the main to take into account for a more secure installation."
 msgstr ""
-"K dispozici je mnoho dalších direktiv nastavení, ty které zde byly zmíněny "
-"jsou hlavní, které mít na paměti pro lépe zabezpečenou instalaci."
+"There are many other configuration directives available, the ones we talked "
+"about are the main to take into account for a more secure installation."
 
 #: ../../source/install/index.rst:70
 msgid ""
 "Directories choice is entirely up to you; the following example will follow "
 "the `FHS <http://www.pathname.com/fhs/>`_ recommendations."
 msgstr ""
-"Volba složek je zcela na vás. Následující příklad dodržuje doporučení "
-"standardu `FHS <http://www.pathname.com/fhs/>`_ ."
+"Directory choice is entirely up to you; the following example will follow "
+"the `FHS <http://www.pathname.com/fhs/>`_ recommendations."
 
 #: ../../source/install/index.rst:72
 msgid ""
 "Our GLPI instance will be installed in ``/var/www/glpi``, a specific virtual"
 " host in the web server configuration will reflect this path."
 msgstr ""
-"Uváděná GLPI instance bude nainstalována do ``/var/www/glpi`` a pro toto "
-"umístění bude webovém serveru nastaven virtuální hostitel."
+"Our GLPI instance will be installed in ``/var/www/glpi``, a specific virtual"
+" host in the web server configuration will reflect this path."
 
 #: ../../source/install/index.rst:74
 msgid ""
@@ -238,10 +238,9 @@ msgid ""
 " directory to this place. GLPI requires read rights on this directory to "
 "work; and write rights during the installation process."
 msgstr ""
-"Nastavení GLPI budou ukládána do ``/etc/glpi``, stačí jen zkopírovat složku "
-"``config`` do /etc. Pro běžný provoz potřebuje GLPI v této složce pouze "
-"práva na čtení. Jen pro potřeby instalace je třeba dočasně přidat i práva "
-"pro zápis."
+"GLPI configuration will be stored in ``/etc/glpi``, just copy the ``config``"
+" directory to this place. GLPI requires read permission on this directory to"
+" work; and write permissions during the installation process."
 
 #: ../../source/install/index.rst:76
 msgid ""
@@ -249,8 +248,9 @@ msgid ""
 "directory to this place. GLPI requires read and write rights on this "
 "directory."
 msgstr ""
-"Data GLPI budou ukládána do ``/var/lib/glpi``, stačí jen zkopírovat složku "
-"``files` do /var/lib`. GLPI potřebuje práva na čtení a zápis do této složky."
+"GLPI data will be stored in ``/var/lib/glpi``, just copy the ``files`` "
+"directory to this place. GLPI requires read and write access on this "
+"directory."
 
 #: ../../source/install/index.rst:78
 msgid ""
@@ -258,54 +258,57 @@ msgid ""
 "copy here, just create the directory. GLPI requires read and write access on"
 " this directory."
 msgstr ""
-"Záznamy události (log) v GLPI budou ukládány do ``/var/log/glpi``. Není co "
-"kopírovat – stačí jen tuto složku vytvořit. GLPI potřebuje práva na čtení a "
-"zápis do této složky."
+"GLPI logs files will be stored in ``/var/log/glpi``, there is nothing to "
+"copy here, just create the directory. GLPI requires read and write access on"
+" this directory."
 
 #: ../../source/install/index.rst:80
 msgid ""
 "Following this instructions, we'll create a ``inc/downstream.php`` file into"
 " GLPI directory with the following contents:"
 msgstr ""
-"Dle těchto pokynů, vytvoříme ve složce GLPI soubor ``inc/downstream.php`` s "
-"následujícím obsahem:"
+"Following this instructions, we'll create a ``inc/downstream.php`` file into"
+" GLPI directory with the following contents:"
 
 #: ../../source/install/index.rst:94
 msgid ""
 "GLPI packages will certainly provide a ``inc/downstream.php`` file. This one"
 " must not be edited!"
 msgstr ""
-"Balíčky s GLPI v rámci linuxové distribuce určitě poskytnou soubor "
-"``inc/downstream.php`` – neupravujte ho!"
+"GLPI packages will certainly provide a ``inc/downstream.php`` file. This one"
+" must not be edited!"
 
 #: ../../source/install/index.rst:96
 msgid ""
 "GLPI looks for a `local_define.php` file in its own `config` directory. If "
 "you want to use one form new config directory, you have to load it."
 msgstr ""
+"GLPI looks for a `local_define.php` file in its own `config` directory. If "
+"you want to use one form new config directory, you have to load it."
 
 #: ../../source/install/index.rst:98
 msgid ""
 "Then, create a file in ``/etc/glpi/local_define.php`` with the following "
 "contents:"
 msgstr ""
-"Pak vytvoříme soubor ``/etc/glpi/local_define.php`` s následujícím obsahem:"
+"Then, create a file in ``/etc/glpi/local_define.php`` with the following "
+"contents:"
 
 #: ../../source/install/index.rst:110
 msgid ""
 "For GLPI prior to 9.2.2, the ``GLPI_VAR_DIR`` constant did not exist and it "
 "was required to set all paths separately:"
 msgstr ""
-"V GLPI před verzí 9.2.2 neexistovala proměnná ``GLPI_VAR_DIR`` a bylo třeba "
-"nastavovat všechny popisy umístění zvlášť:"
+"For GLPI prior to 9.2.2, the ``GLPI_VAR_DIR`` constant did not exist and it "
+"was required to set all paths separately:"
 
 #: ../../source/install/index.rst:134
 msgid "Post installation"
-msgstr "Po instalaci"
+msgstr "Post Installation"
 
 #: ../../source/install/index.rst:136
 msgid "Once GLPI has been installed, you're almost done."
-msgstr "Poté, co je GLPI nainstalované, je téměř hotovo."
+msgstr "Once GLPI has been installed, you're almost done."
 
 #: ../../source/install/index.rst:138
 msgid ""
@@ -313,9 +316,9 @@ msgid ""
 "example, you can consider adding the following to your Apache virtual host "
 "configuration (or in the ``glpi/install/.htaccess`` file):"
 msgstr ""
-"Dalším krokem by bylo zabezpečení (nebo odebrání) instalační složky. "
-"Například můžete zvážit přidání následujícího do svého nastavení Apache "
-"virtuálního hostitele (nebo do souboru ``glpi/install/.htaccess``):"
+"An extra step would be to secure (or remove) installation directory. As an "
+"example, you can consider adding the following to your Apache virtual host "
+"configuration (or in the ``glpi/install/.htaccess`` file):"
 
 #: ../../source/install/index.rst:153
 msgid ""
@@ -324,9 +327,10 @@ msgid ""
 "may have to adapt this to your needs; refer to your web server's "
 "documentation."
 msgstr ""
-"V této ukázce bude složka `install` přístupná pouze z počítače samotného a "
-"jinak zobrazí chybu. Samozřejmě si toto můžete přizpůsobit svým potřebám. "
-"Nahlédněte do dokumentace k webovému serveru, který používáte."
+"With this example, the `install` directory access will be limited to "
+"localhost only and will display an error message otherwise. Of course, you "
+"may have to adapt this to your needs; refer to your web server's "
+"documentation."
 
 #: ../../<rst_epilog>:2
 msgid "|ccbyncnd|"

@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016-2019, GLPI Project, Teclib'
+# Copyright (C) 2016-2020, GLPI Project, Teclib'
 # This file is distributed under the same license as the GLPI package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI 9.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-02 07:51+0100\n"
+"POT-Creation-Date: 2020-06-18 08:55+0200\n"
 "PO-Revision-Date: 2018-02-20 11:33+0000\n"
 "Last-Translator: liAnGjiA <liangjia@qq.com>, 2018\n"
 "Language-Team: Chinese (China) (https://www.transifex.com/glpi/teams/87042/zh_CN/)\n"
@@ -72,21 +72,6 @@ msgid ""
 "Make sure your database is empty before restoring your backup and try to "
 "update, and repeat on fail."
 msgstr "在恢复备份并尝试更新之前，请确保数据库为空，并在失败时重复此操作。"
-
-#: ../../source/update.rst:28
-msgid ""
-"From the beginning, it was possible to update to any GLPI version from any "
-"older version. But this requires a lot of work to maintain such an amount of"
-" very, very old code (that can't even be tested!)..."
-msgstr ""
-
-#: ../../source/update.rst:30
-msgid ""
-"We've decided to support migrations from GLPI 0.80 only. If you want to "
-"update from an older version, you'll need to proceed in two steps: first "
-"updating to 9.4.x (even if any version >= 0.80 would work, it's maybe a good"
-" step to go to latest stable before), then to >= 10.x."
-msgstr ""
 
 #: ../../<rst_epilog>:2
 msgid "|ccbyncnd|"

@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016-2019, GLPI Project, Teclib'
+# Copyright (C) 2016-2020, GLPI Project, Teclib'
 # This file is distributed under the same license as the GLPI package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI 9.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-02 07:51+0100\n"
+"POT-Creation-Date: 2020-06-18 08:55+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,12 +29,12 @@ msgid ""
 "Once installation is done, you can update the ``config/config_db.php`` to "
 "define SSL connection parameters. Available parameters corresponds to "
 "parameters used by `mysqli::ssl_set() <https://www.php.net/manual/en/mysqli"
-".ssl-set.php>`:"
+".ssl-set.php>`_:"
 msgstr ""
 "Once installation is done, you can update the ``config/config_db.php`` to "
 "define SSL connection parameters. Available parameters corresponds to "
 "parameters used by `mysqli::ssl_set() <https://www.php.net/manual/en/mysqli"
-".ssl-set.php>`:"
+".ssl-set.php>`_:"
 
 #: ../../source/install/advanced-configuration.rst:12
 msgid "``$dbssl`` defines if connection should use SSL (`false` per default)"

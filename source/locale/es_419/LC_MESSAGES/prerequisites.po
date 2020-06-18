@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016-2019, GLPI Project, Teclib'
+# Copyright (C) 2016-2020, GLPI Project, Teclib'
 # This file is distributed under the same license as the GLPI package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI 9.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-02 07:51+0100\n"
+"POT-Creation-Date: 2020-06-18 08:55+0200\n"
 "PO-Revision-Date: 2018-02-20 11:33+0000\n"
 "Last-Translator: Roberto Flores <robertocarlos.floresh@gmail.com>, 2018\n"
 "Language-Team: Spanish (Latin America) (https://www.transifex.com/glpi/teams/87042/es_419/)\n"
@@ -67,70 +67,72 @@ msgstr "PHP"
 
 #: ../../source/prerequisites.rst:22
 msgid ""
-"As of 9.2 release, GLPI requires `PHP <http://php.net>`_ 5.6 or more recent."
-" As of 9.5 release, GLPI requires `PHP <http://php.net>`_ 7.0.8 or more "
-"recent."
+"As of 9.5 release, GLPI requires `PHP <http://php.net>`_ 7.2 or more recent."
 msgstr ""
 
-#: ../../source/prerequisites.rst:27
+#: ../../source/prerequisites.rst:26
 msgid ""
 "We recommend to use the most recent stable PHP release for better "
 "performances."
 msgstr ""
 
-#: ../../source/prerequisites.rst:30
+#: ../../source/prerequisites.rst:29
 msgid "Mandatory extensions"
 msgstr "Extensiones obligatorias"
 
-#: ../../source/prerequisites.rst:32
+#: ../../source/prerequisites.rst:31
 msgid "Following PHP extensions are required for the app to work properly:"
 msgstr ""
 "Se requieren las siguientes extensiones de PHP para que la aplicación "
 "funcione correctamente:"
 
-#: ../../source/prerequisites.rst:34
+#: ../../source/prerequisites.rst:33
 msgid "``curl``: for CAS authentication, GLPI version check, Telemetry, ...;"
 msgstr ""
 "``curl``: para autenticación CAS, verificación de versión GLPI, telemetría, "
 "...;"
 
-#: ../../source/prerequisites.rst:35
+#: ../../source/prerequisites.rst:34
 msgid "``fileinfo``: to get extra informations on files;"
 msgstr "``fileinfo``: para obtener información adicional sobre los archivos;"
 
-#: ../../source/prerequisites.rst:36
+#: ../../source/prerequisites.rst:35
 msgid "``gd``: to generate images;"
 msgstr "``gd``: para generar imágenes;"
 
-#: ../../source/prerequisites.rst:37
+#: ../../source/prerequisites.rst:36
 msgid "``json``: to get support for JSON data format;"
 msgstr "``json``: para obtener soporte para el formato de datos JSON;"
 
-#: ../../source/prerequisites.rst:38
+#: ../../source/prerequisites.rst:37
 msgid "``mbstring``:  to manage multi bytes characters;"
 msgstr "``mbstring``: para administrar caracteres de múltiples bytes;"
 
-#: ../../source/prerequisites.rst:39
+#: ../../source/prerequisites.rst:38
 msgid "``mysqli``: to connect and query the database;"
 msgstr "``mysqli``: para conectar y consultar la base de datos;"
 
-#: ../../source/prerequisites.rst:40
+#: ../../source/prerequisites.rst:39
 msgid "``session``: to get user sessions support;"
 msgstr "``session``: para obtener soporte de sesiones de usuario;"
 
-#: ../../source/prerequisites.rst:41
+#: ../../source/prerequisites.rst:40
 msgid "``zlib``: to get backup and restore database functions;"
 msgstr ""
 "``zlib``: para obtener copias de seguridad y restaurar las funciones de la "
 "base de datos;"
 
-#: ../../source/prerequisites.rst:42
+#: ../../source/prerequisites.rst:41
 msgid "``simplexml``;"
 msgstr "``simplexml``;"
 
+#: ../../source/prerequisites.rst:42
+msgid "``xml``;"
+msgstr ""
+
 #: ../../source/prerequisites.rst:43
-msgid "``xml``."
-msgstr "``xml``."
+msgid "``intl``."
+msgstr ""
 
 #: ../../source/prerequisites.rst:46
 msgid "Optional extensions"
@@ -201,11 +203,11 @@ msgstr ""
 "El archivo de configuración de PHP (`` php.ini``) debe adaptarse para "
 "reflejar las siguientes variables:"
 
-#: ../../source/prerequisites.rst:78
+#: ../../source/prerequisites.rst:76
 msgid "Database"
 msgstr "Base de datos"
 
-#: ../../source/prerequisites.rst:82
+#: ../../source/prerequisites.rst:80
 msgid ""
 "Currently, only `MySQL <https://dev.mysql.com>`_ (5.6 minimum) and `MariaDB "
 "<https://mariadb.com>`_ (10.0 minimum) database servers are supported by "
@@ -215,7 +217,7 @@ msgstr ""
 "<https://dev.mysql.com>` _ (mínimo 5.6) y `MariaDB <https://mariadb.com>` _ "
 "(10.0 mínimo) son compatibles con GLPI."
 
-#: ../../source/prerequisites.rst:84
+#: ../../source/prerequisites.rst:82
 msgid "In order to work, GLPI requires a database server."
 msgstr "Para funcionar, GLPI requiere un servidor de base de datos."
 

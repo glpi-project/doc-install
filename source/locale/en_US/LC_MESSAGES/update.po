@@ -4,9 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Anth Paw <chpego@chpego.fr>, 2018
-# Johan Cwiklinski <jcwiklinski@teclib.com>, 2018
-# Pierre Puiseux <ppuiseux@henix.fr>, 2020
+# Shawn Long <webaccounts@kkg.org>, 2019
 # 
 #, fuzzy
 msgid ""
@@ -15,37 +13,37 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-18 08:55+0200\n"
 "PO-Revision-Date: 2018-02-20 11:33+0000\n"
-"Last-Translator: Pierre Puiseux <ppuiseux@henix.fr>, 2020\n"
-"Language-Team: French (France) (https://www.transifex.com/glpi/teams/87042/fr_FR/)\n"
+"Last-Translator: Shawn Long <webaccounts@kkg.org>, 2019\n"
+"Language-Team: English (United States) (https://www.transifex.com/glpi/teams/87042/en_US/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: fr_FR\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../source/update.rst:2
 msgid "Update"
-msgstr "Mise à jour"
+msgstr "Update"
 
 #: ../../source/update.rst:6
 msgid ""
 "As for every update process, you have to backup some data before processing "
 "any upgrade:"
 msgstr ""
-"Comme pour tout processus de mise à jour, une sauvegarde des données doit "
-"être effectuée avant toute tentative :"
+"As for every update process, you have to backup some data before processing "
+"any upgrade:"
 
 #: ../../source/update.rst:8
 msgid "**backup your database**;"
-msgstr "**sauvegarde de votre base de données** ;"
+msgstr "**backup your database**;"
 
 #: ../../source/update.rst:9
 msgid "backup your files directory;"
-msgstr "sauvegarde du dossier ``files`` ;"
+msgstr "backup your files directory;"
 
 #: ../../source/update.rst:10
 msgid "backup your configuration."
-msgstr "sauvegarde de la configuration."
+msgstr "backup your configuration."
 
 #: ../../source/update.rst:12
 msgid ""
@@ -53,42 +51,39 @@ msgid ""
 "is then automated. To start it, just go to your GLPI instance URI, or "
 "(recommended) use the :doc:`command line tools <command-line>`."
 msgstr ""
-"Tout d'abord, téléchargez la dernière version de GLPI et extrayez-en les "
-"fichiers. La processus de mie à jour de GLPI est automatique. Pour le "
-"démarrer , connectez-vous à votre URI GLPI, ou bien, (méthode recommandée), "
-"utilisez l' :doc:`outil en ligne de commande<command-line>`."
+"First, download the latest GLPI version and extract the files. GLPI update "
+"process will then be automated. To start it, just go to your GLPI instance "
+"URI, or (recommended) use the :doc:`command line tools <command-line>`."
 
 #: ../../source/update.rst:14
 msgid ""
 "Once a new version will be installed; you will not be able to use the "
 "application until a migration has been done."
 msgstr ""
-"Une fois la nouvelle version installée, il ne sera plus possible de "
-"l'utiliser tant que la migration n'aura pas été effectuée."
+"Once a new version will be installed; you will not be able to use the "
+"application until a migration has been done."
 
 #: ../../source/update.rst:16
 msgid ""
 "Please also note the update process will automatically disable your plugins."
 msgstr ""
-"Veuillez noter également que le processus de mise à jour désactivera vos "
-"plugins."
+"Please also note the update process will automatically disable your plugins."
 
 #: ../../source/update.rst:20
 msgid ""
 "You should not try to restore a database backup on a non empty database "
 "(say, a database that has been partially migrated for any reason)."
 msgstr ""
-"Ne pas essayer de restaurer une sauvegarde sur une base de données non vide "
-"(par exemple, une base partiellement migrée pour quelque raison que ce "
-"soit)."
+"You should not try to restore a database backup on a non empty database "
+"(say, a database that has been partially migrated for any reason)."
 
 #: ../../source/update.rst:22
 msgid ""
 "Make sure your database is empty before restoring your backup and try to "
 "update, and repeat on fail."
 msgstr ""
-"S'assurer que la base est vide avant de restaurer la sauvegarde et tenter de"
-" mettre à jour, refaire en cas d'échec."
+"Make sure your database is empty before restoring your backup and try to "
+"update, and repeat on fail."
 
 #: ../../<rst_epilog>:2
 msgid "|ccbyncnd|"

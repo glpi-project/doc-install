@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016-2019, GLPI Project, Teclib'
+# Copyright (C) 2016-2020, GLPI Project, Teclib'
 # This file is distributed under the same license as the GLPI package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI 9.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-02 07:51+0100\n"
+"POT-Creation-Date: 2020-06-18 08:55+0200\n"
 "PO-Revision-Date: 2018-02-20 11:33+0000\n"
 "Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>, 2018\n"
 "Language-Team: Czech (Czech Republic) (https://www.transifex.com/glpi/teams/87042/cs_CZ/)\n"
