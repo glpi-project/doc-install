@@ -7,7 +7,7 @@ SSL connection to database
    .. versionadded:: 9.5.0
 
 Once installation is done, you can update the ``config/config_db.php`` to define SSL connection parameters.
-Available parameters corresponds to parameters used by `mysqli::ssl_set() <https://www.php.net/manual/en/mysqli.ssl-set.php>`:
+Available parameters corresponds to parameters used by `mysqli::ssl_set() <https://www.php.net/manual/en/mysqli.ssl-set.php>`_:
 
 * ``$dbssl`` defines if connection should use SSL (`false` per default)
 * ``$dbsslkey`` path name to the key file (`null` per default)
