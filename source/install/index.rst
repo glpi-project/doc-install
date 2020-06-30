@@ -71,9 +71,9 @@ Directories choice is entirely up to you; the following example will follow the 
 
 Our GLPI instance will be installed in ``/var/www/glpi``, a specific virtual host in the web server configuration will reflect this path.
 
-GLPI configuration will be stored in ``/etc/glpi``, just copy the ``config`` directory to this place. GLPI requires read rights on this directory to work; and write rights during the installation process.
+GLPI configuration will be stored in ``/etc/glpi``, just copy the contents of the ``config`` directory to this place. GLPI requires read rights on this directory to work; and write rights during the installation process.
 
-GLPI data will be stored in ``/var/lib/glpi``, just copy the ``files`` directory to this place. GLPI requires read and write rights on this directory.
+GLPI data will be stored in ``/var/lib/glpi``, just copy the contents of the ``files`` directory to this place. GLPI requires read and write rights on this directory.
 
 GLPI logs files will be stored in ``/var/log/glpi``, there is nothing to copy here, just create the directory. GLPI requires read and write access on this directory.
 
