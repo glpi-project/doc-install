@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI 9.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-18 08:55+0200\n"
+"POT-Creation-Date: 2020-06-30 08:44+0200\n"
 "PO-Revision-Date: 2018-02-20 11:33+0000\n"
 "Last-Translator: liAnGjiA <liangjia@qq.com>, 2018\n"
 "Language-Team: Chinese (China) (https://www.transifex.com/glpi/teams/87042/zh_CN/)\n"
@@ -200,18 +200,17 @@ msgstr "我们的GLPI实例将安装在``/var/www/glpi``中，Web服务器配置
 
 #: ../../source/install/index.rst:74
 msgid ""
-"GLPI configuration will be stored in ``/etc/glpi``, just copy the ``config``"
-" directory to this place. GLPI requires read rights on this directory to "
-"work; and write rights during the installation process."
+"GLPI configuration will be stored in ``/etc/glpi``, just copy the contents "
+"of the ``config`` directory to this place. GLPI requires read rights on this"
+" directory to work; and write rights during the installation process."
 msgstr ""
-"GLPI配置将存储在``/etc/glpi``中，只需将``config``目录复制到此处即可。GLPI需要此目录的读取权限；并在安装过程中需要写入权限。"
 
 #: ../../source/install/index.rst:76
 msgid ""
-"GLPI data will be stored in ``/var/lib/glpi``, just copy the ``files`` "
-"directory to this place. GLPI requires read and write rights on this "
-"directory."
-msgstr "GLPI数据将存储在``/var/lib/glpi``中，只需将``files``目录复制到此处即可。GLPI需要对此目录具有读写权限。"
+"GLPI data will be stored in ``/var/lib/glpi``, just copy the contents of the"
+" ``files`` directory to this place. GLPI requires read and write rights on "
+"this directory."
+msgstr ""
 
 #: ../../source/install/index.rst:78
 msgid ""

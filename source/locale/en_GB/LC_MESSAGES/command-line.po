@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI 9.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-18 08:55+0200\n"
+"POT-Creation-Date: 2020-06-30 08:44+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -163,8 +163,8 @@ msgstr ""
 " CLI mode."
 
 #: ../../source/command-line.rst:54 ../../source/command-line.rst:78
-#: ../../source/command-line.rst:104 ../../source/command-line.rst:141
-#: ../../source/command-line.rst:170
+#: ../../source/command-line.rst:104 ../../source/command-line.rst:159
+#: ../../source/command-line.rst:188
 msgid "Possible options for this command are:"
 msgstr "Possible options for this command are:"
 
@@ -237,8 +237,8 @@ msgstr ""
 "already exists."
 
 #: ../../source/command-line.rst:69 ../../source/command-line.rst:89
-#: ../../source/command-line.rst:109 ../../source/command-line.rst:159
-#: ../../source/command-line.rst:177
+#: ../../source/command-line.rst:109 ../../source/command-line.rst:177
+#: ../../source/command-line.rst:195
 msgid "See also :ref:`console options <cdline_options>`."
 msgstr "See also :ref:`console options <cdline_options>`."
 
@@ -295,30 +295,86 @@ msgstr ""
 "if schema did not changed"
 
 #: ../../source/command-line.rst:112
-msgid "Various tools"
-msgstr "Various tools"
-
-#: ../../source/command-line.rst:115
-msgid "Database schema check"
-msgstr "Database schema check"
+msgid "Security key"
+msgstr "Security key"
 
 #: ../../source/command-line.rst:116
 msgid ""
+"GLPI key file is available for GLPI >= 9.4.6 but is not mandatory. As of "
+"GLPI 9.5, using the key file will be mandatory."
+msgstr ""
+"GLPI key file is available for GLPI >= 9.4.6 but is not mandatory. As of "
+"GLPI 9.5, using the key file will be mandatory."
+
+#: ../../source/command-line.rst:118
+msgid ""
+"In order to store some sensitive data, GLPI relies on a homemade "
+"encryption/decryption tool, which uses a key to:"
+msgstr ""
+"In order to store some sensitive data, GLPI relies on a homemade "
+"encryption/decryption tool, which uses a key to:"
+
+#: ../../source/command-line.rst:120
+msgid "encrypt data before storing them in the database,"
+msgstr "encrypt data before storing them in the database,"
+
+#: ../../source/command-line.rst:121
+msgid "decrypt data that has been retrieved from the database."
+msgstr "decrypt data that has been retrieved from the database."
+
+#: ../../source/command-line.rst:123
+msgid ""
+"The ``php bin/console glpi:security:change_key`` command allows to change "
+"the key, if it has been compromised for example. By default, command will:"
+msgstr ""
+"The ``php bin/console glpi:security:change_key`` command allows to change "
+"the key, if it has been compromised for example. By default, command will:"
+
+#: ../../source/command-line.rst:125
+msgid "generate a new key and and store it in the key file,"
+msgstr "generate a new key and and store it in the key file,"
+
+#: ../../source/command-line.rst:126
+msgid ""
+"update all configured fields (for core and compatible plugins) to use the "
+"new key,"
+msgstr ""
+"update all configured fields (for core and compatible plugins) to use the "
+"new key,"
+
+#: ../../source/command-line.rst:127
+msgid ""
+"update all configuration entries listed (for core and compatible plugins) to"
+" use the new key."
+msgstr ""
+"update all configuration entries listed (for core and compatible plugins) to"
+" use the new key."
+
+#: ../../source/command-line.rst:130
+msgid "Various tools"
+msgstr "Various tools"
+
+#: ../../source/command-line.rst:133
+msgid "Database schema check"
+msgstr "Database schema check"
+
+#: ../../source/command-line.rst:134
+msgid ""
 "The ``php bin/console db:check`` command can be used to check if your "
 "database schema differs from expected one."
 msgstr ""
 "The ``php bin/console db:check`` command can be used to check if your "
 "database schema differs from expected one."
 
-#: ../../source/command-line.rst:118
+#: ../../source/command-line.rst:136
 msgid "If you have any diff, output will looks like :"
 msgstr "If you have any diff, output will looks like :"
 
-#: ../../source/command-line.rst:137
+#: ../../source/command-line.rst:155
 msgid "LDAP synchonization"
 msgstr "LDAP synchonization"
 
-#: ../../source/command-line.rst:139
+#: ../../source/command-line.rst:157
 msgid ""
 "The ``bin/console glpi:ldap:synchronize_users`` command can be used to "
 "synchronize users against LDAP server informations."
@@ -326,15 +382,15 @@ msgstr ""
 "The ``bin/console glpi:ldap:synchronize_users`` command can be used to "
 "synchronize users against LDAP server informations."
 
-#: ../../source/command-line.rst:143
+#: ../../source/command-line.rst:161
 msgid "``-c``, ``--only-create-new`` only create new users"
 msgstr "``-c``, ``--only-create-new`` only create new users"
 
-#: ../../source/command-line.rst:144
+#: ../../source/command-line.rst:162
 msgid "``-u``, ``--only-update-existing`` only update existing users"
 msgstr "``-u``, ``--only-update-existing`` only update existing users"
 
-#: ../../source/command-line.rst:145
+#: ../../source/command-line.rst:163
 msgid ""
 "``-s``, ``--ldap-server-id[=LDAP-SERVER-ID]`` synchronize only users "
 "attached to this LDAP server (multiple values allowed)"
@@ -342,12 +398,12 @@ msgstr ""
 "``-s``, ``--ldap-server-id[=LDAP-SERVER-ID]`` synchronize only users "
 "attached to this LDAP server (multiple values allowed)"
 
-#: ../../source/command-line.rst:146
+#: ../../source/command-line.rst:164
 msgid "``-f``, ``--ldap-filter[=LDAP-FILTER]`` filter to apply on LDAP search"
 msgstr ""
 "``-f``, ``--ldap-filter[=LDAP-FILTER]`` filter to apply on LDAP search"
 
-#: ../../source/command-line.rst:147
+#: ../../source/command-line.rst:165
 msgid ""
 "``--begin-date[=BEGIN-DATE]`` begin date to apply in \"modifyTimestamp\" "
 "filter"
@@ -355,11 +411,11 @@ msgstr ""
 "``--begin-date[=BEGIN-DATE]`` begin date to apply in \"modifyTimestamp\" "
 "filter"
 
-#: ../../source/command-line.rst:148
+#: ../../source/command-line.rst:166
 msgid "``--end-date[=END-DATE]`` end date to apply in \"modifyTimestamp\" filter"
 msgstr "``--end-date[=END-DATE]`` end date to apply in \"modifyTimestamp\" filter"
 
-#: ../../source/command-line.rst:149
+#: ../../source/command-line.rst:167
 msgid ""
 "``-d``, ``--deleted-user-strategy[=DELETED-USER-STRATEGY]`` force strategy "
 "used for deleted users:"
@@ -367,27 +423,27 @@ msgstr ""
 "``-d``, ``--deleted-user-strategy[=DELETED-USER-STRATEGY]`` force strategy "
 "used for deleted users:"
 
-#: ../../source/command-line.rst:151
+#: ../../source/command-line.rst:169
 msgid "0: Preserve"
 msgstr "0: Preserve"
 
-#: ../../source/command-line.rst:152
+#: ../../source/command-line.rst:170
 msgid "1: Put in trashbin"
 msgstr "1: Put in trashbin"
 
-#: ../../source/command-line.rst:153
+#: ../../source/command-line.rst:171
 msgid "2: Withdraw dynamic authorizations and groups"
 msgstr "2: Withdraw dynamic authorizations and groups"
 
-#: ../../source/command-line.rst:154
+#: ../../source/command-line.rst:172
 msgid "3: Disable"
 msgstr "3: Disable"
 
-#: ../../source/command-line.rst:155
+#: ../../source/command-line.rst:173
 msgid "4: Disable + Withdraw dynamic authorizations and groups"
 msgstr "4: Disable + Withdraw dynamic authorizations and groups"
 
-#: ../../source/command-line.rst:157
+#: ../../source/command-line.rst:175
 msgid ""
 "See http://php.net/manual/en/datetime.formats.php for supported date formats"
 " in ``--begin-date`` and ``--end-date`` options."
@@ -395,11 +451,11 @@ msgstr ""
 "See http://php.net/manual/en/datetime.formats.php for supported date formats"
 " in ``--begin-date`` and ``--end-date`` options."
 
-#: ../../source/command-line.rst:162
+#: ../../source/command-line.rst:180
 msgid "Task unlock"
 msgstr "Task unlock"
 
-#: ../../source/command-line.rst:164
+#: ../../source/command-line.rst:182
 msgid ""
 "The ``php bin/console task:unlock`` command can be used to unlock stucked "
 "cron tasks."
@@ -407,7 +463,7 @@ msgstr ""
 "The ``php bin/console task:unlock`` command can be used to unlock stucked "
 "cron tasks."
 
-#: ../../source/command-line.rst:168
+#: ../../source/command-line.rst:186
 msgid ""
 "Keep in mind that no task should be stucked except in case of a bug or a "
 "system failure (database failure during cron execution for example)."
@@ -415,11 +471,11 @@ msgstr ""
 "Keep in mind that no task should be stucked except in case of a bug or a "
 "system failure (database failure during cron execution for example)."
 
-#: ../../source/command-line.rst:172
+#: ../../source/command-line.rst:190
 msgid "``-a``, ``--all`` unlock all tasks"
 msgstr "``-a``, ``--all`` unlock all tasks"
 
-#: ../../source/command-line.rst:173
+#: ../../source/command-line.rst:191
 msgid ""
 "``-c``, ``--cycle[=CYCLE]`` execution time (in cycles) from which the task "
 "is considered as stuck (delay = task frequency * cycle)"
@@ -427,7 +483,7 @@ msgstr ""
 "``-c``, ``--cycle[=CYCLE]`` execution time (in cycles) from which the task "
 "is considered as stuck (delay = task frequency * cycle)"
 
-#: ../../source/command-line.rst:174
+#: ../../source/command-line.rst:192
 msgid ""
 "``-d``, ``--delay[=DELAY]`` execution time (in seconds) from which the task "
 "is considered as stuck (default: 1800)"
@@ -435,7 +491,7 @@ msgstr ""
 "``-d``, ``--delay[=DELAY]`` execution time (in seconds) from which the task "
 "is considered as stuck (default: 1800)"
 
-#: ../../source/command-line.rst:175
+#: ../../source/command-line.rst:193
 msgid ""
 "``-t``, ``--task[=TASK]`` ``itemtype::name`` of task to unlock (e.g: "
 "``MailCollector::mailgate``)"
@@ -443,11 +499,11 @@ msgstr ""
 "``-t``, ``--task[=TASK]`` ``itemtype::name`` of task to unlock (e.g: "
 "``MailCollector::mailgate``)"
 
-#: ../../source/command-line.rst:180
+#: ../../source/command-line.rst:198
 msgid "Plugins tools"
 msgstr "Plugins tools"
 
-#: ../../source/command-line.rst:184
+#: ../../source/command-line.rst:202
 msgid ""
 "Some command line tolls are also available to manage plugins from command "
 "line:"
@@ -455,25 +511,25 @@ msgstr ""
 "Some command line tolls are also available to manage plugins from command "
 "line:"
 
-#: ../../source/command-line.rst:186
+#: ../../source/command-line.rst:204
 msgid "``glpi:plugin:install``"
 msgstr "``glpi:plugin:install``"
 
-#: ../../source/command-line.rst:187
+#: ../../source/command-line.rst:205
 msgid "``glpi:plugin:activate``"
 msgstr "``glpi:plugin:activate``"
 
-#: ../../source/command-line.rst:188
+#: ../../source/command-line.rst:206
 msgid "``glpi:plugin:deactivate``"
 msgstr "``glpi:plugin:deactivate``"
 
-#: ../../source/command-line.rst:190
+#: ../../source/command-line.rst:208
 msgid ""
 "In order to install ``MyGreatPlugin``; you should end with something like:"
 msgstr ""
 "In order to install ``MyGreatPlugin``; you should end with something like:"
 
-#: ../../source/command-line.rst:197
+#: ../../source/command-line.rst:215
 msgid ""
 "Each of those plugin commands can take a plugin name as argument, or the "
 "``--all`` flag to be ran on all plugins."
@@ -481,68 +537,68 @@ msgstr ""
 "Each of those plugin commands can take a plugin name as argument, or the "
 "``--all`` flag to be ran on all plugins."
 
-#: ../../source/command-line.rst:200
+#: ../../source/command-line.rst:218
 msgid "Migration tools"
 msgstr "Migration tools"
 
-#: ../../source/command-line.rst:203
+#: ../../source/command-line.rst:221
 msgid "From MyISAM to InnoDB"
 msgstr "From MyISAM to InnoDB"
 
-#: ../../source/command-line.rst:207
-msgid ""
-"Since version 9.3.0, GLPI uses the ``InnoDB`` engine instead of previously "
-"used ``MyISAM`` engine."
-msgstr ""
-"Since version 9.3.0, GLPI uses the ``InnoDB`` engine instead of previously "
-"used ``MyISAM`` engine."
-
-#: ../../source/command-line.rst:209
-msgid ""
-"The ``php bin/console glpi:migration:myisam_to_innodb`` command can be used "
-"to migrate exiting tables to ``InnoDB`` engine."
-msgstr ""
-"The ``php bin/console glpi:migration:myisam_to_innodb`` command can be used "
-"to migrate exiting tables to ``InnoDB`` engine."
-
-#: ../../source/command-line.rst:212
-msgid "Missing timestamps builder"
-msgstr "Missing timestamps builder"
-
-#: ../../source/command-line.rst:216
-msgid ""
-"Prior to GLPI 9.1.0, fields corresponding to creation and modification dates"
-" were not existing."
-msgstr ""
-"Prior to GLPI 9.1.0, fields corresponding to creation and modification dates"
-" were not existing."
-
-#: ../../source/command-line.rst:218
-msgid ""
-"The ``php bin/console glpi:migration:build_missing_timestamps`` command can "
-"be used to rebuild missing values using available logs."
-msgstr ""
-"The ``php bin/console glpi:migration:build_missing_timestamps`` command can "
-"be used to rebuild missing values using available logs."
-
-#: ../../source/command-line.rst:221
-msgid "Use timestamp data type"
-msgstr "Use timestamp data type"
-
 #: ../../source/command-line.rst:225
 msgid ""
-"Many date fields were using the ``DATETIME`` type, but this does not allow "
-"to rely on timezones. Timezone support requires all fields to use "
-"``TIMESTAMP`` data type, but this query can be very long and therefore is "
-"not included in the standard update process."
+"Since version 9.3.0, GLPI uses the ``InnoDB`` engine instead of previously "
+"used ``MyISAM`` engine."
 msgstr ""
-"Many date fields were using the ``DATETIME`` type, but this does not allow "
-"to rely on timezones. Timezone support requires all fields to use "
-"``TIMESTAMP`` data type, but this query can be very long and therefore is "
-"not included in the standard update process."
+"Since version 9.3.0, GLPI uses the ``InnoDB`` engine instead of previously "
+"used ``MyISAM`` engine."
 
 #: ../../source/command-line.rst:227
 msgid ""
+"The ``php bin/console glpi:migration:myisam_to_innodb`` command can be used "
+"to migrate exiting tables to ``InnoDB`` engine."
+msgstr ""
+"The ``php bin/console glpi:migration:myisam_to_innodb`` command can be used "
+"to migrate exiting tables to ``InnoDB`` engine."
+
+#: ../../source/command-line.rst:230
+msgid "Missing timestamps builder"
+msgstr "Missing timestamps builder"
+
+#: ../../source/command-line.rst:234
+msgid ""
+"Prior to GLPI 9.1.0, fields corresponding to creation and modification dates"
+" were not existing."
+msgstr ""
+"Prior to GLPI 9.1.0, fields corresponding to creation and modification dates"
+" were not existing."
+
+#: ../../source/command-line.rst:236
+msgid ""
+"The ``php bin/console glpi:migration:build_missing_timestamps`` command can "
+"be used to rebuild missing values using available logs."
+msgstr ""
+"The ``php bin/console glpi:migration:build_missing_timestamps`` command can "
+"be used to rebuild missing values using available logs."
+
+#: ../../source/command-line.rst:239
+msgid "Use timestamp data type"
+msgstr "Use timestamp data type"
+
+#: ../../source/command-line.rst:243
+msgid ""
+"Many date fields were using the ``DATETIME`` type, but this does not allow "
+"to rely on timezones. Timezone support requires all fields to use "
+"``TIMESTAMP`` data type, but this query can be very long and therefore is "
+"not included in the standard update process."
+msgstr ""
+"Many date fields were using the ``DATETIME`` type, but this does not allow "
+"to rely on timezones. Timezone support requires all fields to use "
+"``TIMESTAMP`` data type, but this query can be very long and therefore is "
+"not included in the standard update process."
+
+#: ../../source/command-line.rst:245
+msgid ""
 "Using the ``glpi:migration:timestamps`` command will change those fields to "
 "the correct data type, but read :doc:`documentation on timezones "
 "<timezones>` before."
@@ -551,15 +607,15 @@ msgstr ""
 "the correct data type, but read :doc:`documentation on timezones "
 "<timezones>` before."
 
-#: ../../source/command-line.rst:231
+#: ../../source/command-line.rst:249
 msgid "Ensure to backup your database before!"
 msgstr "Ensure to backup your database before!"
 
-#: ../../source/command-line.rst:234
+#: ../../source/command-line.rst:252
 msgid "Migrate Domains plugin"
 msgstr "Migrate Domains plugin"
 
-#: ../../source/command-line.rst:238
+#: ../../source/command-line.rst:256
 msgid ""
 "Domains in GLPI have evolved from a simple dropdown to a more complex "
 "object, including records management among others. Therefore, the Domains "
@@ -569,7 +625,7 @@ msgstr ""
 "object, including records management among others. Therefore, the Domains "
 "plugins feature are now included in core."
 
-#: ../../source/command-line.rst:240
+#: ../../source/command-line.rst:258
 msgid ""
 "To migrate your plugin data; use the "
 "``glpi:migration:domains_plugin_to_core`` command. Presence of the plugin is"
@@ -583,7 +639,7 @@ msgstr ""
 " but this is not recommended. If you were using an older version of the "
 "plugin than the one required, you can use the ``--update-plugin`` flag."
 
-#: ../../source/command-line.rst:242
+#: ../../source/command-line.rst:260
 msgid ""
 "At the end, all domains types, domains and item relations will be migrated "
 "in core tables."
@@ -591,11 +647,11 @@ msgstr ""
 "At the end, all domains types, domains and item relations will be migrated "
 "in core tables."
 
-#: ../../source/command-line.rst:245
+#: ../../source/command-line.rst:263
 msgid "Migrate Racks plugin"
 msgstr "Migrate Racks plugin"
 
-#: ../../source/command-line.rst:249
+#: ../../source/command-line.rst:267
 msgid ""
 "Since GLPI 9.3.0, data center infrastructure management is available as a "
 "core feature. A migration script from Racks plugin was provided inside the "
@@ -607,7 +663,7 @@ msgstr ""
 "``scripts`` directory. Since GLPI 9.5.0, this migration script has been "
 "refactored and moved inside the CLI console."
 
-#: ../../source/command-line.rst:252
+#: ../../source/command-line.rst:270
 msgid ""
 "To migrate your plugin data; use the ``glpi:migration:racks_plugin_to_core``"
 " command. Presence of the plugin is mandatory so checks can be run, you can "
