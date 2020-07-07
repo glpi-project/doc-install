@@ -1,16 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016-2018, GLPI Project, Teclib'
+# Copyright (C) 2016-2020, GLPI Project, Teclib'
 # This file is distributed under the same license as the GLPI package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Anth Paw <chpego@chpego.fr>, 2018
+# Johan Cwiklinski <jcwiklinski@teclib.com>, 2018
+# Pierre Puiseux <ppuiseux@henix.fr>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: GLPI 9.3\n"
+"Project-Id-Version: GLPI 9.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-29 06:38+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Johan Cwiklinski <jcwiklinski@teclib.com>, 2018\n"
+"POT-Creation-Date: 2020-06-30 08:44+0200\n"
+"PO-Revision-Date: 2018-02-20 11:33+0000\n"
+"Last-Translator: Pierre Puiseux <ppuiseux@henix.fr>, 2020\n"
 "Language-Team: French (France) (https://www.transifex.com/glpi/teams/87042/fr_FR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -44,12 +49,14 @@ msgstr "sauvegarde de la configuration."
 
 #: ../../source/update.rst:12
 msgid ""
-"GLPI update process is automated. To start it, just go to your GLPI instance"
-" URI, or (recommended) use the :doc:`command line tools <command-line>`."
+"First, download latest GLPI version and extract files. GLPI update process "
+"is then automated. To start it, just go to your GLPI instance URI, or "
+"(recommended) use the :doc:`command line tools <command-line>`."
 msgstr ""
-"Le processus de mise à jour de GLPI est automatisé. Pour le lancer, rendez-"
-"vous sur l'URL de votre instance GLPI, ou (recommandé) utilisez les "
-":doc:`outils en ligne de commande <command-line>`."
+"Tout d'abord, téléchargez la dernière version de GLPI et extrayez-en les "
+"fichiers. La processus de mie à jour de GLPI est automatique. Pour le "
+"démarrer , connectez-vous à votre URI GLPI, ou bien, (méthode recommandée), "
+"utilisez l' :doc:`outil en ligne de commande<command-line>`."
 
 #: ../../source/update.rst:14
 msgid ""
@@ -83,6 +90,6 @@ msgstr ""
 "S'assurer que la base est vide avant de restaurer la sauvegarde et tenter de"
 " mettre à jour, refaire en cas d'échec."
 
-#: ../../source/update.rst:25
+#: ../../<rst_epilog>:2
 msgid "|ccbyncnd|"
 msgstr "|ccbyncnd|"

@@ -1,15 +1,18 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016-2018, GLPI Project, Teclib'
+# Copyright (C) 2016-2020, GLPI Project, Teclib'
 # This file is distributed under the same license as the GLPI package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Pavel Borecki <pavel.borecki@gmail.com>, 2018
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: GLPI 9.3\n"
+"Project-Id-Version: GLPI 9.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-29 06:38+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"POT-Creation-Date: 2020-06-30 08:44+0200\n"
+"PO-Revision-Date: 2018-02-20 11:33+0000\n"
 "Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>, 2018\n"
 "Language-Team: Czech (Czech Republic) (https://www.transifex.com/glpi/teams/87042/cs_CZ/)\n"
 "MIME-Version: 1.0\n"
@@ -27,14 +30,14 @@ msgid ""
 "To begin installation process, point your browser to the GLPI main address: "
 "`https://{adresse_glpi}/ <https://{adresse_glpi}/>`_"
 msgstr ""
-"Pro zahájení instalace, nasměrujte svůj webový prohlížeč na hlavní adresu "
-"GLPI: `https://{adresse_glpi}/ <https://{adresse_glpi}/>`_"
+"Pro zahájení instalace nasměrujte svůj webový prohlížeč na hlavní adresu "
+"GLPI: `https://{adresa_glpi}/ <https://{adresa_glpi}/>`_"
 
 #: ../../source/install/wizard.rst:7
 msgid ""
 "When GLPI is not installed; a step-by-step installation process begins."
 msgstr ""
-"Pokud GLPI ještě není nainstalováno; jsou zahájeny jednotlivé kroky "
+"Pokud GLPI ještě není nainstalováno, jsou zahájeny jednotlivé kroky "
 "instalačního procesu."
 
 #: ../../source/install/wizard.rst:10
@@ -75,11 +78,11 @@ msgstr "Instalace/aktualizace"
 msgid ""
 "This screen allows to choose between a fresh GLPI installation or an update."
 msgstr ""
-"Tato obrazovka umožňuje zvolit mezi novou instalací GLPI a aktualizací."
+"Na této obrazovce je možné zvolit mezi novou instalací GLPI a aktualizací."
 
 #: ../../source/install/wizard.rst:41
 msgid "Click on install."
-msgstr "Klikněte na instalaci."
+msgstr "Klikněte na Nainstalovat."
 
 #: ../../source/install/wizard.rst:44
 msgid "Environment checks"
@@ -87,21 +90,16 @@ msgstr "Kontroly prostředí"
 
 #: ../../source/install/wizard.rst:46
 msgid ""
-"This step will check if prerequisites are met. If thery're not, it is not "
+"This step will check if prerequisites are met. If they're not, it is not "
 "possible to continue and an explicit error message will tell you about what "
 "is wrong and what to do before trying again."
 msgstr ""
-"V tomto kroku je zkontrolováno splnění technických náležitostí. Pokud "
-"neúspěšně, není možné pokračovat a výslovné chybové hlášení informuje o tom,"
-" co je třeba napravit než bude možné zkusit znovu."
 
 #: ../../source/install/wizard.rst:53
 msgid ""
 "Some prerequisites are optionals, it will be possible to continue "
-"installation event if thery're not met."
+"installation event if they're not met."
 msgstr ""
-"Některé náležitosti jsou volitelné, v instalaci bude možné pokračovat i když"
-" nejsou splněné."
 
 #: ../../source/install/wizard.rst:56
 msgid "Database connection"
@@ -116,23 +114,23 @@ msgid ""
 "*MySQL server*: enter the path to your MySQL server, `localhost` or "
 "`mysql.domaine.tld` as example;"
 msgstr ""
-"*MySQL server*: zadejte popis umístění svého MySQL serveru, například "
+"*SQL server*: zadejte popis umístění svého SQL serveru, například "
 "`localhost` nebo `mysql.domenovynazev.tld`;"
 
 #: ../../source/install/wizard.rst:66
 msgid ""
 "*MySQL user*: enter user name that is allowed to connect to the Database;"
 msgstr ""
-"*MySQL uživatel*: zadejte uživatelské jméno účtu, který je oprávněn se "
+"*SQL uživatel*: zadejte uživatelské jméno účtu, který je oprávněn se "
 "připojovat do databáze;"
 
 #: ../../source/install/wizard.rst:67
 msgid "*MySQL password*: enter user's password."
-msgstr "*MySQL heslo*: zadejte heslo uživatele."
+msgstr "*SQL heslo*: zadejte heslo uživatele."
 
 #: ../../source/install/wizard.rst:69
 msgid "Once all fields are properly filled, validate the form."
-msgstr "Jakmile jsou všechny kolonky řádně vyplněné, potvrďte formulář."
+msgstr "Po řádném vyplnění všech kolonek, klikněte na Pokračovat."
 
 #: ../../source/install/wizard.rst:71
 msgid ""
@@ -153,20 +151,23 @@ msgid ""
 "Once connection to the database server is OK, you have to create or choose "
 "the database you want for your GLPI and init it."
 msgstr ""
-"Jakmile je spojení s databázovým serverem v pořádku, je třeba vytvořit nebo "
-"zvolit databázi, kterou chcete použít pro GLPI a inicializovat ji."
+"Po úspěšném navázání spojení s databázovým serverem je třeba zadat vytvoření"
+" nebo zvolit existující databázi, kterou chcete použít pro GLPI a "
+"inicializovat ji."
 
 #: ../../source/install/wizard.rst:83
 msgid "There are 2 ways to go:"
-msgstr "Jsou dva způsoby jak pokračovat:"
+msgstr "Pokračovat je tedy možné dvěma způsoby:"
 
 #: ../../source/install/wizard.rst:85
 msgid "use an existing database"
-msgstr "použít existující databázi"
+msgstr "Použít existující databázi"
 
 #: ../../source/install/wizard.rst:87
 msgid "Select this database in the displayed list. Validate to use."
-msgstr "Vyberte tuto databázi ze zobrazeného seznamu. Potvrďte a použijte."
+msgstr ""
+"Vyberte tuto databázi ze zobrazeného seznamu. Klikněte na Pokračovat a "
+"potvrďte."
 
 #: ../../source/install/wizard.rst:91
 msgid "Selected database contents will be destroyed on installation."
@@ -175,15 +176,15 @@ msgstr ""
 
 #: ../../source/install/wizard.rst:93
 msgid "Create a new database"
-msgstr "Vytvořit novou"
+msgstr "Vytvořit novou databázi"
 
 #: ../../source/install/wizard.rst:95
 msgid ""
 "Choose *Create a new database*, enter the database name in the relevant "
 "field and then validate to create the base."
 msgstr ""
-"Zvolte *Vytvořit novou databázi*, zadejte název pro ní do odpovídající "
-"kolonky a potvrďte."
+"Zvolte *Vytvořit novou databázi*, do odpovídající kolonky pro ní zadejte "
+"název a klikněte na Pokračovat."
 
 #: ../../source/install/wizard.rst:99
 msgid "SQL user must be able to create new database for this option to work."
@@ -201,11 +202,11 @@ msgstr "Tento krok inicializuje databázi s výchozími hodnotami."
 
 #: ../../source/install/wizard.rst:111
 msgid "If there is any error; pay attention to the displayed informations."
-msgstr "V případě jakékoli chyby; věnujte pozornost zobrazeným informacím."
+msgstr "V případě jakékoli chyby věnujte pozornost zobrazeným informacím."
 
 #: ../../source/install/wizard.rst:114
 msgid "Telemetry informations"
-msgstr "Telemetrické informace"
+msgstr "Telemetrické údaje"
 
 #: ../../source/install/wizard.rst:116
 msgid ""
@@ -217,7 +218,7 @@ msgstr ""
 
 #: ../../source/install/wizard.rst:126
 msgid "End of installation"
-msgstr "Konec instalace"
+msgstr "Závěr instalace"
 
 #: ../../source/install/wizard.rst:128
 msgid ""
@@ -225,9 +226,9 @@ msgid ""
 "list. Please pay attention to those informations and validate to go to the "
 "app."
 msgstr ""
-"Tento krok představuje souhrn instalace a poskytuje seznam vytvořených "
-"uživatelů. Věnujte těmto informacím pozornost a jeho potvrzením přejděte do "
-"aplikace."
+"V tomto kroku je představen souhrn instalace a vypsán seznam vytvořených "
+"uživatelů. Věnujte těmto informacím pozornost a pak kliknutím na Pokračovat "
+"přejděte do aplikace."
 
 #: ../../source/install/wizard.rst:137
 msgid "Default user accounts are:"
@@ -247,7 +248,7 @@ msgstr "*normal/normal* účet běžného uživatele,"
 
 #: ../../source/install/wizard.rst:142
 msgid "*post-only/postonly* post-only account."
-msgstr "*post-only/postonly* účet pouze pro posílání."
+msgstr "*post-only/postonly* účet pouze pro zadávání požadavků."
 
 #: ../../source/install/wizard.rst:146
 msgid ""
@@ -261,7 +262,9 @@ msgid ""
 "Before removing the ``glpi`` account, please make sure you have created "
 "another user with ``super-admin`` profile."
 msgstr ""
+"Před případným odebráním účtu ``glpi``, nezapomeňte vytvořit jiný účet, "
+"který má profil ``super-admin``."
 
-#: ../../source/install/wizard.rst:151
+#: ../../<rst_epilog>:2
 msgid "|ccbyncnd|"
 msgstr "|ccbyncnd|"

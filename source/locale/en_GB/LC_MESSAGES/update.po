@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016-2018, GLPI Project, Teclib'
+# Copyright (C) 2016-2020, GLPI Project, Teclib'
 # This file is distributed under the same license as the GLPI package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: GLPI 9.3\n"
+"Project-Id-Version: GLPI 9.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-29 06:38+0200\n"
+"POT-Creation-Date: 2020-06-30 08:44+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -42,11 +42,13 @@ msgstr "backup your configuration."
 
 #: ../../source/update.rst:12
 msgid ""
-"GLPI update process is automated. To start it, just go to your GLPI instance"
-" URI, or (recommended) use the :doc:`command line tools <command-line>`."
+"First, download latest GLPI version and extract files. GLPI update process "
+"is then automated. To start it, just go to your GLPI instance URI, or "
+"(recommended) use the :doc:`command line tools <command-line>`."
 msgstr ""
-"GLPI update process is automated. To start it, just go to your GLPI instance"
-" URI, or (recommended) use the :doc:`command line tools <command-line>`."
+"First, download latest GLPI version and extract files. GLPI update process "
+"is then automated. To start it, just go to your GLPI instance URI, or "
+"(recommended) use the :doc:`command line tools <command-line>`."
 
 #: ../../source/update.rst:14
 msgid ""
@@ -78,6 +80,6 @@ msgstr ""
 "Make sure your database is empty before restoring your backup and try to "
 "update, and repeat on fail."
 
-#: ../../source/update.rst:25
+#: ../../<rst_epilog>:2
 msgid "|ccbyncnd|"
 msgstr "|ccbyncnd|"

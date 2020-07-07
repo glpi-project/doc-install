@@ -1,0 +1,89 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2020, GLPI Project, Teclib'
+# This file is distributed under the same license as the GLPI package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Stephan <stephan.rennert@web.de>, 2018
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI 9.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-30 08:44+0200\n"
+"PO-Revision-Date: 2018-02-20 11:33+0000\n"
+"Last-Translator: Stephan <stephan.rennert@web.de>, 2018\n"
+"Language-Team: German (Germany) (https://www.transifex.com/glpi/teams/87042/de_DE/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de_DE\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../source/update.rst:2
+msgid "Update"
+msgstr "Update"
+
+#: ../../source/update.rst:6
+msgid ""
+"As for every update process, you have to backup some data before processing "
+"any upgrade:"
+msgstr ""
+"Wie bei jedem Aktualisierungsvorgang müssen Sie einige Daten sichern, bevor "
+"Sie ein Upgrade durchführen können:"
+
+#: ../../source/update.rst:8
+msgid "**backup your database**;"
+msgstr "**Backup der Datenbank**;"
+
+#: ../../source/update.rst:9
+msgid "backup your files directory;"
+msgstr "Backup des Dateiverzeichnis;"
+
+#: ../../source/update.rst:10
+msgid "backup your configuration."
+msgstr "Backup der Konfiguration."
+
+#: ../../source/update.rst:12
+msgid ""
+"First, download latest GLPI version and extract files. GLPI update process "
+"is then automated. To start it, just go to your GLPI instance URI, or "
+"(recommended) use the :doc:`command line tools <command-line>`."
+msgstr ""
+
+#: ../../source/update.rst:14
+msgid ""
+"Once a new version will be installed; you will not be able to use the "
+"application until a migration has been done."
+msgstr ""
+"Sobald eine neue Version installiert ist, können Sie die Anwendung erst nach"
+" einer Migration nutzen."
+
+#: ../../source/update.rst:16
+msgid ""
+"Please also note the update process will automatically disable your plugins."
+msgstr ""
+"Bitte beachten Sie auch, dass der Aktualisierungsprozess Ihre Plugins "
+"automatisch deaktiviert."
+
+#: ../../source/update.rst:20
+msgid ""
+"You should not try to restore a database backup on a non empty database "
+"(say, a database that has been partially migrated for any reason)."
+msgstr ""
+"Sie sollten nicht versuchen, eine Datenbanksicherung auf einer nicht leeren "
+"Datenbank wiederherzustellen (z.B. einer Datenbank, die aus irgendeinem "
+"Grund teilweise migriert wurde)."
+
+#: ../../source/update.rst:22
+msgid ""
+"Make sure your database is empty before restoring your backup and try to "
+"update, and repeat on fail."
+msgstr ""
+"Stellen Sie sicher, dass Ihre Datenbank leer ist, bevor Sie Ihr Backup "
+"wiederherstellen. Bei einem Fehler versuchen Sie es zu aktualisieren."
+
+#: ../../<rst_epilog>:2
+msgid "|ccbyncnd|"
+msgstr "|ccbyncnd|"

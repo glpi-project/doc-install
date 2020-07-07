@@ -1,15 +1,18 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016-2018, GLPI Project, Teclib'
+# Copyright (C) 2016-2020, GLPI Project, Teclib'
 # This file is distributed under the same license as the GLPI package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# liAnGjiA <liangjia@qq.com>, 2018
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: GLPI 9.3\n"
+"Project-Id-Version: GLPI 9.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-29 06:38+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"POT-Creation-Date: 2020-06-30 08:44+0200\n"
+"PO-Revision-Date: 2018-02-20 11:33+0000\n"
 "Last-Translator: liAnGjiA <liangjia@qq.com>, 2018\n"
 "Language-Team: Chinese Simplified (https://www.transifex.com/glpi/teams/87042/zh-Hans/)\n"
 "MIME-Version: 1.0\n"
@@ -78,7 +81,7 @@ msgstr ""
 
 #: ../../source/install/wizard.rst:46
 msgid ""
-"This step will check if prerequisites are met. If thery're not, it is not "
+"This step will check if prerequisites are met. If they're not, it is not "
 "possible to continue and an explicit error message will tell you about what "
 "is wrong and what to do before trying again."
 msgstr ""
@@ -86,7 +89,7 @@ msgstr ""
 #: ../../source/install/wizard.rst:53
 msgid ""
 "Some prerequisites are optionals, it will be possible to continue "
-"installation event if thery're not met."
+"installation event if they're not met."
 msgstr ""
 
 #: ../../source/install/wizard.rst:56
@@ -151,7 +154,7 @@ msgstr ""
 
 #: ../../source/install/wizard.rst:93
 msgid "Create a new database"
-msgstr ""
+msgstr "新建数据库"
 
 #: ../../source/install/wizard.rst:95
 msgid ""
@@ -165,7 +168,7 @@ msgstr ""
 
 #: ../../source/install/wizard.rst:102
 msgid "Database initialization"
-msgstr ""
+msgstr "数据库初始化"
 
 #: ../../source/install/wizard.rst:104
 msgid "This step initializes the database with default values."
@@ -227,6 +230,6 @@ msgid ""
 "another user with ``super-admin`` profile."
 msgstr ""
 
-#: ../../source/install/wizard.rst:151
+#: ../../<rst_epilog>:2
 msgid "|ccbyncnd|"
-msgstr ""
+msgstr "|CC-by-NC-ND|"

@@ -1,15 +1,18 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016-2018, GLPI Project, Teclib'
+# Copyright (C) 2016-2020, GLPI Project, Teclib'
 # This file is distributed under the same license as the GLPI package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# liAnGjiA <liangjia@qq.com>, 2018
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: GLPI 9.3\n"
+"Project-Id-Version: GLPI 9.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-29 06:38+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"POT-Creation-Date: 2020-06-30 08:44+0200\n"
+"PO-Revision-Date: 2018-02-20 11:33+0000\n"
 "Last-Translator: liAnGjiA <liangjia@qq.com>, 2018\n"
 "Language-Team: Chinese Simplified (https://www.transifex.com/glpi/teams/87042/zh-Hans/)\n"
 "MIME-Version: 1.0\n"
@@ -42,8 +45,9 @@ msgstr "备份配置."
 
 #: ../../source/update.rst:12
 msgid ""
-"GLPI update process is automated. To start it, just go to your GLPI instance"
-" URI, or (recommended) use the :doc:`command line tools <command-line>`."
+"First, download latest GLPI version and extract files. GLPI update process "
+"is then automated. To start it, just go to your GLPI instance URI, or "
+"(recommended) use the :doc:`command line tools <command-line>`."
 msgstr ""
 
 #: ../../source/update.rst:14
@@ -69,6 +73,6 @@ msgid ""
 "update, and repeat on fail."
 msgstr ""
 
-#: ../../source/update.rst:25
+#: ../../<rst_epilog>:2
 msgid "|ccbyncnd|"
-msgstr ""
+msgstr "|CC-by-NC-ND|"

@@ -1,15 +1,18 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016-2018, GLPI Project, Teclib'
+# Copyright (C) 2016-2020, GLPI Project, Teclib'
 # This file is distributed under the same license as the GLPI package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# liAnGjiA <liangjia@qq.com>, 2018
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: GLPI 9.3\n"
+"Project-Id-Version: GLPI 9.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-29 06:38+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"POT-Creation-Date: 2020-06-30 08:44+0200\n"
+"PO-Revision-Date: 2018-02-20 11:33+0000\n"
 "Last-Translator: liAnGjiA <liangjia@qq.com>, 2018\n"
 "Language-Team: Chinese Simplified (https://www.transifex.com/glpi/teams/87042/zh-Hans/)\n"
 "MIME-Version: 1.0\n"
@@ -64,12 +67,12 @@ msgstr "PHP"
 
 #: ../../source/prerequisites.rst:22
 msgid ""
-"As of 9.2 release, GLPI requires `PHP <http://php.net>`_ 5.6 or more recent."
+"As of 9.5 release, GLPI requires `PHP <http://php.net>`_ 7.2 or more recent."
 msgstr ""
 
 #: ../../source/prerequisites.rst:26
 msgid ""
-"We recommand to use the most recent stable PHP release for better "
+"We recommend to use the most recent stable PHP release for better "
 "performances."
 msgstr ""
 
@@ -118,81 +121,85 @@ msgid "``simplexml``;"
 msgstr ""
 
 #: ../../source/prerequisites.rst:42
-msgid "``xml``."
+msgid "``xml``;"
 msgstr ""
 
-#: ../../source/prerequisites.rst:45
+#: ../../source/prerequisites.rst:43
+msgid "``intl``."
+msgstr ""
+
+#: ../../source/prerequisites.rst:46
 msgid "Optional extensions"
 msgstr ""
 
-#: ../../source/prerequisites.rst:49
+#: ../../source/prerequisites.rst:50
 msgid ""
 "Even if those extensions are not mandatory, we advise you to install them "
 "anyways."
 msgstr ""
 
-#: ../../source/prerequisites.rst:51
+#: ../../source/prerequisites.rst:52
 msgid "Following PHP extensions are required for some extra features of GLPI:"
 msgstr ""
 
-#: ../../source/prerequisites.rst:53
+#: ../../source/prerequisites.rst:54
 msgid ""
 "``cli``: to use PHP from command line (scripts, automatic actions, and so "
 "on);"
 msgstr ""
 
-#: ../../source/prerequisites.rst:54
+#: ../../source/prerequisites.rst:55
 msgid "``domxml``: used for CAS authentication;"
 msgstr ""
 
-#: ../../source/prerequisites.rst:55
+#: ../../source/prerequisites.rst:56
 msgid "``imap``: used for mail collector ou user authentication;"
 msgstr ""
 
-#: ../../source/prerequisites.rst:56
+#: ../../source/prerequisites.rst:57
 msgid "``ldap``:  use LDAP directory for authentication;"
 msgstr ""
 
-#: ../../source/prerequisites.rst:57
+#: ../../source/prerequisites.rst:58
 msgid "``openssl``: secured communications;"
 msgstr ""
 
-#: ../../source/prerequisites.rst:58
-msgid "``xmlrpc``: used for XMLRPC API."
-msgstr ""
-
 #: ../../source/prerequisites.rst:59
+msgid "``xmlrpc``: used for XMLRPC API."
+msgstr "``xmlrpc``: 使用 XMLRPC API."
+
+#: ../../source/prerequisites.rst:60
 msgid ""
 "``APCu``: may be used for cache; among others (see `caching configuration "
 "(in french only) <http://glpi-user-"
 "documentation.readthedocs.io/fr/latest/advanced/cache.html>`_."
 msgstr ""
 
-#: ../../source/prerequisites.rst:62
+#: ../../source/prerequisites.rst:63
 msgid "Configuration"
-msgstr ""
+msgstr "配置"
 
-#: ../../source/prerequisites.rst:64
+#: ../../source/prerequisites.rst:65
 msgid ""
 "PHP configuration file (``php.ini``) must be adapted to reflect following "
 "variables:"
 msgstr ""
 
-#: ../../source/prerequisites.rst:77
+#: ../../source/prerequisites.rst:76
 msgid "Database"
-msgstr ""
+msgstr "数据库"
 
-#: ../../source/prerequisites.rst:81
+#: ../../source/prerequisites.rst:80
 msgid ""
 "Currently, only `MySQL <https://dev.mysql.com>`_ (5.6 minimum) and `MariaDB "
 "<https://mariadb.com>`_ (10.0 minimum) database servers are supported by "
 "GLPI."
 msgstr ""
 
-#: ../../source/prerequisites.rst:83
+#: ../../source/prerequisites.rst:82
 msgid "In order to work, GLPI requires a database server."
 msgstr ""
 
-#: ../../source/prerequisites.rst:86
+#: ../../<rst_epilog>:2
 msgid "|ccbyncnd|"
-msgstr ""
+msgstr "|CC-by-NC-ND|"

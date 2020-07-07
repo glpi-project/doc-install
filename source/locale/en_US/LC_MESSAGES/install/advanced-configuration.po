@@ -1,0 +1,89 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2020, GLPI Project, Teclib'
+# This file is distributed under the same license as the GLPI package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Shawn Long <webaccounts@kkg.org>, 2019
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI 9.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-30 08:44+0200\n"
+"PO-Revision-Date: 2019-11-18 19:58+0000\n"
+"Last-Translator: Shawn Long <webaccounts@kkg.org>, 2019\n"
+"Language-Team: English (United States) (https://www.transifex.com/glpi/teams/87042/en_US/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../source/install/advanced-configuration.rst:2
+msgid "Advanced configuration"
+msgstr "Advanced Configuration"
+
+#: ../../source/install/advanced-configuration.rst:5
+msgid "SSL connection to database"
+msgstr "SSL connection to database"
+
+#: ../../source/install/advanced-configuration.rst:9
+msgid ""
+"Once installation is done, you can update the ``config/config_db.php`` to "
+"define SSL connection parameters. Available parameters corresponds to "
+"parameters used by `mysqli::ssl_set() <https://www.php.net/manual/en/mysqli"
+".ssl-set.php>`_:"
+msgstr ""
+
+#: ../../source/install/advanced-configuration.rst:12
+msgid "``$dbssl`` defines if connection should use SSL (`false` per default)"
+msgstr ""
+"``$dbssl`` defines if the connection should use SSL (`false` per default)"
+
+#: ../../source/install/advanced-configuration.rst:13
+msgid "``$dbsslkey`` path name to the key file (`null` per default)"
+msgstr "``$dbsslkey`` path name to the key file (`null` per default)"
+
+#: ../../source/install/advanced-configuration.rst:14
+msgid "``$dbsslcert`` path name to the certificate file (`null` per default)"
+msgstr "``$dbsslcert`` path name to the certificate file (`null` per default)"
+
+#: ../../source/install/advanced-configuration.rst:15
+msgid ""
+"``$dbsslca`` path name to the certificate authority file (`null` per "
+"default)"
+msgstr ""
+"``$dbsslca`` path name to the certificate authority file (`null` per "
+"default)"
+
+#: ../../source/install/advanced-configuration.rst:16
+msgid ""
+"``$dbsslcapath`` pathname to a directory that contains trusted SSL CA "
+"certificates in PEM format (`null` per default)"
+msgstr ""
+"``$dbsslcapath`` pathname to a directory that contains trusted SSL CA "
+"certificates in PEM format (`null` per default)"
+
+#: ../../source/install/advanced-configuration.rst:17
+msgid ""
+"``$dbsslcacipher`` list of allowable ciphers to use for SSL encryption "
+"(`null` per default)"
+msgstr ""
+"``$dbsslcacipher`` list of allowable ciphers to use for SSL encryption "
+"(`null` per default)"
+
+#: ../../source/install/advanced-configuration.rst:21
+msgid ""
+"For now it is not possible to define SSL connection parameters prior or "
+"during the installation process. It has to be done once installation has "
+"been done."
+msgstr ""
+"For now it is not possible to define SSL connection parameters prior or "
+"during the installation process. It has to be done once installation has "
+"been done."
+
+#: ../../<rst_epilog>:2
+msgid "|ccbyncnd|"
+msgstr "|ccbyncnd|"

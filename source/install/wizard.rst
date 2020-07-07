@@ -43,14 +43,14 @@ Click on install.
 Environment checks
 ^^^^^^^^^^^^^^^^^^
 
-This step will check if prerequisites are met. If thery're not, it is not possible to continue and an explicit error message will tell you about what is wrong and what to do before trying again.
+This step will check if prerequisites are met. If they're not, it is not possible to continue and an explicit error message will tell you about what is wrong and what to do before trying again.
 
 .. image:: images/setup.png
    :alt: Check prerequisites
    :align: center
    :scale: 50%
 
-Some prerequisites are optionals, it will be possible to continue installation event if thery're not met.
+Some prerequisites are optionals, it will be possible to continue installation event if they're not met.
 
 Database connection
 ^^^^^^^^^^^^^^^^^^^

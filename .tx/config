@@ -31,3 +31,8 @@ source_lang = en
 file_filter = source/locale/<lang>/LC_MESSAGES/install/wizard.po
 source_file = build/locale/install/wizard.pot
 source_lang = en
+
+[glpi-install.install--advanced-configuration]
+file_filter = source/locale/<lang>/LC_MESSAGES/install/advanced-configuration.po
+source_file = build/locale/install/advanced-configuration.pot
+source_lang = en

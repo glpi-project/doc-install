@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016-2018, GLPI Project, Teclib'
+# Copyright (C) 2016-2020, GLPI Project, Teclib'
 # This file is distributed under the same license as the GLPI package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: GLPI 9.3\n"
+"Project-Id-Version: GLPI 9.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-29 06:38+0200\n"
+"POT-Creation-Date: 2020-06-30 08:44+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -142,121 +142,129 @@ msgstr ""
 "Once these three steps have been completed the application is ready to be "
 "used."
 
-#: ../../source/install/index.rst:48
+#: ../../source/install/index.rst:47
+msgid ""
+"If you need to set advanced configuration, like SSL connection parameters, "
+"please refer to :doc:`advanced configuration <advanced-configuration>`."
+msgstr ""
+"If you need to set advanced configuration, like SSL connection parameters, "
+"please refer to :doc:`advanced configuration <advanced-configuration>`."
+
+#: ../../source/install/index.rst:50
 msgid "Files and directories locations"
 msgstr "Files and directories locations"
 
-#: ../../source/install/index.rst:50
+#: ../../source/install/index.rst:52
 msgid ""
 "Like many other web applications, GLPI can be installed by just copying the "
 "whole directory to any web server. However, this may be less secure."
 msgstr ""
 "Like many other web applications, GLPI can be installed by just copying the "
 "whole directory to any web server. However, this may be less secure."
-
-#: ../../source/install/index.rst:54
-msgid ""
-"Every file accessible directly from a web server must be considered unsafe!"
-msgstr ""
-"Every file accessible directly from a web server must be considered unsafe!"
 
 #: ../../source/install/index.rst:56
 msgid ""
-"GLPI stores some data in the ``files`` directory, the database access "
-"configuration is stored in the ``config`` directory, etc. Even if GLPI "
-"provides some ways to prevent files from being accessed by the webserver "
-"directly, best practise is to store data outside of the web root. That way, "
-"sensitive files cannot be accessed directly from the web server."
+"Every file accessible directly from a web server must be considered unsafe!"
 msgstr ""
-"GLPI stores some data in the ``files`` directory, the database access "
-"configuration is stored in the ``config`` directory, etc. Even if GLPI "
-"provides some ways to prevent files from being accessed by the webserver "
-"directly, best practise is to store data outside of the web root. That way, "
-"sensitive files cannot be accessed directly from the web server."
+"Every file accessible directly from a web server must be considered unsafe!"
 
 #: ../../source/install/index.rst:58
 msgid ""
+"GLPI stores some data in the ``files`` directory, the database access "
+"configuration is stored in the ``config`` directory, etc. Even if GLPI "
+"provides some ways to prevent files from being accessed by the webserver "
+"directly, best practise is to store data outside of the web root. That way, "
+"sensitive files cannot be accessed directly from the web server."
+msgstr ""
+"GLPI stores some data in the ``files`` directory, the database access "
+"configuration is stored in the ``config`` directory, etc. Even if GLPI "
+"provides some ways to prevent files from being accessed by the webserver "
+"directly, best practise is to store data outside of the web root. That way, "
+"sensitive files cannot be accessed directly from the web server."
+
+#: ../../source/install/index.rst:60
+msgid ""
 "There are a few configuration directives you may use to achieve that "
 "(directives that are used in provided downstream packages):"
 msgstr ""
 "There are a few configuration directives you may use to achieve that "
 "(directives that are used in provided downstream packages):"
 
-#: ../../source/install/index.rst:60
+#: ../../source/install/index.rst:62
 msgid "``GLPI_CONFIG_DIR``: set path to the configuration directory;"
 msgstr "``GLPI_CONFIG_DIR``: set path to the configuration directory;"
 
-#: ../../source/install/index.rst:61
+#: ../../source/install/index.rst:63
 msgid "``GLPI_VAR_DIR`` : set path to the ``files`` directory;"
 msgstr "``GLPI_VAR_DIR`` : set path to the ``files`` directory;"
 
-#: ../../source/install/index.rst:62
+#: ../../source/install/index.rst:64
 msgid "``GLPI_LOG_DIR`` : set path to logs files."
 msgstr "``GLPI_LOG_DIR`` : set path to logs files."
 
-#: ../../source/install/index.rst:66
-msgid ""
-"There are many other configuration directives available, the ones we talked "
-"about are the main to take into account for a more secure installation."
-msgstr ""
-"There are many other configuration directives available, the ones we talked "
-"about are the main to take into account for a more secure installation."
-
 #: ../../source/install/index.rst:68
 msgid ""
-"Directories choice is entirely up to you; the following example will follow "
-"the `FHS <http://www.pathname.com/fhs/>`_ recommendations."
+"There are many other configuration directives available, the ones we talked "
+"about are the main to take into account for a more secure installation."
 msgstr ""
-"Directories choice is entirely up to you; the following example will follow "
-"the `FHS <http://www.pathname.com/fhs/>`_ recommendations."
+"There are many other configuration directives available, the ones we talked "
+"about are the main to take into account for a more secure installation."
 
 #: ../../source/install/index.rst:70
 msgid ""
-"Our GLPI instance will be installed in ``/var/www/glpi``, a specific virtual"
-" host in the web server configuration will reflect this path."
+"Directories choice is entirely up to you; the following example will follow "
+"the `FHS <http://www.pathname.com/fhs/>`_ recommendations."
 msgstr ""
-"Our GLPI instance will be installed in ``/var/www/glpi``, a specific virtual"
-" host in the web server configuration will reflect this path."
+"Directories choice is entirely up to you; the following example will follow "
+"the `FHS <http://www.pathname.com/fhs/>`_ recommendations."
 
 #: ../../source/install/index.rst:72
 msgid ""
-"GLPI configuration will be stored in ``/etc/glpi``, just copy the ``config``"
-" directory to this place. GLPI requires read rights on this directory to "
-"work; and write rights during the installation process."
+"Our GLPI instance will be installed in ``/var/www/glpi``, a specific virtual"
+" host in the web server configuration will reflect this path."
 msgstr ""
-"GLPI configuration will be stored in ``/etc/glpi``, just copy the ``config``"
-" directory to this place. GLPI requires read rights on this directory to "
-"work; and write rights during the installation process."
+"Our GLPI instance will be installed in ``/var/www/glpi``, a specific virtual"
+" host in the web server configuration will reflect this path."
 
 #: ../../source/install/index.rst:74
 msgid ""
-"GLPI data will be stored in ``/var/lib/glpi``, just copy the ``files`` "
-"directory to this place. GLPI requires read and write rights on this "
-"directory."
+"GLPI configuration will be stored in ``/etc/glpi``, just copy the contents "
+"of the ``config`` directory to this place. GLPI requires read rights on this"
+" directory to work; and write rights during the installation process."
 msgstr ""
-"GLPI data will be stored in ``/var/lib/glpi``, just copy the ``files`` "
-"directory to this place. GLPI requires read and write rights on this "
-"directory."
+"GLPI configuration will be stored in ``/etc/glpi``, just copy the contents "
+"of the ``config`` directory to this place. GLPI requires read rights on this"
+" directory to work; and write rights during the installation process."
 
 #: ../../source/install/index.rst:76
 msgid ""
-"GLPI logs files will be stored in ``/var/log/glpi``, there is nothing to "
-"copy here, just create the directory. GLPI requires read and write access on"
-" this directory."
+"GLPI data will be stored in ``/var/lib/glpi``, just copy the contents of the"
+" ``files`` directory to this place. GLPI requires read and write rights on "
+"this directory."
 msgstr ""
-"GLPI logs files will be stored in ``/var/log/glpi``, there is nothing to "
-"copy here, just create the directory. GLPI requires read and write access on"
-" this directory."
+"GLPI data will be stored in ``/var/lib/glpi``, just copy the contents of the"
+" ``files`` directory to this place. GLPI requires read and write rights on "
+"this directory."
 
 #: ../../source/install/index.rst:78
 msgid ""
+"GLPI logs files will be stored in ``/var/log/glpi``, there is nothing to "
+"copy here, just create the directory. GLPI requires read and write access on"
+" this directory."
+msgstr ""
+"GLPI logs files will be stored in ``/var/log/glpi``, there is nothing to "
+"copy here, just create the directory. GLPI requires read and write access on"
+" this directory."
+
+#: ../../source/install/index.rst:80
+msgid ""
 "Following this instructions, we'll create a ``inc/downstream.php`` file into"
 " GLPI directory with the following contents:"
 msgstr ""
 "Following this instructions, we'll create a ``inc/downstream.php`` file into"
 " GLPI directory with the following contents:"
 
-#: ../../source/install/index.rst:87
+#: ../../source/install/index.rst:94
 msgid ""
 "GLPI packages will certainly provide a ``inc/downstream.php`` file. This one"
 " must not be edited!"
@@ -264,7 +272,15 @@ msgstr ""
 "GLPI packages will certainly provide a ``inc/downstream.php`` file. This one"
 " must not be edited!"
 
-#: ../../source/install/index.rst:89
+#: ../../source/install/index.rst:96
+msgid ""
+"GLPI looks for a `local_define.php` file in its own `config` directory. If "
+"you want to use one form new config directory, you have to load it."
+msgstr ""
+"GLPI looks for a `local_define.php` file in its own `config` directory. If "
+"you want to use one form new config directory, you have to load it."
+
+#: ../../source/install/index.rst:98
 msgid ""
 "Then, create a file in ``/etc/glpi/local_define.php`` with the following "
 "contents:"
@@ -272,7 +288,7 @@ msgstr ""
 "Then, create a file in ``/etc/glpi/local_define.php`` with the following "
 "contents:"
 
-#: ../../source/install/index.rst:101
+#: ../../source/install/index.rst:110
 msgid ""
 "For GLPI prior to 9.2.2, the ``GLPI_VAR_DIR`` constant did not exist and it "
 "was required to set all paths separately:"
@@ -280,25 +296,15 @@ msgstr ""
 "For GLPI prior to 9.2.2, the ``GLPI_VAR_DIR`` constant did not exist and it "
 "was required to set all paths separately:"
 
-#: ../../source/install/index.rst:126
-msgid ""
-"GLPI configuration directory cannot be defined in the ``local_define.php`` "
-"file just because this one will be... in the configuration directory itself "
-";)"
-msgstr ""
-"GLPI configuration directory cannot be defined in the ``local_define.php`` "
-"file just because this one will be... in the configuration directory itself "
-";)"
-
-#: ../../source/install/index.rst:129
+#: ../../source/install/index.rst:134
 msgid "Post installation"
 msgstr "Post installation"
 
-#: ../../source/install/index.rst:131
+#: ../../source/install/index.rst:136
 msgid "Once GLPI has been installed, you're almost done."
 msgstr "Once GLPI has been installed, you're almost done."
 
-#: ../../source/install/index.rst:133
+#: ../../source/install/index.rst:138
 msgid ""
 "An extra step would be to secure (or remove) installation directory. As an "
 "example, you can consider adding the following to your Apache virtual host "
@@ -308,7 +314,7 @@ msgstr ""
 "example, you can consider adding the following to your Apache virtual host "
 "configuration (or in the ``glpi/install/.htaccess`` file):"
 
-#: ../../source/install/index.rst:148
+#: ../../source/install/index.rst:153
 msgid ""
 "With this example, the `install` directory access will be limited to "
 "localhost only and will display an error message otherwise. Of course, you "
@@ -320,6 +326,6 @@ msgstr ""
 "may have to adapt this to your needs; refer to your web server's "
 "documentation."
 
-#: ../../source/install/index.rst:151
+#: ../../<rst_epilog>:2
 msgid "|ccbyncnd|"
 msgstr "|ccbyncnd|"

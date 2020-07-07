@@ -1,0 +1,278 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2020, GLPI Project, Teclib'
+# This file is distributed under the same license as the GLPI package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# 李赋 <fu792659@163.com>, 2018
+# liAnGjiA <liangjia@qq.com>, 2018
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI 9.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-30 08:44+0200\n"
+"PO-Revision-Date: 2018-02-20 11:33+0000\n"
+"Last-Translator: liAnGjiA <liangjia@qq.com>, 2018\n"
+"Language-Team: Chinese (China) (https://www.transifex.com/glpi/teams/87042/zh_CN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../source/install/index.rst:2
+msgid "Install GLPI"
+msgstr "安装 GLPI"
+
+#: ../../source/install/index.rst:4
+msgid "Proceed as follow:"
+msgstr "请按以下步骤操作："
+
+#: ../../source/install/index.rst:6
+msgid "Choose a version,"
+msgstr "版本选择,"
+
+#: ../../source/install/index.rst:7
+msgid "Download the archive,"
+msgstr "下载档案，"
+
+#: ../../source/install/index.rst:8
+msgid "Install :)"
+msgstr "安装 :)"
+
+#: ../../source/install/index.rst:11
+msgid "Choose a version"
+msgstr "选择版本"
+
+#: ../../source/install/index.rst:15
+msgid ""
+"It is hightly recommended you choose the latest stable release for a "
+"production usage."
+msgstr "强烈建议您为生产用途选择最新的稳定版本。"
+
+#: ../../source/install/index.rst:17
+msgid ""
+"GLPI follows a semantic versioning scheme, on 3 digits. The first one is the"
+" major release, the second the minor and the third the fix release."
+msgstr "GLPI遵循3位数的语义版本控制方案。第一个是主要版本，第二个是次要版本，第三个是修订版本。"
+
+#: ../../source/install/index.rst:19
+msgid ""
+"Major releases may come with important incompatibilities as well as new "
+"features; minor versions may bring new features as well, but stay perfectly "
+"compatible inside a major version."
+msgstr "主要版本可能具有重要的不兼容性和新功能；次要版本也可能带来新功能，但在主要版本内保持完美兼容。"
+
+#: ../../source/install/index.rst:21
+msgid ""
+"Fixes releases will only fix reported issues without adding anything new."
+msgstr "修复版本只会修复报告的问题而不添加任何新内容。"
+
+#: ../../source/install/index.rst:24
+msgid "Download"
+msgstr "下载"
+
+#: ../../source/install/index.rst:28
+msgid ""
+"On GitHub, there are always two archives named *Source code* which should "
+"not be used."
+msgstr ""
+"在GitHub上，总有两个名为*Source code*的档案，不应该使用。不应该这样说啊，github上不使用的source code好像没这说法。"
+
+#: ../../source/install/index.rst:30
+msgid ""
+"Go to the *download* section of `the GLPI website <http://glpi-"
+"project.org>`_ (or get archive directly from `Github release "
+"<https://github.com/glpi-project/glpi/releases>`_) and choose the "
+"``glpi-{version}.tgz`` archive."
+msgstr ""
+"点击 *下载* 按钮 `GLPI 官方网站 <http://glpi-project.org>`_ (或从Github获取 `Github "
+"release <https://github.com/glpi-project/glpi/releases>`_) 选择 "
+"``glpi-{version}.tgz`` 文档."
+
+#: ../../source/install/index.rst:33
+msgid "Installation"
+msgstr "安装"
+
+#: ../../source/install/index.rst:37
+msgid ""
+"Packages may be available from your Linux distribution (Red Hat, CentOS, "
+"Fedora, Ubuntu, ...) that you should use with your standard packages manager"
+" as usual."
+msgstr ""
+"可以从您的Linux发行版（Red Hat，CentOS，Fedora，Ubuntu，...）中获得软件包，您应该像往常一样使用标准软件包管理器。"
+
+#: ../../source/install/index.rst:39
+msgid "GLPI installation itself is composed of three steps:"
+msgstr "GLPI安装由三个步骤组成："
+
+#: ../../source/install/index.rst:41
+msgid "Uncompress the archive in your website;"
+msgstr "解压缩您网站中的存档；"
+
+#: ../../source/install/index.rst:42
+msgid ""
+"Give your webserver write access to the ``files`` and ``config`` "
+"directories;"
+msgstr "让你的web服务器写入``files``和``config``目录；"
+
+#: ../../source/install/index.rst:43
+msgid ""
+":doc:`launch installation wizard <wizard>` (or use the :ref:`command line "
+"installation script <cdline_install>`)."
+msgstr "：doc：`启动安装向导<wizard>`（或使用：ref：`命令行安装脚本<cdline_install>`）。"
+
+#: ../../source/install/index.rst:45
+msgid ""
+"Once these three steps have been completed the application is ready to be "
+"used."
+msgstr "完成这三个步骤后，即可使用该应用程序。"
+
+#: ../../source/install/index.rst:47
+msgid ""
+"If you need to set advanced configuration, like SSL connection parameters, "
+"please refer to :doc:`advanced configuration <advanced-configuration>`."
+msgstr ""
+
+#: ../../source/install/index.rst:50
+msgid "Files and directories locations"
+msgstr "文件和目录位置"
+
+#: ../../source/install/index.rst:52
+msgid ""
+"Like many other web applications, GLPI can be installed by just copying the "
+"whole directory to any web server. However, this may be less secure."
+msgstr "和许多其他Web应用程序一样，只需将整个目录复制到任何Web服务器即可安装GLPI。但是，这可能不太安全"
+
+#: ../../source/install/index.rst:56
+msgid ""
+"Every file accessible directly from a web server must be considered unsafe!"
+msgstr "直接从Web服务器访问的每个文件都必须被视为不安全！"
+
+#: ../../source/install/index.rst:58
+msgid ""
+"GLPI stores some data in the ``files`` directory, the database access "
+"configuration is stored in the ``config`` directory, etc. Even if GLPI "
+"provides some ways to prevent files from being accessed by the webserver "
+"directly, best practise is to store data outside of the web root. That way, "
+"sensitive files cannot be accessed directly from the web server."
+msgstr ""
+"GLPI将一些数据存储在``files``目录中，数据库账号密码等访问配置信息都存储在``config``目录中，等等。即使GLPI提供了一些方法来防止Web服务器直接访问文件，最佳做法是将数据存储在Web根目录之外。"
+" 这样，无法直接从Web服务器访问敏感文件。"
+
+#: ../../source/install/index.rst:60
+msgid ""
+"There are a few configuration directives you may use to achieve that "
+"(directives that are used in provided downstream packages):"
+msgstr "您可以使用一些配置指令来实现该指令（在提供的下游包中使用的指令）："
+
+#: ../../source/install/index.rst:62
+msgid "``GLPI_CONFIG_DIR``: set path to the configuration directory;"
+msgstr "``GLPI_CONFIG_DIR``：设置配置目录的路径；"
+
+#: ../../source/install/index.rst:63
+msgid "``GLPI_VAR_DIR`` : set path to the ``files`` directory;"
+msgstr "``GLPI_VAR_DIR`` : 设置 ``files`` 目录路径;"
+
+#: ../../source/install/index.rst:64
+msgid "``GLPI_LOG_DIR`` : set path to logs files."
+msgstr "``GLPI_LOG_DIR`` : 设置日志文件路径."
+
+#: ../../source/install/index.rst:68
+msgid ""
+"There are many other configuration directives available, the ones we talked "
+"about are the main to take into account for a more secure installation."
+msgstr "还有许多其他配置指令可供使用，我们讨论的那些指令主要考虑更安全的安装。"
+
+#: ../../source/install/index.rst:70
+msgid ""
+"Directories choice is entirely up to you; the following example will follow "
+"the `FHS <http://www.pathname.com/fhs/>`_ recommendations."
+msgstr "目录的选择完全取决于你；以下示例将遵循`FHS <http://www.pathname.com/fhs/>`_建议。"
+
+#: ../../source/install/index.rst:72
+msgid ""
+"Our GLPI instance will be installed in ``/var/www/glpi``, a specific virtual"
+" host in the web server configuration will reflect this path."
+msgstr "我们的GLPI实例将安装在``/var/www/glpi``中，Web服务器配置中的特定虚拟主机将反映此路径。"
+
+#: ../../source/install/index.rst:74
+msgid ""
+"GLPI configuration will be stored in ``/etc/glpi``, just copy the contents "
+"of the ``config`` directory to this place. GLPI requires read rights on this"
+" directory to work; and write rights during the installation process."
+msgstr ""
+
+#: ../../source/install/index.rst:76
+msgid ""
+"GLPI data will be stored in ``/var/lib/glpi``, just copy the contents of the"
+" ``files`` directory to this place. GLPI requires read and write rights on "
+"this directory."
+msgstr ""
+
+#: ../../source/install/index.rst:78
+msgid ""
+"GLPI logs files will be stored in ``/var/log/glpi``, there is nothing to "
+"copy here, just create the directory. GLPI requires read and write access on"
+" this directory."
+msgstr "GLPI日志文件将存储在``/var/log/glpi``中，此处无需复制，只需创建目录即可。GLPI需要对此目录进行读写访问。"
+
+#: ../../source/install/index.rst:80
+msgid ""
+"Following this instructions, we'll create a ``inc/downstream.php`` file into"
+" GLPI directory with the following contents:"
+msgstr "按照这些说明，我们将在GLPI目录中创建一个``inc/downstream.php``文件，其中包含以下内容："
+
+#: ../../source/install/index.rst:94
+msgid ""
+"GLPI packages will certainly provide a ``inc/downstream.php`` file. This one"
+" must not be edited!"
+msgstr "GLPI包肯定会提供一个``inc/downstream.php``文件。这个不能编辑！"
+
+#: ../../source/install/index.rst:96
+msgid ""
+"GLPI looks for a `local_define.php` file in its own `config` directory. If "
+"you want to use one form new config directory, you have to load it."
+msgstr ""
+
+#: ../../source/install/index.rst:98
+msgid ""
+"Then, create a file in ``/etc/glpi/local_define.php`` with the following "
+"contents:"
+msgstr "然后，使用以下内容在`/etc/glpi/local_define.php``中创建一个文件："
+
+#: ../../source/install/index.rst:110
+msgid ""
+"For GLPI prior to 9.2.2, the ``GLPI_VAR_DIR`` constant did not exist and it "
+"was required to set all paths separately:"
+msgstr "对于9.2.2之前的GLPI，``GLPI_VAR_DIR``常量不存在，需要分别设置所有路径："
+
+#: ../../source/install/index.rst:134
+msgid "Post installation"
+msgstr "安装后"
+
+#: ../../source/install/index.rst:136
+msgid "Once GLPI has been installed, you're almost done."
+msgstr "一旦安装了GLPI，你就快完成了。"
+
+#: ../../source/install/index.rst:138
+msgid ""
+"An extra step would be to secure (or remove) installation directory. As an "
+"example, you can consider adding the following to your Apache virtual host "
+"configuration (or in the ``glpi/install/.htaccess`` file):"
+msgstr ""
+"额外的步骤是保护（或删除）安装目录。例如，您可以考虑将以下内容添加到Apache虚拟主机配置（或“glpi/install/.htaccess``文件中）："
+
+#: ../../source/install/index.rst:153
+msgid ""
+"With this example, the `install` directory access will be limited to "
+"localhost only and will display an error message otherwise. Of course, you "
+"may have to adapt this to your needs; refer to your web server's "
+"documentation."
+msgstr "在这个例子中，`install`目录访问将仅限于localhost，否则将显示错误消息。当然，您可能需要根据您的需要进行调整;"
+
+#: ../../<rst_epilog>:2
+msgid "|ccbyncnd|"
+msgstr "|CC-by-NC-ND|"
