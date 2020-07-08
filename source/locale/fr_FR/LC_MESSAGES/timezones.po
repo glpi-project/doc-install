@@ -49,7 +49,7 @@ msgid ""
 "Currently, MySQL and MariaDB have a maximum date limited to 2038-01-19 on "
 "fields relying on ``timestamp`` type!"
 msgstr ""
-"Actuellement, MySQL et MariaDB ont une date maximum limitée au 19/01/2038 "
+"Actuellement, MySQL et MariaDB ont une date maximum limitée à 2038-01-19 "
 "pour les champs utilisant le type ``timestamp`` !"
 
 #: ../../source/timezones.rst:15
