@@ -1,0 +1,98 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2020, GLPI Project, Teclib'
+# This file is distributed under the same license as the GLPI package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# David Stepan <stepand@tiscali.cz>, 2020
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI 9.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-08 09:52+0200\n"
+"PO-Revision-Date: 2019-11-18 19:58+0000\n"
+"Last-Translator: David Stepan <stepand@tiscali.cz>, 2020\n"
+"Language-Team: Czech (Czech Republic) (https://www.transifex.com/glpi/teams/87042/cs_CZ/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: cs_CZ\n"
+"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
+
+#: ../../source/install/advanced-configuration.rst:2
+msgid "Advanced configuration"
+msgstr "Pokročilé nastavení"
+
+#: ../../source/install/advanced-configuration.rst:5
+msgid "SSL connection to database"
+msgstr "SSL připojení k databázi"
+
+#: ../../source/install/advanced-configuration.rst:9
+msgid ""
+"Once installation is done, you can update the ``config/config_db.php`` to "
+"define SSL connection parameters. Available parameters corresponds to "
+"parameters used by `mysqli::ssl_set() <https://www.php.net/manual/en/mysqli"
+".ssl-set.php>`_:"
+msgstr ""
+"Po dokončení instalace můžete aktualizovat `` config / config_db.php`` a "
+"definovat parametry připojení SSL. Dostupné parametry odpovídají parametrům "
+"používaným programem `mysqli :: ssl_set () "
+"<https://www.php.net/manual/en/mysqli.ssl-set.php>` _:"
+
+#: ../../source/install/advanced-configuration.rst:12
+msgid "``$dbssl`` defines if connection should use SSL (`false` per default)"
+msgstr ""
+"`` $ dbssl`` definuje, zda by připojení mělo používat SSL (ve výchozím "
+"nastavení je na hodnotě `false ')"
+
+#: ../../source/install/advanced-configuration.rst:13
+msgid "``$dbsslkey`` path name to the key file (`null` per default)"
+msgstr ""
+"`` $ dbsslkey`` název cesty k souboru klíče (ve výchozím nastavení není "
+"definováno `null`)"
+
+#: ../../source/install/advanced-configuration.rst:14
+msgid "``$dbsslcert`` path name to the certificate file (`null` per default)"
+msgstr ""
+"`` $ dbsslcert`` název cesty k souboru certifikátu (ve výchozím nastavení "
+"není definován `null`)"
+
+#: ../../source/install/advanced-configuration.rst:15
+msgid ""
+"``$dbsslca`` path name to the certificate authority file (`null` per "
+"default)"
+msgstr ""
+"`` $ dbsslca`` název cesty k souboru certifikační autority (ve výchozím "
+"nastavení není definován `null`)"
+
+#: ../../source/install/advanced-configuration.rst:16
+msgid ""
+"``$dbsslcapath`` pathname to a directory that contains trusted SSL CA "
+"certificates in PEM format (`null` per default)"
+msgstr ""
+"`` $ dbsslcapath`` cesta k adresáři, který obsahuje důvěryhodné certifikáty "
+"SSL CA ve formátu PEM (ve výchozím nastavení není definována `null`)"
+
+#: ../../source/install/advanced-configuration.rst:17
+msgid ""
+"``$dbsslcacipher`` list of allowable ciphers to use for SSL encryption "
+"(`null` per default)"
+msgstr ""
+"``$dbsslcacipher`` seznam povolených šifer pro šifrování SSL (ve výchozím "
+"nastavení není definován `null`)"
+
+#: ../../source/install/advanced-configuration.rst:21
+msgid ""
+"For now it is not possible to define SSL connection parameters prior or "
+"during the installation process. It has to be done once installation has "
+"been done."
+msgstr ""
+"Prozatím není možné definovat parametry připojení SSL před nebo během "
+"procesu instalace. Nastavení parametrů SSL připojení musí být provedeno až "
+"po dokončení instalace."
+
+#: ../../<rst_epilog>:2
+msgid "|ccbyncnd|"
+msgstr "|ccbyncnd|"

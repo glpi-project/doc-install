@@ -4,8 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Pavel Borecki <pavel.borecki@gmail.com>, 2018
-# David Stepan <stepand@tiscali.cz>, 2020
+# SeongHyeon Cho <jaymz9634@gmail.com>, 2020
 # 
 #, fuzzy
 msgid ""
@@ -14,17 +13,17 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-08 09:52+0200\n"
 "PO-Revision-Date: 2018-02-20 11:33+0000\n"
-"Last-Translator: David Stepan <stepand@tiscali.cz>, 2020\n"
-"Language-Team: Czech (Czech Republic) (https://www.transifex.com/glpi/teams/87042/cs_CZ/)\n"
+"Last-Translator: SeongHyeon Cho <jaymz9634@gmail.com>, 2020\n"
+"Language-Team: Korean (Korea) (https://www.transifex.com/glpi/teams/87042/ko_KR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: cs_CZ\n"
-"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
+"Language: ko_KR\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #: ../../source/command-line.rst:2
 msgid "Command line tools"
-msgstr "Nástroje pro příkazový řádek"
+msgstr "명령줄 도구"
 
 #: ../../source/command-line.rst:4
 msgid ""
@@ -33,11 +32,8 @@ msgid ""
 "versions, those scripts were present in the ``tools`` directory that is not "
 "official and therefore not in the release archive."
 msgstr ""
-"Od GLPI verze 9.2.2 jsou nástroje pro příkazový řádek poskytovány jako "
-"podporované skripty a jsou k dispozici ve složce ``scripts`` (skripty) v "
-"archivu. V předchozích verzích se tyto skripty nacházely ve složce ``tools``"
-" (nástroje) která není oficiální a proto není přítomná v instalačním archivu"
-" vydání."
+"GLPI 9.2.2 부터, 명령줄 도구는 지원되는 스크립트로 제공되며 아카이브의 ``scripts`` 디렉토리에서 사용가능합니다. 이전 "
+"버전에서는, 그 스크립트들이 비공식적으로 ``tools`` 디렉토리에 존재했기에 공개한 아카이브에는 없습니다."
 
 #: ../../source/command-line.rst:6
 msgid ""
@@ -45,6 +41,8 @@ msgid ""
 "application (``bin/console``). Calling ``php bin/console`` from GLPI "
 "directory displays the list of available commands."
 msgstr ""
+"GLPI 9.4.0 부터, 명령줄 도구는 콘솔 어플리케이션(``bin/console``)에 집중화 되었습니다. GLPI 디렉토리에서 "
+"``php bin/console``를 호출하면 사용가능한 명령 목록을 표시합니다."
 
 #: ../../source/command-line.rst:11
 msgid ""
@@ -52,10 +50,8 @@ msgid ""
 "default configuration disables it from command-line. To change that, set "
 "``apc.enable_cli`` to ``on`` in your APCu configuration file."
 msgstr ""
-"Pokud je v systému nainstalované APCu PHP rozšíření, nemusí se podařit ho "
-"použít z příkazového řádku, protože ve výchozím nastavení je tato možnost "
-"vypnutá. Změnit je to možné nastavením volby ``apc.enable_cli`` na ``on`` v "
-"souboru s nastaveními APCu."
+"APCu를 시스템에 설치하면, 기본 구성으로 인해 명령줄이 비활성되므로 명령줄이 실패할 수도 있습니다. 변경하려면, APCu 구성 파일의"
+" ``apc.enable_cli``를 ``on``으로 설정하세요."
 
 #: ../../source/command-line.rst:15
 msgid ""
@@ -64,56 +60,61 @@ msgid ""
 "cache and other files may be created with rights that would not allow your "
 "webserver to read or write on thos files!"
 msgstr ""
+"명령줄 도구 사용시, 현재 로그인된 시스템 사용자와, 파일과 디렉토리들의 권한을 확인하세요. 그 파일들에 대해 웹서버가 읽거나 쓸 수 "
+"없게되는 권한으로  잘못된 사용자, 로그, 캐시 및 그 외 파일들이 생성될 수 있습니다!"
 
 #: ../../source/command-line.rst:20
 msgid "Console options"
-msgstr ""
+msgstr "콘솔 선택사항"
 
 #: ../../source/command-line.rst:22
 msgid "For every console command, following options are available:"
-msgstr ""
+msgstr "모든 콘솔 입력에, 다음 선택사항들이 사용가능합니다:"
 
 #: ../../source/command-line.rst:24
 msgid ""
 "``--config-dir=CONFIG-DIR`` path of configuration directory to use, relative"
 " to current working directory (required only if a custom path is used)"
 msgstr ""
+"``--config-dir=CONFIG-DIR`` 현재 작업중인 디렉토리와 관련된, 사용할 구성 디렉토리의 경로 (사용자 정의 경로 "
+"사용시에만 필요)"
 
 #: ../../source/command-line.rst:25
 msgid "``-h``, ``--help`` displays command help"
-msgstr "``-h``, ``--help`` zobrazí nápovědu k příkazu"
+msgstr "``-h``, ``--help`` 명령 도움말 표시"
 
 #: ../../source/command-line.rst:26
 msgid ""
 "``--lang=LANG`` output language code (default value is existing GLPI "
 "\"language\" configuration or \"en_GB\")"
-msgstr ""
+msgstr "``--lang=LANG`` 출력 언어 코드 (기본 값은 GLPI \"언어\" 구성에 존재하거나 \"en_GB\")"
 
 #: ../../source/command-line.rst:27
 msgid "``-n``, ``--no-interaction`` disable command interactive questions"
-msgstr ""
+msgstr "``-n``, ``--no-interaction`` 명령 대화형 질문 비활성화"
 
 #: ../../source/command-line.rst:28
 msgid "``--no-plugins`` disable GLPI plugins during command execution"
-msgstr ""
+msgstr "``--no-plugins`` 명령 실행 중 GLPI 플러그인 비활성화"
 
 #: ../../source/command-line.rst:29
 msgid "``-q``, ``--quiet`` disable command output"
-msgstr "``-q``, ``--quiet`` vypne výstup z příkazu"
+msgstr "``-q``, ``--quiet`` 명령 출력 비활성화"
 
 #: ../../source/command-line.rst:30
 msgid ""
 "``-v|vv|vvv``, ``--verbose=VERBOSE`` verbosity level: 1 for normal output, 2"
 " for more verbose output and 3 for debug"
 msgstr ""
+"``-v|vv|vvv``, ``--verbose=VERBOSE`` 상세 수준: 1은 일반 출력, 2는 더 상세 출력이며 3은 디버그 용"
 
 #: ../../source/command-line.rst:35
 msgid "Additional install and update tools"
-msgstr ""
+msgstr "추가 설치 및 도구 갱신"
 
 #: ../../source/command-line.rst:38
 msgid "Check requirements"
-msgstr "Kontrola požadavků"
+msgstr "요구 사항 확인"
 
 #: ../../source/command-line.rst:40
 msgid ""
@@ -121,323 +122,346 @@ msgid ""
 "you can run them separately and see state for all of them using the "
 "``glpi:system:check_requirements`` command."
 msgstr ""
+"설치 및 업그레이드 전에, 요구 사항을 자동으로 확인합니다; 하지만 그것들을 나눠서 실행할 수 있고 "
+"``glpi:system:check_requirements`` 명령을 사용하여 그것들의 모든 상태를 확인할 수 있습니다."
 
 #: ../../source/command-line.rst:43
 msgid "Enable/Disable maintenance"
-msgstr "Zapnout/Vypnout režim údržby"
+msgstr "유지보수 활성화/비활성화"
 
 #: ../../source/command-line.rst:45
 msgid ""
 "GLPI provides a maintenance mode that can be activated prior to an update, "
 "and deactivated after all has been checked."
-msgstr ""
+msgstr "GLPI는 업데이트 전에 활성화할 수 있는 유지보수 모드를 제공하며, 모든 확인 후에 비활성화 됩니다."
 
 #: ../../source/command-line.rst:47
 msgid ""
 "Just use the ``glpi:maintenance:enable`` and ``glpi:maintenance:disable`` "
 "commands."
-msgstr ""
+msgstr "``glpi:maintenance:enable`` 와 ``glpi:maintenance:disable`` 을 사용하세요."
 
 #: ../../source/command-line.rst:50
 msgid "Install"
-msgstr "Instalace"
+msgstr "설치"
 
 #: ../../source/command-line.rst:52
 msgid ""
 "The ``php bin/console db:install`` has been made to install GLPI database in"
 " CLI mode."
-msgstr ""
+msgstr "``php bin/console db:install``는 CLI 모드에서 GLPI 데이터베이스 설치를 위해 만들어 졌습니다."
 
 #: ../../source/command-line.rst:54 ../../source/command-line.rst:78
 #: ../../source/command-line.rst:104 ../../source/command-line.rst:159
 #: ../../source/command-line.rst:188
 msgid "Possible options for this command are:"
-msgstr "Možné volby pro tento příkaz jsou:"
+msgstr "이 명령에 가능한 선택사항은:"
 
 #: ../../source/command-line.rst:56 ../../source/command-line.rst:80
 msgid ""
 "``-r``, ``--reconfigure`` to enable overriding of any existing DB "
 "configuration file"
-msgstr ""
+msgstr "``-r``, ``--reconfigure`` 모든 기존 DB 구성 파일의 중첩 활성화"
 
 #: ../../source/command-line.rst:57
 msgid ""
 "``-f``, ``--force`` to force execution of installation even if database is "
 "not empty"
-msgstr ""
+msgstr "``-f``, ``--force`` 데이터베이스가 비어있지 않아도 설치 강제 실행"
 
 #: ../../source/command-line.rst:58
 msgid ""
 "``-L``, ``--default-language=DEFAULT_LANGUAGE`` default language of GLPI "
 "(`en_GB` per default)"
 msgstr ""
+"``-L``, ``--default-language=DEFAULT_LANGUAGE`` GLPI 의 기본 언어 (기본 `en_GB`)"
 
 #: ../../source/command-line.rst:59 ../../source/command-line.rst:81
 msgid "``-H``, ``--db-host=DB_HOST`` host name (`localhost` per default)"
-msgstr ""
+msgstr "``-H``, ``--db-host=DB_HOST`` 호스트 이름 (`기본으로 localhost`)"
 
 #: ../../source/command-line.rst:60 ../../source/command-line.rst:82
 msgid ""
 "``-P``, ``--db-port=DB_PORT`` database port (default MySQL port if option is"
 " not defined)"
-msgstr ""
+msgstr "``-P``, ``--db-port=DB_PORT`` 데이터베이스 포트 (선택사항이 정의되지 않으면 기본 MySQL 포트)"
 
 #: ../../source/command-line.rst:61 ../../source/command-line.rst:83
 msgid "``-d``, ``--db-name=DB_NAME`` database name"
-msgstr "`-d``, ``--db-name=DB_NAME`` jméno databáze"
+msgstr "``-d``, ``--db-name=DB_NAME`` 데이터베이스 이름"
 
 #: ../../source/command-line.rst:62 ../../source/command-line.rst:84
 msgid "``-u``, ``--db-user=DB_USER`` database user name"
-msgstr "``-u``, ``--db-user=DB_USER`` jméno uživatele databáze"
+msgstr "``-u``, ``--db-user=DB_USER`` 데이터베이스 사용자 이름"
 
 #: ../../source/command-line.rst:63 ../../source/command-line.rst:85
 msgid ""
 "``-p``, ``--db-password=DB_PASSWORD`` database user's pasword (use it "
 "without value to be prompted for password)"
 msgstr ""
+"``-p``, ``--db-password=DB_PASSWORD`` 데이터베이스 사용자 비밀번호 (비밀번호 묻는 것 없이 사용)"
 
 #: ../../source/command-line.rst:65 ../../source/command-line.rst:87
 msgid ""
 "If mandatory options are not specified in the command call, the console will"
 " ask for them."
-msgstr ""
+msgstr "명령 호출 시 필수 선택사항을 지정하지 않으면, 콘솔에서 그에대해 묻습니다."
 
 #: ../../source/command-line.rst:67
 msgid ""
 "Database connection parameters may be ommited if a configuration file "
 "already exists."
-msgstr ""
+msgstr "구성 파일이 이미 존재하면 데이터베이스 연결 매개변수는 생략될 수 있습니다."
 
 #: ../../source/command-line.rst:69 ../../source/command-line.rst:89
 #: ../../source/command-line.rst:109 ../../source/command-line.rst:177
 #: ../../source/command-line.rst:195
 msgid "See also :ref:`console options <cdline_options>`."
-msgstr ""
+msgstr "또한 :ref:`console options <cdline_options>`도 참고하세요."
 
 #: ../../source/command-line.rst:72
 msgid "Database connection configuration"
-msgstr "Nastavení připojení k databázi"
+msgstr "데이터베이스 연결 구성"
 
 #: ../../source/command-line.rst:76
 msgid ""
 "The ``php bin/console db:configure`` has been made to define database "
 "connection parameters in CLI mode."
 msgstr ""
+"``php bin/console db:configure``는 CLI 모드에서 데이터베이스 연결 매개변수 정의를 위해 만들어 졌습니다."
 
 #: ../../source/command-line.rst:94
 msgid "Update"
-msgstr "Aktualizace"
+msgstr "갱신"
 
 #: ../../source/command-line.rst:96
 msgid ""
 "The ``php bin/console db:update`` has been made to update GLPI database in "
 "CLI mode from a previously installed version."
 msgstr ""
+"``php bin/console db:update``는 이전에 설치된 버전에서의 CLI 모드에서 GLPI 데이터베이스 업데이트를 위해 "
+"만들어 졌습니다."
 
 #: ../../source/command-line.rst:98
 msgid ""
 "There is no required arguments, just run the command so it updates your "
 "database automatically."
-msgstr ""
+msgstr "필요한 인수는 없고, 명령을 실행하면 자동으로 데이터베이스를 업데이트 합니다."
 
 #: ../../source/command-line.rst:102
 msgid "Do not forget to backup your database before any update try!"
-msgstr ""
-"Před jakýmkoli pokusem o aktualizaci nezapomeňte zazálohovat databázi!"
+msgstr "업데이트 시도 전에 데이터베이스 백업을 잊지마세요!"
 
 #: ../../source/command-line.rst:106
 msgid ""
 "``-u``, ``--allow-unstable`` allow update to an unstable version (use it "
 "with cautions)"
-msgstr ""
+msgstr "``-u``, ``--allow-unstable`` 는 (경고와 함께 사용하는) 비안정화 버전의 업데이트를 허용합니다"
 
 #: ../../source/command-line.rst:107
 msgid ""
 "``-f``, ``--force`` force execution of update from v-1 version of GLPI even "
 "if schema did not changed"
-msgstr ""
+msgstr "``-f``, ``--force``는 스키마가 변경되지 않아도 GLPI의 v-1 버전에서의 업데이트를 강제 실행합니다"
 
 #: ../../source/command-line.rst:112
 msgid "Security key"
-msgstr "Bezpečnostní klíč"
+msgstr "보안 키"
 
 #: ../../source/command-line.rst:116
 msgid ""
 "GLPI key file is available for GLPI >= 9.4.6 but is not mandatory. As of "
 "GLPI 9.5, using the key file will be mandatory."
 msgstr ""
+"GLPI 키 파일은 GLPI >= 9.4.6에서 사용가능하지만 필수는 아닙니다. GLPI 9.5부터는, 키 파일 사용이 필수가 "
+"되었습니다."
 
 #: ../../source/command-line.rst:118
 msgid ""
 "In order to store some sensitive data, GLPI relies on a homemade "
 "encryption/decryption tool, which uses a key to:"
-msgstr ""
+msgstr "일부 중요한 데이터를 저장하기위해, GLPI는 다음의 키를 사용하는, 직접 만든 암호화/복호화 도구를 사용합니다:"
 
 #: ../../source/command-line.rst:120
 msgid "encrypt data before storing them in the database,"
-msgstr ""
+msgstr "데이터베이스에 저장하기 전 데이터 암호화,"
 
 #: ../../source/command-line.rst:121
 msgid "decrypt data that has been retrieved from the database."
-msgstr ""
+msgstr "데이터베이스에서 가져온 데이터 복호화."
 
 #: ../../source/command-line.rst:123
 msgid ""
 "The ``php bin/console glpi:security:change_key`` command allows to change "
 "the key, if it has been compromised for example. By default, command will:"
 msgstr ""
+"``php bin/console glpi:security:change_key`` 명령은 키가 손상된 경우, 변경할 수 있게 합니다. "
+"기본으로, 명령은 다음과 같습니다:"
 
 #: ../../source/command-line.rst:125
 msgid "generate a new key and and store it in the key file,"
-msgstr ""
+msgstr "새 키를 생성하여 키 파일에 저장하고,"
 
 #: ../../source/command-line.rst:126
 msgid ""
 "update all configured fields (for core and compatible plugins) to use the "
 "new key,"
-msgstr ""
+msgstr "새 키 사용을 위한 모든 구성 항목 (코어와 호환되는 플러그인들) 을 갱신하며,"
 
 #: ../../source/command-line.rst:127
 msgid ""
 "update all configuration entries listed (for core and compatible plugins) to"
 " use the new key."
-msgstr ""
+msgstr "새 키 사용을 위해 나열된 모든 구성 항목들 (코어와 호환되는 플러그인들) 을 갱신합니다."
 
 #: ../../source/command-line.rst:130
 msgid "Various tools"
-msgstr ""
+msgstr "여러 도구"
 
 #: ../../source/command-line.rst:133
 msgid "Database schema check"
-msgstr "Kontrola databázového schematu"
+msgstr "데이터베이스 스키마 확인"
 
 #: ../../source/command-line.rst:134
 msgid ""
 "The ``php bin/console db:check`` command can be used to check if your "
 "database schema differs from expected one."
 msgstr ""
+"``php bin/console db:check`` 명령은 데이터베이스 스키마가 예상되는 것과의 차이점을 확인할 수 있게 합니다."
 
 #: ../../source/command-line.rst:136
 msgid "If you have any diff, output will looks like :"
-msgstr ""
+msgstr "차이점이 있다면, 출력은 다음과 같을 것입니다 :"
 
 #: ../../source/command-line.rst:155
 msgid "LDAP synchonization"
-msgstr "LDAP synchronizace"
+msgstr "LDAP 동기화"
 
 #: ../../source/command-line.rst:157
 msgid ""
 "The ``bin/console glpi:ldap:synchronize_users`` command can be used to "
 "synchronize users against LDAP server informations."
 msgstr ""
+"``bin/console glpi:ldap:synchronize_users`` 명령은 LDAP 서버 정보에 대한 사용자 동기화를 사용할 "
+"수 있게 합니다."
 
 #: ../../source/command-line.rst:161
 msgid "``-c``, ``--only-create-new`` only create new users"
-msgstr ""
+msgstr "``-c``, ``--only-create-new`` 새 사용자 생성 전용"
 
 #: ../../source/command-line.rst:162
 msgid "``-u``, ``--only-update-existing`` only update existing users"
-msgstr ""
+msgstr "``-u``, ``--only-update-existing`` 기존 유저 갱신 전용"
 
 #: ../../source/command-line.rst:163
 msgid ""
 "``-s``, ``--ldap-server-id[=LDAP-SERVER-ID]`` synchronize only users "
 "attached to this LDAP server (multiple values allowed)"
 msgstr ""
+"``-s``, ``--ldap-server-id[=LDAP-SERVER-ID]`` 이 LDAP 서버에 연결된 사용자 만 동기화 (복수 값"
+" 허용함)"
 
 #: ../../source/command-line.rst:164
 msgid "``-f``, ``--ldap-filter[=LDAP-FILTER]`` filter to apply on LDAP search"
-msgstr ""
+msgstr "``-f``, ``--ldap-filter[=LDAP-FILTER]`` LDAP 검색에 적용할 필터"
 
 #: ../../source/command-line.rst:165
 msgid ""
 "``--begin-date[=BEGIN-DATE]`` begin date to apply in \"modifyTimestamp\" "
 "filter"
-msgstr ""
+msgstr "``--begin-date[=BEGIN-DATE]`` \"modifyTimestamp\" 필터 내에 적용할 시작 일자"
 
 #: ../../source/command-line.rst:166
 msgid "``--end-date[=END-DATE]`` end date to apply in \"modifyTimestamp\" filter"
-msgstr ""
+msgstr "``--end-date[=END-DATE]`` \"modifyTimestamp\" 필터 내에 적용할 종료 일자"
 
 #: ../../source/command-line.rst:167
 msgid ""
 "``-d``, ``--deleted-user-strategy[=DELETED-USER-STRATEGY]`` force strategy "
 "used for deleted users:"
 msgstr ""
+"``-d``, ``--deleted-user-strategy[=DELETED-USER-STRATEGY]`` 삭제된 사용자에 대해 강제 "
+"정책 사용됨:"
 
 #: ../../source/command-line.rst:169
 msgid "0: Preserve"
-msgstr ""
+msgstr "0: 보존"
 
 #: ../../source/command-line.rst:170
 msgid "1: Put in trashbin"
-msgstr ""
+msgstr "1: 휴지통에 버리기"
 
 #: ../../source/command-line.rst:171
 msgid "2: Withdraw dynamic authorizations and groups"
-msgstr ""
+msgstr "2: 동적 인증과 그룹 취소"
 
 #: ../../source/command-line.rst:172
 msgid "3: Disable"
-msgstr ""
+msgstr "3: 비활성화"
 
 #: ../../source/command-line.rst:173
 msgid "4: Disable + Withdraw dynamic authorizations and groups"
-msgstr ""
+msgstr "4: 비활성화 + 동적 인증과 그룹 취소"
 
 #: ../../source/command-line.rst:175
 msgid ""
 "See http://php.net/manual/en/datetime.formats.php for supported date formats"
 " in ``--begin-date`` and ``--end-date`` options."
 msgstr ""
+"``--begin-date`` 과 ``--end-date`` 선택사항에 지원되는 날짜 형식은 "
+"http://php.net/manual/en/datetime.formats.php를 참고하세요."
 
 #: ../../source/command-line.rst:180
 msgid "Task unlock"
-msgstr ""
+msgstr "작업 잠금해제"
 
 #: ../../source/command-line.rst:182
 msgid ""
 "The ``php bin/console task:unlock`` command can be used to unlock stucked "
 "cron tasks."
-msgstr ""
+msgstr "``php bin/console task:unlock`` 명령은 잠긴 반복 작업의 해제를 할 수 있게 합니다."
 
 #: ../../source/command-line.rst:186
 msgid ""
 "Keep in mind that no task should be stucked except in case of a bug or a "
 "system failure (database failure during cron execution for example)."
 msgstr ""
+"버그나 시스템 오류 (예를들면 반복 실행 중의 데이터베이스 오류) 의 경우를 제외하고는 잠기는 작업이 없어야 함을 명심하세요."
 
 #: ../../source/command-line.rst:190
 msgid "``-a``, ``--all`` unlock all tasks"
-msgstr ""
+msgstr "``-a``, ``--all`` 모든 작업 잠금해제"
 
 #: ../../source/command-line.rst:191
 msgid ""
 "``-c``, ``--cycle[=CYCLE]`` execution time (in cycles) from which the task "
 "is considered as stuck (delay = task frequency * cycle)"
 msgstr ""
+"``-c '',``--cycle [= CYCLE]`` 작업이 잠긴 것으로 간주되는 실행 시간 (주기) (지연 = 작업 빈도 * 주기)"
 
 #: ../../source/command-line.rst:192
 msgid ""
 "``-d``, ``--delay[=DELAY]`` execution time (in seconds) from which the task "
 "is considered as stuck (default: 1800)"
-msgstr ""
+msgstr "``-d``, ``--delay[=DELAY]`` 작업이 잠긴 것으로 간주되는 실행 시간 (초) (기본값 : 1800)"
 
 #: ../../source/command-line.rst:193
 msgid ""
 "``-t``, ``--task[=TASK]`` ``itemtype::name`` of task to unlock (e.g: "
 "``MailCollector::mailgate``)"
 msgstr ""
+"잠금 해제할 작업의 ``-t``, ``--task[=TASK]`` ``itemtype::name`` (예 "
+":``MailCollector::mailgate``)"
 
 #: ../../source/command-line.rst:198
 msgid "Plugins tools"
-msgstr ""
+msgstr "플러그인 도구"
 
 #: ../../source/command-line.rst:202
 msgid ""
 "Some command line tolls are also available to manage plugins from command "
 "line:"
-msgstr ""
+msgstr "또한 명령줄에서 플러그인 관리를 위해서 몇가지 명령줄 도구들을 사용할 수 있습니다:"
 
 #: ../../source/command-line.rst:204
 msgid "``glpi:plugin:install``"
@@ -445,62 +469,67 @@ msgstr "``glpi:plugin:install``"
 
 #: ../../source/command-line.rst:205
 msgid "``glpi:plugin:activate``"
-msgstr ""
+msgstr "``glpi:plugin:activate``"
 
 #: ../../source/command-line.rst:206
 msgid "``glpi:plugin:deactivate``"
-msgstr ""
+msgstr "``glpi:plugin:deactivate``"
 
 #: ../../source/command-line.rst:208
 msgid ""
 "In order to install ``MyGreatPlugin``; you should end with something like:"
-msgstr ""
+msgstr "``MyGreatPlugin``을 설치하려면; 몇가지를 마쳐야 합니다:"
 
 #: ../../source/command-line.rst:215
 msgid ""
 "Each of those plugin commands can take a plugin name as argument, or the "
 "``--all`` flag to be ran on all plugins."
 msgstr ""
+"각각의 플러그인 명령은 인수로써 플러그인 이름을 갖거나, 모든 플러그인 실행을 위한 ``--all`` 플래그를 가질 수 있습니다."
 
 #: ../../source/command-line.rst:218
 msgid "Migration tools"
-msgstr ""
+msgstr "마이그레이션 도구"
 
 #: ../../source/command-line.rst:221
 msgid "From MyISAM to InnoDB"
-msgstr ""
+msgstr "MyISAM 에서 InnoDB로"
 
 #: ../../source/command-line.rst:225
 msgid ""
 "Since version 9.3.0, GLPI uses the ``InnoDB`` engine instead of previously "
 "used ``MyISAM`` engine."
-msgstr ""
+msgstr "9.3.0, GLPI 버전부터, 이전에 사용된 ``MyISAM`` 엔진 대신 ``InnoDB`` 엔진을 사용합니다."
 
 #: ../../source/command-line.rst:227
 msgid ""
 "The ``php bin/console glpi:migration:myisam_to_innodb`` command can be used "
 "to migrate exiting tables to ``InnoDB`` engine."
 msgstr ""
+"``php bin/console glpi:migration:myisam_to_innodb`` 명령은 기존 테이블을 ``InnoDB`` "
+"엔진으로 마이그레이션 할 수 있게 합니다."
 
 #: ../../source/command-line.rst:230
 msgid "Missing timestamps builder"
-msgstr ""
+msgstr "타임스탬프 빌더 누락"
 
 #: ../../source/command-line.rst:234
 msgid ""
 "Prior to GLPI 9.1.0, fields corresponding to creation and modification dates"
 " were not existing."
-msgstr ""
+msgstr "GLPI 9.1.0 이전에는, 생성 및 수정 일자에 해당하는 항목이 존재하지 않았습니다."
 
 #: ../../source/command-line.rst:236
 msgid ""
 "The ``php bin/console glpi:migration:build_missing_timestamps`` command can "
 "be used to rebuild missing values using available logs."
 msgstr ""
+"``php bin/console glpi:migration:build_missing_timestamps`` 명령은 사용가능한 로그들을 "
+"사용하여 누락된 값들을 재구축 할 수 있게 합니다."
 
 #: ../../source/command-line.rst:239
 msgid "Use timestamp data type"
-msgstr ""
+msgstr "타임스탬프 데이터 유형 사용"
 
 #: ../../source/command-line.rst:243
 msgid ""
@@ -509,6 +538,8 @@ msgid ""
 "``TIMESTAMP`` data type, but this query can be very long and therefore is "
 "not included in the standard update process."
 msgstr ""
+"많은 일자 항목들은 ``DATETIME`` 유형을 사용하지만, 이는 표준시간대에 의존하게 하지 않습니다. 표준시간대 지원은 모든 항목들에"
+" ``TIMESTAMP`` 자료 유형을 사용해야하지만, 이 질의어는 매우 길 수 있기에 표준 업데이트 진행에 포함되지 않습니다."
 
 #: ../../source/command-line.rst:245
 msgid ""
@@ -516,14 +547,16 @@ msgid ""
 "the correct data type, but read :doc:`documentation on timezones "
 "<timezones>` before."
 msgstr ""
+"``glpi:migration:timestamps`` 명령을 사용하면 그 항목들이 올바른 자료 유형으로 변경되게 되지만, 먼저 "
+":doc:`documentation on timezones <timezones>` 를 읽어보세요."
 
 #: ../../source/command-line.rst:249
 msgid "Ensure to backup your database before!"
-msgstr ""
+msgstr "먼저 데이터베이스를 백업했는지 확인하세요!"
 
 #: ../../source/command-line.rst:252
 msgid "Migrate Domains plugin"
-msgstr ""
+msgstr "도메인 플러그인 마이그레이션"
 
 #: ../../source/command-line.rst:256
 msgid ""
@@ -531,6 +564,8 @@ msgid ""
 "object, including records management among others. Therefore, the Domains "
 "plugins feature are now included in core."
 msgstr ""
+"GLPI 의 도메인은 단순한 드롭다운에서 객체들 간의 레코드 관리를 포함하는, 더 복합적인 객체로 발전되었습니다. 따라서, 도메인 "
+"플러그인 기능은 이제는 코어에 포함되었습니다."
 
 #: ../../source/command-line.rst:258
 msgid ""
@@ -540,16 +575,19 @@ msgid ""
 " but this is not recommended. If you were using an older version of the "
 "plugin than the one required, you can use the ``--update-plugin`` flag."
 msgstr ""
+"플러그인 데이터를 마이그레이션 하려면, ``glpi:migration:domains_plugin_to_core`` 명령을 사용하세요. "
+"플러그인의 존재여부는 필수이기에 확인이 실행되며, ``--without-plugin`` 스위치를 사용할 수 있지만 이는 권장되지 "
+"않습니다. 플러그인의 권장 버전보다 이전 버전을 사용중이라면, ``--update-plugin`` 플래그를 사용할 수 있습니다."
 
 #: ../../source/command-line.rst:260
 msgid ""
 "At the end, all domains types, domains and item relations will be migrated "
 "in core tables."
-msgstr ""
+msgstr "마지막에, 모든 도메인 유형, 도메인과 아이템 관계들이 코어 테이블로 마이그레이션 됩니다."
 
 #: ../../source/command-line.rst:263
 msgid "Migrate Racks plugin"
-msgstr ""
+msgstr "랙 플러그인 마이그레이션"
 
 #: ../../source/command-line.rst:267
 msgid ""
@@ -558,6 +596,9 @@ msgid ""
 "``scripts`` directory. Since GLPI 9.5.0, this migration script has been "
 "refactored and moved inside the CLI console."
 msgstr ""
+"GLPI 9.3.0 부터, 데이터 센터 인프라 관리가 핵심 기능으로 사용가능 합니다. 랙 플러그인에서의 마이그레이션 스크립트는 "
+"``scripts`` 디렉토리 안에 제공됩니다. GLPI 9.5.0 부터는, 이 마이그레이션 스크립트는 리팩토링되어 CLI 콘솔 내부로 "
+"이동되었습니다."
 
 #: ../../source/command-line.rst:270
 msgid ""
@@ -567,6 +608,9 @@ msgid ""
 " using an older version of the plugin than the one required, you can use the"
 " ``--update-plugin`` flag."
 msgstr ""
+"플러그인 데이터를 마이그레이션 하려면, ``glpi:migration:racks_plugin_to_core`` 를 사용하세요.  "
+"플러그인의 존재여부는 필수이기에 확인이 실행되며, ``--without-plugin`` 스위치를 사용할 수 있지만 이는 권장되지 "
+"않습니다. 플러그인의 권장 버전보다 이전 버전을 사용중이라면, ``--update-plugin`` 플래그를 사용할 수 있습니다."
 
 #: ../../<rst_epilog>:2
 msgid "|ccbyncnd|"
