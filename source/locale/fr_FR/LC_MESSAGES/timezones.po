@@ -1,0 +1,133 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2020, GLPI Project, Teclib'
+# This file is distributed under the same license as the GLPI package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Johan Cwiklinski <jcwiklinski@teclib.com>, 2020
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI 9.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-08 09:52+0200\n"
+"PO-Revision-Date: 2020-07-08 07:33+0000\n"
+"Last-Translator: Johan Cwiklinski <jcwiklinski@teclib.com>, 2020\n"
+"Language-Team: French (France) (https://www.transifex.com/glpi/teams/87042/fr_FR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr_FR\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: ../../source/timezones.rst:2
+msgid "Timezones"
+msgstr "Fuseaux horaires"
+
+#: ../../source/timezones.rst:4
+msgid ""
+"In order to get timezones working on a MariaDB/MySQL instance, you will have"
+" to initialize Timezones data and grant GLPI database user read ACL on their"
+" table."
+msgstr ""
+"Afin que les fuseaux horaires puissent fonctionner sur une instance "
+"MariaDB/MySQL, vous devez initialiser les données des fuseaux horaires, et "
+"autoriser donner le droit READ sur leur table à l'utilisateur de la base de "
+"données GLPI."
+
+#: ../../source/timezones.rst:8
+msgid ""
+"Enabling timezone support on your MySQL instance may affect other database "
+"in the same instance; be carefull!"
+msgstr ""
+"Activer le support des fuseaux horaires sur votre instance MySQL peut "
+"affecter d'autres bases dans la même instance ; faites attention !"
+
+#: ../../source/timezones.rst:12
+msgid ""
+"Currently, MySQL and MariaDB have a maximum date limited to 2038-01-19 on "
+"fields relying on ``timestamp`` type!"
+msgstr ""
+"Actuellement, MySQL et MariaDB ont une date maximum limitée à 2038-01-19 "
+"pour les champs utilisant le type ``timestamp`` !"
+
+#: ../../source/timezones.rst:15
+msgid "Non windows users"
+msgstr "Utilisateurs non windows"
+
+#: ../../source/timezones.rst:17
+msgid ""
+"On most systems, you'll have to initialize timezones data from your system's"
+" timezones:"
+msgstr ""
+"Sur la plupart des systèmes, vous devrez initialiser les données des fuseaux"
+" horaires depuis ceux du système :"
+
+#: ../../source/timezones.rst:23
+msgid ""
+"You may want to check `MariaDB documentation about mysql_tzinfo_to_sql "
+"<https://mariadb.com/kb/en/library/mysql_tzinfo_to_sql/>`_ and your system "
+"documentation to know where data are stored (if not in "
+"``/usr/share/zoneinfo``)."
+msgstr ""
+"Vous pourrez vérifier voir la  `documentation de MariaDB à propos de "
+"mysql_tzinfo_to_sql "
+"<https://mariadb.com/kb/en/library/mysql_tzinfo_to_sql/>`_ ainsi que la "
+"documentation de votre système pour savoir où sont stockées les données (si "
+"elles ne sont pas dans ``/usr/share/zoneinfo``)."
+
+#: ../../source/timezones.rst:25
+msgid ""
+"Do not forget to restart the database server once command is successfull."
+msgstr ""
+"N'oubliez pas de redémarrer le serveur de base de données une fois que la "
+"commande a été exécutée avec succès."
+
+#: ../../source/timezones.rst:28
+msgid "Windows users"
+msgstr "Utilisateurs windows"
+
+#: ../../source/timezones.rst:30
+msgid ""
+"Windows does not provide timezones informations, you'll have to download and"
+" intialize data yourself."
+msgstr ""
+"Windows ne fournit pas d'informations sur les fuseaux horaires, vous devrez "
+"les télécharger et les initialiser vous-même."
+
+#: ../../source/timezones.rst:32
+msgid ""
+"See `MariaDB documentation about timezones "
+"<https://mariadb.com/kb/en/library/time-zones/#mysql-time-zone-tables>`_."
+msgstr ""
+"Consultez la `documentation MariaDB à propos des fuseaux horaires "
+"<https://mariadb.com/kb/en/library/time-zones/#mysql-time-zone-tables>`_."
+
+#: ../../source/timezones.rst:35
+msgid "Grant access"
+msgstr "Autoriser l'accès"
+
+#: ../../source/timezones.rst:39
+msgid ""
+"Be carefull not to give your GLPI database user too large access. System "
+"tables should **never** grant access to app users."
+msgstr ""
+"Prêtez attention à ne pas donner d'autorisations trop larges à l'utilisateur"
+" de base de données GLPI, les tables système de devraient **jamais** être "
+"rendues accessibles aux utilisateurs applicatifs."
+
+#: ../../source/timezones.rst:41
+msgid ""
+"In order to list possible timezones, your GLPI database user must have read "
+"access on ``mysql.time_zone_name`` table. Assuming your user is "
+"``glpi@localhost``, you should run something like:"
+msgstr ""
+"Afin de pouvoir lister les fuseaux horaires disponibles, votre utilisateur "
+"base de données GLPI doit avoir un accès en lecture sur la table "
+"``mysql.time_zone_name``. Partant du principe que votre utilisateur est "
+"``glpi@localhost``, vous devriez lancer quelque chose comme :"
+
+#: ../../<rst_epilog>:2
+msgid "|ccbyncnd|"
+msgstr "|ccbyncnd|"

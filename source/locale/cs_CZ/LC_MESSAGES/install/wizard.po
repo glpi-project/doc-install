@@ -5,15 +5,16 @@
 # 
 # Translators:
 # Pavel Borecki <pavel.borecki@gmail.com>, 2018
+# David Stepan <stepand@tiscali.cz>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI 9.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-30 08:44+0200\n"
+"POT-Creation-Date: 2020-07-08 09:52+0200\n"
 "PO-Revision-Date: 2018-02-20 11:33+0000\n"
-"Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>, 2018\n"
+"Last-Translator: David Stepan <stepand@tiscali.cz>, 2020\n"
 "Language-Team: Czech (Czech Republic) (https://www.transifex.com/glpi/teams/87042/cs_CZ/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -94,12 +95,17 @@ msgid ""
 "possible to continue and an explicit error message will tell you about what "
 "is wrong and what to do before trying again."
 msgstr ""
+"Tento krok zkontroluje, zda jsou splněny všechny předpoklady. Pokud tomu tak"
+" není, není možné pokračovat a explicitní chybová zpráva vám řekne, co je "
+"špatného a co dělat, než to zkusíte znovu."
 
 #: ../../source/install/wizard.rst:53
 msgid ""
 "Some prerequisites are optionals, it will be possible to continue "
 "installation event if they're not met."
 msgstr ""
+"Některé náležitosti jsou volitelné, v instalaci bude možné pokračovat i když"
+" nejsou splněné."
 
 #: ../../source/install/wizard.rst:56
 msgid "Database connection"
