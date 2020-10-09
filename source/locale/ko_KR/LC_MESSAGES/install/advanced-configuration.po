@@ -1,0 +1,82 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2020, GLPI Project, Teclib'
+# This file is distributed under the same license as the GLPI package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# SeongHyeon Cho <jaymz9634@gmail.com>, 2020
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI 9.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-08 09:52+0200\n"
+"PO-Revision-Date: 2019-11-18 19:58+0000\n"
+"Last-Translator: SeongHyeon Cho <jaymz9634@gmail.com>, 2020\n"
+"Language-Team: Korean (Korea) (https://www.transifex.com/glpi/teams/87042/ko_KR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ko_KR\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../source/install/advanced-configuration.rst:2
+msgid "Advanced configuration"
+msgstr "고급 구성"
+
+#: ../../source/install/advanced-configuration.rst:5
+msgid "SSL connection to database"
+msgstr "데이터베이스로 SSL 연결"
+
+#: ../../source/install/advanced-configuration.rst:9
+msgid ""
+"Once installation is done, you can update the ``config/config_db.php`` to "
+"define SSL connection parameters. Available parameters corresponds to "
+"parameters used by `mysqli::ssl_set() <https://www.php.net/manual/en/mysqli"
+".ssl-set.php>`_:"
+msgstr ""
+"설치가 완료되면, SSL 연결 매개변수를 정의하기 위해 ``config/config_db.php``를 업데이트 할 수 있습니다. "
+"사용가능한 매개변수는 `mysqli::ssl_set() <https://www.php.net/manual/en/mysqli.ssl-"
+"set.php>`_에서 사용되는 매개변수에 해당됩니다:"
+
+#: ../../source/install/advanced-configuration.rst:12
+msgid "``$dbssl`` defines if connection should use SSL (`false` per default)"
+msgstr "``$dbssl`` 연결이 SSL을 사용해야 하는지를 정의 (기본값은 `false`)"
+
+#: ../../source/install/advanced-configuration.rst:13
+msgid "``$dbsslkey`` path name to the key file (`null` per default)"
+msgstr "``$dbsslkey`` 키 파일의 경로 명 (기본으로 `null`)"
+
+#: ../../source/install/advanced-configuration.rst:14
+msgid "``$dbsslcert`` path name to the certificate file (`null` per default)"
+msgstr "``$dbsslcert`` 인증 파일의 경로 명 (기본으로 `null`)"
+
+#: ../../source/install/advanced-configuration.rst:15
+msgid ""
+"``$dbsslca`` path name to the certificate authority file (`null` per "
+"default)"
+msgstr "``$dbsslca`` 인증 기관 파일의 경로 명 (기본으로 `null`)"
+
+#: ../../source/install/advanced-configuration.rst:16
+msgid ""
+"``$dbsslcapath`` pathname to a directory that contains trusted SSL CA "
+"certificates in PEM format (`null` per default)"
+msgstr "``$dbsslcapath`` PEM 형식의 신뢰하는 SSL CA 인증서가 포함된 디렉토리 경로명 (기본으로 `null`)"
+
+#: ../../source/install/advanced-configuration.rst:17
+msgid ""
+"``$dbsslcacipher`` list of allowable ciphers to use for SSL encryption "
+"(`null` per default)"
+msgstr "``$dbsslcacipher`` SSL 암호화에 사용될 수 있는 암호화 목록 (기본으로 `null`)"
+
+#: ../../source/install/advanced-configuration.rst:21
+msgid ""
+"For now it is not possible to define SSL connection parameters prior or "
+"during the installation process. It has to be done once installation has "
+"been done."
+msgstr "현재 설치 진행 이전이나 설치 중에 SSL 연결 매개변수를 정의할 수 없습니다. 설치가 완료되고 해야합니다."
+
+#: ../../<rst_epilog>:2
+msgid "|ccbyncnd|"
+msgstr "|ccbyncnd|"
