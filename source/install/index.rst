@@ -32,9 +32,6 @@ Go to the *download* section of `the GLPI website <http://glpi-project.org>`_ (o
 Installation
 ------------
 
-.. note::
-
-   Packages may be available from your Linux distribution (Red Hat, CentOS, Fedora, Ubuntu, ...) that you should use with your standard packages manager as usual.
 
 GLPI installation itself is composed of three steps:
 
