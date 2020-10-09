@@ -6,7 +6,7 @@
 # Translators:
 # Johan Cwiklinski <jcwiklinski@teclib.com>, 2018
 # Wanderlei Hüttel <wanderlei.huttel@gmail.com>, 2018
-# Rodrigo de Almeida Sottomaior Macedo <rmsolucoeseminformatic4@gmail.com>, 2020
+# Rodrigo de Almeida Sottomaior Macedo <rmsolucoeseminformatica@protonmail.com>, 2020
 # Diego Nobre <diego@koruma.com.br>, 2020
 # 
 #, fuzzy

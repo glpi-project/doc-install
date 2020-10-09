@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Z K <zornitsa.koleva@mr-bricolage.bg>, 2020
+# SeongHyeon Cho <jaymz9634@gmail.com>, 2020
 # 
 #, fuzzy
 msgid ""
@@ -13,35 +13,35 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-08 09:52+0200\n"
 "PO-Revision-Date: 2018-02-20 11:33+0000\n"
-"Last-Translator: Z K <zornitsa.koleva@mr-bricolage.bg>, 2020\n"
-"Language-Team: Bulgarian (Bulgaria) (https://www.transifex.com/glpi/teams/87042/bg_BG/)\n"
+"Last-Translator: SeongHyeon Cho <jaymz9634@gmail.com>, 2020\n"
+"Language-Team: Korean (Korea) (https://www.transifex.com/glpi/teams/87042/ko_KR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: bg_BG\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: ko_KR\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #: ../../source/update.rst:2
 msgid "Update"
-msgstr "Актуализиране"
+msgstr "업데이트"
 
 #: ../../source/update.rst:6
 msgid ""
 "As for every update process, you have to backup some data before processing "
 "any upgrade:"
-msgstr ""
+msgstr "매번 업데이트 처리마다, 모든 업그레이드 진행 전에 일부 데이터를 백업해야 합니다:"
 
 #: ../../source/update.rst:8
 msgid "**backup your database**;"
-msgstr ""
+msgstr "**데이터베이스를 백업**;"
 
 #: ../../source/update.rst:9
 msgid "backup your files directory;"
-msgstr ""
+msgstr "파일 디렉토리를 백업;"
 
 #: ../../source/update.rst:10
 msgid "backup your configuration."
-msgstr ""
+msgstr "구성을 백업"
 
 #: ../../source/update.rst:12
 msgid ""
@@ -49,35 +49,32 @@ msgid ""
 "is then automated. To start it, just go to your GLPI instance URI, or "
 "(recommended) use the :doc:`command line tools <command-line>`."
 msgstr ""
-"Първо, изтеглете най-новата версия на GLPI и разархивирайте файловете. След "
-"това процесът на актуализиране на GLPI е автоматичен. За да го стартирате, "
-"просто отидете на вашия GLPI инстанция URI или (препоръчително) използвайте:"
-" doc: `инструменти за командния ред  <command-line>`."
+"먼저, 최신 GLPI 버전을 다운로드하고 파일을 압축해제 하세요. GLPI 업데이트 진행은 자동으로 됩니다. 시작하려면, GLPI "
+"인스턴스 URI로 이동하거나, 또는 (권장됨) :doc:`명령줄 도구 <command-line>`를 사용하세요."
 
 #: ../../source/update.rst:14
 msgid ""
 "Once a new version will be installed; you will not be able to use the "
 "application until a migration has been done."
-msgstr ""
+msgstr "새 버전 설치가 되면; 마이그레이션이 완료되기 전까지 어플리케이션을 사용할 수 없게 됩니다."
 
 #: ../../source/update.rst:16
 msgid ""
 "Please also note the update process will automatically disable your plugins."
-msgstr ""
-"Моля, вемете предвид, че обновяването ще изключи автоматично всички добавки "
-"(plugins)."
+msgstr "또한 업데이트 과정에서는 플러그인들이 자동적으로 비활성화 됨을 명심하세요."
 
 #: ../../source/update.rst:20
 msgid ""
 "You should not try to restore a database backup on a non empty database "
 "(say, a database that has been partially migrated for any reason)."
 msgstr ""
+"비어있지 않은 데이터베이스(즉, 어떤 이유에서든 부분적으로 마이그레이션된 데이터베이스)에서의 데이터베이스 백업 복원을 하지 마세요."
 
 #: ../../source/update.rst:22
 msgid ""
 "Make sure your database is empty before restoring your backup and try to "
 "update, and repeat on fail."
-msgstr ""
+msgstr "백업에서 복원하기 전에 데이터베이스가 비었는지 확인하고 업데이트를 시도하시고, 실패시 반복하세요."
 
 #: ../../<rst_epilog>:2
 msgid "|ccbyncnd|"

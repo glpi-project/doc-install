@@ -4,9 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Wanderlei Hüttel <wanderlei.huttel@gmail.com>, 2020
-# Rui Melo <viper5000pt@gmail.com>, 2020
-# Rodrigo de Almeida Sottomaior Macedo <rmsolucoeseminformatica@protonmail.com>, 2020
+# SeongHyeon Cho <jaymz9634@gmail.com>, 2020
 # 
 #, fuzzy
 msgid ""
@@ -15,17 +13,17 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-08 09:52+0200\n"
 "PO-Revision-Date: 2020-07-08 07:33+0000\n"
-"Last-Translator: Rodrigo de Almeida Sottomaior Macedo <rmsolucoeseminformatica@protonmail.com>, 2020\n"
-"Language-Team: Portuguese (Brazil) (https://www.transifex.com/glpi/teams/87042/pt_BR/)\n"
+"Last-Translator: SeongHyeon Cho <jaymz9634@gmail.com>, 2020\n"
+"Language-Team: Korean (Korea) (https://www.transifex.com/glpi/teams/87042/ko_KR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: pt_BR\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Language: ko_KR\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #: ../../source/timezones.rst:2
 msgid "Timezones"
-msgstr "Fuso Horários"
+msgstr "표준시간대"
 
 #: ../../source/timezones.rst:4
 msgid ""
@@ -33,37 +31,33 @@ msgid ""
 " to initialize Timezones data and grant GLPI database user read ACL on their"
 " table."
 msgstr ""
-"Para que os fusos horários funcionem em uma instância do MariaDB/MySQL, você"
-" precisará inicializar os dados dos fusos horários e permitir que o usuário "
-"do banco de dados GLPI leia a ACL em sua tabela."
+"MariaDB/MySQL 인스턴스에서 동작하는 표준시간대 값을 받으려면, 표준시간대 데이터를 초기화하고 GLPI 데이터베이스 사용자가 "
+"테이블에서 ACL을 읽도록 허용해야 합니다."
 
 #: ../../source/timezones.rst:8
 msgid ""
 "Enabling timezone support on your MySQL instance may affect other database "
 "in the same instance; be carefull!"
 msgstr ""
-"Habilitar o suporte ao fuso horário na sua instância do MySQL pode afetar "
-"outro banco de dados na mesma instância; seja cuidadoso!"
+"MySQL 인스턴스에서 표준시간대 지원을 활성화하는 것은 같은 인스턴스내의 다른 데이터베이스에 영향을 줄 수 있습니다; 주의하세요!"
 
 #: ../../source/timezones.rst:12
 msgid ""
 "Currently, MySQL and MariaDB have a maximum date limited to 2038-01-19 on "
 "fields relying on ``timestamp`` type!"
 msgstr ""
-"Atualmente, o MySQL e o MariaDB têm uma data máxima limitada a 2038-01-19 em"
-" campos que dependem do tipo ``timestamp``!"
+"현재, MySQL과 MariaDB는 ``timestamp`` 유형에 관련된 항목들의 최대 날짜는  2038-01-19 로 제한되어 "
+"있습니다!"
 
 #: ../../source/timezones.rst:15
 msgid "Non windows users"
-msgstr "Utilizadores não Windows"
+msgstr "비 윈도우 사용자"
 
 #: ../../source/timezones.rst:17
 msgid ""
 "On most systems, you'll have to initialize timezones data from your system's"
 " timezones:"
-msgstr ""
-"Na maioria dos sistemas, você precisará inicializar os dados dos fusos "
-"horários a partir dos fusos horários do sistema:"
+msgstr "대부분의 시스템에서, 시스템의 표준시간대에서 표준시간대 데이터를 초기화 해야 합니다:"
 
 #: ../../source/timezones.rst:23
 msgid ""
@@ -72,49 +66,44 @@ msgid ""
 "documentation to know where data are stored (if not in "
 "``/usr/share/zoneinfo``)."
 msgstr ""
-"Você pode verificar a documentação do `MariaDB sobre mysql_tzinfo_to_sql "
-"<https://mariadb.com/kb/en/library/mysql_tzinfo_to_sql/>`_ e a documentação "
-"do sistema para saber onde os dados estão armazenados (se não estiver em "
-"``/usr/share/zoneinfo``)."
+"`mysql_tzinfo_to_sql "
+"<https://mariadb.com/kb/en/library/mysql_tzinfo_to_sql/>에 대한 MariaDB 문서`_ 와 "
+"데이터가 저장된 곳을 알려주는 시스템 문서를 확인하세요 (``/usr/share/zoneinfo` 에 없는 경우)."
 
 #: ../../source/timezones.rst:25
 msgid ""
 "Do not forget to restart the database server once command is successfull."
-msgstr ""
-"Não esqueça de reiniciar o servidor de banco de dados quando o comando for "
-"bem-sucedido."
+msgstr "명령이 실행되면 데이터베이스 서버를 재시작해야 함을 잊지 마세요."
 
 #: ../../source/timezones.rst:28
 msgid "Windows users"
-msgstr "Utilizadores Windows"
+msgstr "윈도우 사용자"
 
 #: ../../source/timezones.rst:30
 msgid ""
 "Windows does not provide timezones informations, you'll have to download and"
 " intialize data yourself."
-msgstr ""
-"O Windows não fornece informações de fuso horário, você precisará baixar e "
-"inicializar os dados por conta própria."
+msgstr "윈도우즈는 표준시간대 정보를 제공하지 않기에, 직접 데이터를 다운로드하고 초기화해야 합니다."
 
 #: ../../source/timezones.rst:32
 msgid ""
 "See `MariaDB documentation about timezones "
 "<https://mariadb.com/kb/en/library/time-zones/#mysql-time-zone-tables>`_."
 msgstr ""
-"Consulte a `documentação do MariaDB sobre fusos horários "
-"<https://mariadb.com/kb/en/library/time-zones/#mysql-time-zone-tables>`_."
+"`표준시간대에 대한 MariaDB 문서 <https://mariadb.com/kb/en/library/time-zones/#mysql-"
+"time-zone-tables>`_ 를 참고하세요."
 
 #: ../../source/timezones.rst:35
 msgid "Grant access"
-msgstr "Garantir o acesso"
+msgstr "접근권한 부여"
 
 #: ../../source/timezones.rst:39
 msgid ""
 "Be carefull not to give your GLPI database user too large access. System "
 "tables should **never** grant access to app users."
 msgstr ""
-"Cuidado para não conceder muito acesso ao usuário do banco de dados GLPI. As"
-" tabelas do sistema nunca devem conceder acesso aos usuários do aplicativo."
+"GLPI 데이터베이스 사용자에게 너무 큰 접근권한을 부여하지 않도록 조심하세요. 시스템 테이블은 앱 사용자들에게 **절대** 접근권한을 "
+"부여하면 안됩니다."
 
 #: ../../source/timezones.rst:41
 msgid ""
@@ -122,9 +111,8 @@ msgid ""
 "access on ``mysql.time_zone_name`` table. Assuming your user is "
 "``glpi@localhost``, you should run something like:"
 msgstr ""
-"Para listar possíveis fusos horários, o usuário do banco de dados GLPI deve "
-"ter acesso de leitura na tabela `` mysql.time_zone_name``. Supondo que seu "
-"usuário seja ``glpi@localhost``, você deve executar algo como:"
+"사용가능한 표준시간대를 나열하려면, GLPI 데이터베이스 사용자는 ``mysql.time_zone_name`` 테이블에 대한 읽기 권한이"
+" 있어야 합니다. 사용자가 ``glpi@localhost``라고 가정한다면, 다음과 같이 실행해야 합니다:"
 
 #: ../../<rst_epilog>:2
 msgid "|ccbyncnd|"

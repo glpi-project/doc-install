@@ -27,11 +27,11 @@ msgstr "Предварителни изисквания"
 
 #: ../../source/prerequisites.rst:4
 msgid "GLPI is a Web application that will need:"
-msgstr "GLPI е Web приложение, което има нужда:"
+msgstr "GLPI е Web приложение, което има нужда от:"
 
 #: ../../source/prerequisites.rst:6
 msgid "a webserver;"
-msgstr "webserver;"
+msgstr "web сървър;"
 
 #: ../../source/prerequisites.rst:7
 msgid "PHP;"
@@ -39,11 +39,11 @@ msgstr "PHP;"
 
 #: ../../source/prerequisites.rst:8
 msgid "a database."
-msgstr "база данни;"
+msgstr "база данни."
 
 #: ../../source/prerequisites.rst:11
 msgid "Web server"
-msgstr "Web server"
+msgstr "Web сървър"
 
 #: ../../source/prerequisites.rst:13
 msgid "GLPI requires a web server that supports PHP, like:"
@@ -51,7 +51,7 @@ msgstr "GLPI изисква web server, който поддържа PHP, кат�
 
 #: ../../source/prerequisites.rst:15
 msgid "`Apache 2 (or more recent) <http://httpd.apache.org>`_;"
-msgstr "`Apache 2 (or more recent) <http://httpd.apache.org>`_;"
+msgstr "`Apache 2 (или по-нов) <http://httpd.apache.org>`_;"
 
 #: ../../source/prerequisites.rst:16
 msgid "`Nginx <http://nginx.org/>`_;"
@@ -69,12 +69,15 @@ msgstr "PHP"
 msgid ""
 "As of 9.5 release, GLPI requires `PHP <http://php.net>`_ 7.2 or more recent."
 msgstr ""
+"След версия 9.5 , GLPI изисква `PHP <http://php.net>`_ 7.2 или по-нов."
 
 #: ../../source/prerequisites.rst:26
 msgid ""
 "We recommend to use the most recent stable PHP release for better "
 "performances."
 msgstr ""
+"Препоръчваме да използвате последната стабилна PHP версия за по-добри "
+"резултати."
 
 #: ../../source/prerequisites.rst:29
 msgid "Mandatory extensions"
@@ -105,11 +108,11 @@ msgstr "``json``: за получаване на поддръжка на JSON ф
 
 #: ../../source/prerequisites.rst:37
 msgid "``mbstring``:  to manage multi bytes characters;"
-msgstr ""
+msgstr "``mbstring``:  за управление на многобайтови символи;"
 
 #: ../../source/prerequisites.rst:38
 msgid "``mysqli``: to connect and query the database;"
-msgstr ""
+msgstr "``mysqli``: за свързване и заявка на базата данни;"
 
 #: ../../source/prerequisites.rst:39
 msgid "``session``: to get user sessions support;"
@@ -118,6 +121,7 @@ msgstr "``session``: за да получите поддръжка за потр
 #: ../../source/prerequisites.rst:40
 msgid "``zlib``: to get backup and restore database functions;"
 msgstr ""
+"``zlib``: за да получите бекъп и възстановяване на функции на базата данни;"
 
 #: ../../source/prerequisites.rst:41
 msgid "``simplexml``;"
@@ -125,11 +129,11 @@ msgstr "``simplexml``;"
 
 #: ../../source/prerequisites.rst:42
 msgid "``xml``;"
-msgstr ""
+msgstr "``xml``;"
 
 #: ../../source/prerequisites.rst:43
 msgid "``intl``."
-msgstr ""
+msgstr "``intl``."
 
 #: ../../source/prerequisites.rst:46
 msgid "Optional extensions"
@@ -154,6 +158,8 @@ msgid ""
 "``cli``: to use PHP from command line (scripts, automatic actions, and so "
 "on);"
 msgstr ""
+"``cli``: за да използвате PHP от command line (скриптове, автоматични "
+"операции, и т.н.);"
 
 #: ../../source/prerequisites.rst:55
 msgid "``domxml``: used for CAS authentication;"
@@ -162,6 +168,7 @@ msgstr "``domxml``: използва се за CAS удостоверяване;
 #: ../../source/prerequisites.rst:56
 msgid "``imap``: used for mail collector ou user authentication;"
 msgstr ""
+"``imap``: използва се за събиране на поща или удостоверяване на потребителя;"
 
 #: ../../source/prerequisites.rst:57
 msgid "``ldap``:  use LDAP directory for authentication;"
@@ -181,6 +188,9 @@ msgid ""
 "(in french only) <http://glpi-user-"
 "documentation.readthedocs.io/fr/latest/advanced/cache.html>`_."
 msgstr ""
+"``APCu``: може да се използва за кеш; (виж `конфигурацията за кеширане ( "
+"само на френски) <http://glpi-user-"
+"documentation.readthedocs.io/fr/latest/advanced/cache.html>`_."
 
 #: ../../source/prerequisites.rst:63
 msgid "Configuration"
@@ -191,6 +201,8 @@ msgid ""
 "PHP configuration file (``php.ini``) must be adapted to reflect following "
 "variables:"
 msgstr ""
+"PHP конфигурационният файл (``php.ini``) трябва да бъде адаптиран да "
+"отразява следните променливи:"
 
 #: ../../source/prerequisites.rst:76
 msgid "Database"

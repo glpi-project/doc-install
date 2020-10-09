@@ -1,0 +1,95 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2020, GLPI Project, Teclib'
+# This file is distributed under the same license as the GLPI package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Rodrigo de Almeida Sottomaior Macedo <rmsolucoeseminformatica@protonmail.com>, 2020
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI 9.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-08 09:52+0200\n"
+"PO-Revision-Date: 2019-11-18 19:58+0000\n"
+"Last-Translator: Rodrigo de Almeida Sottomaior Macedo <rmsolucoeseminformatica@protonmail.com>, 2020\n"
+"Language-Team: Portuguese (Brazil) (https://www.transifex.com/glpi/teams/87042/pt_BR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: ../../source/install/advanced-configuration.rst:2
+msgid "Advanced configuration"
+msgstr "Configuração avançada"
+
+#: ../../source/install/advanced-configuration.rst:5
+msgid "SSL connection to database"
+msgstr "Conexão SSL ao banco de dados"
+
+#: ../../source/install/advanced-configuration.rst:9
+msgid ""
+"Once installation is done, you can update the ``config/config_db.php`` to "
+"define SSL connection parameters. Available parameters corresponds to "
+"parameters used by `mysqli::ssl_set() <https://www.php.net/manual/en/mysqli"
+".ssl-set.php>`_:"
+msgstr ""
+"Depois que a instalação estiver concluída, você poderá atualizar o "
+"``config/config_db.php`` para definir os parâmetros de conexão SSL. Os "
+"parâmetros disponíveis correspondem aos parâmetros usados por `mysqli :: "
+"ssl_set () <https://www.php.net/manual/en/mysqli.ssl-set.php>`_:"
+
+#: ../../source/install/advanced-configuration.rst:12
+msgid "``$dbssl`` defines if connection should use SSL (`false` per default)"
+msgstr "``$ dbssl`` define se a conexão deve usar SSL (`false` por padrão) "
+
+#: ../../source/install/advanced-configuration.rst:13
+msgid "``$dbsslkey`` path name to the key file (`null` per default)"
+msgstr ""
+"``$dbsslkey`` nome do caminho para o arquivo de chave (`null` por padrão)"
+
+#: ../../source/install/advanced-configuration.rst:14
+msgid "``$dbsslcert`` path name to the certificate file (`null` per default)"
+msgstr ""
+"``$dbsslcert`` nome do caminho para o arquivo de certificado (`null` por "
+"padrão)"
+
+#: ../../source/install/advanced-configuration.rst:15
+msgid ""
+"``$dbsslca`` path name to the certificate authority file (`null` per "
+"default)"
+msgstr ""
+"``$dbsslca`` Nome do caminho para o arquivo de autoridade de certificação "
+"(`null` por padrão) "
+
+#: ../../source/install/advanced-configuration.rst:16
+msgid ""
+"``$dbsslcapath`` pathname to a directory that contains trusted SSL CA "
+"certificates in PEM format (`null` per default)"
+msgstr ""
+"``$dbsslcapath`` nome do caminho para um diretório que contém certificados "
+"CA SSL confiáveis no formato PEM (`null` por padrão)"
+
+#: ../../source/install/advanced-configuration.rst:17
+msgid ""
+"``$dbsslcacipher`` list of allowable ciphers to use for SSL encryption "
+"(`null` per default)"
+msgstr ""
+"``$dbsslcacipher`` lista de cifras permitidas para criptografia SSL (`null` "
+"por padrão)"
+
+#: ../../source/install/advanced-configuration.rst:21
+msgid ""
+"For now it is not possible to define SSL connection parameters prior or "
+"during the installation process. It has to be done once installation has "
+"been done."
+msgstr ""
+"Por enquanto, não é possível definir parâmetros de conexão SSL antes ou "
+"durante o processo de instalação. Isso deve ser feito assim que a instalação"
+" for concluída."
+
+#: ../../<rst_epilog>:2
+msgid "|ccbyncnd|"
+msgstr "|ccbyncnd|"
