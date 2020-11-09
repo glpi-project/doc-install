@@ -71,6 +71,13 @@ PHP configuration file (``php.ini``) must be adapted to reflect following variab
     session.auto_start = off ;
     session.use_trans_sid = 0 ; // not mandatory but recommended
 
+The following settings may be added to harden security:
+
+.. code-block:: ini
+
+    session.cookie_secure=on ;   // please enable if GLPI is hosted via TLS
+    session.cookie_httponly=on ; // not mandatory but recommended to mitigate XSS attacks
+
 Database
 --------
 
