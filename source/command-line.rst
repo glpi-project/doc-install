@@ -37,7 +37,7 @@ Additional install and update tools
 Check requirements
 ^^^^^^^^^^^^^^^^^^
 
-Before installing or upgrading, requirements are automatically checked; but you can run them separately and see state for all of them using the ``glpi:system:check_requirements`` command.
+Before installing or upgrading, requirements are automatically checked; but you can run them separately and see state for all of them using the ``php bin/console glpi:system:check_requirements`` command.
 
 Enable/Disable maintenance
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
