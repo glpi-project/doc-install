@@ -2,10 +2,11 @@
 # Copyright (C) 2016-2020, GLPI Project, Teclib'
 # This file is distributed under the same license as the GLPI package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 # Translators:
 # Alexey Petukhov <lexx015@gmail.com>, 2018
-# 
+# Vladimir Chubar <aagzip@gmail.com>, 2021
+#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -13,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-08 09:52+0200\n"
 "PO-Revision-Date: 2018-02-20 11:33+0000\n"
-"Last-Translator: Alexey Petukhov <lexx015@gmail.com>, 2018\n"
+"Last-Translator: Vladimir Chubar <aagzip@gmail.com>, 2021\n"
 "Language-Team: Russian (Russia) (https://www.transifex.com/glpi/teams/87042/ru_RU/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -68,13 +69,14 @@ msgstr "PHP;"
 #: ../../source/prerequisites.rst:22
 msgid ""
 "As of 9.5 release, GLPI requires `PHP <http://php.net>`_ 7.2 or more recent."
-msgstr ""
+msgstr "Начиная с версии 9.5, GLPI требуется `PHP <http://php.net>`_ 7.2 или выше."
 
 #: ../../source/prerequisites.rst:26
 msgid ""
 "We recommend to use the most recent stable PHP release for better "
 "performances."
-msgstr ""
+msgstr "Мы рекомендуем использовать самую последнюю стабильную версию PHP "
+"для лучшей производительности."
 
 #: ../../source/prerequisites.rst:29
 msgid "Mandatory extensions"
@@ -197,6 +199,18 @@ msgstr ""
 "В конфигурационным файле PHP (``php.ini``) должен быть настроены следующие "
 "переменные:"
 
+#: ../../source/prerequisites.rst:68
+msgid "memory_limit = 64M ;        // max memory limit"
+msgstr "memory_limit = 64M ;        // максимальный предел памяти"
+
+#: ../../source/prerequisites.rst:70
+msgid "max_execution_time = 600 ;  // not mandatory but recommended"
+msgstr "max_execution_time = 600 ;  // не обязательно, но рекомендуется"
+
+#: ../../source/prerequisites.rst:72
+msgid "session.use_trans_sid = 0 ; // not mandatory but recommended"
+msgstr "session.use_trans_sid = 0 ; // не обязательно, но рекомендуется"
+
 #: ../../source/prerequisites.rst:76
 msgid "Database"
 msgstr "База данных"
@@ -206,7 +220,8 @@ msgid ""
 "Currently, only `MySQL <https://dev.mysql.com>`_ (5.6 minimum) and `MariaDB "
 "<https://mariadb.com>`_ (10.0 minimum) database servers are supported by "
 "GLPI."
-msgstr ""
+msgstr "На данный момент, GLPI поддерживает сервера БД только `MySQL <https://dev.mysql.com>`_ (5.6 и выше) и "
+"`MariaDB <https://mariadb.com>`_ (10.0 и выше)."
 
 #: ../../source/prerequisites.rst:82
 msgid "In order to work, GLPI requires a database server."
