@@ -16,7 +16,7 @@ If your distribution does not provide this version, you could use a `virtualenv`
 ```
 $ virtualenv /path/to/virtualenv/files
 $ /path/to/virtualenv/bin/activate
-$ pip install sphinx sphinx_glpi_theme
+$ pip install sphinx
 ```
 
 Once all has been successfully installed, just run the following to build the documentation:
