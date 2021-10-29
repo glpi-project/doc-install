@@ -60,11 +60,11 @@ Possible options for this command are:
  * ``-P``, ``--db-port=DB_PORT`` database port (default MySQL port if option is not defined)
  * ``-d``, ``--db-name=DB_NAME`` database name
  * ``-u``, ``--db-user=DB_USER`` database user name
- * ``-p``, ``--db-password=DB_PASSWORD`` database user's pasword (use it without value to be prompted for password)
+ * ``-p``, ``--db-password=DB_PASSWORD`` database user's password (use it without value to be prompted for password)
 
 If mandatory options are not specified in the command call, the console will ask for them.
 
-Database connection parameters may be ommited if a configuration file already exists.
+Database connection parameters may be omitted if a configuration file already exists.
 
 See also :ref:`console options <cdline_options>`.
 
@@ -82,7 +82,7 @@ Possible options for this command are:
  * ``-P``, ``--db-port=DB_PORT`` database port (default MySQL port if option is not defined)
  * ``-d``, ``--db-name=DB_NAME`` database name
  * ``-u``, ``--db-user=DB_USER`` database user name
- * ``-p``, ``--db-password=DB_PASSWORD`` database user's pasword (use it without value to be prompted for password)
+ * ``-p``, ``--db-password=DB_PASSWORD`` database user's password (use it without value to be prompted for password)
 
 If mandatory options are not specified in the command call, the console will ask for them.
 
