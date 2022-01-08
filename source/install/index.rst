@@ -29,6 +29,11 @@ Download
 
 Go to the *download* section of `the GLPI website <http://glpi-project.org>`_ (or get archive directly from `Github release <https://github.com/glpi-project/glpi/releases>`_) and choose the ``glpi-{version}.tgz`` archive.
 
+.. code-block:: bash
+
+   cd /tmp
+   wget https://github.com/glpi-project/glpi/releases/download/9.5.6/glpi-9.5.6.tgz
+
 Installation
 ------------
 
@@ -38,6 +43,12 @@ GLPI installation itself is composed of three steps:
 #. Uncompress the archive in your website;
 #. Give your webserver write access to the ``files`` and ``config`` directories;
 #. :doc:`launch installation wizard <wizard>` (or use the :ref:`command line installation script <cdline_install>`).
+
+.. code-block:: bash
+
+   tar -zxvf glpi-9.5.6.tgz
+   sudo mv glpi /var/www/html/
+   sudo chown -R www-data /var/www/html/glpi
 
 Once these three steps have been completed the application is ready to be used.
 
