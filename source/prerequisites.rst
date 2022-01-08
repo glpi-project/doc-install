@@ -16,6 +16,9 @@ GLPI requires a web server that supports PHP, like:
 * `Nginx <http://nginx.org/>`_;
 * `Microsoft IIS <http://www.iis.net>`_.
 
+.. code-block:: bash
+   sudo apt-get install apache2 libapache2-mod-php
+
 PHP
 ---
 
@@ -58,6 +61,11 @@ Following PHP extensions are required for some extra features of GLPI:
 * ``xmlrpc``: used for XMLRPC API.
 * ``APCu``: may be used for cache; among others (see `caching configuration (in french only) <http://glpi-user-documentation.readthedocs.io/fr/latest/advanced/cache.html>`_.
 
+
+.. code-block:: bash
+
+   sudo apt install php-json php-gd php-curl php-mbstring php-cas php-xml php-cli php-imap php-ldap php-xmlrpc php-apcu php-bz2 php-zip php-intl
+
 Configuration
 ^^^^^^^^^^^^^
 
@@ -79,3 +87,7 @@ Database
    Currently, only `MySQL <https://dev.mysql.com>`_ (5.6 minimum) and `MariaDB <https://mariadb.com>`_ (10.0 minimum) database servers are supported by GLPI.
 
 In order to work, GLPI requires a database server.
+
+.. code-block:: bash
+
+   sudo apt install mariadb-server
