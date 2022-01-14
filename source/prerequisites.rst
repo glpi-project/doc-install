@@ -19,11 +19,17 @@ GLPI requires a web server that supports PHP, like:
 PHP
 ---
 
-As of 9.5 release, GLPI requires `PHP <http://php.net>`_ 7.2 or more recent.
+Compatibility Matrix
+
+| GLPI Version | Minimum PHP | Maximum PHP |
+| ------------ | ----------- | ----------- |
+| 9.4.X        | 5.6         | 7.4         |
+| 9.5.X        | 7.2         | 8.0         |
+| 10.0.X       | 7.4         | 8.1         |
 
 .. note::
 
-   We recommend to use the most recent stable PHP release for better performances.
+   We recommend to use the newest supported PHP release for better performance.
 
 Mandatory extensions
 ^^^^^^^^^^^^^^^^^^^^
