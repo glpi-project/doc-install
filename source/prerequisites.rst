@@ -19,13 +19,21 @@ GLPI requires a web server that supports PHP, like:
 PHP
 ---
 
-Compatibility Matrix
+.. list-table:: PHP Compatibility Matrix
+   :header-rows: 1
 
-| GLPI Version | Minimum PHP | Maximum PHP |
-| ------------ | ----------- | ----------- |
-| 9.4.X        | 5.6         | 7.4         |
-| 9.5.X        | 7.2         | 8.0         |
-| 10.0.X       | 7.4         | 8.1         |
+   * - GLPI Version
+     - Minimum PHP
+     - Maximum PHP
+   * - 9.4.X
+     - 5.6
+     - 7.4
+   * - 9.5.X
+     - 7.2
+     - 8.0
+   * - 10.0.X
+     - 7.4
+     - 8.1
 
 .. note::
 
