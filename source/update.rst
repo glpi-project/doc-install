@@ -7,7 +7,7 @@ Update
 
    * **backup your database**;
    * backup your files directory;
-   * backup your configuration (especially your GLPI key file `config/glpicrypt.key` if present).
+   * backup your configuration (especially your GLPI key file `config/glpi.key` or `config/glpicrypt.key` if present).
 
 First, download latest GLPI version and extract files. GLPI update process is then automated. To start it, just go to your GLPI instance URI, or (recommended) use the :doc:`command line tools <command-line>`.
 
