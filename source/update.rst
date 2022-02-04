@@ -6,17 +6,26 @@ Update
    As for every update process, you have to backup some data before processing any upgrade:
 
    * **backup your database**;
-   * backup your files directory;
-   * backup your configuration (especially your GLPI key file `config/glpi.key` or `config/glpicrypt.key` if present).
+   * backup your `files` directory;
+   * backup your `config` directory, especially for your GLPI key file (`config/glpi.key` or `config/glpicrypt.key`) which is randomly generated.
 
-First, download latest GLPI version and extract files. GLPI update process is then automated. To start it, just go to your GLPI instance URI, or (recommended) use the :doc:`command line tools <command-line>`.
+Here are the steps to update GLPI:
 
-Once a new version will be installed; you will not be able to use the application until a migration has been done.
+* Download latest GLPI version.
+* Ensure the target directory is empty and extract files there.
+* Restore the previously backuped `config` and `files` directory.
+* Then open the GLPI instance URI in your browser, or (recommended) use the `php bin/console db:update` :doc:`command line tools <command-line>`.
 
-Please also note the update process will automatically disable your plugins.
+.. warning::
+
+    As soon as a new version of GLPI files is detected, you will not be able to use the application until the update process has been done.
 
 .. warning::
 
     You should not try to restore a database backup on a non empty database (say, a database that has been partially migrated for any reason).
 
     Make sure your database is empty before restoring your backup and try to update, and repeat on fail.
+
+.. note::
+
+    Update process will automatically disable your plugins.
