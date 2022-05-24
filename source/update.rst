@@ -15,7 +15,7 @@ Here are the steps to update GLPI:
 * Download latest GLPI version.
 * Ensure the target directory is empty and extract files there.
 * Restore the previously backed up `config`, `files`, `marketplace` and `plugins` directory.
-* Then open the GLPI instance URI in your browser, or (recommended) use the `php bin/console db:update` :doc:`command line tools <command-line>`.
+* Then open the GLPI instance URI in your browser, or (recommended) use the `php bin/console db:update` :doc:`command line tool <command-line>`.
 
 .. warning::
 
@@ -30,3 +30,8 @@ Here are the steps to update GLPI:
 .. note::
 
     Update process will automatically disable your plugins.
+
+.. note::
+
+   Since GLPI 10.0.1, you can use the `php bin/console db:check` :doc:`command line tool <command-line>` before executing the update command.
+   This will allow you to check the integrity of your database, and to identify changes to your database that could compromise the update.
