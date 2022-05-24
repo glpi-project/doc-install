@@ -129,8 +129,11 @@ The ``php bin/console glpi:security:change_key`` command allows to change the ke
 Various tools
 --------------
 
+.. _cdline_dbcheck:
+
 Database schema check
 ^^^^^^^^^^^^^^^^^^^^^
+
 The ``php bin/console db:check`` command can be used to check if your database schema differs from expected one.
 
 If you have any diff, output will looks like :
