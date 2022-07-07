@@ -101,10 +101,19 @@ There is no required arguments, just run the command so it updates your database
 
    Do not forget to backup your database before any update try!
 
+.. warning::
+
+   Since GLPI 10.0.2, :ref:`db:check_schema_integrity <_cdline_dbcheck>` is executed before performing the update.
+   If an error is detected, the command will ask you if you want to continue (unless --no-interaction is used).
+   You can bypass this :ref:`db:check_schema_integrity <_cdline_dbcheck>` by using the option ``-s``, ``--skip-db-checks``.
+
 Possible options for this command are:
 
  * ``-u``, ``--allow-unstable`` allow update to an unstable version (use it with cautions)
  * ``-f``, ``--force`` force execution of update from v-1 version of GLPI even if schema did not changed
+ * ``-s``, ``--skip-db-checks`` do not check database schema integrity before performing the update
+ * ``--enable-telemetry`` allow usage statistics sending to Telemetry service (https://telemetry.glpi-project.org)
+ * ``--no-telemetry`` disallow usage statistics sending to Telemetry service (https://telemetry.glpi-project.org)
 
 See also :ref:`console options <cdline_options>`.
 
@@ -129,15 +138,28 @@ The ``php bin/console glpi:security:change_key`` command allows to change the ke
 Various tools
 --------------
 
+.. _cdline_dbcheck:
+
 Database schema check
 ^^^^^^^^^^^^^^^^^^^^^
-The ``php bin/console db:check`` command can be used to check if your database schema differs from expected one.
+The ``php bin/console db:check_schema_integrity`` command can be used to check if your database schema differs from expected one.
+
+Possible options for this command are:
+
+ * ``--strict``: Strict comparison of definitions
+ * ``--check-all-migrations``: Check tokens related to all databases migrations.
+ * ``--check-innodb-migration``: Check tokens related to migration from "MyISAM" to "InnoDB".
+ * ``--check-timestamps-migration``: Check tokens related to migration from "datetime" to "timestamp".
+ * ``--check-utf8mb4-migration``: Check tokens related to migration from "utf8" to "utf8mb4".
+ * ``--check-dynamic-row-format-migration``: Check tokens related to "DYNAMIC" row format migration.
+ * ``--check-unsigned-keys-migration``: Check tokens related to migration from signed to unsigned integers in primary/foreign keys.
+ * ``-p``, ``--plugin``: Plugin to check. If option is not used, checks will be done on GLPI core database tables.
 
 If you have any diff, output will looks like :
 
 .. code-block:: none
 
-    $ php bin/console glpi:database:check
+    $ php bin/console glpi:database:check_schema_integrity
     Table schema differs for table "glpi_rulecriterias".
     --- Original
     +++ New
@@ -150,6 +172,17 @@ If you have any diff, output will looks like :
     -  `pattern` text default null
     +  `pattern` text
        primary key (`id`)
+
+Compared to the GLPI installation file:
+
+* a line that starts with ``-`` means that something is missing in your database
+* a line that starts with ``+`` means that there is something extra in your database
+
+You can also have a message like ``Unknown table "glpi_tablename" has been found in database.``,
+this indicates that this table doesn't exist in the installation file of the current GLPI schema:
+
+* either it's a table that you have voluntarily created for your needs, you can ignore this message
+* either it's an old GLPI table which is no longer useful, you can delete it (taking care to make a backup before)
 
 LDAP synchonization
 ^^^^^^^^^^^^^^^^^^^
