@@ -104,7 +104,7 @@ There is no required arguments, just run the command so it updates your database
 .. warning::
 
    Since GLPI 10.0.2, :ref:`db:check_schema_integrity <cdline_dbcheck>` is executed before performing the update.
-   If an error is detected, the command will ask you if you want to continue (unless --no-interaction is used).
+   If an error is detected, the command will ask you if you want to continue (unless ``--no-interaction`` is used).
    You can bypass this :ref:`db:check_schema_integrity <cdline_dbcheck>` by using the option ``-s``, ``--skip-db-checks``.
 
 Possible options for this command are:
