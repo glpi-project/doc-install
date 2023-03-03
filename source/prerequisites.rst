@@ -7,6 +7,8 @@ GLPI is a Web application that will need:
 * PHP;
 * a database.
 
+.. _webserver_configuration:
+
 Web server
 ----------
 
@@ -15,6 +17,65 @@ GLPI requires a web server that supports PHP, like:
 * `Apache 2 (or more recent) <http://httpd.apache.org>`_;
 * `Nginx <http://nginx.org/>`_;
 * `Microsoft IIS <http://www.iis.net>`_.
+
+Apache configuration
+^^^^^^^^^^^^^^^^^^^^
+
+Here is a virtual host configuration example for ``Apache 2`` web server.
+
+.. warning::
+   Following configuration is only suitable for GLPI version 10.0.7 or later.
+
+.. code-block:: apache
+
+    <VirtualHost *:80>
+        ServerName glpi.localhost
+
+        DocumentRoot /var/www/glpi/public
+
+        <Directory /var/www/glpi/public>
+            Require all granted
+
+            RewriteEngine On
+
+            # Redirect all requests to GLPI router, unless file exists.
+            RewriteCond %{REQUEST_FILENAME} !-f
+            RewriteRule ^(.*)$ index.php [QSA,L]
+        </Directory>
+    </VirtualHost>
+
+Nginx configuration
+^^^^^^^^^^^^^^^^^^^
+
+Here is a configuration example for ``Nginx`` web server using ``php-fpm``.
+
+.. warning::
+   Following configuration is only suitable for GLPI version 10.0.7 or later.
+
+.. code-block:: nginx
+
+    server {
+        listen 80;
+        listen [::]:80;
+
+        server_name glpi.localhost;
+
+        root /var/www/glpi/public;
+
+        location / {
+            try_files $uri /index.php$is_args$args;
+        }
+
+        location ~ ^/index\.php$ {
+            # the following line needs to be adapted, as it changes depending on OS distributions and PHP versions
+            fastcgi_pass unix:/run/php/php-fpm.sock;
+
+            fastcgi_split_path_info ^(.+\.php)(/.*)$;
+            include fastcgi_params;
+
+            fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
+        }
+    }
 
 PHP
 ---
