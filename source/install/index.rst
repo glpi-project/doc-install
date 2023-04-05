@@ -3,6 +3,7 @@ Install GLPI
 
 Proceed as follow:
 
+#. :ref:`Configure your webserver <webserver_configuration>`,
 #. Choose a version,
 #. Download the archive,
 #. Install :)
