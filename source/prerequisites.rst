@@ -24,7 +24,7 @@ Apache configuration
 Here is a virtual host configuration example for ``Apache 2`` web server.
 
 .. warning::
-   Following configuration is only suitable for GLPI version 10.0.7 or later.
+   The following configuration is only suitable for GLPI version 10.0.7 or later.
 
 .. code-block:: apache
 
@@ -50,7 +50,7 @@ Nginx configuration
 Here is a configuration example for ``Nginx`` web server using ``php-fpm``.
 
 .. warning::
-   Following configuration is only suitable for GLPI version 10.0.7 or later.
+   The following configuration is only suitable for GLPI version 10.0.7 or later.
 
 .. code-block:: nginx
 
