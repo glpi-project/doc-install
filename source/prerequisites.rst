@@ -42,6 +42,18 @@ Here is a virtual host configuration example for ``Apache 2`` web server.
             RewriteCond %{REQUEST_FILENAME} !-f
             RewriteRule ^(.*)$ index.php [QSA,L]
         </Directory>
+
+        # Use default handler for GLPI static files, and fallback to GLPI router when file not exists.
+        <LocationMatch "^/(?<PATH>(css|css_compiled|js|pics|public|sound)/.+)$">
+            Alias "/var/www/glpi/%{env:MATCH_PATH}"
+            FallbackResource /index.php
+        </LocationMatch>
+
+        # Use default handler for plugins static files, and fallback to GLPI router when file not exists.
+        <LocationMatch "(?i)^/(?<PATH>(marketplace|plugins)/[^/]+/(?!((.*/)?\.|.+.php|node_modules/|vendor/))(public/.+|.+\.(html?|js|css|gif|jpe?g|png|svg|mp3|ogg|wav|mp4|ogm|ogv|webm|eot|otf|ttf|woff2?)))$">
+            Alias "/var/www/glpi/%{env:MATCH_PATH}"
+            FallbackResource /index.php
+        </LocationMatch>
     </VirtualHost>
 
 Nginx configuration
