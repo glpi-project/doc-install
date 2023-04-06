@@ -142,6 +142,7 @@ Various tools
 
 Database schema check
 ^^^^^^^^^^^^^^^^^^^^^
+
 The ``php bin/console db:check_schema_integrity`` command can be used to check if your database schema differs from expected one.
 
 Possible options for this command are:
