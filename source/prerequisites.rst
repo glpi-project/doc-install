@@ -80,9 +80,9 @@ Here is a configuration example for ``Nginx`` web server using ``php-fpm``.
 IIS configuration
 ^^^^^^^^^^^^^^^^^
 
-Here is a configuration exemple for Microsoft IIS.
+Here is a configuration example for ``Microsoft IIS``.
 
-.. code-block:: nginx
+.. code-block:: xml
 
    <?xml version="1.0" encoding="UTF-8"?>
    <configuration>
@@ -92,7 +92,7 @@ Here is a configuration exemple for Microsoft IIS.
                    <rule name="Rewrite to index.php">
                        <match url="^(.*)$" />
                        <conditions>
-                           <add input="{REQUEST_FILENAME}" matchType="IsFile" negate="true" />
+                           <add input="{REQUEST_FILENAME}" matchType="IsFile" ignoreCase="false" negate="true" />
                        </conditions>
                        <action type="Rewrite" url="index.php" appendQueryString="true" />
                    </rule>
