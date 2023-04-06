@@ -77,6 +77,30 @@ Here is a configuration example for ``Nginx`` web server using ``php-fpm``.
         }
     }
 
+IIS configuration
+^^^^^^^^^^^^^^^^^
+
+Here is a configuration example for ``Microsoft IIS``.
+
+.. code-block:: xml
+
+   <?xml version="1.0" encoding="UTF-8"?>
+   <configuration>
+       <system.webServer>
+           <rewrite>
+               <rules>
+                   <rule name="Rewrite to GLPI" stopProcessing="true">
+                       <match url="^(.*)$" />
+                       <conditions>
+                           <add input="{REQUEST_FILENAME}" matchType="IsFile" ignoreCase="false" negate="true" />
+                       </conditions>
+                       <action type="Rewrite" url="index.php" appendQueryString="true" />
+                   </rule>
+             </rules>
+           </rewrite>
+       </system.webServer>
+   </configuration>
+
 PHP
 ---
 
