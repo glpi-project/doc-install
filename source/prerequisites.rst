@@ -89,7 +89,7 @@ Here is a configuration example for ``Microsoft IIS``.
        <system.webServer>
            <rewrite>
                <rules>
-                   <rule name="Rewrite to index.php">
+                   <rule name="Rewrite to GLPI" stopProcessing="true">
                        <match url="^(.*)$" />
                        <conditions>
                            <add input="{REQUEST_FILENAME}" matchType="IsFile" ignoreCase="false" negate="true" />
