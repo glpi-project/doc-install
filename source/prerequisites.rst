@@ -49,9 +49,10 @@ Here is a virtual host configuration example for ``Apache 2`` web server.
     </VirtualHost>
 
 .. note::
-   If you cannot change the ``Apache`` configuration (e.g. you are using a shared hosting), you can use a ``.htaccess`` file:
+   If you cannot change the ``Apache`` configuration (e.g. you are using a shared hosting), you can use a ``.htaccess`` file.
 
 .. code-block:: apache
+
     # /var/www/glpi/.htaccess
     RewriteBase /
     RewriteEngine On
