@@ -33,6 +33,10 @@ Here is a virtual host configuration example for ``Apache 2`` web server.
 
         DocumentRoot /var/www/glpi/public
 
+        # If you do use an Alias for GLPI (e.g. your virtual host is serving multiple application),
+        # you can use an Alias directive:
+        # Alias "/glpi" "/var/www/glpi/public"
+
         <Directory /var/www/glpi/public>
             Require all granted
 
