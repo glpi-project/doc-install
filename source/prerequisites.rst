@@ -52,10 +52,10 @@ Here is a virtual host configuration example for ``Apache 2`` web server.
    If you cannot change the ``Apache`` configuration (e.g. you are using a shared hosting), you can use a ``.htaccess`` file:
 
 .. code-block:: apache
-   # /var/www/glpi/.htaccess
-   RewriteBase /
-   RewriteEngine On
-   RewriteRule ^(.*)$ public/index.php [QSA,L]
+    # /var/www/glpi/.htaccess
+    RewriteBase /
+    RewriteEngine On
+    RewriteRule ^(.*)$ public/index.php [QSA,L]
 
 Nginx configuration
 ^^^^^^^^^^^^^^^^^^^
