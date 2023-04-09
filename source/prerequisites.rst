@@ -56,6 +56,7 @@ Here is a virtual host configuration example for ``Apache 2`` web server.
     # /var/www/glpi/.htaccess
     RewriteBase /
     RewriteEngine On
+    RewriteCond %{REQUEST_URI} !^/public
     RewriteRule ^(.*)$ public/index.php [QSA,L]
 
 Nginx configuration
