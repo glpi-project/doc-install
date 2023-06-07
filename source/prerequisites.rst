@@ -45,6 +45,8 @@ Here is a virtual host configuration example for ``Apache 2`` web server.
             # Redirect all requests to GLPI router, unless file exists.
             RewriteCond %{REQUEST_FILENAME} !-f
             RewriteRule ^(.*)$ index.php [QSA,L]
+            # If you are going to use 'Alias' directive shown above, you need set RewriteBase:
+            # RewriteBase /glpi
         </Directory>
     </VirtualHost>
 
