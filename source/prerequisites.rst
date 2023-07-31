@@ -95,7 +95,8 @@ Here is a configuration example for ``Nginx`` web server using ``php-fpm``.
 IIS configuration
 ^^^^^^^^^^^^^^^^^
 
-Here is a configuration example for ``Microsoft IIS``.
+Here is a ``web.config`` configuration file example for ``Microsoft IIS``.
+The physical path of GLPI web site must point to the ``public`` directory of GLPI (e.g. ``D:\glpi\public``), and the ``web.config`` file must be placed inside this directory.
 
 .. code-block:: xml
 
@@ -115,6 +116,9 @@ Here is a configuration example for ``Microsoft IIS``.
            </rewrite>
        </system.webServer>
    </configuration>
+
+.. warning::
+   The `URL Rewrite <https://www.iis.net/downloads/microsoft/url-rewrite>`_ module is required.
 
 PHP
 ---
