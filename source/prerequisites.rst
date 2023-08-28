@@ -92,6 +92,25 @@ Here is a configuration example for ``Nginx`` web server using ``php-fpm``.
         }
     }
 
+Lighttpd configuration
+^^^^^^^^^^^^^^^^^^^^^^
+
+Here is a virtual host configuration example for ``Lighttpd`` web server.
+
+.. warning::
+   The following configuration is only suitable for GLPI version 10.0.7 or later.
+
+.. code-block:: lighttpd
+
+    $HTTP["host"] =~ "glpi.localhost" {
+        server.document-root = "/var/www/html/glpi/public/"
+
+        url.rewrite = (
+                "^(.*)$" => "/index.php/$1"
+        )
+    }
+
+
 IIS configuration
 ^^^^^^^^^^^^^^^^^
 
