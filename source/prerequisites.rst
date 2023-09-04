@@ -16,7 +16,7 @@ GLPI requires a web server that supports PHP, like:
 
 * `Apache 2 (or more recent) <http://httpd.apache.org>`_;
 * `Nginx <http://nginx.org/>`_;
-* `lighttpd <https://www.lighttpd.net>`_.
+* `lighttpd <https://www.lighttpd.net>`_;
 * `Microsoft IIS <http://www.iis.net>`_.
 
 Apache configuration
