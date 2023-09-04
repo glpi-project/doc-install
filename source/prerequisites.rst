@@ -103,10 +103,10 @@ Here is a virtual host configuration example for ``Lighttpd`` web server.
 .. code-block:: lighttpd
 
     $HTTP["host"] =~ "glpi.localhost" {
-        server.document-root = "/var/www/html/glpi/public/"
+        server.document-root = "/var/www/glpi/public/"
 
         url.rewrite = (
-                "^(.*)$" => "/index.php/$1"
+            "^(.*)$" => "/index.php/$1"
         )
     }
 
