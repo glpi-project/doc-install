@@ -16,6 +16,7 @@ GLPI requires a web server that supports PHP, like:
 
 * `Apache 2 (or more recent) <http://httpd.apache.org>`_;
 * `Nginx <http://nginx.org/>`_;
+* `lighttpd <https://www.lighttpd.net>`_.
 * `Microsoft IIS <http://www.iis.net>`_.
 
 Apache configuration
@@ -92,10 +93,10 @@ Here is a configuration example for ``Nginx`` web server using ``php-fpm``.
         }
     }
 
-Lighttpd configuration
+lighttpd configuration
 ^^^^^^^^^^^^^^^^^^^^^^
 
-Here is a virtual host configuration example for ``Lighttpd`` web server.
+Here is a virtual host configuration example for ``lighttpd`` web server.
 
 .. warning::
    The following configuration is only suitable for GLPI version 10.0.7 or later.
