@@ -106,9 +106,7 @@ Here is a virtual host configuration example for ``lighttpd`` web server.
     $HTTP["host"] =~ "glpi.localhost" {
         server.document-root = "/var/www/glpi/public/"
 
-        url.rewrite = (
-            "^(.*)$" => "/index.php/$1"
-        )
+        url.rewrite-if-not-file = ( "" => "/index.php${url.path}${qsa}" )
     }
 
 
