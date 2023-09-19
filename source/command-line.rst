@@ -66,6 +66,22 @@ If mandatory options are not specified in the command call, the console will ask
 
 Database connection parameters may be omitted if a configuration file already exists.
 
+.. info:: The database configuration file is stored as config_db.php at the :ref:`configuration directory<files-and-directories-locations>` ($GLPI_CONFIG_DIR/config_db.php), and follows this structure:
+   .. code-block:: php
+      <?php
+      class DB extends DBmysql {
+         public $dbhost = 'database_host';
+         public $dbuser = 'database_user';
+         public $dbpassword = 'database_pass';
+         public $dbdefault =  'database_name';
+         public $log_deprecation_warnings = true;
+         public $use_utf8mb4 = true;
+         public $allow_datetime = false;
+         public $allow_myisam = false;
+         public $allow_signed_keys = false;
+         public $use_timezones = true;
+      }
+
 See also :ref:`console options <cdline_options>`.
 
 Database connection configuration
