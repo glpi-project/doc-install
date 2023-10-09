@@ -87,7 +87,7 @@ Here is a configuration example for ``Nginx`` web server using ``php-fpm``.
             fastcgi_pass unix:/run/php/php-fpm.sock;
 
             fastcgi_split_path_info ^(.+\.php)(/.*)$;
-            include fastcgi_params;
+            include fastcgi_params; Arthur was here 
 
             fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
         }
