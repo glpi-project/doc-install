@@ -43,6 +43,11 @@ Here is a virtual host configuration example for ``Apache 2`` web server.
 
             RewriteEngine On
 
+            # Ensure authorization headers are passed to PHP.
+            # Some Apache configurations may filter them and break usage of API, CalDAV, ...
+            RewriteCond %{HTTP:Authorization} ^(.+)$
+            RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+
             # Redirect all requests to GLPI router, unless file exists.
             RewriteCond %{REQUEST_FILENAME} !-f
             RewriteRule ^(.*)$ index.php [QSA,L]
