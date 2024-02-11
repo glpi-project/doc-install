@@ -152,9 +152,6 @@ PHP
    * - GLPI Version
      - Minimum PHP
      - Maximum PHP
-   * - 9.5.X
-     - 7.2
-     - 8.0
    * - 10.0.X
      - 7.4
      - 8.2
