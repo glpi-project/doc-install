@@ -188,6 +188,19 @@ Following PHP extensions are required for some extra features of GLPI:
 * ``openssl``: enable email sending using SSL/TLS;
 * ``Zend OPcache``: enhance PHP engine performances.
 
+Security configuration for sessions
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+To enhance security, it is recommended to configure PHP sessions with the following settings:
+
+* ``session.cookie_secure``: should be set to ``on`` when GLPI can be accessed on **only** HTTPS protocol;
+* ``session.cookie_httponly``: should be set to ``on`` to prevent client-side script to access cookie values;
+* ``session.cookie_samesite``: should be set, at least, to ``Lax``, to prevent cookie to be sent on cross-origin POST requests.
+
+.. note::
+
+    Refer to `PHP documentation <https://www.php.net/manual/en/session.configuration.php>`_ for more information about session configuration.
+
 Database
 --------
 
