@@ -44,4 +44,3 @@ Assuming your user is ``glpi@localhost``, you should run something like:
 .. code-block:: sql
 
    GRANT SELECT ON `mysql`.`time_zone_name` TO 'glpi'@'localhost';
-   FLUSH PRIVILEGES;
