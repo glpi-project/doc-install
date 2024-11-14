@@ -9,12 +9,13 @@ Update
    * backup your `config` directory, especially for your GLPI key file (`config/glpi.key` or `config/glpicrypt.key`) which is randomly generated;
    * backup your `files` directory, it contains users and plugins generated files, like uploaded documents;
    * backup your `marketplace` and `plugins` directory.
+   * backup your `inc/downstream.php` file for it may contain links to another config dir (i.e. `/etc/glpi`)
 
 Here are the steps to update GLPI:
 
 * Download latest GLPI version.
 * Ensure the target directory is empty and extract files there.
-* Restore the previously backed up `config`, `files`, `marketplace` and `plugins` directory.
+* Restore the previously backed up `config`, `files`, `marketplace` ,`plugins` directories and the `inc/downstream.php` file as needed.
 * Then open the GLPI instance URI in your browser, or (recommended) use the `php bin/console db:update` :ref:`command line tool <cdline_update>`.
 
 .. warning::
