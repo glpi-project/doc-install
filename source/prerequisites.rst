@@ -36,6 +36,7 @@ Here is a virtual host configuration example for ``Apache 2`` web server.
 
         # If you want to place GLPI in a subfolder of your site (e.g. your virtual host is serving multiple applications),
         # you can use an Alias directive. If you do this, the DocumentRoot directive MUST NOT target the GLPI directory itself.
+        # DocumentRoot /var/www/html
         # Alias "/glpi" "/var/www/glpi/public"
 
         <Directory /var/www/glpi/public>
