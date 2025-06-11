@@ -56,15 +56,16 @@ Here is a virtual host configuration example for ``Apache 2`` web server.
     </VirtualHost>
 
 .. note::
-   If you cannot change the ``Apache`` configuration (e.g. you are using a shared hosting), you can use a ``.htaccess`` file.
+   If you cannot add specific rewrite rules to the ``Apache`` configuration (e.g. you are using a shared hosting), you can use a ``.htaccess`` file.
+   Still, you need to define the ``DocumentRoot`` to be the ``/public`` directory of GLPI.
 
 .. code-block:: apache
 
-    # /var/www/glpi/.htaccess
+    # /var/www/glpi/public/.htaccess
     RewriteBase /
     RewriteEngine On
-    RewriteCond %{REQUEST_URI} !^/public
-    RewriteRule ^(.*)$ public/index.php [QSA,L]
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^(.*)$ index.php [QSA,L]
 
 Nginx configuration
 ^^^^^^^^^^^^^^^^^^^
