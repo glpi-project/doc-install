@@ -133,25 +133,3 @@ Then, in the ``/etc/glpi/local_define.php`` file, add the following contents:
 .. code-block:: php
 
    define('GLPI_MARKETPLACE_DIR', '/var/lib/glpi/plugins');
-
-Post installation
------------------
-
-Once GLPI has been installed, you're almost done.
-
-An extra step would be to secure installation directory. As an example, you can consider adding the following to your Apache virtual host configuration (or in the ``glpi/install/.htaccess`` file):
-
-.. code-block:: apache
-
-    <IfModule mod_authz_core.c>
-        Require local
-    </IfModule>
-    <IfModule !mod_authz_core.c>
-        order deny, allow
-        deny from all
-        allow from 127.0.0.1
-        allow from ::1
-    </IfModule>
-    ErrorDocument 403 "<p><b>Restricted area.</b><br />Only local access allowed.<br />Check your configuration or contact your administrator.</p>"
-
-With this example, the `install` directory access will be limited to localhost only and will display an error message otherwise. Of course, you may have to adapt this to your needs; refer to your web server's documentation.
