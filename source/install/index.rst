@@ -38,7 +38,7 @@ GLPI installation itself is composed of three steps:
 
 #. Uncompress the archive in your website;
 #. Give your webserver write access to the ``files`` and ``config`` directories;
-#. :doc:`launch installation wizard <wizard>` (or use the :ref:`command line installation script <cdline_install>`).
+#. Launch :doc:`installation wizard <wizard>` (or use the :ref:`command line installation script <cdline_install>`).
 
 Once these three steps have been completed the application is ready to be used.
 
