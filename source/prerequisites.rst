@@ -151,16 +151,17 @@ PHP
 .. list-table:: PHP Compatibility Matrix
    :header-rows: 1
 
-   * - GLPI Version
-     - Minimum PHP
-     - Maximum PHP
+   * - GLPI version
+     - Minimum PHP version
    * - 10.0.X
      - 7.4
-     - 8.3
+   * - 11.0.X
+     - 8.2
 
 .. note::
 
-   We recommend to use the newest supported PHP release for better performance.
+   GLPI compatibility with new PHP versions is validated shortly after their release.
+   We therefore recommend using the most recent version, for better performances.
 
 Mandatory extensions
 ^^^^^^^^^^^^^^^^^^^^
