@@ -218,8 +218,32 @@ To enhance security, it is recommended to configure PHP sessions with the follow
 Database
 --------
 
+In order to work, GLPI requires a database server.
+
 .. warning::
 
-   Currently, only `MySQL <https://dev.mysql.com>`_ (5.7 minimum) and `MariaDB <https://mariadb.com>`_ (10.2 minimum) database servers are supported by GLPI.
+   Currently, only `MySQL <https://dev.mysql.com>`_ and `MariaDB <https://mariadb.com>`_ database servers are supported by GLPI.
 
-In order to work, GLPI requires a database server.
+.. list-table:: Database server compatibility matrix
+   :header-rows: 1
+
+   * - GLPI version
+     - Database server
+     - Minimum version
+   * - 10.0.X
+     - MySQL
+     - 5.7
+   * - 10.0.X
+     - MariaDB
+     - 10.2
+   * - 11.0.X
+     - MySQL
+     - 8.0
+   * - 11.0.X
+     - MariaDB
+     - 10.5
+
+.. note::
+
+   GLPI compatibility with new LTS database servers versions is validated shortly after their release.
+   We therefore recommend using a recent version, for better performances.
