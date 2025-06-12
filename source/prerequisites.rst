@@ -176,6 +176,12 @@ Following PHP extensions are required for the app to work properly:
 * ``session``: used for sessions support;
 * ``zlib``: used for handling of compressed communication with inventory agents, installation of gzip packages from marketplace and PDF generation.
 
+For GLPI 11.0, these additional PHP extensions are mandatory:
+
+* ``bcmath``: used for QRCodes generation;
+* ``mbstring``: used for multibyte chars support and charset conversion;
+* ``openssl``: used for handling of encrypted communication with inventory agents and OAuth 2.0 authentication.
+
 Optional extensions
 ^^^^^^^^^^^^^^^^^^^
 
@@ -190,6 +196,11 @@ Following PHP extensions are required for some extra features of GLPI:
 * ``ldap``:  enable usage of authentication through remote LDAP server;
 * ``openssl``: enable email sending using SSL/TLS;
 * ``Zend OPcache``: enhance PHP engine performances.
+
+Following PHP extensions are emulated in GLPI and can be enabled to slightly improve performances:
+* ``ctype``;
+* ``iconv``;
+* ``sodium``.
 
 Security configuration for sessions
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
