@@ -168,7 +168,7 @@ Mandatory extensions
 
 Following PHP extensions are required for the app to work properly:
 
-* ``dom``, ``fileinfo``, ``filter``, ``libxml``, ``simplexml``, ``xmlreader``, ``xmlwriter``: these PHP extensions are enable by default and are used for various operations;
+* ``dom``, ``fileinfo``, ``filter``, ``libxml``, ``simplexml``, ``tokenizer``, ``xmlreader``, ``xmlwriter``: these PHP extensions are enable by default and are used for various operations;
 * ``curl``: used for remote access to resources (inventory agent requests, marketplace, RSS feeds, ...);
 * ``gd``: used for images handling;
 * ``intl``: used for internationalization;
