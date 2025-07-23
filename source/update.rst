@@ -29,11 +29,11 @@ Here are the steps to update GLPI:
 
 .. note::
 
-    Before GLPI 11.0, all the plugins were disabled during the ppdate process.
+    Before GLPI 11.0, all the plugins were disabled during the update process.
     
     Since GLPI 11.0, as soon as a new version of GLPI files is detected, the plugins execution is suspended.
     Their execution will be resumed after the update only in case of a minor/bugfixes update.
-    Otherwise you will have to do it manually using the ``php bin/console plugin:resume_execution`` :ref:`command line tool <_cdline_suspend_resume_plugins>`
+    Otherwise, you will have to do it manually using the ``php bin/console plugin:resume_execution`` :ref:`command line tool <_cdline_suspend_resume_plugins>`
     or from the plugins administration page.
 
 .. note::
