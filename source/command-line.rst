@@ -40,7 +40,7 @@ Check requirements
 Before installing or upgrading, requirements are automatically checked; but you can run them separately and see state for all of them using the ``php bin/console glpi:system:check_requirements`` command.
 
 Enable/Disable maintenance
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 GLPI provides a maintenance mode that can be activated prior to an update, and deactivated after all has been checked.
 
@@ -227,6 +227,17 @@ Possible options for this command are:
  * ``-t``, ``--task[=TASK]`` ``itemtype::name`` of task to unlock (e.g: ``MailCollector::mailgate``)
 
 See also :ref:`console options <cdline_options>`.
+
+
+.. _cdline_suspend_resume_plugins:
+
+Suspend/Resume plugins execution
+--------------------------------
+
+    .. versionadded:: 11.0
+
+The ``php bin/console plugin:suspend_execution`` and the ``php bin/console plugin:resume_execution`` commands can be used
+to suspend or resume the plugins execution.
 
 Plugins tools
 -------------
