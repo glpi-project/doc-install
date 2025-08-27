@@ -36,6 +36,10 @@ See `MariaDB documentation about timezones <https://mariadb.com/kb/en/library/ti
 Grant access
 ------------
 
+.. note::
+
+    Before GLPI 10.0.20, granting access to the ``mysql.time_zone_name`` table was required to support timezones usage. This is no longuer required.
+
 .. warning::
 
    Be carefull not to give your GLPI database user too large access. System tables should **never** grant access to app users.
