@@ -151,29 +151,36 @@ PHP
 .. list-table:: PHP Compatibility Matrix
    :header-rows: 1
 
-   * - GLPI Version
-     - Minimum PHP
-     - Maximum PHP
+   * - GLPI version
+     - Minimum PHP version
    * - 10.0.X
      - 7.4
-     - 8.3
+   * - 11.0.X
+     - 8.2
 
 .. note::
 
-   We recommend to use the newest supported PHP release for better performance.
+   GLPI compatibility with new PHP versions is validated shortly after their release.
+   We therefore recommend using the most recent version, for better performances.
 
 Mandatory extensions
 ^^^^^^^^^^^^^^^^^^^^
 
 Following PHP extensions are required for the app to work properly:
 
-* ``dom``, ``fileinfo``, ``filter``, ``libxml``, ``json``, ``simplexml``, ``xmlreader``, ``xmlwriter``: these PHP extensions are enable by default and are used for various operations;
+* ``dom``, ``fileinfo``, ``filter``, ``libxml``, ``simplexml``, ``tokenizer``, ``xmlreader``, ``xmlwriter``: these PHP extensions are enable by default and are used for various operations;
 * ``curl``: used for remote access to resources (inventory agent requests, marketplace, RSS feeds, ...);
 * ``gd``: used for images handling;
 * ``intl``: used for internationalization;
 * ``mysqli``: used for database connection;
 * ``session``: used for sessions support;
 * ``zlib``: used for handling of compressed communication with inventory agents, installation of gzip packages from marketplace and PDF generation.
+
+For GLPI 11.0, these additional PHP extensions are mandatory:
+
+* ``bcmath``: used for QRCodes generation;
+* ``mbstring``: used for multibyte chars support and charset conversion;
+* ``openssl``: used for handling of encrypted communication with inventory agents and OAuth 2.0 authentication.
 
 Optional extensions
 ^^^^^^^^^^^^^^^^^^^
@@ -189,6 +196,11 @@ Following PHP extensions are required for some extra features of GLPI:
 * ``ldap``:  enable usage of authentication through remote LDAP server;
 * ``openssl``: enable email sending using SSL/TLS;
 * ``Zend OPcache``: enhance PHP engine performances.
+
+Following PHP extensions are emulated in GLPI and can be enabled to slightly improve performances:
+* ``ctype``;
+* ``iconv``;
+* ``sodium``.
 
 Security configuration for sessions
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -206,8 +218,32 @@ To enhance security, it is recommended to configure PHP sessions with the follow
 Database
 --------
 
+In order to work, GLPI requires a database server.
+
 .. warning::
 
-   Currently, only `MySQL <https://dev.mysql.com>`_ (5.7 minimum) and `MariaDB <https://mariadb.com>`_ (10.2 minimum) database servers are supported by GLPI.
+   Currently, only `MySQL <https://dev.mysql.com>`_ and `MariaDB <https://mariadb.com>`_ database servers are supported by GLPI.
 
-In order to work, GLPI requires a database server.
+.. list-table:: Database server compatibility matrix
+   :header-rows: 1
+
+   * - GLPI version
+     - Database server
+     - Minimum version
+   * - 10.0.X
+     - MySQL
+     - 5.7
+   * - 10.0.X
+     - MariaDB
+     - 10.2
+   * - 11.0.X
+     - MySQL
+     - 8.0
+   * - 11.0.X
+     - MariaDB
+     - 10.5
+
+.. note::
+
+   GLPI compatibility with new LTS database servers versions is validated shortly after their release.
+   We therefore recommend using a recent version, for better performances.
