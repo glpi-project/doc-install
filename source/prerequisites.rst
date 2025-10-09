@@ -241,7 +241,7 @@ In order to work, GLPI requires a database server.
      - 8.0
    * - 11.0.X
      - MariaDB
-     - 10.5
+     - 10.6
 
 .. note::
 
