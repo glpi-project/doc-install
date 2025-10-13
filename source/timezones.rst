@@ -22,9 +22,13 @@ On most systems, you'll have to initialize timezones data from your system's tim
 
    mysql_tzinfo_to_sql /usr/share/zoneinfo | mysql -p -u root mysql
 
-You may want to check `MariaDB documentation about mysql_tzinfo_to_sql <https://mariadb.com/kb/en/library/mysql_tzinfo_to_sql/>`_ and your system documentation to know where data are stored (if not in ``/usr/share/zoneinfo``).
+or for MariaDB:
 
-Do not forget to restart the database server once command is successfull.
+.. code-block:: bash
+
+   mariadb-tzinfo-to-sql /usr/share/zoneinfo | mariadb -p -u root mysql
+
+You may want to check `MariaDB documentation about mariadb-tzinfo-to-sql <https://mariadb.com/kb/en/mariadb-tzinfo-to-sql/>`_ and your system documentation to know where data are stored (if not in ``/usr/share/zoneinfo``).
 
 Windows users
 -------------
