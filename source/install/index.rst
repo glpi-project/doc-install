@@ -43,6 +43,8 @@ Once these three steps have been completed the application is ready to be used.
 
 If you need to set advanced configuration, like SSL database connection parameters, please refer to :doc:`advanced configuration <advanced-configuration>`.
 
+.. _files_and_dirs_locations:
+
 Files and directories locations
 -------------------------------
 
