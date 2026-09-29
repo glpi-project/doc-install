@@ -60,6 +60,10 @@ There are a few configuration directives you may use to achieve that:
 
    There are many other configuration directives available, the ones we talked about are the main to move all stored files outside the GLPI source code.
 
+.. warning::
+
+   Do not store the whole GLPI ``data`` directory on a network filesystem. You can easily target only the directories that store a huge amount of files to be stored on a network drive.
+
 Directories choice is entirely up to you; the following example will follow the `FHS <http://www.pathname.com/fhs/>`_ recommendations.
 
 Our GLPI instance will be installed in ``/var/www/glpi``, a specific virtual host in the web server configuration will reflect this path.
